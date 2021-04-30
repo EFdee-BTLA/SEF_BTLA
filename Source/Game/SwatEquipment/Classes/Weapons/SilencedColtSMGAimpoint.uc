@@ -1,0 +1,1 @@
+class SilencedColtSMGAimpoint extends ColtSMG config(SwatEquipment);

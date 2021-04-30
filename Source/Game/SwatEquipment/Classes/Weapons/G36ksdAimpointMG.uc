@@ -1,0 +1,1 @@
+class G36ksdAimpointMG extends G36KMG config(SwatEquipment);
