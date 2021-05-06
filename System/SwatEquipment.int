@@ -51,7 +51,7 @@ TotalAmmoString=10 magazines
 RateOfFire=400 RPM
 
 [BrowningHPHG]
-Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. This variant in particular is chambered in 9x19mm Parabellum.
+Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. This variant in particular is chambered in 9x19mm Parabellum. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
 FriendlyName=Browning Hi-Power
 ShortName=Browning Hi-Power
 Manufacturer=Browning
@@ -64,7 +64,7 @@ TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [SilencedBrowningHPHG]
-Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. This variant in particular is chambered in 9x19mm Parabellum and is equipped with a sound and flash suppressor for when stealth is paramount.
+Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. This variant in particular is chambered in 9x19mm Parabellum and is equipped with a sound and flash suppressor for when stealth is paramount as well as a flashlight for more tactical use in dark environments.
 FriendlyName=Browning Hi-Power Supp.
 ShortName=Browning Hi-Power Supp.
 Manufacturer=Browning
@@ -474,7 +474,7 @@ Caliber=.50 Action Express
 CountryOfOrigin=Israel
 ProductionStart=1995
 FireModes=Semi-Automatic
-MagazineSizeString=8
+MagazineSizeString=7
 TotalAmmoString=10 magazines
 RateOfFire=300 RPM
 
@@ -915,7 +915,7 @@ FireModes=Single Fire
 TotalAmmoString=25 cartridges
 
 [Stingray]
-Description=The X2 model is a dual-purpose less-lethal weapon. It possesses both a ranged means of Electro-Muscular Disruption (EMD) and a touch-stun mode. The electrical discharge causes involuntary contraction of the target's muscle tissue, regardless of an individual's pain tolerance or mental focus.  The effect is painful and demoralizing to even the most aggressive suspects. The X2 can fire darts in groups of four or two separate groups of two. It can also be used in touch-stun mode as a melee weapon. An onboard computer records information on shock intensity and duration, among other factors. The main drawback is the reduced range of the X2 cartridges in comparison to older M26c model.
+Description=The X2 model is a dual-purpose less-lethal weapon. It possesses both a ranged means of Electro-Muscular Disruption (EMD) and a touch-stun mode. The electrical discharge causes involuntary contraction of the target's muscle tissue, regardless of an individual's pain tolerance or mental focus.  The effect is painful and demoralizing to even the most aggressive suspects. The X2 can fire darts in groups of four or two separate groups of two. It can also be used in touch-stun mode as a melee weapon. An onboard computer records information on shock intensity and duration, among other factors. The main drawback is the reduced range of the X2 cartridges in comparison to the older M26c model.
 FriendlyName=Taser X2
 ShortName=Taser X2
 Manufacturer=TASER International
@@ -1028,14 +1028,14 @@ GivenName=CTS 9590 Stinger
 [CSGasGrenade]
 Description=This grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
 FriendlyName=M7A3 CS Grenade
-ShortName=M7A3 CS Gas
-GivenName=M7A3 CS  Gas
+ShortName=M7A3 CS Grenade
+GivenName=M7A3 CS Grenade
 
 [FlashbangGrenade]
 Description=The stun grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons.||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
-FriendlyName=M84 Flashbang
-ShortName=M84 Flashbang
-GivenName=M84 Flashbang
+FriendlyName=CTS 7290 Flashbang 
+ShortName=CTS 7290 Flashbang 
+GivenName=CTS 7290 Flashbang 
 
 [Sting3pack]
 Description=This 3-pack of stingers contains three times as many stingers, but occupies five times as much space and weight.
@@ -1063,15 +1063,15 @@ GivenName=M7A3
 
 [Flashbang3pack]
 Description=This 3-pack of flashbangs contains three times as many flashbangs, but occupies five times as much space and weight.
-FriendlyName=M84 (x3)
-ShortName=M84 (x3)
-GivenName=Flashbang
+FriendlyName=CTS 7290 (x3)
+ShortName=CTS 7290 (x3)
+GivenName=CTS 7290
 
 [Flashbang5pack]
 Description=This 5-pack of flashbangs contains five times as many flashbangs, but occupies seven times as much space and weight.
-FriendlyName=M84 (x5)
-ShortName=M84 (x5)
-GivenName=Flashbang
+FriendlyName=CTS 7290 (x5)
+ShortName=CTS 7290 (x5)
+GivenName=CTS 7290
 
 [BreachingSG]
 Description=The Remington Model 870 is a reliable and compact pump-action shotgun capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This weapon can be modified with special breaching ammunition for quick room entries, or beanbags for a less-lethal approach.||This particular variant is equipped with a special breaching nozzle, which ensures that every shot will consistently breach a door.
