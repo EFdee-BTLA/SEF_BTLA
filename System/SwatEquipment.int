@@ -25,7 +25,7 @@ TotalAmmoString=25 shells
 RateOfFire=Unknown
 
 [Glock21HG]
-Description=Designed by gun designer Gaston Glock, this Austrian designed handgun is largely made of high tech polymer plastics. This construction results in a weapon that is incredibly easy to handle and manipulate. Its ease of use, accuracy, and ''safe action'' trigger has made it a popular choice for law enforcement agencies. The Glock 21 model, chambered in .45 ACP, packs a powerful punch and boasts an impressive 13-round box magazine. 
+Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, it packs a powerful punch and boasts an impressive 13-round box magazine.
 FriendlyName=Glock 21
 ShortName=Glock 21
 Manufacturer=Glock
@@ -38,7 +38,7 @@ TotalAmmoString=10 magazines
 RateOfFire=400 RPM
 
 [Glock21sdHG]
-Description=Designed by gun designer Gaston Glock, this Austrian designed handgun is largely made of high tech polymer plastics. This construction results in a weapon that is incredibly easy to handle and manipulate. Its ease of use, accuracy, and ''safe action'' trigger has made it a popular choice for law enforcement agencies. The Glock 21 model, chambered in .45 ACP, packs a powerful punch and boasts an impressive 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, it packs a powerful punch and boasts an impressive 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 21 Supp.
 ShortName=Glock 21 Supp.
 Manufacturer=Glock
