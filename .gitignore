@@ -43,3 +43,4 @@ System/chatlog_*.txt
 *User.ini
 *.h
 */.vs/*
+Source/Game/SwatEquipment/Classes/Weapons/Glock30HG.uc

@@ -1,1 +1,0 @@
-class M4A1CQBAMG extends M4A1CQBMG config(SwatEquipment);
