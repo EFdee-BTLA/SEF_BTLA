@@ -28,8 +28,6 @@ var(SWATGui) protected EditInline Config GUILabel          MyAmmoMagazineCountLa
 var(SWATGui) protected EditInline Config GUIComboBox       MyWeaponCategoryBox;
 var(SWATGui) protected EditInline Config GUIComboBox       MyWeaponBox;
 var(SWATGui) protected EditInline Config GUIComboBox       MyAmmoBox;
-var(SWATGui) protected EditInline Config GUIComboBox       MyWeaponAttachmentBox;
-var(SWATGui) protected EditInline Config GUILabel          MyWeaponAttachmentLabel;
 
 // Advanced Information panel
 // tabs
@@ -115,7 +113,6 @@ var private bool    SwitchedTabs;
 var private bool    SwitchedWeapons;
 var private bool    PopulatingAmmoInformation;
 var private bool	PopulatingWeaponInformation;
-var private bool  AttachmentBeingSelected;
 
 ///////////////////////////
 // Initialization & Page Delegates
@@ -126,7 +123,6 @@ function InitComponent(GUIComponent MyOwner)
     local string PocketName;
     local Pocket PocketID;
     local class<object> EquipmentClass;
-    local class<SwatWeapon> WeaponClass;
 
 	Super.InitComponent(MyOwner);
 
@@ -137,7 +133,6 @@ function InitComponent(GUIComponent MyOwner)
     MyWeaponBox.OnChange=InternalComboBoxOnSelection;
     MyWeaponCategoryBox.OnChange=InternalComboBoxOnSelection;
     MyAmmoBox.OnChange=InternalComboBoxOnSelection;
-    MyWeaponAttachmentBox.OnChange=InternalComboBoxOnSelection;
 
     //equipment lists
 	for( i = 0; i < Pocket.EnumCount; i++ )
@@ -158,15 +153,13 @@ function InitComponent(GUIComponent MyOwner)
 
         for( j = 0; j < GC.AvailableEquipmentPockets[i].EquipmentClassName.Length; j++ )
         {
-			      EquipmentClass = class<Object>(DynamicLoadObject( GC.AvailableEquipmentPockets[i].EquipmentClassName[j], class'Class'));
-            WeaponClass = class<SwatWeapon>(EquipmentClass);
+			EquipmentClass = class<Object>(DynamicLoadObject( GC.AvailableEquipmentPockets[i].EquipmentClassName[j], class'Class'));
 
-            //Log("WeaponClass is "$WeaponClass);
-
-            if( GC.AvailableEquipmentPockets[i].bSelectable[j] == 0)
+            if( GC.AvailableEquipmentPockets[i].bSelectable[j] == 0 ||
+                !CheckValidity( EquipmentClass, GC.AvailableEquipmentPockets[i].Validity[j] ) )
                 Continue;
 
-	          EquipmentList[i].Add( string(EquipmentClass.Name), EquipmentClass );
+			EquipmentList[i].Add( string(EquipmentClass.Name), EquipmentClass );
         }
 	}
 
@@ -248,7 +241,7 @@ function PopulateUnlockedEquipment()
   UnlockedWeapons.Length = 0;
   for(i = 0; i < AllWeapons.Length; i++) {
     Weapon = AllWeapons[i];
-    if(CheckCampaignValid(Weapon) && CheckValidity( Weapon, GC.AvailableEquipmentPockets[0].Validity[i] ) && !Weapon.default.bIsVariant)
+    if(CheckCampaignValid(Weapon) && CheckValidity( Weapon, GC.AvailableEquipmentPockets[0].Validity[i] ))
       UnlockedWeapons[UnlockedWeapons.Length] = Weapon;
   }
 }
@@ -440,20 +433,9 @@ function LoadAmmoForWeapon( Pocket thePocket, class<FiredWeapon> WeaponClass )
 function ChangeLoadOut( Pocket thePocket )
 {
     local class<actor> theItem;
-    local class<SwatWeapon> theWeapon, theWeaponAttachment;
 
     if(thePocket == Pocket_PrimaryWeapon || thePocket == Pocket_SecondaryWeapon) {
       theItem = class<actor>(MyWeaponBox.GetObject());
-      theWeapon = class<SwatWeapon>(theItem);
-
-      if(theWeapon != None && theWeapon.default.SelectableVariants.length > 0) {
-        // More than one selectable variant = use the attachment
-        theWeaponAttachment = class<SwatWeapon>(MyWeaponAttachmentBox.GetObject());
-        if(theWeaponAttachment != None) {
-          theWeapon = theWeaponAttachment;
-          theItem = theWeapon;
-        }
-      }
     } else if(thePocket == Pocket_PrimaryAmmo || thePocket == Pocket_SecondaryAmmo) {
       theItem = class<actor>(MyAmmoBox.GetObject());
     } else {
@@ -485,10 +467,6 @@ function DisplayEquipment( Pocket thePocket )
     local class<ProtectiveEquipment> HeadgearClass;
     local class<ProtectiveEquipment> BodyArmorClass;
 
-    // Variants:
-    // If the weapon has no variants and is not a variant, the attachment select is hidden.
-    // If the weapon is a variant, the weapon combo box is set to the original weapon and the attachment is set to this attachment.
-    // If the weapon is not a variant, the weapon combo box is set to this weapon and the attachment is set to the null option (0)
 
     if( EquipmentList[thePocket] == None )
         return;
@@ -499,6 +477,11 @@ function DisplayEquipment( Pocket thePocket )
 
     if( EquipmentSelectionButton[thePocket] != None )
         EquipmentSelectionButton[thePocket].SetCaption( Equipment.static.GetShortName() );
+
+
+    //dont update anything on the panel if this is not on the active panel
+    //if( !IsPocketDisplayedInActiveTab( thePocket ) )
+    //    return;
 
     //handle displaying the info for this pocket in the panel
     switch(thePocket)
@@ -644,7 +627,6 @@ function UpdateIndex( Pocket thePocket )
     if( thePocket == Pocket.Pocket_PrimaryWeapon ||
         thePocket == Pocket.Pocket_SecondaryWeapon )
     {
-
         LoadAmmoForWeapon( thePocket, class<FiredWeapon>(EquipmentList[thePocket].GetObject()) );
     }
 }
@@ -722,27 +704,15 @@ private function InternalComboBoxOnSelection(GUIComponent Sender)
         case MyWeaponCategoryBox:
             if(!SwitchedTabs)
             {
-                MyWeaponAttachmentBox.Clear();
                 RepopulateWeaponInformationForNewCategory(WeaponEquipClass(GUIComboBox(Sender).List.GetExtraIntData()));
             }
             break;
 
-        case MyWeaponAttachmentBox:
-          if(PopulatingWeaponInformation)
-			     {
-				      break;
-			     }
-            AttachmentBeingSelected = true;
-        case MyWeaponBox: // intentional fallthrough here
-			     if(PopulatingWeaponInformation)
-			     {
-				      break;
-			     }
-
-           if(!AttachmentBeingSelected)
-           {
-             MyWeaponAttachmentBox.Clear();
-           }
+        case MyWeaponBox:
+			if(PopulatingWeaponInformation)
+			{
+				break;
+			}
 
             SwitchedWeapons = true;
 
@@ -846,7 +816,6 @@ private function InternalTabButtonOnClick(GUIComponent Sender)
 protected function UpdateCategorizationInfo(bool bPrimaryWeapon) {
   local class<SwatWeapon> CurrentWeapon;
   local class<SwatAmmo> CurrentAmmo;
-  local class<SwatWeapon> VariantWeapon;
   local WeaponEquipClass CurrentWeaponEquipClass;
   local int i, j;
   local int CategoryNum, WeaponNum;
@@ -859,25 +828,14 @@ protected function UpdateCategorizationInfo(bool bPrimaryWeapon) {
     CurrentWeapon = class<SwatWeapon>(MyCurrentLoadout.LoadoutSpec[2]);
     CurrentAmmo = class<SwatAmmo>(MyCurrentLoadout.LoadoutSpec[3]);
   }
-
-  if(CurrentWeapon.default.bIsVariant) {
-    // CurrentWeapon should be the variant type
-    VariantWeapon = CurrentWeapon;
-    CurrentWeapon = CurrentWeapon.default.OriginalVariant;
-  }
-  
   CurrentWeaponEquipClass = CurrentWeapon.default.WeaponCategory;
 
   //log("Clear all of the combobox lists...");
   MyAmmoBox.Clear();
   MyWeaponCategoryBox.Clear();
   MyWeaponBox.Clear();
-  MyWeaponAttachmentBox.Clear();
-
-
 
   //log("Easiest thing first: populate ammo box with the ammo choices...");
-  AttachmentBeingSelected = false;
   RepopulateAmmoInformationForNewWeapon(CurrentWeapon);
 
   //log("Then, select the appropriate ammo type as the default...");
@@ -948,10 +906,6 @@ protected function UpdateCategorizationInfo(bool bPrimaryWeapon) {
 
   WeaponNum = MyWeaponBox.List.FindObjectData(CurrentWeapon, false, true);
 
-  if(VariantWeapon != None) {
-    MyWeaponAttachmentBox.List.FindObjectData(VariantWeapon);
-  }
-
   if(CategoryNum == -1 || WeaponNum == -1) {
     // The equipment failed to validate. Try again.
     log("!! Equipment could not be found (categorynum is "$CategoryNum$", weaponnum is "$WeaponNum$"), resetting to default !!");
@@ -1002,34 +956,6 @@ protected function RepopulateAmmoInformationForNewWeapon(class<SwatWeapon> TheNe
   local int i, j;
   local class<SwatAmmo> Ammo;
 
-  log("RepopulateAmmoInformationForNewWeapon("$TheNewWeapon$")");
-
-  if(!AttachmentBeingSelected) {
-    log('clearing attachments');
-    MyWeaponAttachmentBox.List.Clear();
-
-    if(TheNewWeapon.default.SelectableVariants.length > 0) {
-      // Show the variant selection and set variant to 0
-      MyWeaponAttachmentBox.SetVisibility(true);
-      MyWeaponAttachmentLabel.SetVisibility(true);
-
-      // Populate list of variants
-      MyWeaponAttachmentBox.AddItem(TheNewWeapon.default.NoVariantName, None);
-      for(i = 0; i < TheNewWeapon.default.SelectableVariants.length; i++) {
-        log("Add attachment: "$TheNewWeapon.default.SelectableVariants[i].VariantClass);
-        MyWeaponAttachmentBox.AddItem(TheNewWeapon.default.SelectableVariants[i].VariantName, TheNewWeapon.default.SelectableVariants[i].VariantClass);
-      }
-
-      // Set attachment box to null attachment
-      MyWeaponAttachmentBox.List.FindObjectData(None);
-    } else {
-      // Hide the variant selection
-      MyWeaponAttachmentBox.SetVisibility(false);
-      MyWeaponAttachmentLabel.SetVisibility(false);
-    }
-  }
-
-  AttachmentBeingSelected = false;
   PopulatingAmmoInformation = true;
 
   MyAmmoBox.Clear();
@@ -1074,8 +1000,6 @@ private function DisplayTab(int tabNum)
             MyAmmoBox.SetVisibility(ActiveAmmoPocket != Pocket.Pocket_Invalid);
             MyWeaponBox.SetVisibility(ActiveAmmoPocket != Pocket.Pocket_Invalid);
             MyWeaponCategoryBox.SetVisibility(ActiveAmmoPocket != Pocket.Pocket_Invalid);
-            MyWeaponAttachmentBox.SetVisibility(ActiveAmmoPocket != Pocket.Pocket_Invalid);
-            MyWeaponAttachmentLabel.SetVisibility(ActiveAmmoPocket != Pocket.Pocket_Invalid);
             MyEquipmentNameLabel.SetVisibility(ActiveAmmoPocket == Pocket_Invalid);
             MyScrollLeftButton.SetVisibility(ActiveAmmoPocket == Pocket_Invalid);
             MyScrollRightButton.SetVisibility(ActiveAmmoPocket == Pocket_Invalid);
@@ -1187,16 +1111,15 @@ defaultproperties
 
     EquipmentCategoryNames[0]="Uncategorized"
     EquipmentCategoryNames[1]="Assault Rifles"
-	EquipmentCategoryNames[2]="Battle Rifles"
-    EquipmentCategoryNames[3]="Marksman Rifles"
-    EquipmentCategoryNames[4]="Submachine Guns"
-    EquipmentCategoryNames[5]="Shotguns"
-    EquipmentCategoryNames[6]="Light Machine Guns"
-    EquipmentCategoryNames[7]="Machine Pistols"
-    EquipmentCategoryNames[8]="Pistols"
-    EquipmentCategoryNames[9]="Less Lethal"
-    EquipmentCategoryNames[10]="Grenade Launchers"
-    EquipmentCategoryNames[11]="No Weapon"
+    EquipmentCategoryNames[2]="Marksman Rifles"
+    EquipmentCategoryNames[3]="Submachine Guns"
+    EquipmentCategoryNames[4]="Shotguns"
+    EquipmentCategoryNames[5]="Light Machine Guns"
+    EquipmentCategoryNames[6]="Machine Pistols"
+    EquipmentCategoryNames[7]="Pistols"
+    EquipmentCategoryNames[8]="Less Lethal"
+    EquipmentCategoryNames[9]="Grenade Launchers"
+    EquipmentCategoryNames[10]="No Weapon"
 
     DefaultPrimaryClass=WeaponClass_AssaultRifle
     DefaultSecondaryClass=WeaponClass_Pistol
