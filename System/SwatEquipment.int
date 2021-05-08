@@ -147,14 +147,6 @@ RateOfFire=700 RPM
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=SIG SG 552 Commando CompM2
 ShortName=SIG SG 552 Commando CompM2
-Manufacturer=Sig Sauer
-Caliber=5.56x45mm Mk.262
-CountryOfOrigin=Switzerland
-ProductionStart=1998
-FireModes=Semi-Automatic, Full-Auto
-MagazineSizeString=20
-TotalAmmoString=10 magazines
-RateOfFire=700 RPM
 
 [SilencedSG552MG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration features a suppressor for when stealth is paramount.
@@ -500,14 +492,6 @@ ShortName=FN P90 CompM2
 Description=The P90 was developed by the Belgian company FN in conjunction with their Five-Seven in response to NATO's requests for a replacement to 9x19mm firearms. It began production in 1990 (hence the name P90), and features a futuristic and ambidextrous design. It remains in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine. It can hold an abnormally large amount of ammunition due to its compact design. It comes equipped with an integral Reflex sight for ease of use against distant targets as well as a sound and flash suppressor for when stealth is paramount.
 FriendlyName=FN P90 Supp.
 ShortName=FN P90 Supp.
-Manufacturer=FN Herstal
-Caliber=5.7x28mm FN
-CountryOfOrigin=Belgium
-ProductionStart=1990
-FireModes=Semi-Automatic, Full-Auto
-MagazineSizeString=50
-TotalAmmoString=10 magazines
-RateOfFire=900 RPM
 
 [SilencedFNP90AimpointSMG]
 Description=The P90 was developed by the Belgian company FN in conjunction with their Five-Seven in response to NATO's requests for a replacement to 9x19mm firearms. It began production in 1990 (hence the name P90), and features a futuristic and ambidextrous design. It remains in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine. It can hold an abnormally large amount of ammunition due to its compact design. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a sound and flash suppressor for when stealth is paramount.
