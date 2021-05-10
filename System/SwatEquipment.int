@@ -959,9 +959,9 @@ FriendlyName=Optiwand Under Door Camera
 
 [PepperSpray]
 Description=While generally used for riot control, handheld pepper spray canisters can be an effective tool for subduing uncooperative targets.  The active ingredient in pepper spray is Oleoresin Capsicum or OC.  OC is an inflammatory agent that causes the eyes to swell up and close.  It also causes a burning sensation on any exposed skin.  Due to its limited range and area of effect it is best used in addition to other non-lethal devices to cause a suspect or hostage to comply.
-FriendlyName=Mace OC Pepper Spray
-ShortName=Mace OC Pepper Spray
-GivenName=Mace OC Pepper Spray
+FriendlyName=Mace OC Spray
+ShortName=Mace OC Spray
+GivenName=Mace OC Spray
 
 [stingGrenade]
 Description=The CTS 9590 Sting Grenade, or Stinger, is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
