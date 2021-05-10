@@ -291,9 +291,9 @@ TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The M1 Entry is a semi-automatic 12 gauge combat shotgun with a five round magazine capacity and it accepts multiple types of 2.75" shot shells. With a tritium "glow in the dark" front sight, a fourteen-inch chrome plated barrel, a high impact polymer buttstock and a mounted flashlight, the Benelli M1 Entry might be old, but it is a mainstay in law enforcement. The Entry configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
-FriendlyName=Benelli M1 Entry
-ShortName=Benelli M1 Entry
+Description=The M1 Super 90 is a semi-automatic 12 gauge combat shotgun with a five round magazine capacity and it accepts multiple types of 2.75" shot shells. With a tritium "glow in the dark" front sight, a fourteen-inch chrome plated barrel, a high impact polymer buttstock and a SureFire forend flashlight, the Benelli M1 might be old, but it is a mainstay in law enforcement. The Entry configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
+FriendlyName=Benelli M1 Entry Gun
+ShortName=Benelli M1 Entry Gun
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
