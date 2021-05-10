@@ -12,16 +12,22 @@ enum EAnimationSet
     kAnimationSetDynamicStanding,
 	kAnimationSetDynamicStandingNoArmor,
 	kAnimationSetDynamicStandingHeavyArmor,
+	kAnimationSetDynamicStandingMediumArmor,
+	kAnimationSetDynamicStandingEnhancedArmor,
 	kAnimationSetDynamicStandingUpStairs,
 	kAnimationSetDynamicStandingDownStairs,
     kAnimationSetStealthStanding,
 	kAnimationSetStealthStandingNoArmor,
 	kAnimationSetStealthStandingHeavyArmor,
+	kAnimationSetStealthStandingMediumArmor,
+	kAnimationSetStealthStandingEnhancedArmor,
 	kAnimationSetStealthStandingUpStairs,
 	kAnimationSetStealthStandingDownStairs,
     kAnimationSetCrouching,
 	kAnimationSetCrouchingNoArmor,
 	kAnimationSetCrouchingHeavyArmor,
+	kAnimationSetCrouchingMediumArmor,
+	kAnimationSetCrouchingEnhancedArmor,
 	kAnimationSetInjuredStanding,
 	kAnimationSetInjuredStandingUpStairs,
 	kAnimationSetInjuredStandingDownStairs,
@@ -175,16 +181,22 @@ overloaded function Construct()
     CreateSet(kAnimationSetDynamicStanding,							"AnimationSetDynamicStanding");
 	CreateSet(kAnimationSetDynamicStandingNoArmor,					"AnimationSetDynamicStandingNoArmor");
 	CreateSet(kAnimationSetDynamicStandingHeavyArmor,				"AnimationSetDynamicStandingHeavyArmor");
+	CreateSet(kAnimationSetDynamicStandingMediumArmor,				"AnimationSetDynamicStandingMediumArmor");
+	CreateSet(kAnimationSetDynamicStandingEnhancedArmor,			"AnimationSetDynamicStandingEnhancedArmor");
 	CreateSet(kAnimationSetDynamicStandingUpStairs,					"AnimationSetDynamicStandingUpStairs");
 	CreateSet(kAnimationSetDynamicStandingDownStairs,				"AnimationSetDynamicStandingDownStairs");
     CreateSet(kAnimationSetStealthStanding,							"AnimationSetStealthStanding");
 	CreateSet(kAnimationSetStealthStandingNoArmor,					"AnimationSetStealthStandingNoArmor");
 	CreateSet(kAnimationSetStealthStandingHeavyArmor,				"AnimationSetStealthStandingHeavyArmor");
+	CreateSet(kAnimationSetStealthStandingMediumArmor,				"AnimationSetStealthStandingMediumArmor");
+	CreateSet(kAnimationSetStealthStandingEnhancedArmor,			"AnimationSetStealthStandingEnhancedArmor");
 	CreateSet(kAnimationSetStealthStandingUpStairs,					"AnimationSetStealthStandingUpStairs");
 	CreateSet(kAnimationSetStealthStandingDownStairs,				"AnimationSetStealthStandingDownStairs");
     CreateSet(kAnimationSetCrouching,								"AnimationSetCrouching");
 	CreateSet(kAnimationSetCrouchingNoArmor,						"AnimationSetCrouchingNoArmor");
 	CreateSet(kAnimationSetCrouchingHeavyArmor,						"AnimationSetCrouchingHeavyArmor");
+	CreateSet(kAnimationSetCrouchingMediumArmor,					"AnimationSetCrouchingMediumArmor");
+	CreateSet(kAnimationSetCrouchingEnhancedArmor,					"AnimationSetCrouchingEnhancedArmor");
 	CreateSet(kAnimationSetInjuredStanding,							"AnimationSetInjuredStanding");
     CreateSet(kAnimationSetInjuredCrouching,						"AnimationSetInjuredCrouching");
 
