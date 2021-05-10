@@ -5827,7 +5827,7 @@ function ServerIssueCompliance( optional string VoiceTag )
         else if(TargetIsSuspect == 1)
 		{
           Pawn.BroadcastEffectEvent('ArrestedSuspect',,,,,,,,name(VoiceTag));
-          if(FRand() < 0.1)
+          if(FRand() < 0.3)
           {
             ISwatAI(Candidate).GetSpeechManagerAction().TriggerRestrainedSpeech();
           }
@@ -5835,7 +5835,7 @@ function ServerIssueCompliance( optional string VoiceTag )
         else if((TargetIsSuspect == 0) && (TargetIsAggressiveHostage == 1))
 		{
           Pawn.BroadcastEffectEvent('ReassuredAggressiveHostage',,,,,,,,name(VoiceTag));
-          if(FRand() < 0.1)
+          if(FRand() < 0.3)
           {
             ISwatAI(Candidate).GetSpeechManagerAction().TriggerRestrainedSpeech();
           }
@@ -5843,7 +5843,7 @@ function ServerIssueCompliance( optional string VoiceTag )
         else
 		{
           Pawn.BroadcastEffectEvent('ReassuredPassiveHostage',,,,,,,,name(VoiceTag));
-          if(FRand() < 0.1)
+          if(FRand() < 0.3)
           {
             ISwatAI(Candidate).GetSpeechManagerAction().TriggerRestrainedSpeech();
           }
