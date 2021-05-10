@@ -127,7 +127,7 @@ simulated function Detonated()
     if (Level.DetailMode == DM_Low)
         LifeSpan = 30; // destroy self after 30 seconds, for optimization
     else
-        LifeSpan = 180; // destroy self after 3 minutes, for optimization
+        LifeSpan = 600; // destroy self after 10 minutes
 }
 
 simulated latent function DoPostDetonation()

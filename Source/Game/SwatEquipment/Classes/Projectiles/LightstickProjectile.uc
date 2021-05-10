@@ -83,7 +83,7 @@ simulated function PostBeginPlay()
 	Light.LightBrightness = GlowBrightness;
 	Light.LightHue = GlowHue;
 	Light.LightSaturation = GlowSaturation;
-	Light.LightRadius = 10;
+	Light.LightRadius = 8;
 
 	if (Level.NetMode != NM_Standalone && Role == ROLE_Authority && !Level.IsCOOPServer)
 		GlowLifetime *= MPGlowLifetimeMultiplier;
@@ -197,7 +197,7 @@ defaultproperties
 	GlowBrightness=128
 	GlowHue=90
 	GlowSaturation=128
-	GlowLifetime=30000
+	GlowLifetime=3600
 	MPGlowLifetimeMultiplier=0.1
 
 	RemoteRole = ROLE_SimulatedProxy
