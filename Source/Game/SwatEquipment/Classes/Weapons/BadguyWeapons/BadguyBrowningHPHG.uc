@@ -1,4 +1,4 @@
-class BadguyBrowHPHG extends Handgun;
+class BadguyBrowningHPHG extends Handgun;
 
 defaultproperties
 {
