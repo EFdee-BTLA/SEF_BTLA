@@ -25,7 +25,7 @@ TotalAmmoString=25 shells
 RateOfFire=Unknown
 
 [Glock21HG]
-Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, it packs a powerful punch and boasts an impressive 13-round box magazine.
+Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine.
 FriendlyName=Glock 21
 ShortName=Glock 21
 Manufacturer=Glock
@@ -38,7 +38,7 @@ TotalAmmoString=10 magazines
 RateOfFire=400 RPM
 
 [Glock21sdHG]
-Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, it packs a powerful punch and boasts an impressive 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 21 Supp.
 ShortName=Glock 21 Supp.
 Manufacturer=Glock
@@ -291,7 +291,7 @@ TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The M1 Super 90 is a semi-automatic 12 gauge combat shotgun with a five round magazine capacity and it accepts multiple types of 2.75" shot shells. With a tritium "glow in the dark" front sight, a fourteen-inch chrome plated barrel, a high impact polymer buttstock and a SureFire forend flashlight, the Benelli M1 might be old, but it is a mainstay in law enforcement. The Entry configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
+Description=The M1 Super 90 is a semi-automatic 12 gauge combat shotgun with a five round magazine capacity and it accepts multiple types of 2.75" shot shells. With a tritium "glow in the dark" front sight, a high impact polymer buttstock and a SureFire forend flashlight, the Benelli M1 might be old, but it is a mainstay in law enforcement. The Entry configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
 FriendlyName=Benelli M1 Entry Gun
 ShortName=Benelli M1 Entry Gun
 Manufacturer=Benelli
