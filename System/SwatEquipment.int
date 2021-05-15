@@ -962,8 +962,8 @@ FriendlyName=Tactical D. Wedge (x5)
 GivenName=Tactical Door Wedge
 
 [Optiwand]
-Description=The Optiwand Under Door Camera is a sophisticated observation device which allows officers to examine situations around corners and under closed doors without exposing themselves to lines of fire.  On top of the device is a small LCD screen which displays the images seen by the camera at the end of the expandable rod.  It is an invaluable tool for gathering intelligence on suspect and civilian locations before performing dangerous clear routines and potentially exposing your team to fire.
-FriendlyName=Optiwand Under Door Camera 
+Description=The Opti-Wand™ is a sophisticated observation device which allows officers to examine situations around corners and under closed doors without exposing themselves to lines of fire.  On top of the device is a small LCD screen which displays the images seen by the camera at the end of the expandable rod.  It is an invaluable tool for gathering intelligence on suspect and civilian locations before performing dangerous clear routines and potentially exposing your team to fire.
+FriendlyName=Opti-Wand™
 
 [PepperSpray]
 Description=While generally used for riot control, handheld pepper spray canisters can be an effective tool for subduing uncooperative targets.  The active ingredient in pepper spray is Oleoresin Capsicum or OC.  OC is an inflammatory agent that causes the eyes to swell up and close.  It also causes a burning sensation on any exposed skin.  Due to its limited range and area of effect it is best used in addition to other non-lethal devices to cause a suspect or hostage to comply.
@@ -1026,10 +1026,10 @@ ShortName=CTS 7290 (x5)
 GivenName=CTS 7290
 
 [BreachingSG]
-Description=The Remington Model 870 is a reliable and compact pump-action shotgun capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This weapon can be modified with special breaching ammunition for quick room entries, or beanbags for a less-lethal approach.||This particular variant is equipped with a special breaching nozzle, which ensures that every shot will consistently breach a door.
+Description=The Remington Model 870 is a reliable and compact pump-action shotgun capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This weapon can be modified with special breaching ammunition for quick room entries, or beanbags for a less-lethal approach. This configuration comes equipped with a special breaching nozzle, which ensures that every shot will consistently breach a door.
 FriendlyName=Remington M870 Breaching
 ShortName=Remington M870 Breaching
-Manufacturer=Royal Arms
+Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
 ProductionStart=1950
