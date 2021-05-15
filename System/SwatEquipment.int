@@ -425,11 +425,19 @@ TotalAmmoString=10 magazines
 RateOfFire=1200 RPM
 
 [Glock19HG]
-Description=A more compact iteration of the Glock, the Glock 19 shaves 12mm (0.5 in) off of its barrel size, and pares down the 17 standard rounds for a 15 round magazine. While this firearm, deemed ''compact'' by the manufacturer, is smaller than the Glock 17, it has worse recoil and accuracy than its forebearer.
+Description=A compact iteration of the Glock, the Glock 19 shaves 12mm (0.5 in) off of its barrel size, and pares down the 17 standard rounds for a 15 round magazine. While this firearm, deemed ''compact'' by the manufacturer, is smaller than the Glock 17, it has worse recoil and accuracy than its forebearer.
 FriendlyName=Glock 19
 ShortName=Glock 19
 ProductionStart=1988
 MagazineSizeString=15
+
+[Glock30HG]
+Description=A subcompact iteration of the Glock 21, the Glock 30 shaves 21mm (0.82 in) off of its barrel size and features reduced grip dimensions. It pares down the Glock 21 standard .45 ACP rounds in an impressive 10-round magazine. This features make The Glock 30 a quite popular handgun between officers and security personnel around the world.
+FriendlyName=Glock 30
+ShortName=Glock 30
+ProductionStart=1997
+Caliber=.45 ACP
+MagazineSizeString=10
 
 [PythonRevolverHG]
 Description=The Colt Python is among the most famous of Colt revolvers and was introduced in 1955.  It is chambered for the powerful .357 Magnum ammunition making it one of the most powerful hand guns on the market.  Its power is offset by its slow rate of fire and arduous reload. Although not so common, a flashlight has been added for better tactical use in dark areas.
