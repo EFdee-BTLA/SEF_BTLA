@@ -49,8 +49,8 @@ FriendlyName=PMC Cap
 GUIImage=material'gui_hov.V4tactic'
 
 [PMCCapGlasses]
-Description=A classic ball-cap used by officers. The Oakley Men's Standard Issue ballistic glasses provides protection against pepperspray effects. This option is good for when you need to reduce your weight and/or bulk.
-FriendlyName=PMC Oakley's
+Description=A classic ball-cap used by officers. This option is good for when you need to reduce your weight and/or bulk. The Oakley Men's Standard Issue ballistic glasses provides some protection against flashbang effects while also providing some ballistic protection to the eye region.
+FriendlyName=PMC Cap Oakley
 GUIImage=material'gui_hov.V4tacticGlasses'
 
 [BoonieHat]
@@ -59,8 +59,8 @@ FriendlyName=Boonie Hat
 GUIImage=material'gui_hov.V4tacticBoonie'
 
 [BoonieHatGlasses]
-Description=A classic boonie hat used by officers. The Oakley Men's Standard Issue ballistic glasses provides protection against pepperspray effects. This option is good for when you need to reduce your weight and/or bulk.
-FriendlyName=Boonie Oakley's
+Description=A classic boonie hat used by officers. The Oakley Men's Standard Issue ballistic glasses provides some protection against flashbang effects while also providing some ballistic protection to the eye region. This option is good for when you need to reduce your weight and/or bulk.
+FriendlyName=Boonie Hat Oakley
 GUIImage=material'gui_hov.V4tacticBoonieGlasses'
 
 [KevlarHelmet]
@@ -69,8 +69,8 @@ FriendlyName=PASGT IIIA Helmet
 GUIImage=material'gui_hov.V2tactic'
 
 [HelmetAndGlasses]
-Description=The PASGT (Personnel Armor System for Ground Troops) Level IIIa kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Oakley Men's Standard Issue ballistic glasses provides protection against pepperspray effects.
-FriendlyName=PASGT IIIA Helmet Oakley's
+Description=The PASGT (Personnel Armor System for Ground Troops) Level IIIa kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Oakley Men's Standard Issue ballistic glasses provides some protection against flashbang effects while also providing some ballistic protection to the eye region. 
+FriendlyName=PASGT IIIA Helmet Oakley
 GUIImage=material'gui_hov.V2tacticGlasses'
 
 [HelmetAndGoggles]
@@ -95,27 +95,27 @@ GUIImage=material'gui_hov.V2tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V2tacticNightVisionUP'
 
 [ProtecHelmet]
-Description=Originally an skateboard headgear, the Pro-Tec Half Cut Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations.
+Description=Originally an skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations.
 FriendlyName=Pro-Tec Half Cut Helmet 
 GUIImage=material'gui_hov.V3tactic'
 
 [ProtecAndGlasses]
-Description=Originally an skateboard headgear, the Pro-Tec Half Cut Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The Oakley Men's Standard Issue ballistic glasses provides protection against pepperspray effects.
-FriendlyName=Pro-Tec Half Cut Helmet Oakley's
+Description=Originally an skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The Oakley Men's Standard Issue ballistic glasses provides some protection against flashbang effects while also providing some ballistic protection to the eye region. 
+FriendlyName=Pro-Tec Half Cut Helmet Oakley
 GUIImage=material'gui_hov.V3tacticGlasses'
 
 [ProtecAndGoggles]
-Description=Originally an skateboard headgear, the Pro-Tec Half Cut Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The ESS ballistic goggles provides protection against flashbangs effects while also providing some ballistic protection to the eye region.
+Description=Originally an skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The ESS ballistic goggles provides protection against flashbangs effects while also providing some ballistic protection to the eye region.
 FriendlyName=Pro-Tec Half Cut Helmet ESS
 GUIImage=material'gui_hov.V3tacticGoggles'
 
 [ProtecGasMask]
-Description=Originally an skateboard headgear, the Pro-Tec Half Cut Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The Fernez respirator provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=Originally an skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The Fernez respirator provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=Pro-Tec Half Cut Helmet Fernez
 GUIImage=material'gui_hov.V3tacticGasMask'
 
 [ProtecNVGoggles]
-Description=Originally an skateboard headgear, the Pro-Tec Half Cut Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The PVS-7 NVGs work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+Description=Originally an skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 2000's due to it's light weight and modularity. Although it does not offer ballistic protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a better choice for CQC situations. The PVS-7 NVGs work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
 FriendlyName=Pro-Tec Half Cut Helmet PVS-7
 GUIImage=material'gui_hov.V3tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
@@ -126,8 +126,8 @@ FriendlyName=PASGT III Helmet
 GUIImage=material'gui_hov.V5tactic'
 
 [ECHAndGlasses]
-Description=The PASGT (Personnel Armor System for Ground Troops) Level III kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT III provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However the thickness and bulk of the helmet may reduce an officer's mobility and slowdown his actions. The Oakley Men's Standard Issue ballistic glasses provides protection against pepperspray effects.
-FriendlyName=PASGT III Helmet Oakley's
+Description=The PASGT (Personnel Armor System for Ground Troops) Level III kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT III provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However the thickness and bulk of the helmet may reduce an officer's mobility and slowdown his actions. The Oakley Men's Standard Issue ballistic glasses provides some protection against flashbang effects while also providing some ballistic protection to the eye region. 
+FriendlyName=PASGT III Helmet Oakley
 GUIImage=material'gui_hov.V5tacticGlasses'
 
 [ECHAndGoggles]
