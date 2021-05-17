@@ -648,6 +648,19 @@ exec function History()
 	Console(Player.InteractionMaster.Console).ToggleLog();
 }
 
+exec function Unstuck()
+{
+  local vector Offset, NewLocation;
+  Offset.X = 0;
+  Offset.Y = 0;
+  Offset.Z = 10;
+
+  NewLocation = Pawn.Location + Offset;
+
+  Pawn.SetLocation(NewLocation);
+  Level.Game.BroadcastHandler.BroadcastText(None, self, "[c=FFFFFF][b]Unstuck Complete!", 'Caption');
+}
+
 exec function SetSpectateSpeed(Float F)
 {
 	SpectateSpeed = F;
