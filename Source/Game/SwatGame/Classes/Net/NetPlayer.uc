@@ -184,7 +184,7 @@ function SetNearClip()
     local PlayerController PC;
 
     PC = PlayerController(Owner);
-    PC.ConsoleMessage("nearclip 4");
+    PC.ConsoleMessage("nearclip 3");
 }
 simulated event PostReplication()
 {

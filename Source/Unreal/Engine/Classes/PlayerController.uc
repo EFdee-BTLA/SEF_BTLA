@@ -429,7 +429,7 @@ event PostBeginPlay()
 {
 	Super.PostBeginPlay();
 	SpawnDefaultHUD();
-	ConsoleCommand("nearclip 4");
+	ConsoleCommand("nearclip 3");
 	
 	if (Level.LevelEnterText != "" )
 		ClientMessage(Level.LevelEnterText);
