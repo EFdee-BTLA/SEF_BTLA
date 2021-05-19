@@ -175,17 +175,9 @@ simulated event PostBeginPlay()
     {
         VoiceType = SwatGamePlayerController(Controller).VoiceType;
     }
-		
-    SetNearClip();
 }
 
-function SetNearClip() 
-{
-    local PlayerController PC;
 
-    PC = PlayerController(Owner);
-    PC.ConsoleMessage("nearclip 3");
-}
 simulated event PostReplication()
 {
     local OfficerLoadOut newLoadOut;
