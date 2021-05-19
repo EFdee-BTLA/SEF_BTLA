@@ -212,7 +212,6 @@ simulated function CreateModels()
 
 		FirstPersonModel.SetHandHeldEquipment(self);
         FirstPersonModel.Show();
-        MutateFPHandheldEquipmentModel(FirstPersonModel);
         FirstPersonModel.OnUnequipKeyFrame();
 
         if (FirstPersonModel.HolderLowReadyIdleAnimation != '')
@@ -240,9 +239,7 @@ simulated function CreateModels()
         assertWithDescription(ThirdPersonModel != None,
                               "[tcohen] "$name$" failed to spawn its ThirdPersonModel of class "$ThirdPersonModelClass$".");
         ThirdPersonModel.SetHandHeldEquipment(self);
-        MutateTPHandheldEquipmentModel(ThirdPersonModel);
         ThirdPersonModel.Show();
-
         ThirdPersonModel.OnUnequipKeyFrame();
     }
     else
@@ -1562,16 +1559,6 @@ simulated function float GetItemBulk()
 simulated function bool AllowedToPassItem()
 {
 	return true; // for most handheldequipment, we are allowed to pass it.
-}
-
-simulated function MutateFPHandheldEquipmentModel(HandheldEquipmentModel Model)
-{
-
-}
-
-simulated function MutateTPHandheldEquipmentModel(HandheldEquipmentModel Model)
-{
-    
 }
 
 defaultproperties
