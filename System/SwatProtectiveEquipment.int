@@ -86,18 +86,18 @@ Description=The Soviet GP-5 gas mask provides the wearer with immunity to CS gas
 FriendlyName=GP-5 Gas Mask
 GUIImage=material'gui_hov.gp5'
 
-[S10]
-Description=The S10 Respirator is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
+[S10Mask]
+Description=The AVON S10 gasmask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, flashbangs, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
 FriendlyName=AVON S10 Gas Mask
 GUIImage=material'gui_hov.s10'
 
 [AC900S10]
-Description=The AC900/600 is one of the most known helmets used by the British SAS, the arrival of new weapon systems demanded the removal of the traditional helmet peak to ensure compatibility with new weapon sights, respirators and communication systems. The Level IIIA AC900/600 provides provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The S10 Respirator is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
+Description=The AC900/600 is one of the most known helmets worn by the British SAS, the Level IIIA AC900/600 kevlar helmet provides provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The AVON S10 gas mask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, flashbangs, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
 FriendlyName=AC900 Helmet S10
 GUIImage=material'gui_hov.s10ac900'
 
 [ProtecNVGoggles]
-Description=OA common skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight and ease to be modified. Although it offers less protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a popular choice for CQB scenarios.
+Description=A common skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight and ease to be modified. Although it offers less protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a popular choice for CQB scenarios.
 The Level IIA "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The PVS-7 Night Vision Goggles work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
 FriendlyName=Pro-Tec Helmet PVS-7
 GUIImage=material'gui_hov.V3tacticNightVision'
