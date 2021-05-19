@@ -140,7 +140,27 @@ replication
 function PostBeginPlay()
 {
     Super.PostBeginPlay();
+	SetPCNearclip();
 }
+
+function SetPCNearclip()
+{
+    local PlayerController PC;
+    local Controller C;
+
+    for (C = Level.ControllerList; C != none; C = C.nextController)
+    {
+        PC = PlayerController(C);
+
+        if (C.bIsPlayer == true)
+        {
+			//command is spammed at loading but not a big deal
+            PC.ConsoleCommand("Nearclip 3");
+            //PC.ConsoleMessage("NPFix: Loaded The Nearclip Script.");
+        }
+    }
+}
+
 
 simulated event PostNetBeginPlay()
 {
