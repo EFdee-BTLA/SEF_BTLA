@@ -187,7 +187,7 @@ FriendlyName=Colt M16A1 Supp. Aim.
 ShortName=Colt M16A1 Supp. Aim.
 
 [MP5SDSMG]
-Description=The MP5SD6 is a variant of the MP5 equipped with an integrated suppressor and collapsible stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced to the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
+Description=The MP5SD6 is a variant of the MP5 equipped with an integrated suppressor and a collapsible stock which improves the overall control of the gun when firing on full auto. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced on the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
 FriendlyName=H&K MP5SD6
 ShortName=H&K MP5SD6
 Manufacturer=Heckler & Koch
@@ -200,7 +200,7 @@ TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [MP5SDAimpointSMG]
-Description=The MP5SD6 is a variant of the MP5 equipped with an integrated suppressor and collapsible stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced to the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The MP5SD6 is a variant of the MP5 equipped with an integrated suppressor and a collapsible stock which improves the overall control of the gun when firing on full auto. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced on the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5SD6 Aim.
 ShortName=H&K MP5SD6 Aim.
 
@@ -243,23 +243,23 @@ FriendlyName=H&K MP5KA4 Aim.
 ShortName=H&K MP5KA4 Aim.
 
 [MP5KtSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The main advantage the MP5K PDW has over the MP5K is the tactical stock that provides better control over the weapon while firing in full auto.
+Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto.
 FriendlyName=H&K MP5K-PDW
 ShortName=H&K MP5K-PDW
 
 [MP5KtAimpointSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. This particular model is equipped with a tactical stock for better control over the weapon while firing in full auto. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5K-PDW Aim.
 ShortName=H&K MP5K-PDW Aim.
 
 [SilencedMP5KtSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The main advantage the MP5K PDW has over the MP5K is the tactical stock that provides better control over the weapon while firing in full auto. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=H&K MP5K-PDW Supp.
 ShortName=H&K MP5K-PDW Supp.
 Caliber=Subsonic 9x19mm 
 
 [SilencedMP5KtAimpointSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The main advantage the MP5K PDW has over the MP5K is the tactical stock that provides better control over the weapon while firing in full auto. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5K-PDW Supp. Aim.
 ShortName=H&K MP5K-PDW Supp. Aim.
 Caliber=Subsonic 9x19mm 
@@ -322,13 +322,13 @@ FriendlyName=Benelli M4 Super 90 Aim.
 ShortName=Benelli M4 Super 90 Aim.
 
 [M4Super90EntrySG]
-Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. The Entry configuration sports a 14" barrel which reduces the overall M1014 weight and bulk, making it a more suitable choice for CQC scenarios.
+Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. The Entry configuration sports a 14" barrel which reduces the overall M4 weight and bulk, making it a more suitable choice for CQC scenarios.
 FriendlyName=Benelli M4 Super 90 Entry
 ShortName=Benelli M4 Super 90 Entry 
 MagazineSizeString=5
 
 [M4Super90EntryAimpointSG]
-Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. The Entry configuration sports a 14" barrel which reduces the overall M1014 weight and bulk, making it a more suitable choice for CQC scenarios, it comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. The Entry configuration sports a 14" barrel which reduces the overall M4 weight and bulk, making it a more suitable choice for CQC scenarios, it comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=Benelli M4 Super 90 Entry Aim.
 ShortName=Benelli M4 Super 90 Entry Aim.
 MagazineSizeString=5
@@ -352,13 +352,13 @@ FriendlyName=Benelli Nova Tactical Aim.
 ShortName=Benelli Nova Tactical Aim.
 
 [NovaPumpEntrySG]
-Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry configuration consists of a 14" barrel, which reduces the overall weight and bulk of the Nova, making it a perfect compact shotgun for CQC scenarios.
+Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry configuration consists of a 14" barrel, which reduces the overall weight and bulk of the Nova.
 FriendlyName=Benelli Nova Tactical Entry
 ShortName=Benelli Nova Tactical Entry
 MagazineSizeString=5
 
 [NovaPumpEntryAimpointSG]
-Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry configuration consists of a 14" barrel, which reduces the overall weight and bulk of the Nova, making it a perfect compact shotgun for CQC scenarios, it is equipped with an aimpoint sight for ease of use against distant targets.
+Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry configuration consists of a 14" barrel, which reduces the overall weight and bulk of the Nova, it is equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=Benelli Nova Tactical Entry Aim.
 ShortName=Benelli Nova Tactical Entry Aim.
 MagazineSizeString=5
@@ -526,17 +526,17 @@ FriendlyName=H&K MP5A4 Aim.
 ShortName=H&K MP5A4 Aim.
 
 [MP5A5SMG]
-Description=This 9mm submachine gun was designed by H&K, a world renowned German manufacturer.  It is preferred by many para-military groups throughout the world for urban tactical engagements.  Firing either full metal jacket or jacketed hollow point 9x19mm ammunition it is versatile, but lacks the stopping power of an assault rifle.  Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A5 features a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group as well as a collapsible stock.
+Description=This 9mm submachine gun was designed by H&K, a world renowned German manufacturer.  It is preferred by many para-military groups throughout the world for urban tactical engagements.  Firing either full metal jacket or jacketed hollow point 9x19mm ammunition it is versatile, but lacks the stopping power of an assault rifle.  Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A5 features a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group as well as a collapsible stock which provides better control over the weapon when firing on full auto.
 FriendlyName=H&K MP5A5
 ShortName=H&K MP5A5
 
 [MP5A5AimpointSMG]
-Description=This 9mm submachine gun was designed by H&K, a world renowned German manufacturer.  It is preferred by many para-military groups throughout the world for urban tactical engagements.  Firing either full metal jacket or jacketed hollow point 9x19mm ammunition it is versatile, but lacks the stopping power of an assault rifle.  Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A5 features a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group as well as a collapsible stock. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=This 9mm submachine gun was designed by H&K, a world renowned German manufacturer.  It is preferred by many para-military groups throughout the world for urban tactical engagements.  Firing either full metal jacket or jacketed hollow point 9x19mm ammunition it is versatile, but lacks the stopping power of an assault rifle.  Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A5 features a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group as well as a collapsible stock which provides better control over the weapon when firing on full auto. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5A5 Aim.
 ShortName=H&K MP5A5 Aim.
 
 [SilencedMP5SMG]
-Description=The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced to the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
+Description=The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced on the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
 FriendlyName=H&K MP5SD5
 ShortName=H&K MP5SD5
 Manufacturer=Heckler & Koch
@@ -549,7 +549,7 @@ TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [SilencedMP5AimpointSMG]
-Description=The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced to the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe, featuring a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group that was firstly introduced on the MP5A4 model. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5SD5 Aim.
 ShortName=H&K MP5SD5 Aim.
 
