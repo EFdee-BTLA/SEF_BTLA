@@ -47,7 +47,8 @@ function cleanup()
 // Rotating Towards Something
 
 latent function RotateTowardActor(Actor Target)
-{
+{   if(Target == None) return;
+
     ISwatAI(m_Pawn).AimAtActor(Target);
 	FinishRotation();
 }
