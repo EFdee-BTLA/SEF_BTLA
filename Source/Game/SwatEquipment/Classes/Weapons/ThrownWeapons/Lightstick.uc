@@ -241,6 +241,6 @@ defaultproperties
 
 	RedLightstickClass=class'SwatEquipment.RedLightstickProjectile'
 	BlueLightstickClass=class'SwatEquipment.BlueLightstickProjectile'
-	RedLightstickMaterial=Material'GearTex_SEF.lightstickred_held'
-	BlueLightstickMaterial=Material'GearTex_SEF.lightstickblue_held'
+	RedLightstickMaterial=Material'GearTex_SEF.lightstickred_thrown'
+	BlueLightstickMaterial=Material'GearTex_SEF.lightstickblue_thrown'
 }
