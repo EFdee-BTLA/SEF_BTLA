@@ -973,10 +973,10 @@ ShortName=Mace OC Spray
 GivenName=Mace OC Spray
 
 [stingGrenade]
-Description=The CTS 9590 Sting Grenade, or Stinger, is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
-FriendlyName=CTS 9590 Stinger
-ShortName=CTS 9590 Stinger
-GivenName=CTS 9590 Stinger
+Description=The CTS Model 9590 sting-ball grenade is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
+FriendlyName=CTS 9590 Sting-Ball
+ShortName=CTS 9590 Sting-Ball
+GivenName=CTS 9590 Sting-Ball
 
 [CSGasGrenade]
 Description=The M7A3 grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
@@ -985,19 +985,19 @@ ShortName=M7A3 CS Grenade
 GivenName=M7A3 CS Grenade
 
 [FlashbangGrenade]
-Description=The CTS 7290 flashbang grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons.||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
+Description=The CTS Model 7290 flashbang grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons.||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
 FriendlyName=CTS 7290 Flashbang 
 ShortName=CTS 7290 Flashbang 
 GivenName=CTS 7290 Flashbang 
 
 [Sting3pack]
-Description=This 3-pack of stingers contains three times as many stingers, but occupies five times as much space and weight.
+Description=This 3-pack of stingers contains three times as many sting-ball grenades, but occupies five times as much space and weight.
 FriendlyName=CTS 9590 (x3)
 ShortName=CTS 9590 (x3)
 GivenName=CTS 9590
 
 [Sting5pack]
-Description=This 5-pack of stingers contains five times as many stingers, but occupies seven times as much space and weight.
+Description=This 5-pack of stingers contains five times as many sting-ball grenades, but occupies seven times as much space and weight.
 FriendlyName=CTS 9590 (x5)
 ShortName=CTS 9590 (x5)
 GivenName=CTS 9590
