@@ -480,7 +480,7 @@ TotalAmmoString=10 magazines
 RateOfFire=950 RPM
 
 [FNP90SMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven in response to NATO's requests for a replacement to 9x19mm firearms. It began production in 1990 (hence the name P90), and features a futuristic and ambidextrous design. It remains in service in over 40 countries worldwide.||One of the unique features of the P90 is its top-loaded magazine. It can hold an abnormally large amount of ammunition due to its compact design. It comes equipped with an integral Reflex sight for ease of use against distant targets.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. The P90 comes equipped with an integral Reflex sight for ease of use against distant targets.
 FriendlyName=FN P90
 ShortName=FN P90
 Manufacturer=FN Herstal
@@ -493,17 +493,17 @@ TotalAmmoString=10 magazines
 RateOfFire=900 RPM
 
 [FNP90AimpointSMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven in response to NATO's requests for a replacement to 9x19mm firearms. It began production in 1990 (hence the name P90), and features a futuristic and ambidextrous design. It remains in service in over 40 countries worldwide.||One of the unique features of the P90 is its top-loaded magazine. It can hold an abnormally large amount of ammunition due to its compact design. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=FN P90 Aim.
 ShortName=FN P90 Aim.
 
 [SilencedFNP90SMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven in response to NATO's requests for a replacement to 9x19mm firearms. It began production in 1990 (hence the name P90), and features a futuristic and ambidextrous design. It remains in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine. It can hold an abnormally large amount of ammunition due to its compact design. It comes equipped with an integral Reflex sight for ease of use against distant targets as well as a sound and flash suppressor for when stealth is paramount.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. This P90 configuration with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=FN P90 Supp.
 ShortName=FN P90 Supp.
 
 [SilencedFNP90AimpointSMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven in response to NATO's requests for a replacement to 9x19mm firearms. It began production in 1990 (hence the name P90), and features a futuristic and ambidextrous design. It remains in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine. It can hold an abnormally large amount of ammunition due to its compact design. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a sound and flash suppressor for when stealth is paramount.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a sound and flash suppressor for when stealth is paramount.
 FriendlyName=FN P90 Supp. Aim.
 ShortName=FN P90 Supp. Aim.
 
