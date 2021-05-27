@@ -1512,11 +1512,38 @@ function FinishedMovingEngageBehavior()
 latent function DecideToStayCompliant()
 {
 	local HandHeldEquipmentModel FoundWeaponModel;
-
-	while (class'Pawn'.static.checkConscious(m_Pawn) &&
-			(GetCurrentMorale() < LeaveCompliantStateMoraleThreshold || FoundWeaponModel == None))
+    
+	// EFdee - Fix for Suspects not picking up nearby weapons
+	// Before, suspects wouldn't pick up weapons
+	// Instead, they would flee and barricade if possible
+	// This makes suspects flee and/or pick up nearby weapons 
+	// This may vary between archetypes
+	
+	if(m_Pawn.IsA('SwatGuard') || m_Pawn.IsA('SwatUndercover'))
 	{
-		Sleep(0.8f);
+		// Don't let guards or Jennings become uncompliant again, this is just dumb
+		return;
+	}
+
+	while (class'Pawn'.static.checkConscious(m_Pawn))
+	{
+		if(FoundWeaponModel != None)
+		{
+			// If we found a weapon model, then our morale gain is 2x but our leave compliance threshold is also 2x.
+			// This is so that gunfights are a little more engaging for the player to deal with.
+			if(GetCurrentMorale() >= (LeaveCompliantStateMoraleThreshold*2))
+			{
+				break;
+			}
+		}
+		else if(GetCurrentMorale() >= LeaveCompliantStateMoraleThreshold)
+		{
+			break;
+		}
+		
+		// Sleep for a random amount of time for this "tick"
+		// This might seem high, but keep in mind that half the values are going to be below this and the effect can stack.
+		Sleep(FRand() * 2.0);
 
 		// Increase moral when not being guarded (unobserved)
 		if (ISwatAI(m_Pawn).IsUnobservedByOfficers())
@@ -1558,8 +1585,32 @@ latent function DecideToStayCompliant()
 			//ISwatEnemy(m_Pawn).GetCommanderAction().CreateBarricadeGoal(???, false, false);
 		}
 	}
-}
+	else
+	{
+		// AI stopped being compliant
+		ISwatAI(m_Pawn).SetIsCompliant(false);
+		RemoveComplianceGoal();
+		ISwatAICharacter(m_Pawn).SetCanBeArrested(false);
 
+		// Reset AI (stop animating)
+		m_pawn.ShouldCrouch(false);
+		m_Pawn.ChangeAnimation();				// will swap in anim set
+		ISwatAI(m_Pawn).SetIdleCategory('');	// remove compliance idles
+
+		// try engaging again
+		if (CurrentEngageOfficerGoal == None)
+		{
+			bHasFledWithoutUsableWeapon = false;	// don't cower except very rarely
+
+			CurrentEngageOfficerGoal = new class'EngageOfficerGoal'(AI_Resource(m_Pawn.characterAI), 90);
+			assert(CurrentEngageOfficerGoal != None);
+			CurrentEngageOfficerGoal.AddRef();
+
+			CurrentEngageOfficerGoal.postGoal(self);
+			WaitForGoal(CurrentEngageOfficerGoal);
+		}
+	}
+}
 state Running
 {
  Begin:
