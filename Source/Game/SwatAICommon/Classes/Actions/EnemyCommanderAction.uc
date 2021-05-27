@@ -1512,65 +1512,18 @@ function FinishedMovingEngageBehavior()
 latent function DecideToStayCompliant()
 {
 	local HandHeldEquipmentModel FoundWeaponModel;
-	local bool bFoundNearbyWeapon;
-	local float fGainedMorale;
 
-	if(m_Pawn.IsA('SwatGuard') || m_Pawn.IsA('SwatUndercover'))
+	while (class'Pawn'.static.checkConscious(m_Pawn) &&
+			(GetCurrentMorale() < LeaveCompliantStateMoraleThreshold || FoundWeaponModel == None))
 	{
-		// Don't let guards or Jennings become uncompliant again, this is just dumb
-		return;
-	}
-
-	while (class'Pawn'.static.checkConscious(m_Pawn))
-	{
-		if(FoundWeaponModel != None)
-		{
-			// If we found a weapon model, then our morale gain is 2x but our leave compliance threshold is also 2x.
-			// This is so that gunfights are a little more engaging for the player to deal with.
-			if(GetCurrentMorale() >= (LeaveCompliantStateMoraleThreshold*2))
-			{
-				break;
-			}
-		}
-		else if(GetCurrentMorale() >= LeaveCompliantStateMoraleThreshold)
-		{
-			break;
-		}
-
-		// Sleep for a random amount of time for this "tick"
-		// This might seem high, but keep in mind that half the values are going to be below this and the effect can stack.
-		Sleep(FRand() * 2.0);
-
-		if (GetCurrentMorale() >= LeaveCompliantStateMoraleThreshold)
-		{
-			FoundWeaponModel = ISwatEnemy(m_Pawn).FindNearbyWeaponModel();
-			if(FoundWeaponModel != None)
-			{
-				bFoundNearbyWeapon = true;
-			}
-			else if(bFoundNearbyWeapon)
-			{
-				// If there was a nearby weapon in the last tick and the player picked it up, lose all gained morale
-				ChangeMorale( -fGainedMorale, "Unobserved Compliance" );
-				bFoundNearbyWeapon = false;
-			}
-		}
+		Sleep(0.8f);
 
 		// Increase moral when not being guarded (unobserved)
 		if (ISwatAI(m_Pawn).IsUnobservedByOfficers())
-		{
-			if(bFoundNearbyWeapon)
-			{
-				ChangeMorale( GetUnobservedComplianceMoraleModification() * 2, "Unobserved Compliance" );
-				fGainedMorale += GetUnobservedComplianceMoraleModification() * 2;
-			}
-			else
-			{
-				ChangeMorale( GetUnobservedComplianceMoraleModification(), "Unobserved Compliance" );
-				fGainedMorale += GetUnobservedComplianceMoraleModification();
-			}
-		}
+			ChangeMorale( GetUnobservedComplianceMoraleModification(), "Unobserved Compliance" );
 
+		if (GetCurrentMorale() >= LeaveCompliantStateMoraleThreshold)
+			FoundWeaponModel = ISwatEnemy(m_Pawn).FindNearbyWeaponModel();
 
 		if (m_pawn.logTyrion)
 			log(name @ "DecideToStayCompliant: morale now:" @ GetCurrentMorale());
@@ -1603,31 +1556,6 @@ latent function DecideToStayCompliant()
 			if (CurrentPickUpWeaponGoal != None)
 				WaitForGoal(CurrentPickUpWeaponGoal);
 			//ISwatEnemy(m_Pawn).GetCommanderAction().CreateBarricadeGoal(???, false, false);
-		}
-	}
-	else
-	{
-		// AI stopped being compliant
-		ISwatAI(m_Pawn).SetIsCompliant(false);
-		RemoveComplianceGoal();
-		ISwatAICharacter(m_Pawn).SetCanBeArrested(false);
-
-		// Reset AI (stop animating)
-		m_pawn.ShouldCrouch(false);
-		m_Pawn.ChangeAnimation();				// will swap in anim set
-		ISwatAI(m_Pawn).SetIdleCategory('');	// remove compliance idles
-
-		// try engaging again
-		if (CurrentEngageOfficerGoal == None)
-		{
-			bHasFledWithoutUsableWeapon = false;	// don't cower except very rarely
-
-			CurrentEngageOfficerGoal = new class'EngageOfficerGoal'(AI_Resource(m_Pawn.characterAI), 90);
-			assert(CurrentEngageOfficerGoal != None);
-			CurrentEngageOfficerGoal.AddRef();
-
-			CurrentEngageOfficerGoal.postGoal(self);
-			WaitForGoal(CurrentEngageOfficerGoal);
 		}
 	}
 }
