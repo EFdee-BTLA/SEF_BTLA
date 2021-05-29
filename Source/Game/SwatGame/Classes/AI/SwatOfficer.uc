@@ -1224,7 +1224,7 @@ function ReactToCSGas(Actor GasContainer, float Duration, float SPPlayerProtecti
     Distance = VSize(Location - GasContainer.Location);
     DistanceEffect = (600 - Distance)/(600);
 
-    //added a minum distance effect to avoid effect crash 
+    //added a minum distance effect to avoid effect crash - Beppe
     if (DistanceEffect < 0.2 )
 	    DistanceEffect = 0.2; 
 
