@@ -2570,7 +2570,7 @@ defaultproperties
     DebugDrawFlashlightDir=false
 	FlashlightUseFancyLights=-1
     PointLightDistanceFadeRate=.4
-    MinFlashlightBrightness=90
+    MinFlashlightBrightness=150
     MinFlashlightRadius=10
 	FlashlightFirstPersonDistance=200
 	MaxFlashlightDistance=800
