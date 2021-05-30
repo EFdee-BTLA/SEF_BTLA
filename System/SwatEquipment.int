@@ -291,17 +291,23 @@ TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The M1 Super 90 is a semi-automatic 12 gauge combat shotgun with a five round magazine capacity and it accepts multiple types of 2.75" shot shells. With a tritium "glow in the dark" front sight, a high impact polymer buttstock and a SureFire forend flashlight, the M1 might be old, but it is a mainstay in law enforcement. The Entry Gun configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
-FriendlyName=Benelli M1 Super 90 Entry
-ShortName=Benelli M1 Super 90 Entry 
+Description=The Benelli M1 Super 90 Tactical it's a reliable semi-automatic combat shotgun and the first model of Benelli's "Super 90" series, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for LEO. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although old, the M1 Super 90 it's a mainstay in law enforcement.
+FriendlyName=Benelli M1 Super 90 Tactical
+ShortName=Benelli M1 Super 90 Tactical 
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
 ProductionStart=1986
 FireModes=Semi-Automatic
-MagazineSizeString=4 + 1
+MagazineSizeString=6 + 1
 TotalAmmoString=80 shells
 RateOfFire=200 RPM
+
+[M1Super90EntrySG]
+Description=The Benelli M1 Super 90 Tactical it's a reliable semi-automatic combat shotgun and the first model of Benelli's "Super 90" series, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for LEO. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although old, the M1 Super 90 it's a mainstay in law enforcement. The Entry Gun configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
+FriendlyName=Benelli M1 Super 90 Entry
+ShortName=Benelli M1 Super 90 Entry 
+MagazineSizeString=4 + 1
 
 [M4Super90SG]
 Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. Its 8-round magazine is appealing to law enforcement, but its relative bulk may make it difficult to use in close quarters.
@@ -992,38 +998,38 @@ GivenName=CTS 7290 Flashbang
 
 [Sting3pack]
 Description=This 3-pack of stingers contains three times as many sting-ball grenades, but occupies five times as much space and weight.
-FriendlyName=CTS 9590 (x3)
-ShortName=CTS 9590 (x3)
+FriendlyName=CTS 9590 Sting (x3)
+ShortName=CTS 9590 Sting (x3)
 GivenName=CTS 9590
 
 [Sting5pack]
 Description=This 5-pack of stingers contains five times as many sting-ball grenades, but occupies seven times as much space and weight.
-FriendlyName=CTS 9590 (x5)
-ShortName=CTS 9590 (x5)
+FriendlyName=CTS 9590 Sting (x5)
+ShortName=CTS 9590 Sting (x5)
 GivenName=CTS 9590
 
 [CS3pack]
 Description=This 3-pack of gas grenades contains three times as many CS gas grenades, but occupies five times as much space and weight.
-FriendlyName=M7A3 (x3)
-ShortName=M7A3 (x3)
+FriendlyName=M7A3 CS (x3)
+ShortName=M7A3 CS (x3)
 GivenName=M7A3
 
 [CS5pack]
 Description=This 5-pack of gas grenades contains five times as many CS gas grenades, but occupies seven times as much space and weight.
-FriendlyName=M7A3 (x5)
-ShortName=M7A3 (x5)
+FriendlyName=M7A3 CS (x5)
+ShortName=M7A3 CS (x5)
 GivenName=M7A3
 
 [Flashbang3pack]
 Description=This 3-pack of flashbangs contains three times as many flashbangs, but occupies five times as much space and weight.
-FriendlyName=CTS 7290 (x3)
-ShortName=CTS 7290 (x3)
-GivenName=CTS 7290
+FriendlyName=CTS 7290 Flash (x3)
+ShortName=CTS 7290 Flash (x3)
+GivenName=CTS 7290 Flash
 
 [Flashbang5pack]
 Description=This 5-pack of flashbangs contains five times as many flashbangs, but occupies seven times as much space and weight.
-FriendlyName=CTS 7290 (x5)
-ShortName=CTS 7290 (x5)
+FriendlyName=CTS 7290 Flash (x5)
+ShortName=CTS 7290 Flash (x5)
 GivenName=CTS 7290
 
 [BreachingSG]
