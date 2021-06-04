@@ -18,6 +18,16 @@ Description=Badguy Kevlar
 FriendlyName=PASGT  Helmet Badguy
 GUIImage=material'gui_hov.V2tactic'
 
+[BadguyHelmetAndGoggles]
+Description=Badguy Kevlar ESS
+FriendlyName=PASGT Helmet ESS Badguy
+GUIImage=material'gui_hov.V2tactic'
+
+[Goggles]
+Description=ESS Goggles
+FriendlyName=ESS Goggles
+GUIImage=material'gui_hov.V2tactic'
+
 [BadguyRiotHelmet]
 Description=Badguy Riot
 FriendlyName=PASGT Helmet Riot Badguy
@@ -33,48 +43,38 @@ Description=A classic ball-cap used by officers. This option is good for when yo
 FriendlyName=PMC Cap
 GUIImage=material'gui_hov.V4tactic'
 
-[BoonieHatGlasses]
-Description=A classic boonie hat used by officers. The Smith & Wesson M&P Harrier ballistic glasses provides some protection against flashbang effects as well as some ballistic protection to the eye region. This option is good for when you need to reduce your weight and/or bulk.
-FriendlyName=Boonie Hat Harrier
-GUIImage=material'gui_hov.V4tacticBoonieGlasses'
-
-[PMCCapGlasses]
-Description=A classic ball-cap used by officers. The Smith & Wesson M&P Harrier ballistic glasses provides some protection against flashbang effects as well as some ballistic protection to the eye region. This option is good for when you need to reduce your weight and/or bulk. 
-FriendlyName=PMC Cap Harrier
-GUIImage=material'gui_hov.V4tacticGlasses'
-
 [ProtecAndGlasses]
-Description=A common skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight and ease to be modified. Although it offers less protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a popular choice for CQB scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The Smith & Wesson M&P Harrier ballistic glasses provides some protection against flashbang effects as well as some ballistic protection to the eye region.
-FriendlyName=Pro-Tec Helmet Harrier
+Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight and ease to mount attachments on it. Although it offers less protection compared to the Level IIIA PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The Oakley "M Frame" ballistic glasses provides some protection against flashbang effects as well as some ballistic protection for the eye region.
+FriendlyName=Pro-Tec Helmet Oakley
 GUIImage=material'gui_hov.V3tacticGlasses'
 
 [ProtecAndGoggles]
-Description=A common skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight and ease to be modified. Although it offers less protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a popular choice for CQB scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The ESS ballistic goggles provides protection against flashbangs effects as well as ballistic protection to the eye region.
+Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight and ease to mount attachments on it. Although it offers less protection compared to the Level IIIA PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The ESS XT ballistic goggles provides protection against flashbangs effects as well as ballistic protection for the eye region.
 FriendlyName=Pro-Tec Helmet ESS
 GUIImage=material'gui_hov.V3tacticGoggles'
 
 [HelmetAndGlasses]
-Description=The PASGT (Personnel Armor System for Ground Troops) Level IIIA kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Smith & Wesson M&P Harrier ballistic glasses provides some protection against flashbang effects as well as some ballistic protection to the eye region.
-FriendlyName=PASGT Helmet Harrier
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet has been used by law-enforcement agencies and military alike from around the world since the 1980s. Made out of Aramid Kevlar Fibers, The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Oakley "M Frame" ballistic glasses provides some protection against flashbang effects as well as some ballistic protection for the eye region.
+FriendlyName=PASGT Helmet Oakley
 GUIImage=material'gui_hov.V2tacticGlasses'
 
 [HelmetAndGoggles]
-Description=The PASGT (Personnel Armor System for Ground Troops) Level IIIA kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The ESS ballistic goggles provides protection against flashbangs effects as well as ballistic protection to the eye region.
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet has been used by law-enforcement agencies and military alike from around the world since the 1980s. Made out of Aramid Kevlar Fibers, The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The ESS XT ballistic goggles provides protection against flashbangs effects as well as ballistic protection for the eye region.
 FriendlyName=PASGT Helmet ESS
 GUIImage=material'gui_hov.V2tacticGoggles'
 
 [gasMask]
-Description=The Fernez gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=Fernez Gas Mask
 GUIImage=material'gui_hov.V1tacticGasMask'
 
 [ProtecGasMask]
-Description=A common skateboard headgear, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight and ease to be modified. Although it offers less protection compared to the PASGT helmet, it's extremely light weight and bump protection makes it a popular choice for CQB scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The Fernez respirator provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight and ease to mount attachments on it. Although it offers less protection compared to the Level IIIA PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=Pro-Tec Helmet Fernez
 GUIImage=material'gui_hov.V3tacticGasMask'
 
 [KevlarGasMask]
-Description=The PASGT (Personnel Armor System for Ground Troops) Level IIIA kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Fernez respirator provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet has been used by law-enforcement agencies and military alike from around the world since the 1980s. Made out of Aramid Kevlar Fibers, The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=PASGT Helmet Fernez
 GUIImage=material'gui_hov.V2tacticGasMask'
 
@@ -84,7 +84,7 @@ FriendlyName=GP-5 Gas Mask
 GUIImage=material'gui_hov.gp5'
 
 [S10Mask]
-Description=The AVON S10 gasmask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, flashbangs, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
+Description=The AVON S10 gas mask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, flashbangs, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
 FriendlyName=AVON S10 Gas Mask
 GUIImage=material'gui_hov.s10'
 
@@ -94,12 +94,12 @@ FriendlyName=AC900 Helmet S10
 GUIImage=material'gui_hov.s10ac900'
 
 [BallisticMask]
-Description=The SECPRO Level IIIA ballistic face mask gives the user an intimidating appearence and provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. Unfortunately it causes restricted vision and it's extremely bulky. 
+Description=The ballistic face mask provides the user an intimidating appearence aswell as protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. Unfortunately it causes restricted vision and it's extremely bulky. 
 FriendlyName=Ballistic Face Mask
 GUIImage=material'gui_hov.V1tacticMask'
 
 [RiotHelmet]
-Description=The PASGT (Personnel Armor System for Ground Troops) Level IIIA kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The ballistic visor provides the user with some protection against CS gas, pepperspray and pepperballs effects as well as ballistic protection to the face region. It does not provides protection against flashbangs however.
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet has been used by law-enforcement agencies and military alike from around the world since the 1980s. Made out of Aramid Kevlar Fibers, The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The ballistic visor provides the user with some protection against CS gas, pepperspray and pepperballs effects as well as ballistic protection to the face region. It does not provides protection against flashbangs however.
 FriendlyName=PASGT Helmet Riot 
 GUIImage=material'gui_hov.V2tacticRiot'
 
@@ -191,22 +191,22 @@ GUIImage=material'gui_hov.LightArmorShirtNoMask'
 [MediumBodyArmor]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
-GUIImage=material'gui_hov.MediumArmor'
+GUIImage=material'gui_hov.LightArmor'
 
 [MediumBodyArmorClotheUp]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
-GUIImage=material'gui_hov.MediumArmorClotheUp'
+GUIImage=material'gui_hov.LightArmorClotheUp'
 
 [MediumBodyArmorClotheUpMax]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
-GUIImage=material'gui_hov.MediumArmorClotheUpMax'
+GUIImage=material'gui_hov.LightArmorClotheUpMax'
 
 [MediumBodyArmorShirt]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
-GUIImage=material'gui_hov.MediumArmorShirt'
+GUIImage=material'gui_hov.LightArmorShirt'
 
 [MediumBodyArmorCasual]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
@@ -216,59 +216,84 @@ GUIImage=material'gui_hov.ArmorCasual'
 [MediumBodyArmorNoMask]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
-GUIImage=material'gui_hov.MediumArmorNoMask'
+GUIImage=material'gui_hov.LightArmorNoMask'
 
 [MediumBodyArmorClotheUpNoMask]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
-GUIImage=material'gui_hov.MediumArmorClotheUpNoMask'
+GUIImage=material'gui_hov.LightArmorClotheUpNoMask'
 
 [MediumBodyArmorClotheUpMaxNoMask]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
-GUIImage=material'gui_hov.MediumArmorClotheUpMaxNoMask'
+GUIImage=material'gui_hov.LightArmorClotheUpMaxNoMask'
 
 [MediumBodyArmorShirtNoMask]
 Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
 FriendlyName=Level IIIA Armor
+GUIImage=material'gui_hov.LightArmorShirtNoMask'
+
+[EnhancedBodyArmor]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
+GUIImage=material'gui_hov.MediumArmor'
+
+[EnhancedBodyArmorClotheUp]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
+GUIImage=material'gui_hov.MediumArmorClotheUp'
+
+[EnhancedBodyArmorClotheUpMax]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
+GUIImage=material'gui_hov.MediumArmorClotheUpMax'
+
+[EnhancedBodyArmorShirt]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
+GUIImage=material'gui_hov.MediumArmorShirt'
+
+[EnhancedBodyArmorNoMask]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
+GUIImage=material'gui_hov.MediumArmorNoMask'
+
+[EnhancedBodyArmorClotheUpNoMask]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
+GUIImage=material'gui_hov.MediumArmorClotheUpNoMask'
+
+[EnhancedBodyArmorClotheUpMaxNoMask]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
+GUIImage=material'gui_hov.MediumArmorClotheUpMaxNoMask'
+
+[EnhancedBodyArmorShirt]
+Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Ceramic
 GUIImage=material'gui_hov.MediumArmorShirtNoMask'
 
+[EnhancedBodyArmorClotheUpNoMask]
+Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + IV Ceramic
+GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
+
 [HeavyBodyArmor]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
-GUIImage=material'gui_hov.HeavyArmor'
-
-[HeavyBodyArmorClotheUp]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
-GUIImage=material'gui_hov.HeavyArmorClotheUp'
-
-[HeavyBodyArmorNoMask]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
-GUIImage=material'gui_hov.HeavyArmorNoMask'
-
-[HeavyBodyArmorClotheUpNoMask]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
+Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Ceramic
 GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
 
-[EnhancedBodyArmor]
-Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + IV Ceramic 
-GUIImage=material'gui_hov.HeavyArmor'
-
-[EnhancedBodyArmorClotheUp]
+[HeavyBodyArmorClotheUp]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + IV Ceramic
-GUIImage=material'gui_hov.HeavyArmorClotheUp'
+GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
 
-[EnhancedBodyArmorNoMask]
+[HeavyBodyArmorNoMask]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + IV Ceramic
-GUIImage=material'gui_hov.HeavyArmorNoMask'
+GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
 
-[EnhancedBodyArmorClotheUpNoMask]
+[HeavyBodyArmorClotheUpNoMask]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + IV Ceramic
 GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'

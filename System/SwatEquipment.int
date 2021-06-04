@@ -273,7 +273,7 @@ Caliber=12 Gauge
 CountryOfOrigin=United States
 ProductionStart=1950
 FireModes=Pump-Action
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
@@ -286,12 +286,12 @@ Caliber=12 Gauge
 CountryOfOrigin=United States
 ProductionStart=1950
 FireModes=Pump-Action
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The Benelli M1 Super 90 Tactical it's a reliable semi-automatic combat shotgun and the first model of Benelli's "Super 90" series, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for LEO. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although old, the M1 Super 90 it's a mainstay in law enforcement.
+Description=The Benelli M1 Super 90 it's a reliable semi-automatic combat shotgun and the first model of Benelli's "Super 90" series, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for LEO. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although it's an old shotgun, the M1 Super 90 it's a mainstay in law enforcement.
 FriendlyName=Benelli M1 Super 90 Tactical
 ShortName=Benelli M1 Super 90 Tactical 
 Manufacturer=Benelli
@@ -299,15 +299,15 @@ Caliber=12 Gauge
 CountryOfOrigin=Italy
 ProductionStart=1986
 FireModes=Semi-Automatic
-MagazineSizeString=6 + 1
+MagazineSizeString=7
 TotalAmmoString=80 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 Super 90 Tactical it's a reliable semi-automatic combat shotgun and the first model of Benelli's "Super 90" series, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for LEO. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although old, the M1 Super 90 it's a mainstay in law enforcement. The Entry Gun configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
+Description=The Benelli M1 Super 90 it's a reliable semi-automatic combat shotgun and the first model of Benelli's "Super 90" series, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for LEO. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although it's an old shotgun the M1 Super 90 it's a mainstay in law enforcement. The Entry Gun configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQC scenarios.
 FriendlyName=Benelli M1 Super 90 Entry
 ShortName=Benelli M1 Super 90 Entry 
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 
 [M4Super90SG]
 Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. Its 8-round magazine is appealing to law enforcement, but its relative bulk may make it difficult to use in close quarters.
@@ -318,7 +318,7 @@ Caliber=12 Gauge
 CountryOfOrigin=Italy
 ProductionStart=1999
 FireModes=Semi-Automatic
-MagazineSizeString=7 + 1
+MagazineSizeString=7
 TotalAmmoString=80 shells
 RateOfFire=200 RPM
 
@@ -331,13 +331,13 @@ ShortName=Benelli M4 Super 90 Aim.
 Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. The Entry configuration sports a 14" barrel which reduces the overall M4 weight and bulk, making it a more suitable choice for CQC scenarios.
 FriendlyName=Benelli M4 Super 90 Entry
 ShortName=Benelli M4 Super 90 Entry 
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 
 [M4Super90EntryAimpointSG]
 Description=The Benelli M4 Super 90 (designated by the United States military as the M1014) is a highly reliable semi-automatic shotgun, developed in the late 90s as the final successor to the widely popular M1 series of Benelli shotguns. The Entry configuration sports a 14" barrel which reduces the overall M4 weight and bulk, making it a more suitable choice for CQC scenarios, it comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=Benelli M4 Super 90 Entry Aim.
 ShortName=Benelli M4 Super 90 Entry Aim.
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 
 [NovaPumpSG]
 Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. While firing a bit slower than the semi-automatic M4 Super 90, the attached magazine extender allows the Nova to hold up to 8 shells at one time.
@@ -348,7 +348,7 @@ Caliber=12 Gauge
 CountryOfOrigin=Italy
 ProductionStart=Late 1990s
 FireModes=Pump-Action
-MagazineSizeString=7 + 1
+MagazineSizeString=7
 TotalAmmoString=80 shells
 RateOfFire=100 RPM
 
@@ -361,13 +361,13 @@ ShortName=Benelli Nova Tactical Aim.
 Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry configuration consists of a 14" barrel, which reduces the overall weight and bulk of the Nova.
 FriendlyName=Benelli Nova Tactical Entry
 ShortName=Benelli Nova Tactical Entry
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 
 [NovaPumpEntryAimpointSG]
 Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry configuration consists of a 14" barrel, which reduces the overall weight and bulk of the Nova, it is equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=Benelli Nova Tactical Entry Aim.
 ShortName=Benelli Nova Tactical Entry Aim.
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 
 [ColtM1911HG]
 Description=The Springfield M1911-A1 Handgun it's a modern variant of the classic Colt M1911, it has been a mainstay in law enforcement for decades.  This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers.
