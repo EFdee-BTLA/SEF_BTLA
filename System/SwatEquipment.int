@@ -25,7 +25,7 @@ TotalAmmoString=25 shells
 RateOfFire=Unknown
 
 [Glock21HG]
-Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine.
+Description=Another iteration of the well known Glock, remarkable for its accuracy and light recoil, the Glock 21 delivers the power of the .45 ACP with high magazine capacity. The Glock 21 it's one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine.
 FriendlyName=Glock 21
 ShortName=Glock 21
 Manufacturer=Glock
@@ -38,7 +38,7 @@ TotalAmmoString=10 magazines
 RateOfFire=400 RPM
 
 [Glock21sdHG]
-Description=Another iteration of the well known Glock, the Glock 21 is chambered in the powerful .45 ACP round. The Glock 21 it's one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=Another iteration of the well known Glock, remarkable for its accuracy and light recoil, the Glock 21 delivers the power of the .45 ACP with high magazine capacity. The Glock 21 it's one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 21 Supp.
 ShortName=Glock 21 Supp.
 Manufacturer=Glock
@@ -1041,7 +1041,7 @@ Caliber=12 Gauge
 CountryOfOrigin=United States
 ProductionStart=1950
 FireModes=Pump-Action
-MagazineSizeString=4 + 1
+MagazineSizeString=4
 TotalAmmoString=50 shells
 RateOfFire=150 RPM
 
