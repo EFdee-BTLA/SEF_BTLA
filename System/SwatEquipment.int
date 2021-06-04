@@ -447,7 +447,7 @@ Caliber=.45 ACP
 MagazineSizeString=10
 
 [PythonRevolverHG]
-Description=The Colt Python is among the most famous of Colt revolvers and was introduced in 1955.  It is chambered for the powerful .357 Magnum ammunition making it one of the most powerful hand guns on the market.  Its power is offset by its slow rate of fire and arduous reload. Although not so common, a flashlight has been added for better tactical use in dark areas.
+Description=The Colt Python is among the most famous of Colt revolvers and was introduced in 1955.  It is chambered for the powerful .357 Magnum ammunition making it one of the most powerful hand guns on the market.  Its power is offset by its slow rate of fire and arduous reload.
 FriendlyName=Colt Python
 ShortName=Colt Python
 Manufacturer=Colt

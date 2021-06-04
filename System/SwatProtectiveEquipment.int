@@ -273,25 +273,20 @@ Description=This ceramic plate armor provides Level III protection from ballisti
 FriendlyName=Level IIIA + III Ceramic
 GUIImage=material'gui_hov.MediumArmorShirtNoMask'
 
-[EnhancedBodyArmorClotheUpNoMask]
-Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + IV Ceramic
-GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
-
 [HeavyBodyArmor]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Ceramic
-GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
+GUIImage=material'gui_hov.HeavyArmor'
 
 [HeavyBodyArmorClotheUp]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + IV Ceramic
-GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
+GUIImage=material'gui_hov.HeavyArmorClotheUp'
 
 [HeavyBodyArmorNoMask]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + IV Ceramic
-GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
+GUIImage=material'gui_hov.HeavyArmorNoMask'
 
 [HeavyBodyArmorClotheUpNoMask]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
