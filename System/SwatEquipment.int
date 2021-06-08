@@ -923,7 +923,7 @@ FriendlyName=Door B. Charge (x3)
 GivenName=Door Breaching Charge
 
 [C2Charge5pack]
-Description=This pack of five door breaching charges contains five times as many charges, but occupies seven times as much space and weight.
+Description=This pack of five door breaching charges contains five times as many charges, but occupies twelve times as much space and weight.
 FriendlyName=Door B. Charge (x5)
 GivenName=Door Breaching Charge
 
@@ -964,7 +964,7 @@ FriendlyName=Tactical D. Wedge (x3)
 GivenName=Tactical Door Wedge
 
 [Wedge5pack]
-Description=This pack of five door wedges contains five times as many wedges, but occupies seven times as much space and weight.
+Description=This pack of five door wedges contains five times as many wedges, but occupies twelve times as much space and weight.
 FriendlyName=Tactical D. Wedge (x5)
 GivenName=Tactical Door Wedge
 
@@ -985,7 +985,7 @@ ShortName=CTS 9590 Sting-Ball
 GivenName=CTS 9590 Sting-Ball
 
 [CSGasGrenade]
-Description=The CTS 5230B grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
+Description=The CTS Model 5230B grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
 FriendlyName=CTS 5230B CS Gas
 ShortName=CTS 5230B CS Gas
 GivenName=CTS 5230B CS Gas
@@ -1003,7 +1003,7 @@ ShortName=CTS 9590 Sting (x3)
 GivenName=CTS 9590 Sting-Ball
 
 [Sting5pack]
-Description=This 5-pack of stingers contains five times as many sting-ball grenades, but occupies seven times as much space and weight.
+Description=This 5-pack of stingers contains five times as many sting-ball grenades, but occupies twelve times as much space and weight.
 FriendlyName=CTS 9590 Sting (x5)
 ShortName=CTS 9590 Sting (x5)
 GivenName=CTS 9590 Sting-Ball
@@ -1015,7 +1015,7 @@ ShortName=CTS 5230B CS (x3)
 GivenName=CTS 5230B CS Gas
 
 [CS5pack]
-Description=This 5-pack of gas grenades contains five times as many CS gas grenades, but occupies seven times as much space and weight.
+Description=This 5-pack of gas grenades contains five times as many CS gas grenades, but occupies twelve times as much space and weight.
 FriendlyName=CTS 5230B CS (x5)
 ShortName=CTS 5230B CS (x5)
 GivenName=CTS 5230B CS Gas
@@ -1027,7 +1027,7 @@ ShortName=CTS 7290 Flash (x3)
 GivenName=CTS 7290 Flashbang 
 
 [Flashbang5pack]
-Description=This 5-pack of flashbangs contains five times as many flashbangs, but occupies seven times as much space and weight.
+Description=This 5-pack of flashbangs contains five times as many flashbangs, but occupies twelve times as much space and weight.
 FriendlyName=CTS 7290 Flash (x5)
 ShortName=CTS 7290 Flash (x5)
 GivenName=CTS 7290 Flashbang 
