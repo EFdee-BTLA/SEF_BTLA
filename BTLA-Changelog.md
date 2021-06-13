@@ -249,7 +249,63 @@ v1.2.4 changelog
  Implemented Glock 30 into the game
 
  
+v1.4 changelog 
 
+  Removed MP5K Aimpoint variants
+  Removed Colt SMG Aimpoint variants
+  Removed Boonie Hat and Cap with Glasses variant
+  Added Benelli M1 Super 90 Tactical
+  Visual tweaks for Glock handguns
+  Added vertical foregrip to the UMP
+  Added HK Claw Mount (thanks Beppe) to MP5, MP5SD, MP5K-PDW and G3A3
+  Added Hollow-Point Shotgun Slugs 
+  Improved some damage values on shotgun ammo (thanks Vitto for your suggestions)
+  Fixed Level IV Armor texture bug
+  Added new mesh to Level III armor with multiple variants
+  Added neck protection to the Level II and Level IIIA armor mesh
+  Improved some flashlight mesh positions to look more accurate
+  Suspects now pick up their weapons if you fail to cuff them in time
+  Visual tweaks for headgear to look more vintage
+  Improved Aimpoint model on some variants
+  Adjusted some equipment descriptions
+  Changed lockpicking time to 10 seconds 
+  Changed bomb defusal time to 15
+  Changed wedge removal time to 0.5 seconds
+  Improved damage taken on arms and torso 
+  Improved Tactical Aids packs weights to be more restrictive
+  Improved some weight values
+  Improved Flashlight to look realistic 
+  Added multiple reload sounds
+  Added shell casings sounds to every type of ammo
+  Added new sounds for a lot of weapons
+  Added new foley sounds 
+  Tweaked some enemy archetypes
+  Reduced movement speed
+  Adjusted some protective equipment values
+  New HUD paperdoll (Thanks F4) 
+  Updated to SEF v7.1 part 2: 
+    Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally removed on 1.2)
+    Enabled the following npcs so that they can be used in custom missions: Lian Niu, Evil Waiter (shows up as Male, Asian Chef), Allen Kruse, Simon Gowan, Jewel Thief from the Diamond Robbery          Mission, and the hosptial terrorist from the hopstial mission. Thanks to Warzaid for this.
+    Officers don't open a trapped door when ordered to disable it anymore
+    AI issue compliance issue is effective (Thanks BSBola)
+    Lightstick now returns to your primary weapon when thrown 
+    Fixed no DOAs in St. Micheal's on QMM
+    FN FAL now has the correct kind of ammo for it. Thanks to beppe for this (Already in BTLA since 1.0)
+    Shotguns have a tighter choke, and are a more appealing option because of it. (Edit made by EFdee) (Already in BTLA since 1.2)
+    Fixed SEF bug: Suspects wouldn't pick up weapons, they would just flee. (thanks to EFdee for this) (Already in BTLA since 1.4)
+    Fixed TSS bug: Gamma would be wrong in SwatEd. Thanks to Masterscape for this. (Already in BTLA since 1.2)
+    
+    
+
+     
+
+  
+  
+  
+  
+  
+  
+  
 
  
 
