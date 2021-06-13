@@ -258,6 +258,7 @@ v1.4 changelog
   Visual tweaks for Glock handguns
   Added vertical foregrip to the UMP
   Added HK Claw Mount (thanks Beppe) to MP5, MP5SD, MP5K-PDW and G3A3
+  Added G3KA4 to the game
   Added Hollow-Point Shotgun Slugs 
   Improved some damage values on shotgun ammo (thanks Vitto for your suggestions)
   Fixed Level IV Armor texture bug
