@@ -922,11 +922,6 @@ Description=This pack of three door breaching charges contains three times as ma
 FriendlyName=Door B. Charge (x3)
 GivenName=Door Breaching Charge
 
-[C2Charge5pack]
-Description=This pack of five door breaching charges contains five times as many charges, but occupies twelve times as much space and weight.
-FriendlyName=Door B. Charge (x5)
-GivenName=Door Breaching Charge
-
 [LessLethalSG]
 Description=The less lethal shotgun is a Benelli Nova Tactical, pump-action shotgun which is always loaded with less than lethal beanbag rounds.  It is most often used on an uncooperative suspect or civilian.  The specially designated less lethal shotgun is necessary to eliminate errors that can occur from individually loading lethal or less than lethal munitions into the same weapon.  To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.||The beanbag ammunition provides a powerful blunt force impact on the target.  This causes extreme pain and disorientation. Sufficient distance should be kept between the operator and the intended target for the beanbag to slow down, otherwise it may produce a potentially life threatening injury such as broken bones.
 FriendlyName=Benelli Nova Less-Lethal
@@ -963,11 +958,6 @@ Description=This pack of three door wedges contains three times as many wedges, 
 FriendlyName=Tactical D. Wedge (x3)
 GivenName=Tactical Door Wedge
 
-[Wedge5pack]
-Description=This pack of five door wedges contains five times as many wedges, but occupies twelve times as much space and weight.
-FriendlyName=Tactical D. Wedge (x5)
-GivenName=Tactical Door Wedge
-
 [Optiwand]
 Description=The Opti-Wand is a sophisticated observation device which allows officers to examine situations around corners and under closed doors without exposing themselves to lines of fire.  On top of the device is a small LCD screen which displays the images seen by the camera at the end of the expandable rod.  It is an invaluable tool for gathering intelligence on suspect and civilian locations before performing dangerous clear routines and potentially exposing your team to fire.
 FriendlyName=Opti-Wand
@@ -1002,34 +992,16 @@ FriendlyName=CTS 9590 Sting (x3)
 ShortName=CTS 9590 Sting (x3)
 GivenName=CTS 9590 Sting-Ball
 
-[Sting5pack]
-Description=This 5-pack of stingers contains five times as many sting-ball grenades, but occupies twelve times as much space and weight.
-FriendlyName=CTS 9590 Sting (x5)
-ShortName=CTS 9590 Sting (x5)
-GivenName=CTS 9590 Sting-Ball
-
 [CS3pack]
 Description=This 3-pack of gas grenades contains three times as many CS gas grenades, but occupies five times as much space and weight.
 FriendlyName=CTS 5230B CS (x3)
 ShortName=CTS 5230B CS (x3)
 GivenName=CTS 5230B CS Gas
 
-[CS5pack]
-Description=This 5-pack of gas grenades contains five times as many CS gas grenades, but occupies twelve times as much space and weight.
-FriendlyName=CTS 5230B CS (x5)
-ShortName=CTS 5230B CS (x5)
-GivenName=CTS 5230B CS Gas
-
 [Flashbang3pack]
 Description=This 3-pack of flashbangs contains three times as many flashbangs, but occupies five times as much space and weight.
 FriendlyName=CTS 7290 Flash (x3)
 ShortName=CTS 7290 Flash (x3)
-GivenName=CTS 7290 Flashbang 
-
-[Flashbang5pack]
-Description=This 5-pack of flashbangs contains five times as many flashbangs, but occupies twelve times as much space and weight.
-FriendlyName=CTS 7290 Flash (x5)
-ShortName=CTS 7290 Flash (x5)
 GivenName=CTS 7290 Flashbang 
 
 [BreachingSG]
