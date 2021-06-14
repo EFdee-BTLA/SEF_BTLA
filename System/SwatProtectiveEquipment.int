@@ -37,6 +37,8 @@ GUIImage=material'gui_hov.V2tactic'
 Description=A classic boonie hat used by officers. This option is good for when you need to reduce your weight and/or bulk.
 FriendlyName=Boonie Hat
 GUIImage=material'gui_hov.V4tacticBoonie'
+Weight=0.136
+Bulk=0.50
 
 [PMCCap]
 Description=A classic ball-cap used by officers. This option is good for when you need to reduce your weight and/or bulk.
@@ -44,12 +46,12 @@ FriendlyName=PMC Cap
 GUIImage=material'gui_hov.V4tactic'
 
 [ProtecAndGlasses]
-Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight and ease to mount attachments on it. Although it offers less protection compared to the Level IIIA PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The Oakley "M Frame" ballistic glasses provides some protection against flashbang effects as well as some ballistic protection for the eye region.
+Description==A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Oakley "M Frame" ballistic glasses provides some protection against flashbang effects as well as some ballistic protection for the eye region.
 FriendlyName=Pro-Tec Helmet Oakley
 GUIImage=material'gui_hov.V3tacticGlasses'
 
 [ProtecAndGoggles]
-Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight and ease to mount attachments on it. Although it offers less protection compared to the Level IIIA PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The ESS XT ballistic goggles provides protection against flashbangs effects as well as ballistic protection for the eye region.
+Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The ESS XT ballistic goggles provides protection against flashbangs effects as well as ballistic protection for the eye region.
 FriendlyName=Pro-Tec Helmet ESS
 GUIImage=material'gui_hov.V3tacticGoggles'
 
@@ -69,12 +71,12 @@ FriendlyName=Fernez Gas Mask
 GUIImage=material'gui_hov.V1tacticGasMask'
 
 [ProtecGasMask]
-Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" Helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight and ease to mount attachments on it. Although it offers less protection compared to the Level IIIA PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The "Half Cut" helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description==A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=Pro-Tec Helmet Fernez
 GUIImage=material'gui_hov.V3tacticGasMask'
 
 [KevlarGasMask]
-Description=The PASGT (Personnel Armor System for Ground Troops) helmet has been used by law-enforcement agencies and military alike from around the world since the 1980s. Made out of Aramid Kevlar Fibers, The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=The PASGT (Personnel Armor System for Ground Troops) Level IIIA kevlar helmet has been used by law-enforcement agencies and military units alike from around the world for decades. The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=PASGT Helmet Fernez
 GUIImage=material'gui_hov.V2tacticGasMask'
 
@@ -92,6 +94,18 @@ GUIImage=material'gui_hov.s10'
 Description=The AC900/600 kevlar helmet is one of the most known helmets worn by the British SAS, it provides provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The AVON S10 gas mask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, flashbangs, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
 FriendlyName=AC900 Helmet S10
 GUIImage=material'gui_hov.s10ac900'
+
+[ProtecNVGoggles]
+Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The PVS-7 Night Vision Goggles work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+FriendlyName=Pro-Tec Helmet PVS-7
+GUIImage=material'gui_hov.V3tacticNightVision'
+DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
+
+[KevlarNVGoggles]
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet has been used by law-enforcement agencies and military alike from around the world since the 1980s. Made out of Aramid Kevlar Fibers, The PASGT helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The PVS-7 Night Vision Goggles work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+FriendlyName=PASGT Helmet PVS-7
+GUIImage=material'gui_hov.V2tacticNightVision'
+DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V2tacticNightVisionUP'
 
 [BallisticMask]
 Description=The ballistic face mask provides the user an intimidating appearence aswell as protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. Unfortunately it causes restricted vision and it's extremely bulky. 
@@ -144,138 +158,138 @@ FriendlyName=Tactical Load Bearing Vest
 GUIImage=material'gui_hov.NoArmorShirtNoMask'
 
 [LightBodyArmor]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmor'
 
 [LightBodyArmorClotheUp]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmorClotheUp'
 
 [LightBodyArmorClotheUpMax]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmorClotheUpMax'
 
 [LightBodyArmorShirt]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmorShirt'
 
 [LightBodyArmorCasual]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.ArmorCasual'
 
 [LightBodyArmorNoMask]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmorNoMask'
 
 [LightBodyArmorClotheUpNoMask]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmorClotheUpNoMask'
 
 [LightBodyArmorClotheUpMaxNoMask]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmorClotheUpMaxNoMask'
 
 [LightBodyArmorShirtNoMask]
-Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is the basic and common Level II kevlar body armor worn during normal operations. Level II armor provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, larger variants of buckshot out of long barrels or shotgun slugs.
 FriendlyName=Level II Armor
 GUIImage=material'gui_hov.LightArmorShirtNoMask'
 
 [MediumBodyArmor]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmor'
 
 [MediumBodyArmorClotheUp]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmorClotheUp'
 
 [MediumBodyArmorClotheUpMax]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmorClotheUpMax'
 
 [MediumBodyArmorShirt]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmorShirt'
 
 [MediumBodyArmorCasual]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.ArmorCasual'
 
 [MediumBodyArmorNoMask]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmorNoMask'
 
 [MediumBodyArmorClotheUpNoMask]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmorClotheUpNoMask'
 
 [MediumBodyArmorClotheUpMaxNoMask]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmorClotheUpMaxNoMask'
 
 [MediumBodyArmorShirtNoMask]
-Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The soft body armor plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. 
+Description=This is a more resistant Level IIIA kevlar body armor worn during high risk operations. Level IIIA armor provides increased protection compared to the standard Level II armor, including hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=Level IIIA Armor
 GUIImage=material'gui_hov.LightArmorShirtNoMask'
 
 [EnhancedBodyArmor]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmor'
 
 [EnhancedBodyArmorClotheUp]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmorClotheUp'
 
 [EnhancedBodyArmorClotheUpMax]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmorClotheUpMax'
 
 [EnhancedBodyArmorShirt]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmorShirt'
 
 [EnhancedBodyArmorNoMask]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmorNoMask'
 
 [EnhancedBodyArmorClotheUpNoMask]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmorClotheUpNoMask'
 
 [EnhancedBodyArmorClotheUpMaxNoMask]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmorClotheUpMaxNoMask'
 
 [EnhancedBodyArmorShirt]
-Description=This ceramic plate armor provides Level III protection from ballistic penetrations. Even when hit with FMJ rounds, it provides exceptional protection from pistols, submachineguns, 7.62 rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
+FriendlyName=Level IIIA + III Steel
 GUIImage=material'gui_hov.MediumArmorShirtNoMask'
 
 [HeavyBodyArmor]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Ceramic
+FriendlyName=Level IIIA + IV Ceramic
 GUIImage=material'gui_hov.HeavyArmor'
 
 [HeavyBodyArmorClotheUp]
