@@ -33,12 +33,15 @@ Description=Badguy Riot
 FriendlyName=PASGT Helmet Riot Badguy
 GUIImage=material'gui_hov.V2tactic'
 
+[NoHelmet]
+Description=Choose this option to pack no equipment in this slot. This option is good for when you need to reduce your weight and/or bulk.
+FriendlyName=No Helmet
+GUIImage=None
+
 [BoonieHat]
 Description=A classic boonie hat used by officers. This option is good for when you need to reduce your weight and/or bulk.
 FriendlyName=Boonie Hat
 GUIImage=material'gui_hov.V4tacticBoonie'
-Weight=0.136
-Bulk=0.50
 
 [PMCCap]
 Description=A classic ball-cap used by officers. This option is good for when you need to reduce your weight and/or bulk.
@@ -46,12 +49,12 @@ FriendlyName=PMC Cap
 GUIImage=material'gui_hov.V4tactic'
 
 [ProtecAndGlasses]
-Description==A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Oakley "M Frame" ballistic glasses provides some protection against flashbang effects as well as some ballistic protection for the eye region.
+Description=A helmet made by the skateboard gear company Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Oakley "M Frame" ballistic glasses provides some protection against flashbang effects as well as some ballistic protection for the eye region.
 FriendlyName=Pro-Tec Helmet Oakley
 GUIImage=material'gui_hov.V3tacticGlasses'
 
 [ProtecAndGoggles]
-Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The ESS XT ballistic goggles provides protection against flashbangs effects as well as ballistic protection for the eye region.
+Description=A helmet made by the skateboard gear company Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The ESS XT ballistic goggles provides protection against flashbangs effects as well as ballistic protection for the eye region.
 FriendlyName=Pro-Tec Helmet ESS
 GUIImage=material'gui_hov.V3tacticGoggles'
 
@@ -71,7 +74,7 @@ FriendlyName=Fernez Gas Mask
 GUIImage=material'gui_hov.V1tacticGasMask'
 
 [ProtecGasMask]
-Description==A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=A helmet made by the skateboard gear company Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=Pro-Tec Helmet Fernez
 GUIImage=material'gui_hov.V3tacticGasMask'
 
@@ -96,7 +99,7 @@ FriendlyName=AC900 Helmet S10
 GUIImage=material'gui_hov.s10ac900'
 
 [ProtecNVGoggles]
-Description=A helmet made by the modern skateboard protective gear brand Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies alike from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The PVS-7 Night Vision Goggles work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+Description=A helmet made by the skateboard gear company Pro-Tec, the Pro-Tec "Half Cut" helmet has been gaining popularity in military and law-enforcement agencies from around the world since the 90's due to it's light weight, bump protection and increased modularity. Although it offers less protection compared to the PASGT helmet, its extremely light weight and bump protection has made it a popular choice for CQC scenarios. The Pro-Tec helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The PVS-7 Night Vision Goggles work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
 FriendlyName=Pro-Tec Helmet PVS-7
 GUIImage=material'gui_hov.V3tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'

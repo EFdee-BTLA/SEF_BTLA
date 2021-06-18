@@ -51,7 +51,7 @@ GUIImage=Texture'gui_tex.ammo_sabot'
 [ShotgunHPSabotAmmo]
 Description=This 12 gauge slug round it's devastating for unarmored targets. When the slug impacts fleshy material, it breaks apart into several pieces, exploding inside the target. This causes maximum internal injuries, with minimum penetration, acting like a giant hollow-point.
 FriendlyName=HP Slug
-GUIImage=Texture'gui_tex.ammo_sabot'
+GUIImage=Texture'gui_tex.ammo_hpslug'
 
 [MP5SMG_FMJ]
 FriendlyName=9mm FMJ
