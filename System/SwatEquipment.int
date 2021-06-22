@@ -320,9 +320,9 @@ TotalAmmoString=80 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=he Benelli M1 Super 90 it's a reliable semi-automatic combat shotgun and the first model of Benelli's "M" series of semi-automatic shotguns, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for law-enforcement. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although it's an old shotgun, the M1 Super 90 it's a mainstay in law-enforcement. The Entry/CQB or "Short Barreled Shotgun" (SBS) configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQB scenarios.
-FriendlyName=Benelli M1 Entry Gun
-ShortName=Benelli M1 Entry Gun
+Description=The Benelli M1 Super 90 it's a reliable semi-automatic combat shotgun and the first model of Benelli's "M" series of semi-automatic shotguns, an evolution of the HK 512 shotgun developed and produced by the italian manufacturer Franchi S.p.A. at the request of Heckler & Koch. As the HK 512, the M1 Super 90 was one of the first semi-automatic shotguns developed for law-enforcement. The M1 Super 90 features ghost ring sights, a high impact polymer buttstock and a SureFire forend flashlight. Although it's an old shotgun, the M1 Super 90 it's a mainstay in law-enforcement. The Entry/CQB or "Short Barreled Shotgun" (SBS) configuration sports a 14" barrel which reduces the overall M1 weight and bulk, making it a more suitable choice for CQB scenarios.
+FriendlyName=Benelli M1 Entry
+ShortName=Benelli M1 Entry
 MagazineSizeString=4
 
 [M4Super90SG]
@@ -375,14 +375,14 @@ ShortName=Benelli Nova Tactical Aim.
 
 [NovaPumpEntrySG]
 Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry/CQB or "Short Barreled Shotgun" (SBS) configuration sports a 14" barrel which reduces the overall Nova weight and bulk, making it a more suitable choice for CQB scenarios
-FriendlyName=Benelli Nova CQB
-ShortName=Benelli Nova CQB
+FriendlyName=Benelli Nova Entry
+ShortName=Benelli Nova Entry
 MagazineSizeString=4
 
 [NovaPumpEntryAimpointSG]
 Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. The Entry/CQB or "Short Barreled Shotgun" (SBS) configuration sports a 14" barrel which reduces the overall Nova weight and bulk, making it a more suitable choice for CQB scenarios, it is equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=Benelli Nova CQB Aim.
-ShortName=Benelli Nova CQB Aim.
+FriendlyName=Benelli Nova Entry Aim.
+ShortName=Benelli Nova Entry Aim.
 MagazineSizeString=4
 
 [ColtM1911HG]
