@@ -18,6 +18,7 @@ var bool IsAggressive;
 
 var bool TaserKillsMe;	// Will a taser hit kill me?
 var bool PepperKillsMe; // Will pepper spray kill me?
+var bool GasKillsMe;	// Will a CS Gas cloud kill me?
 var bool Fearless;  // Will I scream if I'm in a room with a suspect?
 var bool Polite;  // Will I forgo shooting hostages?
 var bool Insane; // Will I kill basically everyone?
