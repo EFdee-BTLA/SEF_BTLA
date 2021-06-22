@@ -1814,7 +1814,7 @@ simulated function EquippedHook()
 
     // See if the pawn had the flashlight on at the time he changed
     // equipment. If so, turn the light on for the new equipment.
-    UpdateFlashlightState();
+    //UpdateFlashlightState(); -> light should be off when weapon unequipped - beppegoodoldrebel
 
     UpdateAmmoDisplay();
 }
@@ -1833,8 +1833,6 @@ simulated function UnEquippedHook()
     if (IsFlashlightOn())
     {
 	    DestroyFlashlight(ICanToggleWeaponFlashlight(Owner).GetDelayBeforeFlashlightShutoff());
-		//the pawn changes flashlight status ... to see if it works! - beppegoodoldrebel
-       ICanToggleWeaponFlashlight(Owner).ToggleDesiredFlashlightState();
     }
 }
 
