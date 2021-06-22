@@ -109,7 +109,7 @@ ShortName=H&K G3A3
 Manufacturer=Heckler & Koch
 Caliber=7.62x51mm NATO
 CountryOfOrigin=West Germany
-ProductionStart=1950
+ProductionStart=Late 1950s
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
 TotalAmmoString=10 magazines
@@ -129,6 +129,34 @@ ShortName=H&K G3A3 Supp.
 Description=The G3A3 is one of the most used rifles in history, developed in the 1950s by Heckler & Koch and CETME. It was the main service rifle of the Bundeswehr until it was replaced by the H&K G36 assault rifle in the 1990s. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K G3A3 Supp. Aim.
 ShortName=H&K G3A3 Supp. Aim.
+
+[G3KA4MG]
+Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4 in barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios.
+FriendlyName=H&K G3KA4
+ShortName=H&K G3KA4
+Manufacturer=Heckler & Koch
+Caliber=7.62x51mm NATO
+CountryOfOrigin=West Germany
+ProductionStart=Late 1950s
+FireModes=Semi-Automatic, Full-Auto
+MagazineSizeString=20
+TotalAmmoString=10 magazines
+RateOfFire=550 RPM
+
+[G3KA4AimpointMG]
+Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4 in barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios. This configuration features an aimpoint sight for ease of use against distant targets.
+FriendlyName=H&K G3KA4 Aim.
+ShortName=H&K G3KA4 Aim.
+
+[G3KA4sdMG]
+Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4 in barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios. This configuration features a suppressor for when stealth is paramount.
+FriendlyName=H&K G3KA4 Supp.
+ShortName=H&K G3KA4 Supp.
+
+[G3KA4sdAimpointMG]
+Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4 in barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+FriendlyName=H&K G3KA4 Supp. Aim.
+ShortName=H&K G3KA4 Supp. Aim.
 
 [SG552MG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO.
