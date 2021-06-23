@@ -158,7 +158,7 @@ simulated function float GetMinimumWeight() {
 
 // Functions for getting the maximum amount of weight/bulk we can carry
 simulated function float GetMaximumWeight() {
-  return /*MaximumAbsoluteWeight*/ 35.0;
+  return /*MaximumAbsoluteWeight*/ 30.0;
 }
 
 simulated function float GetMaximumBulk() {
