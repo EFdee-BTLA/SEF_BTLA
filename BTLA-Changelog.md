@@ -254,6 +254,7 @@ v1.4 changelog
   Removed MP5K Aimpoint variants
   Removed Colt SMG Aimpoint variants
   Removed Boonie Hat and Cap with Glasses variant
+  Removed x5 packs
   Added Benelli M1 Super 90 Tactical
   Visual tweaks for Glock handguns
   Added vertical foregrip to the UMP
@@ -285,16 +286,33 @@ v1.4 changelog
   Adjusted some protective equipment values
   New HUD paperdoll (Thanks F4) 
   Updated to SEF v7.1 part 2: 
-    Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally removed on 1.2)
-    Enabled the following npcs so that they can be used in custom missions: Lian Niu, Evil Waiter (shows up as Male, Asian Chef), Allen Kruse, Simon Gowan, Jewel Thief from the Diamond Robbery          Mission, and the hosptial terrorist from the hopstial mission. Thanks to Warzaid for this.
-    Officers don't open a trapped door when ordered to disable it anymore
-    AI issue compliance issue is effective (Thanks BSBola)
-    Lightstick now returns to your primary weapon when thrown 
-    Fixed no DOAs in St. Micheal's on QMM
-    FN FAL now has the correct kind of ammo for it. Thanks to beppe for this (Already in BTLA since 1.0)
-    Shotguns have a tighter choke, and are a more appealing option because of it. (Edit made by EFdee) (Already in BTLA since 1.2)
-    Fixed SEF bug: Suspects wouldn't pick up weapons, they would just flee. (thanks to EFdee for this) (Already in BTLA since 1.4)
-    Fixed TSS bug: Gamma would be wrong in SwatEd. Thanks to Masterscape for this. (Already in BTLA since 1.2)
+  Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally         removed on 1.2)
+  Enabled the following npcs so that they can be used in custom missions: Lian Niu, Evil Waiter (shows up as Male, Asian Chef), Allen   Kruse, Simon Gowan, Jewel Thief from the Diamond Robbery        Mission, and the hosptial terrorist from the hopstial mission. Thanks   to Warzaid for this.
+  Officers don't open a trapped door when ordered to disable it anymore
+  AI issue compliance issue is effective (Thanks BSBola)
+  Lightstick now returns to your primary weapon when long thrown
+  Fixed no DOAs in St. Micheal's on QMM - this was removed due to an issue with Arms Deal
+  FN FAL now has the correct kind of ammo for it. Thanks to beppe for this (Already in BTLA since 1.0)
+  Shotguns have a tighter choke, and are a more appealing option because of it. (Edit made by EFdee) (Already in BTLA since 1.2)
+  Fixed SEF bug: Suspects wouldn't pick up weapons, they would just flee. (thanks to EFdee for this) (Already in BTLA since 1.4)
+  Fixed TSS bug: Gamma would be wrong in SwatEd. Thanks to Masterscape for this. (Already in BTLA since 1.2)
+  Slowed down equipping speed for handguns and tactical aids (from 2.0 to 1.5)
+  Nerfed reaction times a bit, they are still deadly but not as artificial as before
+  Fixed BTLA bug: M16A1 Aimpoint would glow on third person if flashlight was on
+  Improved SP campaing unlockable equipment
+  Moved some gear to MP only
+  Buffed grenades damage (SEF levels but tweaked)
+  Added LAPD SWAT Uniform (Replaced NYPD patch and some other adjustments)
+  Added attachments menu from SEF v7.1 ## Shield Update ##
+  Added MP5KA4 to some archetypes were it made sense
+  Added Level III armor to some archetypes
+  Level III armor now uses Steel Plates instead of Ceramic Plates (cannot be shredded) 
+  Changed max loadout weight to 30 kgs
+  Improved recoil when firing on full auto
+  Removed ZoomedFOV, now your ViewmodelFOV is your Zoom
+  Reduced tased effect duration on players from 15 seconds to 4 seconds (AI levels)
+  Reduced pepper spray effect duration from 12 seconds to 6 seconds
+  Added CS Gas incap chance and implemented to some archetypes 
     
     
 
