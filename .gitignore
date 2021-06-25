@@ -44,3 +44,4 @@ System/chatlog_*.txt
 *.h
 */.vs/*
 Source/Game/SwatEquipment/Classes/Weapons/Glock30HG.uc
+Source/Unreal/Engine/Classes/Equipment/Bases/SwatWeapon.uc
