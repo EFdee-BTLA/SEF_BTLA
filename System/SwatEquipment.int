@@ -386,13 +386,13 @@ ShortName=Benelli Nova Entry Aim.
 MagazineSizeString=4
 
 [ColtM1911HG]
-Description=The Springfield M1911-A1 Mil-Spec handgun it's a modern variant of the classic Colt M1911, it has been a mainstay in law-enforcement for decades. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers.
-FriendlyName=Springfield M1911-A1
-ShortName=Springfield M1911-A1
-Manufacturer=Springfield Armoury
+Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a modern variant of the Colt M1911A1 developed by Kimber Manufacturing, Inc, especifically designed to be used by the Los Angeles Police Department's Special Weapons And Tactics officers. It comes fitted with a Surefire 310R weaponlight and with tritium bar-dot night sights. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
+FriendlyName=Kimber Custom TLE II
+ShortName=Kimber Custom TLE II
+Manufacturer=Kimber Manufacturing, Inc
 Caliber=.45 ACP
 CountryOfOrigin=United States
-ProductionStart=1995
+ProductionStart=1997
 FireModes=Semi-Automatic
 MagazineSizeString=8
 TotalAmmoString=10 magazines
