@@ -1110,16 +1110,17 @@ defaultproperties
 	FailedToValidate = -1
 
     EquipmentCategoryNames[0]="Uncategorized"
-    EquipmentCategoryNames[1]="Assault Rifles"
-    EquipmentCategoryNames[2]="Marksman Rifles"
-    EquipmentCategoryNames[3]="Submachine Guns"
-    EquipmentCategoryNames[4]="Shotguns"
-    EquipmentCategoryNames[5]="Light Machine Guns"
-    EquipmentCategoryNames[6]="Machine Pistols"
-    EquipmentCategoryNames[7]="Pistols"
-    EquipmentCategoryNames[8]="Less Lethal"
-    EquipmentCategoryNames[9]="Grenade Launchers"
-    EquipmentCategoryNames[10]="No Weapon"
+    EquipmentCategoryNames[1]="Battle Rifles"
+	EquipmentCategoryNames[2]="Assault Rifles"
+    EquipmentCategoryNames[3]="Marksman Rifles"
+    EquipmentCategoryNames[4]="Submachine Guns"
+    EquipmentCategoryNames[5]="Shotguns"
+    EquipmentCategoryNames[6]="Light Machine Guns"
+    EquipmentCategoryNames[7]="Machine Pistols"
+    EquipmentCategoryNames[8]="Pistols"
+    EquipmentCategoryNames[9]="Less Lethal"
+    EquipmentCategoryNames[10]="Grenade Launchers"
+    EquipmentCategoryNames[11]="No Weapon"
 
     DefaultPrimaryClass=WeaponClass_AssaultRifle
     DefaultSecondaryClass=WeaponClass_Pistol

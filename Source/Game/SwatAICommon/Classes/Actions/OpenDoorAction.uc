@@ -110,11 +110,11 @@ latent function OpenDoor()
 {
 	local name OpenAnimName;
 	local int OpenDoorAnimChannel;
-    local SquadCommandGoal CommandGoal;
+	local SquadCommandGoal CommandGoal;
 	local SwatAIRepository SwatAIRepo;
 
-    SwatAIRepo = SwatAIRepository(Level.AIRepo);
-	
+	SwatAIRepo = SwatAIRepository(Level.AIRepo);
+
 	if (m_Pawn.logAI)
 		log(m_Pawn.Name $ " is preparing to open door " $ TargetDoor.Name);
 
@@ -143,7 +143,7 @@ latent function OpenDoor()
 			}
 		}
 	}
-	
+
 	// only try and open closed doors
 	if (ShouldContinueToOpenDoor())
 	{

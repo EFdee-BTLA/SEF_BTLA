@@ -532,7 +532,6 @@ simulated function Actor GetTrapOnDoor()
 	}
 }
 
-
 //
 // Registering for Door Opening
 //

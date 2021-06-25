@@ -138,8 +138,8 @@ function InitComponent(GUIComponent MyOwner)
 defaultproperties
 {
 	WeaponCategoryNames[0]="Uncategorized"
-	WeaponCategoryNames[1]="Assault Rifles"
-	WeaponCategoryNames[2]="Battle Rifles"
+	WeaponCategoryNames[1]="Battle Rifles"
+	WeaponCategoryNames[2]="Assault Rifles"
 	WeaponCategoryNames[3]="Marksman Rifles"
 	WeaponCategoryNames[4]="Submachine Guns"
 	WeaponCategoryNames[5]="Shotguns"

@@ -20,7 +20,8 @@ enum WeaponEquipType
 enum WeaponEquipClass
 {
     WeaponClass_Uncategorized,            // Not categorized! Find one!
-    WeaponClass_AssaultRifle,             // Assault Rifles (M4, M16, AKM, etc.)
+    WeaponClass_BattleRifle,              // Battle Rifles (FAL, G3.)
+	WeaponClass_AssaultRifle,             // Assault Rifles (M4, M16, AKM, etc.)
     WeaponClass_MarksmanRifle,            // Marksman Rifles (scoped rifles)
     WeaponClass_SubmachineGun,            // Submachine Guns (MP5, G36C, Uzi, etc.)
     WeaponClass_Shotgun,                  // Shotguns (M4, Nova, M870, BSG)

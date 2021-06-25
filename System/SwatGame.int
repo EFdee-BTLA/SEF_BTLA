@@ -1,6 +1,6 @@
 [SwatGUIConfig]
 DifficultyString[0]=Easy
-DifficultyString[1]=Normal
+DifficultyString[1]=Medium
 DifficultyString[2]=Hard
 DifficultyString[3]=Elite
 CompleteFriendlyNameList=("Fairfax Residence", "Food Wall Restaurant", "FunTime Amusements", "Qwik Fuel Convenience Store", "Sisters of Mercy Hostel", "A-Bomb Nightclub", "Victory Imports Auto Center", "Red Library Offices", "Sellers Street Auditorium", "Northside Vending and Amusements", "Duplessis Wholesale Diamond Center", "Children of Taronne Tenement", "Department of Agriculture", "St. Micheal's Medical Center", "The Wolcott Projects", "Stetchkov Drug Lab", "Fresnal St. Station", "Stetchkov Warehouse", "Old Granite Hotel", "Mt. Threshold Research Center")
