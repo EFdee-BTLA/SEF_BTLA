@@ -3825,6 +3825,40 @@ function DoorIsNotLocked()
   ClientMessage("[c=FFFFFF]The door is not locked.", 'SpeechManagerNotification');
 }
 
+exec function PullDoor()
+{
+    local SwatDoor Door;
+    local actor HitActor;
+    local vector HitNormal, HitLocation;
+
+    if (Pawn == None) return;
+
+    HitActor = Trace(HitLocation, HitNormal, ViewTarget.Location + 150 * vector(Rotation),ViewTarget.Location, true);
+    Door = DoorModel(HitActor).Door;
+
+    if (Door == None) return;
+    if (Door.bIsMissionExit) return;
+    if (!Door.CanInteract()) return; 
+    if (Door.IsClosed() && Door.IsLocked()) { ClientMessage("[c=FFFFFF]The door is locked.", 'SpeechManagerNotification'); return; }
+    if (VSize2D(Door.Location - Pawn.Location) > 150) return;
+
+    switch(Door.GetPosition())
+    {
+        case DoorPosition_Closed:
+            if (Door.ActorIsToMyLeft(Pawn)) { Door.SetPositionForMove(DoorPosition_OpenLeft, MR_Interacted); }
+            else { Door.SetPositionForMove(DoorPosition_OpenRight, MR_Interacted); }
+            break;
+
+        case DoorPosition_OpenLeft:
+        case DoorPosition_OpenRight:
+            break;
+
+        default:
+            break;
+    }
+    Door.Moved();
+}
+
 function DoSetEndRoundTarget( Actor Target, string TargetName, bool TargetIsOnSWAT )
 {
     Assert( Level.NetMode != NM_Client );

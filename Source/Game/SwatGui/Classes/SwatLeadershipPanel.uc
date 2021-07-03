@@ -127,8 +127,14 @@ function UpdateProcedures()
 			MyLeadershipPenaltyBox.PopulateRow();
         }
         
+		//score cant be negative
         score = Max( score, 0 );
+		
+		//score cant be > 100
+	    if (score > 100)
+                score=100;
     
+	
         MyLeadershipBonusTotal.SetCaption( FormatTextString( BonusFormatString, bonusScore ) );
         MyLeadershipPenaltyTotal.SetCaption( FormatTextString( PenaltyFormatStringx, penaltyScore ) );
 
