@@ -303,7 +303,6 @@ v1.4 changelog
   Moved some gear to MP only
   Buffed grenades damage (SEF levels but tweaked)
   Added LAPD SWAT Uniform (Replaced NYPD patch and some other adjustments)
-  Added attachments menu from SEF v7.1 ## Shield Update ##
   Added MP5KA4 to some archetypes were it made sense
   Added Level III armor to some archetypes
   Level III armor now uses Steel Plates instead of Ceramic Plates (cannot be shredded) 
@@ -312,7 +311,10 @@ v1.4 changelog
   Removed ZoomedFOV, now your ViewmodelFOV is your Zoom
   Reduced tased effect duration on players from 15 seconds to 4 seconds (AI levels)
   Reduced pepper spray effect duration from 12 seconds to 6 seconds
-  Added CS Gas incap chance and implemented to some archetypes 
+  Added new meshes for most guns (thanks Beppe)
+  Added Remington M870 model (thanks Beppe)
+  Reverted to SEF AI reaction times
+  
     
     
 
