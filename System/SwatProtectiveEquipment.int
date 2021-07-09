@@ -36,7 +36,7 @@ GUIImage=material'gui_hov.V2tactic'
 [NoHelmet]
 Description=Choose this option to pack no equipment in this slot. This option is good for when you need to reduce your weight and/or bulk.
 FriendlyName=No Helmet
-GUIImage=None
+GUIImage=material'gui_hov.nohelmet'
 
 [BoonieHat]
 Description=A classic boonie hat used by officers. This option is good for when you need to reduce your weight and/or bulk.
@@ -51,12 +51,12 @@ GUIImage=material'gui_hov.V4tactic'
 [ProtecHelmet]
 Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios.
 FriendlyName=Pro-Tec Helmet
-GUIImage=material'gui_hov.V3tacticGlasses'
+GUIImage=material'gui_hov.V3tactic'
 
 [KevlarHelmet]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
 FriendlyName=PASGT Helmet
-GUIImage=material'gui_hov.V2tacticGlasses'
+GUIImage=material'gui_hov.V2tactic'
 
 [ProtecAndGlasses]
 Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of Oakley "M Frame" ballistic glasses that provide protection against flashbang effects.
