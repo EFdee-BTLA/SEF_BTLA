@@ -79,17 +79,17 @@ FriendlyName=PASGT Helmet ESS
 GUIImage=material'gui_hov.V2tacticGoggles'
 
 [gasMask]
-Description=The Fernez NBC gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
-FriendlyName=Fernez Gas Mask
+Description=The Fernez Panoramasque gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+FriendlyName=Fernez Panoramasque
 GUIImage=material'gui_hov.V1tacticGasMask'
 
 [ProtecGasMask]
-Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a Fernez NBC gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a Fernez Panoramasque gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=Pro-Tec Helmet Fernez
 GUIImage=material'gui_hov.V3tacticGasMask'
 
 [KevlarGasMask]
-Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a Fernez NBC gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a Fernez Panoramasque gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
 FriendlyName=PASGT Helmet Fernez
 GUIImage=material'gui_hov.V2tacticGasMask'
 

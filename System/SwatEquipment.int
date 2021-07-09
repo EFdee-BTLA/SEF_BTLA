@@ -174,7 +174,7 @@ TotalAmmoString=10 magazines
 RateOfFire=700 RPM
 
 [SilencedM16A1MG]
-Description=Originally designed in 1964 based on the Armalite AR-15 blueprints, the M16 rifle was first deployed in the jungles of Vietnam. The M16A1 was an incremental improvement, redesigning the muzzle to avoid catching on foliage and reducing the high failure rate of its predecessor's receiver. This configuration comes equipped with a suppressor.
+Description=Originally designed in 1964 based on the Armalite AR-15 blueprints, the M16 rifle was first deployed in the jungles of Vietnam. The M16A1 was an incremental improvement, redesigning the muzzle to avoid catching on foliage and reducing the high failure rate of its predecessor's receiver. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Colt M16A1 Supp.
 ShortName=Colt M16A1 Supp.
 
@@ -332,7 +332,7 @@ RateOfFire=100 RPM
 [NovaPumpEntrySG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
 FriendlyName=Benelli Nova Tactical CQB
-ShortName=Benelli Nova Entry
+ShortName=Benelli Nova Tactical CQB
 MagazineSizeString=4
 
 [ColtM1911HG]
@@ -875,7 +875,7 @@ GivenName=Door Breaching Charge
 [LessLethalSG]
 Description=The less than lethal shotgun is a Benelli Nova Tactical, pump-action shotgun which is always loaded with less than lethal beanbag rounds.  It is most often used on an uncooperative suspect or civilian. The specially designated less lethal shotgun is necessary to eliminate errors that can occur from individually loading lethal or less than lethal munitions into the same weapon.  To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
 FriendlyName=Benelli Nova Tactical Less-Lethal
-ShortName=Benelli Nova Less-Lethal
+ShortName=Benelli Nova Tactical Less-Lethal
 Manufacturer=Benelli
 Caliber=Beanbags
 CountryOfOrigin=Italy
