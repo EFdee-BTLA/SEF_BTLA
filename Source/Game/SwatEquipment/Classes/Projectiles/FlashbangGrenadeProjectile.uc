@@ -139,5 +139,5 @@ simulated latent function DoPostDetonation()
 
 defaultproperties
 {
-    StaticMesh=StaticMesh'SwatGear_sm.FlashbangThrown'
+    StaticMesh=StaticMesh'gear_btla.FlashbangThrown'
 }

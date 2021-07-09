@@ -175,7 +175,7 @@ Begin:
 
 defaultproperties
 {
-    StaticMesh=StaticMesh'SwatGear_sm.CSgasGrenadeThrown'
+    StaticMesh=StaticMesh'gear_btla.CSgasGrenadeThrown'
     bBlockNonZeroExtentTraces=true
     ExpansionTime=2
 	GasEmissionDuration=12

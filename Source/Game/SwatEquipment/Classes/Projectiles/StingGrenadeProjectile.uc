@@ -111,5 +111,5 @@ simulated latent function DoPostDetonation()
 
 defaultproperties
 {
-    StaticMesh=StaticMesh'SwatGear_sm.stingGrenadeThrown'
+    StaticMesh=StaticMesh'gear_btla.stingGrenadeThrown'
 }

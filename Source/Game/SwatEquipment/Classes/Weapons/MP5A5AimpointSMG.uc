@@ -1,1 +1,0 @@
-class MP5A5AimpointSMG extends MP5SMG config(SwatEquipment);
