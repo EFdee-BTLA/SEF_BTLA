@@ -522,6 +522,24 @@ exec function VerifySEFDeveloper(string TestString)
 	SwatGameInfo(Level.Game).Admin.VerifySEFDeveloper(TestString, SwatGamePlayerController(self));
 }
 
+exec function SetPCNearclip()
+{
+    local PlayerController PC;
+    local Controller C;
+
+    for (C = Level.ControllerList; C != none; C = C.nextController)
+    {
+        PC = PlayerController(C);
+
+        if (C.bIsPlayer == true)
+        {
+			//command is spammed at loading but not a big deal
+            PC.ConsoleCommand("Nearclip 3");
+            //PC.ConsoleMessage("NPFix: Loaded The Nearclip Script.");
+        }
+    }
+}
+
 function ServerUpdateCampaignProgression(ServerSettings Settings, int CampaignPath, int AvailableIndex)
 {
 	Settings.SetCampaignCoopSettings(self, CampaignPath, AvailableIndex);
