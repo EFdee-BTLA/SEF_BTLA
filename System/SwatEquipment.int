@@ -239,8 +239,21 @@ MagazineSizeString=6
 TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
+[Remington870PoliceSG]
+Description=The Remington Model 870 Express it's an improved version of the Model 870. It features a synthetic stock and can be chambered for 2 3/4" and 3" 12 gauge shot shells. This particular variant comes equipped with a SureFire forend tactical light as well as an extended magazine tube that allows the M870 to hold up to 6 shells.
+FriendlyName=Remington M870 Tactical
+ShortName=Remington M870 Tactical 
+Manufacturer=Remington
+Caliber=12 Gauge
+CountryOfOrigin=United States
+ProductionStart=1987
+FireModes=Pump-Action
+MagazineSizeString=6
+TotalAmmoString=80 shells
+RateOfFire=150 RPM
+
 [Remington870ShortySG]
-Description=The Remington Model 870 Express is a modern variant of the reliable pump-action shotgun made by Remington. This "Shorty" configuration sports a pistol grip for reduced weight and bulk.
+Description=The Remington Model 870 Express it's an improved version of the Model 870. It features a synthetic stock and can be chambered for 2 3/4" and 3" 12 gauge shot shells. This "Shorty" configuration sports a pistol grip for reduced weight and bulk.
 FriendlyName=Remington M870 Shorty
 ShortName=Remington M870 Shorty
 Manufacturer=Remington
@@ -253,7 +266,7 @@ TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
 [BreachingSG]
-Description=The Remington Model 870 Express is a modern variant of the reliable pump-action shotgun made by Remington. This "Shorty" configuration sports a pistol grip for reduced weight and bulk and a breaching nozzle, which ensures that every shot will consistently breach a door.
+Description=The Remington Model 870 Express it's an improved version of the Model 870. It features a synthetic stock and can be chambered for 2 3/4" and 3" 12 gauge shot shells. This "Shorty" configuration sports a pistol grip for reduced weight and bulk as well as a breaching nozzle, which ensures that every shot will consistently breach a door.
 FriendlyName=Remington M870 Breaching
 ShortName=Remington M870 Breaching
 Manufacturer=Remington
