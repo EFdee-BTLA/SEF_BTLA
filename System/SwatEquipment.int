@@ -77,7 +77,7 @@ TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [G3MG]
-Description=The G3A3 is one of the most used rifles in history, developed in the 1950s by Heckler & Koch and CETME. It was the main service rifle of the Bundeswehr until it was replaced by the H&K G36 assault rifle in the 1990s. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower.
+Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL. The most famous and well-known variant, the G3A3, it's a fixed stock variant. It features drum sights, a fixed polymer buttstock, and a polymer handguard.
 FriendlyName=H&K G3A3
 ShortName=H&K G3A3
 Manufacturer=Heckler & Koch
@@ -90,22 +90,22 @@ TotalAmmoString=10 magazines
 RateOfFire=550 RPM
 
 [G3AimpointMG]
-Description=The G3A3 is one of the most used rifles in history, developed in the 1950s by Heckler & Koch and CETME. It was the main service rifle of the Bundeswehr until it was replaced by the H&K G36 assault rifle in the 1990s. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL. The most famous and well-known variant, the G3A3, it's a fixed stock variant. It features drum sights, a fixed polymer buttstock, and a polymer handguard. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K G3A3 Aim.
 ShortName=H&K G3A3 Aim.
 
 [G3sdMG]
-Description=The G3A3 is one of the most used rifles in history, developed in the 1950s by Heckler & Koch and CETME. It was the main service rifle of the Bundeswehr until it was replaced by the H&K G36 assault rifle in the 1990s. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration features a suppressor for when stealth is paramount.
+Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL. The most famous and well-known variant, the G3A3, it's a fixed stock variant. It features drum sights, a fixed polymer buttstock, and a polymer handguard.. This configuration features a suppressor for when stealth is paramount.
 FriendlyName=H&K G3A3 Supp.
 ShortName=H&K G3A3 Supp.
 
 [G3sdAimpointMG]
-Description=The G3A3 is one of the most used rifles in history, developed in the 1950s by Heckler & Koch and CETME. It was the main service rifle of the Bundeswehr until it was replaced by the H&K G36 assault rifle in the 1990s. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL. The most famous and well-known variant, the G3A3, it's a fixed stock variant. It features drum sights, a fixed polymer buttstock, and a polymer handguard.. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K G3A3 Supp. Aim.
 ShortName=H&K G3A3 Supp. Aim.
 
 [G3KA4MG]
-Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4" barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios.
+Description=The G3KA4 is the carbine version of the G3A4 rifle. The G3KA4 (the K stands for "Kurz", German for "short") features a shortened barrel and a retractable metallic stock with rubber buttplate, similar to the MP5A3.
 FriendlyName=H&K G3KA4
 ShortName=H&K G3KA4
 Manufacturer=Heckler & Koch
@@ -118,17 +118,17 @@ TotalAmmoString=10 magazines
 RateOfFire=550 RPM
 
 [G3KA4AimpointMG]
-Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4" barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios. This configuration features an aimpoint sight for ease of use against distant targets.
+Description=The G3KA4 is the carbine version of the G3A4 rifle. The G3KA4 (the K stands for "Kurz", German for "short") features a shortened barrel and a retractable metallic stock with rubber buttplate, similar to the MP5A3. This configuration features an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K G3KA4 Aim.
 ShortName=H&K G3KA4 Aim.
 
 [G3KA4sdMG]
-Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4" barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios. This configuration features a suppressor for when stealth is paramount.
+Description=The G3KA4 is the carbine version of the G3A4 rifle. The G3KA4 (the K stands for "Kurz", German for "short") features a shortened barrel and a retractable metallic stock with rubber buttplate, similar to the MP5A3. This configuration features a suppressor for when stealth is paramount.
 FriendlyName=H&K G3KA4 Supp.
 ShortName=H&K G3KA4 Supp.
 
 [G3KA4sdAimpointMG]
-Description=The G3KA4 is the shortened carbine version of the classic H&K battle rifle, the G3. The G3KA4 (the K stands for "Kurz", German for "short") features a 12.4" barrel, as well as a collapsible stock, making it a more appealing choice for CQB tactical scenarios. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+Description=The G3KA4 is the carbine version of the G3A4 rifle. The G3KA4 (the K stands for "Kurz", German for "short") features a shortened barrel and a retractable metallic stock with rubber buttplate, similar to the MP5A3. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K G3KA4 Supp. Aim.
 ShortName=H&K G3KA4 Supp. Aim.
 
@@ -317,7 +317,7 @@ ShortName=Benelli M4 Super 90 CQB
 MagazineSizeString=4
 
 [NovaPumpSG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers.
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend, aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers.
 FriendlyName=Benelli Nova Tactical
 ShortName=Benelli Nova Tactical
 Manufacturer=Benelli
@@ -330,7 +330,7 @@ TotalAmmoString=80 shells
 RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend, aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
 FriendlyName=Benelli Nova Tactical CQB
 ShortName=Benelli Nova Tactical CQB
 MagazineSizeString=4
@@ -354,7 +354,7 @@ FriendlyName=Kimber Custom TLE II Supp.
 ShortName=Kimber Custom TLE II Supp.
 
 [Glock21HG]
-Description=The Glock 21 it's the .45 ACP iteration of the well known Glock 17, remarkable for its accuracy and light recoil. The Glock 21 delivers the power of the .45 ACP round with high magazine capacity. It is one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine.
+Description=The Glock 21 it's the .45 ACP iteration of the well known Glock 17, remarkable for its accuracy and light recoil. The Glock 21 delivers the power of the .45 ACP round with high magazine capacity. It is one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting a 13-round box magazine.
 FriendlyName=Glock 21
 ShortName=Glock 21
 Manufacturer=Glock
@@ -367,7 +367,7 @@ TotalAmmoString=10 magazines
 RateOfFire=400 RPM
 
 [Glock21sdHG]
-Description=The Glock 21 it's the .45 ACP iteration of the well known Glock 17, remarkable for its accuracy and light recoil. The Glock 21 delivers the power of the .45 ACP round with high magazine capacity. It is one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting an impressive 13-round box magazine.
+Description=The Glock 21 it's the .45 ACP iteration of the well known Glock 17, remarkable for its accuracy and light recoil. The Glock 21 delivers the power of the .45 ACP round with high magazine capacity. It is one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting a 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 21 Supp.
 ShortName=Glock 21 Supp.
 Manufacturer=Glock
@@ -496,7 +496,7 @@ FriendlyName=FN P90 Supp.
 ShortName=FN P90 Supp.
 
 [MP5SMG]
-Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group.
+Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position, Navy style, Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group.
 FriendlyName=H&K MP5A4
 ShortName=H&K MP5A4
 Manufacturer=Heckler & Koch
@@ -509,12 +509,12 @@ TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [MP5AimpointSMG]
-Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a Navy style Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position, Navy style, Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5A4 Aim.
 ShortName=H&K MP5A4 Aim.
 
 [SilencedMP5SMG]
-Description=The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
+Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
 FriendlyName=H&K MP5SD5
 ShortName=H&K MP5SD5
 Manufacturer=Heckler & Koch
@@ -527,12 +527,12 @@ TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [SilencedMP5AimpointSMG]
-Description=The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=TBased on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5SD5 Aim.
 ShortName=H&K MP5SD5 Aim.
 
 [UMP45SMG]
-Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group.
+Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group.
 FriendlyName=H&K UMP-45
 ShortName=H&K UMP-45
 Manufacturer=Heckler & Koch
@@ -545,22 +545,22 @@ TotalAmmoString=10 magazines
 RateOfFire=600 RPM
 
 [UMP45AimpointSMG]
-Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K UMP-45 Aim.
 ShortName=H&K UMP-45 Aim.
 
 [UMP45sdSMG]
-Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount.
+Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount.
 FriendlyName=H&K UMP-45 Supp.
 ShortName=H&K UMP-45 Supp.
 
 [UMP45sdAimpointSMG]
-Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire.  The UMP features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire.  The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K UMP-45 Supp. Aim.
 ShortName=H&K UMP-45 Supp. Aim.
 
 [ColtSMG]
-Description=The Colt 9mm SMG is a shortened version of the M16 assault rifle, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns.
+Description=The Colt Model 635 (also known as the 9mm SMG) is a shortened version of the M16 assault rifle, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns.
 FriendlyName=Colt Model 635
 ShortName=Colt Model 635
 Manufacturer=Colt
@@ -573,7 +573,7 @@ TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [SilencedColtSMG]
-Description=The Colt 9mm SMG is a shortened version of the M16 assault rifle, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount. 
+Description=The Colt Model 635 (also known as the 9mm SMG) is a shortened version of the M16 assault rifle, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount. 
 FriendlyName=Colt Model 635 Supp.
 ShortName=Colt Model 635 Supp.
 Caliber=Subsonic 9x19mm
@@ -615,31 +615,31 @@ FriendlyName=Colt M4A1 Supp. Aim.
 ShortName=Colt M4A1 Supp. Aim.
 
 [CQBRMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil.
+Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity.
 FriendlyName=Colt M4A1 CQBR
 ShortName=Colt M4A1 CQBR
 ProductionStart=1999
 
 [CQBRAimpointMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=Colt M4A1 CQBR Aim.
 ShortName=Colt M4A1 CQBR Aim.
 ProductionStart=1999
 
 [CQBRsdMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil. This configuration comes equipped with a suppressor for when stealth is paramount.
+Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with a suppressor for when stealth is paramount.
 FriendlyName=Colt M4A1 CQBR Supp.
 ShortName=Colt M4A1 CQBR Supp.
 ProductionStart=1999
 
 [CQBRsdAimpointMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
+Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it's a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
 FriendlyName=Colt M4A1 CQBR Supp. Aim.
 ShortName=Colt M4A1 CQBR Supp. Aim.
 ProductionStart=1999
 
 [G36kMG]
-Description=The G36K (K stands for "Kurz", German for "short") it's the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group.
+Description=The G36K (K stands for "Kurz", German for "short") it's the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group.
 FriendlyName=H&K G36K
 ShortName=H&K G36K
 Manufacturer=Heckler & Koch
@@ -652,7 +652,7 @@ TotalAmmoString=10 magazines
 RateOfFire=750 RPM
 
 [G36kAimpointMG]
-Description=The G36K (K stands for "Kurz", German for "short") it's the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights.
+Description=The G36K (K stands for "Kurz", German for "short") it's the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights.
 FriendlyName=H&K G36K Aim.
 ShortName=H&K G36K Aim.
 
@@ -662,12 +662,12 @@ FriendlyName=H&K G36K Supp.
 ShortName=H&K G36K Supp.
 
 [G36ksdAimpointMG]
-Description=The G36K (K stands for "Kurz", German for "short") it's the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights as well as a suppressor for when stealth is paramount.
+Description=The G36K (K stands for "Kurz", German for "short") it's the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights as well as a suppressor for when stealth is paramount.
 FriendlyName=H&K G36K Supp. Aim.
 ShortName=H&K G36K Supp.Aim.
 
 [UziSMG]
-Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor making it a more stealthy choice.
+Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 FriendlyName=IMI UZI Supp.
 ShortName=IMI UZI Supp.
 Manufacturer=Israel Military Industries (IMI)
@@ -680,10 +680,10 @@ TotalAmmoString=10 magazines
 RateOfFire=600 RPM
 
 [UziTSMG]
-Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor making it a more stealthy choice.
+Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 
 [UziAimpointSMG]
-Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease of use against distant targets.
+Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice, as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=IMI UZI Supp. Aim.
 ShortName=IMI UZI Supp. Aim.
 
