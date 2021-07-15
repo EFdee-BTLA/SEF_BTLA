@@ -194,7 +194,7 @@ defaultproperties
 	CollisionHeight=2
 	CollisionRadius=2
 
-	GlowBrightness=128
+	GlowBrightness=192
 	GlowHue=90
 	GlowSaturation=128
 	GlowLifetime=3600
