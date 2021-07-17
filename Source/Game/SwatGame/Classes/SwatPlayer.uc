@@ -1699,10 +1699,10 @@ simulated function float GetFireTweenTime()
 simulated function AdjustPlayerMovementSpeed() {
   local float OriginalFwd, OriginalBck, OriginalSde;
   local float ModdedFwd, ModdedBck, ModdedSde;
-  local float TotalWeight;
+  local float WeightMovMod;
 
   local AnimationSetManager AnimationSetManager;
-  local AnimationSet setObject;
+  local AnimationSet setObject;  
 
   AnimationSetManager = SwatRepo(Level.GetRepo()).GetAnimationSetManager();
   setObject = AnimationSetManager.GetAnimationSet(GetMovementAnimSet());
@@ -1715,15 +1715,10 @@ simulated function AdjustPlayerMovementSpeed() {
   ModdedBck = OriginalBck;
   ModdedSde = OriginalSde;
 
-  ModdedFwd *= LoadOut.GetWeightMovementModifier();
-  ModdedBck *= LoadOut.GetWeightMovementModifier();
-  ModdedSde *= LoadOut.GetWeightMovementModifier();
-
   AnimSet.AnimSpeedForward = ModdedFwd;
   AnimSet.AnimSpeedBackward = ModdedBck;
   AnimSet.AnimSpeedSidestep = ModdedSde;
 
-  TotalWeight = LoadOut.GetTotalWeight();
 }
 
 ////////////////////////////////////////////////////////////////////////////////

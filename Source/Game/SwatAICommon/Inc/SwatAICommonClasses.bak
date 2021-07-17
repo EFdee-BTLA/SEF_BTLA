@@ -183,7 +183,6 @@ AUTOGENERATE_NAME(ReEquipFiredWeapon)
 AUTOGENERATE_NAME(RegisterHearingNotification)
 AUTOGENERATE_NAME(RegisterVisionNotification)
 AUTOGENERATE_NAME(ReleaseNavigationPointList)
-AUTOGENERATE_NAME(RemoveGivenEquipment)
 AUTOGENERATE_NAME(RollBarricade)
 AUTOGENERATE_NAME(RollInvestigate)
 AUTOGENERATE_NAME(SetAimUrgency)
@@ -1325,11 +1324,6 @@ struct IISwatOfficer_InstantReEquipFiredWeapon_Parms
 // "event"	function whose parameters correspond to	"struct IISwatOfficer_eventReEquipFiredWeapon_Parms"	is declared	in "..\SwatAICommon\Classes\ISwatOfficer.uc"
 struct IISwatOfficer_ReEquipFiredWeapon_Parms
 {
-};
-// "event"	function whose parameters correspond to	"struct IISwatOfficer_eventRemoveGivenEquipment_Parms"	is declared	in "..\SwatAICommon\Classes\ISwatOfficer.uc"
-struct IISwatOfficer_RemoveGivenEquipment_Parms
-{
-	  class AHandheldEquipment* Equipment;
 };
 // "event"	function whose parameters correspond to	"struct IISwatOfficer_eventHasA_Parms"	is declared	in "..\SwatAICommon\Classes\ISwatOfficer.uc"
 struct IISwatOfficer_HasA_Parms
@@ -3035,12 +3029,6 @@ public:
 	  void ReEquipFiredWeapon()
 	  {
 		   ProcessEvent(FindFunctionChecked(SWATAICOMMON_ReEquipFiredWeapon),NULL);
-	  }
-	  void RemoveGivenEquipment(class AHandheldEquipment* Equipment)
-	  {
-        IISwatOfficer_RemoveGivenEquipment_Parms Parms;
-		   Parms.Equipment=Equipment;
-        ProcessFunction(FindFunctionChecked(SWATAICOMMON_RemoveGivenEquipment),&Parms);
 	  }
 	  BITFIELD HasA(FName EquipmentClass)
 	  {
