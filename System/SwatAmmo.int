@@ -49,7 +49,7 @@ FriendlyName=Sabot Slug
 GUIImage=Texture'gui_tex.ammo_sabot'
 
 [ShotgunHPSabotAmmo]
-Description=This 12 gauge slug round it's devastating for unarmored targets. When the slug impacts fleshy material, it breaks apart into several pieces, exploding inside the target. This causes maximum internal injuries, with minimum penetration, acting like a giant hollow-point.
+Description=This 12 gauge slug round is devastating for unarmored targets. When the slug impacts fleshy material, it breaks apart into several pieces, exploding inside the target. This causes maximum internal injuries, with minimum penetration.
 FriendlyName=HP Slug
 GUIImage=Texture'gui_tex.ammo_hpslug'
 
@@ -75,7 +75,7 @@ FriendlyName=OC-Ball
 GUIImage=Texture'gui_tex.ammo_paintball'
 
 [LessLethalAmmo]
-Description=Less than lethal shotgun rounds are regular 00 gauge shells that are stuffed with small beagbags.  When the beanbags are fired they expand to cause an impact with a large surface area.  This blunt force impact causes extreme pain and knocks the wind out of the target, temporarily incapacitating them.
+Description=Less than lethal shotgun rounds are regular 00 gauge shells that are stuffed with small beanbags.  When the beanbags are fired they expand to cause an impact with a large surface area.  This blunt force impact causes extreme pain and knocks the wind out of the target, temporarily incapacitating them.
 FriendlyName=Beanbags
 GUIImage=Texture'gui_tex.ammo_lesslethal'
 
