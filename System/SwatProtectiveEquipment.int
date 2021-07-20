@@ -49,80 +49,80 @@ FriendlyName=PMC Cap
 GUIImage=material'gui_hov.V4tactic'
 
 [ProtecHelmet]
-Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios.
+Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios.
 FriendlyName=Pro-Tec Helmet
 GUIImage=material'gui_hov.V3tactic'
 
 [KevlarHelmet]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition.
-FriendlyName=PASGT Helmet
+FriendlyName=PASGT IIIA Helmet
 GUIImage=material'gui_hov.V2tactic'
 
 [ProtecAndGlasses]
-Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of Oakley "M Frame" ballistic glasses that provide protection against flashbang effects.
+Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of Oakley "M Frame" ballistic glasses that provide protection against flashbang effects.
 FriendlyName=Pro-Tec Helmet Oakley
 GUIImage=material'gui_hov.V3tacticGlasses'
 
 [ProtecAndGoggles]
-Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of ESS XT ballistic goggles that provide protection against flashbangs effects.
+Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of ESS XT ballistic goggles that provide protection against flashbangs effects.
 FriendlyName=Pro-Tec Helmet ESS
 GUIImage=material'gui_hov.V3tacticGoggles'
 
 [HelmetAndGlasses]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a pair of Oakley "M Frame" ballistic glasses that provide protection against flashbang effects.
-FriendlyName=PASGT Helmet Oakley
+FriendlyName=PASGT IIIA Helmet Oakley
 GUIImage=material'gui_hov.V2tacticGlasses'
 
 [HelmetAndGoggles]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a pair of ESS XT ballistic goggles that provide protection against flashbangs effects.
-FriendlyName=PASGT Helmet ESS
+FriendlyName=PASGT IIIA Helmet ESS
 GUIImage=material'gui_hov.V2tacticGoggles'
 
 [gasMask]
-Description=The Fernez Panoramasque gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
-FriendlyName=Fernez Panoramasque
+Description=The Fernez Panoramasque provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
+FriendlyName=Fernez Gas Mask
 GUIImage=material'gui_hov.V1tacticGasMask'
 
 [ProtecGasMask]
-Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a Fernez Panoramasque gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
-FriendlyName=Pro-Tec Helmet Fernez
+Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a Fernez Panoramasque that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
+FriendlyName=Pro-Tec Helmet Gas Mask
 GUIImage=material'gui_hov.V3tacticGasMask'
 
 [KevlarGasMask]
-Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a Fernez Panoramasque gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision.
-FriendlyName=PASGT Helmet Fernez
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a Fernez Panoramasque gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
+FriendlyName=PASGT IIIA Helmet Gas Mask
 GUIImage=material'gui_hov.V2tacticGasMask'
 
 [GP5]
-Description=The Soviet GP-5 gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
+Description=The Soviet GP-5 gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
 FriendlyName=GP-5 Gas Mask
 GUIImage=material'gui_hov.gp5'
 
 [S10Mask]
-Description=The AVON S10 gas mask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas and flashbang effects as well as greatly reducing the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
-FriendlyName=AVON S10 Gas Mask
+Description=The AVON S10 is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas and flashbang effects as well as greatly reducing the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
+FriendlyName=S10 Gas Mask
 GUIImage=material'gui_hov.s10'
 
 [AC900S10]
-Description=The AC900/600 kevlar helmet is one of the most known helmets worn by the British SAS, it provides provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The AVON S10 gas mask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas and flashbang effects as well as greatly reducing the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
-FriendlyName=AC900 Helmet S10
+Description=The AC900/600 kevlar helmet is one of the most known helmets worn by the British SAS, it provides provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. The AVON S10 is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas and flashbang effects as well as greatly reducing the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
+FriendlyName=AC900 IIIA Helmet Gas Mask
 GUIImage=material'gui_hov.s10ac900'
 
 [ProtecNVGoggles]
-Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=Pro-Tec Helmet AN/PVS-7
+Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+FriendlyName=Pro-Tec Helmet PVS-7 NVG
 GUIImage=material'gui_hov.V3tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
 
 [KevlarNVGoggles]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=PASGT Helmet AN/PVS-7
+FriendlyName=PASGT IIIA Helmet PVS-7 NVG
 GUIImage=material'gui_hov.V2tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V2tacticNightVisionUP'
 
 [RiotHelmet]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features an anti-riot ballistic visor that provides the user with some protection against pepperspray and pepperballs effects as well as increased ballistic protection. It is extremely bulky however.
-FriendlyName=PASGT Helmet Riot 
+FriendlyName=PASGT IIIA Helmet Riot Shield
 GUIImage=material'gui_hov.V2tacticRiot'
 
 [NoBodyArmor]
@@ -257,60 +257,60 @@ GUIImage=material'gui_hov.LightArmorShirtNoMask'
 
 [EnhancedBodyArmor]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmor'
 
 [EnhancedBodyArmorClotheUp]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorClotheUp'
 
 [EnhancedBodyArmorClotheUpMax]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorClotheUpMax'
 
 [EnhancedBodyArmorShirt]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorShirt'
 
 [EnhancedBodyArmorNoMask]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorNoMask'
 
 [EnhancedBodyArmorClotheUpNoMask]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorClotheUpNoMask'
 
 [EnhancedBodyArmorClotheUpMaxNoMask]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorClotheUpMaxNoMask'
 
 [EnhancedBodyArmorShirt]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel
+FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorShirtNoMask'
 
 [HeavyBodyArmor]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + IV Ceramic
+FriendlyName=Level IIIA + IV Ceramic Plate
 GUIImage=material'gui_hov.HeavyArmor'
 
 [HeavyBodyArmorClotheUp]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + IV Ceramic
+FriendlyName=Level IIIA + IV Ceramic Plate
 GUIImage=material'gui_hov.HeavyArmorClotheUp'
 
 [HeavyBodyArmorNoMask]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + IV Ceramic
+FriendlyName=Level IIIA + IV Ceramic Plate
 GUIImage=material'gui_hov.HeavyArmorNoMask'
 
 [HeavyBodyArmorClotheUpNoMask]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + IV Ceramic
+FriendlyName=Level IIIA + IV Ceramic Plate
 GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'

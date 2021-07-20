@@ -1,11 +1,11 @@
 [ProtecNVGoggles]
-Description=A skateboard helmet made by the Pro-Tec company, this Half Cut helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=Pro-Tec Helmet AN/PVS-7
+Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+FriendlyName=Pro-Tec Helmet PVS-7 NVG
 GUIImage=material'gui_hov.V3tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
 
 [KevlarNVGoggles]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=PASGT Helmet AN/PVS-7
+FriendlyName=PASGT IIIA Helmet PVS-7 NVG
 GUIImage=material'gui_hov.V2tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V2tacticNightVisionUP'
