@@ -76,6 +76,25 @@ MagazineSizeString=15
 TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
+[Beretta92HG]
+Description=The Beretta 92 is a series of semi-automatic pistols designed and manufactured by Fabbrica d'Armi Pietro Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present. It has been adopted by the U.S Army (designated as the M9) and by many law-enforcement agencies from around the world due to its high reliability, ease of use and a generous 15-round magazine capacity.
+FriendlyName=Beretta 92FS
+ShortName=Beretta 92FS
+Manufacturer=Beretta
+Caliber=9x19mm
+CountryOfOrigin=Italy
+ProductionStart=1976
+FireModes=Semi-Automatic
+MagazineSizeString=15
+TotalAmmoString=10 magazines
+RateOfFire=390 RPM
+
+[Beretta92sdHG]
+Description=The Beretta 92 is a series of semi-automatic pistols designed and manufactured by Fabbrica d'Armi Pietro Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present. It has been adopted by the U.S Army (designated as the M9) and by many law-enforcement agencies from around the world due to its high reliability, ease of use and a generous 15-round magazine capacity. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+FriendlyName=Beretta 92FS Suppressed
+ShortName=Beretta 92FS Suppressed
+Caliber=Subsonic 9x19mm
+
 [G3MG]
 Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL.
 FriendlyName=H&K G3A3
@@ -134,8 +153,8 @@ ShortName=H&K G3KA4 Suppressed Aimpoint
 
 [SG552MG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO.
-FriendlyName=SIG SG 552
-ShortName=Sig SG 552
+FriendlyName=SIG SG 552 Commando
+ShortName=Sig SG 552 Commando
 Manufacturer=Sig Sauer
 Caliber=5.56x45mm Mk.262
 CountryOfOrigin=Switzerland
@@ -147,13 +166,13 @@ RateOfFire=700 RPM
 
 [SG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=SIG SG 552 Aimpoint
-ShortName=SIG SG 552 Aimpoint
+FriendlyName=SIG SG 552 Commando Aimpoint
+ShortName=SIG SG 552 Commando Aimpoint
 
 [SilencedSG552MG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration features a suppressor for when stealth is paramount.
-FriendlyName=SIG SG 552 Suppressed
-ShortName=SIG SG 552 Commando Supp.
+FriendlyName=SIG SG 552 Commando Suppressed
+ShortName=SIG SG 552 Commando Suppressed
 
 [SilencedSG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor for when stealth is paramount.
@@ -234,8 +253,8 @@ RateOfFire=150 RPM
 
 [Remington870PoliceSG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant features a synthetic stock, a SureFire forend light and an extended magazine tube that allows the M870 to hold up to 6 shells.
-FriendlyName=Remington M870 Tactical
-ShortName=Remington M870 Tactical 
+FriendlyName=Remington M870 Express
+ShortName=Remington M870 Express
 
 [Remington870ShortySG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This "Shorty" configuration sports a pistol grip for reduced weight and bulk.
@@ -271,8 +290,8 @@ RateOfFire=150 RPM
 
 [M1Super90SG]
 Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. Even though is an old shotgun, it is a mainstay in law-enforcement.
-FriendlyName=Benelli M1 Tactical
-ShortName=Benelli M1 Tactical
+FriendlyName=Benelli M1
+ShortName=Benelli M1
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -405,7 +424,7 @@ RateOfFire=1200 RPM
 [Glock18sdHG]
 Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite, tactical units. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 18 Suppressed
-ShortName=Glock 18 Supp.
+ShortName=Glock 18 Suppressed
 Caliber=Subsonic 9x19 Parabellum
 CountryOfOrigin=Austria
 ProductionStart=1985
