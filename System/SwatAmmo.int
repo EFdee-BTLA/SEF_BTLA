@@ -19,7 +19,7 @@ Description=Frangible breaching rounds are commonly used when breaching doors. T
 FriendlyName=12 Gauge Frangible
 
 [000ShotgunAmmo]
-Description=000 buck is an increasingly common grade of shotgun shell among law enforcement agencies. These rounds contain 5 buckshot pellets, all 000 gauge in diameter. The pellets spread out after being fired and can inflict massive damage to unarmored targets. While the pellets are large in diameter and better at penetrating armor, 000 shells disperse fewer pellets for less overall damage.
+Description=000 buck is an increasingly common grade of shotgun shell among law enforcement agencies. These rounds contain 8 buckshot pellets, all 000 gauge in diameter. The pellets spread out after being fired and can inflict massive damage to unarmored targets. While the pellets are large in diameter and better at penetrating armor, 000 shells disperse fewer pellets for less overall damage.
 FriendlyName=000 Buck
 GUIImage=Texture'gui_tex3.ammo_000buckshotgun'
 
@@ -49,8 +49,8 @@ FriendlyName=Sabot Slug
 GUIImage=Texture'gui_tex.ammo_sabot'
 
 [ShotgunHPSabotAmmo]
-Description=This 12 gauge slug round is devastating for unarmored targets. When the slug impacts fleshy material, it breaks apart into several pieces, exploding inside the target. This causes maximum internal injuries, with minimum penetration.
-FriendlyName=HP Slug
+Description=Hollow point slugs are designed to inflict massive damage to unarmored targets. When the projectile impacts fleshy material, it breaks apart into several pieces, exploding inside the target. This causes maximum internal injuries, with minimum penetration.
+FriendlyName=Rifled Slug
 GUIImage=Texture'gui_tex.ammo_hpslug'
 
 [MP5SMG_FMJ]
