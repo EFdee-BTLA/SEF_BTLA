@@ -193,6 +193,11 @@ Fixed SEF bug: FPS issues in multiplayer with movement (thanks to beppe for this
 Fixed SEF bug: Locked doors by AI SWAT could be opened by AI suspects or hostages
 END OF SEF v7.1 Update VOL. III
 
+Tweaked some ammo values
+(Adjusted beanbag mass, tweaked Less Lethal shotgun muzzle velocity)
+Improved MP5K-PDW model
+Removed MP5K-PDW aimpoint variants
+
   
     
     
