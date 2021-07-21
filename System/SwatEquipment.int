@@ -153,8 +153,8 @@ ShortName=H&K G3KA4 Suppressed Aimpoint
 
 [SG552MG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO.
-FriendlyName=SIG SG 552 Commando
-ShortName=Sig SG 552 Commando
+FriendlyName=SIG SG 552
+ShortName=SIG SG 552
 Manufacturer=Sig Sauer
 Caliber=5.56x45mm Mk.262
 CountryOfOrigin=Switzerland
@@ -176,8 +176,8 @@ ShortName=SIG SG 552 Commando Suppressed
 
 [SilencedSG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor for when stealth is paramount.
-FriendlyName=SIG SG 552 Commando Suppressed Aimpoint
-ShortName=SIG SG 552 Commando Suppressed Aimpoint
+FriendlyName=SIG SG 552 Suppressed Aimpoint
+ShortName=SIG SG 552 Suppressed Aimpoint
 
 [M16A1MG]
 Description=Originally designed in 1964 based on the Armalite AR-15 blueprints, the M16 rifle was first deployed in the jungles of Vietnam. The M16A1 was an incremental improvement, redesigning the muzzle to avoid catching on foliage and reducing the high failure rate of its predecessor's receiver.
@@ -217,26 +217,15 @@ ShortName=H&K MP5KA4 Suppressed
 Caliber=Subsonic 9x19mm 
 
 [MP5KtSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto.
-FriendlyName=H&K MP5K-PDW
-ShortName=H&K MP5K-PDW
-
-[MP5KtAimpointSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=H&K MP5K-PDW Aimpoint
-ShortName=H&K MP5K-PDW Aimpoint
+Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. This particular model is equipped with a tactical stock for better control over the weapon while firing in full auto.
+FriendlyName=H&K MP5KA4-PDW
+ShortName=H&K MP5KA4-PDW
 
 [SilencedMP5KtSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
-FriendlyName=H&K MP5K-PDW Suppressed
-ShortName=H&K MP5K-PDW Suppressed
-Caliber=Subsonic 9x19mm 
-
-[SilencedMP5KtAimpointSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. The MP5K-PDW tactical stock provides better control over the weapon while firing in full auto. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=H&K MP5K-PDW Suppressed Aimpoint
-ShortName=H&K MP5K-PDW Suppressed Aimpoint
-Caliber=Subsonic 9x19mm 
+Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. This particular model is equipped with a tactical stock for better control over the weapon while firing in full auto, as well as a sound and flash suppressor for when stealth is paramount.
+FriendlyName=H&K MP5KA4-PDW Suppressed
+ShortName=H&K MP5KA4-PDW Suppressed
+Caliber=Subsonic 9x19mm
 
 [Remington870SG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting.
@@ -341,8 +330,8 @@ RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend, aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
-FriendlyName=Benelli Nova SBS
-ShortName=Benelli Nova SBS
+FriendlyName=Benelli Nova Entry
+ShortName=Benelli Nova Entry
 MagazineSizeString=5
 
 [ColtM1911HG]
@@ -394,7 +383,7 @@ Description=Designed by gun designer Gaston Glock, this Austrian designed handgu
 FriendlyName=Glock 17
 ShortName=Glock 17
 Manufacturer=Glock
-Caliber=9x19mm Parabellum
+Caliber=9x19mm
 CountryOfOrigin=Austria
 ProductionStart=1982
 FireModes=Semi-Automatic
@@ -413,7 +402,7 @@ Description=One of the first machine pistols, the Glock 18 was developed at the 
 FriendlyName=Glock 18
 ShortName=Glock 18
 Manufacturer=Glock
-Caliber=9x19 Parabellum
+Caliber=9x19
 CountryOfOrigin=Austria
 ProductionStart=1985
 FireModes=Semi-Automatic, Full Auto
@@ -425,7 +414,7 @@ RateOfFire=1200 RPM
 Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite, tactical units. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 18 Suppressed
 ShortName=Glock 18 Suppressed
-Caliber=Subsonic 9x19 Parabellum
+Caliber=Subsonic 9x19
 CountryOfOrigin=Austria
 ProductionStart=1985
 FireModes=Semi-Automatic, Full Auto

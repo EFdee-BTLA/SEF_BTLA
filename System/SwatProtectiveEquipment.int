@@ -3,11 +3,6 @@ Description=Badguy Fernez
 FriendlyName=Fernez Badguy
 GUIImage=material'gui_hov.V3tactic'
 
-[BadguyfaceMask]
-Description=Badguy SECPRO
-FriendlyName=SECPRO Badguy
-GUIImage=material'gui_hov.V3tactic'
-
 [BadguyProtecHelmet]
 Description=Badguy Proarmor
 FriendlyName=Pro-Tec Helmet Badguy
@@ -265,16 +260,6 @@ Description=This steel plate armor provides Level III+ protection from ballistic
 FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorClotheUp'
 
-[EnhancedBodyArmorClotheUpMax]
-Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmorClotheUpMax'
-
-[EnhancedBodyArmorShirt]
-Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmorShirt'
-
 [EnhancedBodyArmorNoMask]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Steel Plate
@@ -284,16 +269,6 @@ GUIImage=material'gui_hov.MediumArmorNoMask'
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Steel Plate
 GUIImage=material'gui_hov.MediumArmorClotheUpNoMask'
-
-[EnhancedBodyArmorClotheUpMaxNoMask]
-Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmorClotheUpMaxNoMask'
-
-[EnhancedBodyArmorShirt]
-Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
-FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmorShirtNoMask'
 
 [HeavyBodyArmor]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
