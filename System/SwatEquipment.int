@@ -81,7 +81,7 @@ Description=The Beretta 92 is a series of semi-automatic pistols designed and ma
 FriendlyName=Beretta 92FS
 ShortName=Beretta 92FS
 Manufacturer=Beretta
-Caliber=9x19mm
+Caliber=9x19mm Parabellum
 CountryOfOrigin=Italy
 ProductionStart=1976
 FireModes=Semi-Automatic
@@ -93,7 +93,7 @@ RateOfFire=390 RPM
 Description=The Beretta 92 is a series of semi-automatic pistols designed and manufactured by Fabbrica d'Armi Pietro Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present. It has been adopted by the U.S Army (designated as the M9) and by many law-enforcement agencies from around the world due to its high reliability, ease of use and a generous 15-round magazine capacity. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Beretta 92FS Suppressed
 ShortName=Beretta 92FS Suppressed
-Caliber=Subsonic 9x19mm
+Caliber=Subsonic 9x19mm Parabellum
 
 [G3MG]
 Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL.
@@ -166,13 +166,13 @@ RateOfFire=700 RPM
 
 [SG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=SIG SG 552 Commando Aimpoint
-ShortName=SIG SG 552 Commando Aimpoint
+FriendlyName=SIG SG 552 Aimpoint
+ShortName=SIG SG 552 Aimpoint
 
 [SilencedSG552MG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration features a suppressor for when stealth is paramount.
-FriendlyName=SIG SG 552 Commando Suppressed
-ShortName=SIG SG 552 Commando Suppressed
+FriendlyName=SIG SG 552 Suppressed
+ShortName=SIG SG 552 Suppressed
 
 [SilencedSG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor for when stealth is paramount.
@@ -197,12 +197,30 @@ Description=Originally designed in 1964 based on the Armalite AR-15 blueprints, 
 FriendlyName=Colt M16A1 Suppressed
 ShortName=Colt M16A1 Suppressed
 
+[M16A2MG]
+Description=The M16A2 is a late Cold War era assault rifle of US origin, developed by Fabrique Nationale at the request of the U.S. Marine Corps and the successor to the M16A1. One of the main improvements was the use of the 5.56x45mm NATO round instead of the older M193 round.
+FriendlyName=Colt M16A2
+ShortName=Colt M16A2
+Manufacturer=Colt
+Caliber=5.56x45mm NATO
+CountryOfOrigin=United States
+ProductionStart=1982 
+FireModes=Semi-Automatic, 3-rd. Burst
+MagazineSizeString=30
+TotalAmmoString=10 magazines
+RateOfFire=700 RPM
+
+[M16A2sdMG]
+Description=The M16A2 is a late Cold War era assault rifle of US origin, developed by Fabrique Nationale at the request of the U.S. Marine Corps and the successor to the M16A1. One of the main improvements was the use of the 5.56x45mm NATO round instead of the older M193 round. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+FriendlyName=Colt M16A2 Suppressed
+ShortName=Colt M16A2 Suppressed
+
 [MP5KSMG]
 Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. While it has minimal carry weight and a small form factor, it is difficult to use due to the lack of a stock. Despite this, it remains popular by security and special forces around the globe, including the British Special Air Service.
 FriendlyName=H&K MP5KA4
 ShortName=H&K MP5KA4
 Manufacturer=Heckler & Koch
-Caliber=9x19mm
+Caliber=9x19mm Parabellum
 CountryOfOrigin=Germany
 ProductionStart=1976
 FireModes=Semi-Automatic, 3-rd. Burst, Full-Auto
@@ -214,7 +232,7 @@ RateOfFire=900 RPM
 Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. While it has minimal carry weight and a small form factor, it is difficult to use due to the lack of a stock. Despite this, it remains popular by security and special forces around the globe, including the British Special Air Service.||This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=H&K MP5KA4 Suppressed
 ShortName=H&K MP5KA4 Suppressed
-Caliber=Subsonic 9x19mm 
+Caliber=Subsonic 9x19mm Parabellum
 
 [MP5KtSMG]
 Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. This particular model is equipped with a tactical stock for better control over the weapon while firing in full auto.
@@ -225,7 +243,7 @@ ShortName=H&K MP5KA4-PDW
 Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. This particular model is equipped with a tactical stock for better control over the weapon while firing in full auto, as well as a sound and flash suppressor for when stealth is paramount.
 FriendlyName=H&K MP5KA4-PDW Suppressed
 ShortName=H&K MP5KA4-PDW Suppressed
-Caliber=Subsonic 9x19mm
+Caliber=Subsonic 9x19mm Parabellum
 
 [Remington870SG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting.
@@ -499,7 +517,7 @@ Description=Based on the G3 design layout and operating principle, the MP5 subma
 FriendlyName=H&K MP5A4
 ShortName=H&K MP5A4
 Manufacturer=Heckler & Koch
-Caliber=9x19mm
+Caliber=9x19mm Parabellum
 CountryOfOrigin=Germany
 ProductionStart=1974
 FireModes=Semi-Automatic, 3-rd. Burst, Full-Auto
@@ -516,17 +534,10 @@ ShortName=H&K MP5A4 Aimpoint
 Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
 FriendlyName=H&K MP5SD5
 ShortName=H&K MP5SD5
-Manufacturer=Heckler & Koch
-Caliber=Subsonic 9x19mm
-CountryOfOrigin=Germany
-ProductionStart=1974
-FireModes=Semi-Automatic, 3-rd. Burst, Full-Auto
-MagazineSizeString=30
-TotalAmmoString=10 magazines
-RateOfFire=800 RPM
+Caliber=Subsonic 9x19mm Parabellum
 
 [SilencedMP5AimpointSMG]
-Description=TBased on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5SD5 Aimpoint
 ShortName=H&K MP5SD5 Aimpoint
 
@@ -563,7 +574,7 @@ Description=The Colt Model 635 (also known as the 9mm SMG) is a shortened versio
 FriendlyName=Colt Model 635
 ShortName=Colt Model 635
 Manufacturer=Colt
-Caliber=9x19mm
+Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
 ProductionStart=1982
 FireModes=Semi-Automatic, Full-Auto
@@ -575,7 +586,7 @@ RateOfFire=800 RPM
 Description=The Colt Model 635 (also known as the 9mm SMG) is a shortened version of the M16 assault rifle, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount. 
 FriendlyName=Colt Model 635 Suppressed
 ShortName=Colt Model 635 Suppressed
-Caliber=Subsonic 9x19mm
+Caliber=Subsonic 9x19mm Parabellum
 
 [M4A1MG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It is equipped with a fire mode selector allowing semi-automatic as well as fully automatic firing.
