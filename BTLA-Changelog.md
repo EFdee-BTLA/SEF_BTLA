@@ -132,8 +132,6 @@ Added Benelli M1 Super 90 Tactical
 Added G3KA4 to the game
 Added Hollow-Point Shotgun Slugs 
 Improved some damage values on shotgun ammo (thanks Vitto for your suggestions)
-Fixed Level IV Armor texture bug
-Added new mesh to Level III armor with multiple variants
 Suspects now pick up their weapons if you fail to cuff them in time
 Visual tweaks for headgear to look more vintage
 Adjusted some equipment descriptions
@@ -194,9 +192,12 @@ Fixed SEF bug: Locked doors by AI SWAT could be opened by AI suspects or hostage
 END OF SEF v7.1 Update VOL. III
 
 Tweaked some ammo values
-(Adjusted beanbag mass, tweaked Less Lethal shotgun muzzle velocity)
+(Adjusted beanbag mass, tweaked Less Lethal shotgun muzzle velocity, Adjusted Slug rounds mass)
 Improved MP5K-PDW model
 Removed MP5K-PDW aimpoint variants
+Fixed Level III Armor texture glitch (apparently)
+Added an slightly different mesh for Level III Armor (IIIA + III Steel Plate) with 3 variants
+
 
   
     
