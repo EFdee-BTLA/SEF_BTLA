@@ -196,9 +196,9 @@ defaultproperties
 
 	GlowBrightness=192
 	GlowHue=90
-	GlowSaturation=128
+	GlowSaturation=80
 	GlowLifetime=3600
-	MPGlowLifetimeMultiplier=0.1
+	MPGlowLifetimeMultiplier=1.0
 
 	RemoteRole = ROLE_SimulatedProxy
 }
