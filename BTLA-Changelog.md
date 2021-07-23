@@ -135,7 +135,7 @@ Improved some damage values on shotgun ammo (thanks Vitto for your suggestions)
 Suspects now pick up their weapons if you fail to cuff them in time
 Visual tweaks for headgear to look more vintage
 Adjusted some equipment descriptions
-Changed lockpicking time to 10 seconds 
+Changed lockpicking time to 12 seconds 
 Changed bomb defusal time to 15
 Changed wedge removal time to 0.5 seconds
 Improved Tactical Aids packs weight and bulk values
@@ -149,20 +149,6 @@ Tweaked some enemy archetypes
 Reduced movement speed
 Adjusted some protective equipment values
 New HUD paperdoll (Thanks Cafe for this) 
-
-### SEF v7.1 Update VOL. II ### 
-Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally         removed on 1.2)
-Enabled the following npcs so that they can be used in custom missions: Lian Niu, Evil Waiter (shows up as Male, Asian Chef), Allen   Kruse, Simon Gowan, Jewel Thief from the Diamond Robbery        Mission, and the hospital terrorist from the hospital mission. Thanks to Warzaid for this.
-Officers don't open a trapped door when ordered to disable it anymore
-AI issue compliance issue is effective (Thanks BSBola)
-Drop Lightstick bind now works as a quick throw
-Fixed no DOAs in St. Micheal's on QMM - this was removed due to an issue with Arms Deal
-FN FAL now has the correct kind of ammo for it. Thanks to beppe for this (Already in BTLA since 1.0)
-Shotguns have a tighter choke, and are a more appealing option because of it. (Edit made by EFdee) (Already in BTLA since 1.2)
-Fixed SEF bug: Suspects wouldn't pick up weapons, they would just flee. (thanks to EFdee for this) (Already in BTLA since 1.4)
-Fixed TSS bug: Gamma would be wrong in SwatEd. Thanks to Masterscape for this. (Already in BTLA since 1.2)
-END OF SEF v7.1 Update VOL. II
-
 Slowed down equipping speed for handguns and tactical aids (from 2.0 to 1.2)
 Improved Singleplayer campaing experience: New unlockable equipment has been added
 Moved some gear to MP only
@@ -179,24 +165,40 @@ Reverted to SEF AI
 Added Pull Door key (binded to G as default) (thanks to Scape and Beppe for this)
 Improved Lightstick brightness 
 Added Zoom to ironsights again (No Zoom is optional again)
-Fixed SEF bug: M1 and M4 shotguns wouldn't display the breaching icon when approaching a door
+Fixed SEF bug: M1 and M4 shotguns wouldn't display the breaching icon when approaching a door (Thanks to The Suggester for the hint)
 Adjusted bulk values on weapon variants
 Fixed BTLA bug: M1 sights weren't properly zeroed 
 Added 4 new voicelines for Multiplayer (Thanks Sphee for this)
 Restored old TSS Multiplayer Command Menu (Thanks Sphee for this)
-
-### SEF v7.1 Update VOL. III ### 
-Fixed SEF bug: The optiwand would not transfer correctly in singleplayer (thanks to Severn for this)
-Fixed SEF bug: FPS issues in multiplayer with movement (thanks to beppe for this)
-Fixed SEF bug: Locked doors by AI SWAT could be opened by AI suspects or hostages
-END OF SEF v7.1 Update VOL. III
-
 Tweaked some ammo values
 (Adjusted beanbag mass, tweaked Less Lethal shotgun muzzle velocity, Adjusted Slug rounds mass)
 Improved MP5K-PDW model
 Removed MP5K-PDW aimpoint variants
 Fixed Level III Armor texture glitch (apparently)
 Added an slightly different mesh for Level III Armor (IIIA + III Steel Plate) with 3 variants
+Changed the max ammount of grenade launcher rounds to 10
+Increased Optiwand Weight, slowed down lens Turn and lens End speed, equip and unequip speed have been slowed down
+Fixed BTLA bug: If carrying more than one can, after emptying the first one, you wouldn't be able to use the second one. (Thanks to The Suggester for the hint)
+
+
+### SEF v7.1 Update VOL. II ### 
+Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally         removed on 1.2)
+Enabled the following npcs so that they can be used in custom missions: Lian Niu, Evil Waiter (shows up as Male, Asian Chef), Allen   Kruse, Simon Gowan, Jewel Thief from the Diamond Robbery        Mission, and the hospital terrorist from the hospital mission. Thanks to Warzaid for this.
+Officers don't open a trapped door when ordered to disable it anymore
+AI issue compliance issue is effective (Thanks BSBola)
+Drop Lightstick bind now works as a quick throw
+Fixed no DOAs in St. Micheal's on QMM - this was removed due to an issue with Arms Deal
+FN FAL now has the correct kind of ammo for it. Thanks to beppe for this (Already in BTLA since 1.0)
+Shotguns have a tighter choke, and are a more appealing option because of it. (Edit made by EFdee) (Already in BTLA since 1.2)
+Fixed SEF bug: Suspects wouldn't pick up weapons, they would just flee. (thanks to EFdee for this) (Already in BTLA since 1.4)
+Fixed TSS bug: Gamma would be wrong in SwatEd. Thanks to Masterscape for this. (Already in BTLA since 1.2)
+END OF SEF v7.1 Update VOL. II
+
+### SEF v7.1 Update VOL. III ### 
+Fixed SEF bug: The optiwand would not transfer correctly in singleplayer (thanks to Severn for this)
+Fixed SEF bug: FPS issues in multiplayer with movement (thanks to beppe for this)
+Fixed SEF bug: Locked doors by AI SWAT could be opened by AI suspects or hostages
+END OF SEF v7.1 Update VOL. III
 
 
   

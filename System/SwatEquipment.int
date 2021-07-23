@@ -21,7 +21,7 @@ CountryOfOrigin=Great Britain
 ProductionStart=1977
 FireModes=Semi-Automatic
 MagazineSizeString=5
-TotalAmmoString=30 grenades
+TotalAmmoString=10 grenades
 RateOfFire=Unknown
 
 [BrowningHPHG]
@@ -828,7 +828,7 @@ Caliber=TASER Cartridge
 CountryOfOrigin=United States
 ProductionStart=1999
 FireModes=Single Fire
-TotalAmmoString=30 cartridges
+TotalAmmoString=15 cartridges
 
 [Stingray]
 Description=The X2 model is a dual-purpose less-lethal weapon. It possesses both a ranged means of Electro-Muscular Disruption (EMD) and a touch-stun mode. The electrical discharge causes involuntary contraction of the target's muscle tissue, regardless of an individual's pain tolerance or mental focus.  The effect is painful and demoralizing to even the most aggressive suspects. The X2 can fire darts in groups of four or two separate groups of two. It can also be used in touch-stun mode as a melee weapon. An onboard computer records information on shock intensity and duration, among other factors. The X2 features an integral flashlight.
@@ -839,7 +839,7 @@ Caliber=TASER Cartridge
 CountryOfOrigin=United States
 ProductionStart=2005
 FireModes=2-Barb, 4-Barb, Touch-Stun
-TotalAmmoString=30 cartridges
+TotalAmmoString=15 cartridges
 
 [HK69GrenadeLauncher]
 Description=The HK69A1 grenade launcher has become a standard piece of police equipment for use in unusual situations such as hostage rescue or riot control. Its ability to fire a wide range of direct and indirect less-lethal ammunitions has proved it to be extremely versatile.
@@ -851,7 +851,7 @@ CountryOfOrigin=West Germany
 ProductionStart=1960s
 FireModes=Single Fire
 MagazineSizeString=1
-TotalAmmoString=30 grenades
+TotalAmmoString=10 grenades
 RateOfFire=6 RPM
 
 [ColtAccurizedRifle]

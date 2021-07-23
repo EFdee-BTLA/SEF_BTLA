@@ -225,7 +225,7 @@ function OnGivenToOwner()
   // Need to override this, because otherwise we get problems
   Super.OnGivenToOwner();
 
-  Ammo.InitializeAmmo(10);
+  Ammo.InitializeAmmo(20);
 }
 
 //which slot should be equipped after this item becomes unavailable
