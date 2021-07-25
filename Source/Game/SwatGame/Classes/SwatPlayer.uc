@@ -89,7 +89,7 @@ var config float StingEffectFrequency;
 // if we change these two config variables, all kinds of chaos on the native code occurs
 var config Rotator StingViewEffectAmplitude;
 var config float StingInputEffectAmplitude;
-// end revert
+// end revertu
 var config float Unused8;
 var config float Unused9;
 
@@ -1715,9 +1715,13 @@ simulated function AdjustPlayerMovementSpeed() {
   ModdedBck = OriginalBck;
   ModdedSde = OriginalSde;
 
-  AnimSet.AnimSpeedForward = ModdedFwd;
-  AnimSet.AnimSpeedBackward = ModdedBck;
-  AnimSet.AnimSpeedSidestep = ModdedSde;
+  
+		WeightMovMod=LoadOut.GetWeightMovementModifier();
+		
+		AnimSet.AnimSpeedForward = ModdedFwd * WeightMovMod;
+		AnimSet.AnimSpeedBackward = ModdedBck * WeightMovMod;
+		AnimSet.AnimSpeedSidestep = ModdedSde * WeightMovMod;
+
 
 }
 
@@ -2576,10 +2580,10 @@ function ReactToCSGas( Actor GasContainer,
 	Distance = VSize(Location - GasContainer.Location);
 	DistanceEffect = (600 - Distance)/(600);
 
-    //added a minum distance effect to avoid effect crash - Beppe
+	//added a minum distance effect to avoid effect crash 
 	if (DistanceEffect < 0.2 )
 	           DistanceEffect = 0.2; 
-			   
+
     if ( Level.NetMode == NM_Client )
         return;
 
