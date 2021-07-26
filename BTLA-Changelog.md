@@ -1,4 +1,4 @@
-### v1.2 ###
+### v1.2 (starting from beta 1 up to beta 7) ###
 
 Suppressed Assault Rifles muzzlevelocities have been reverted so now they are as punchy as before
 MP5, MP5A5, MP5SD5, MP5SD6 and UMP Aimpoint position has been fixed to fit like they do in real life, providing a much clear view of your targets
@@ -178,28 +178,27 @@ Fixed Level III Armor texture glitch (apparently)
 Added an slightly different mesh for Level III Armor (IIIA + III Steel Plate) with 3 variants
 Changed the max ammount of grenade launcher rounds to 10
 Increased Optiwand Weight, slowed down lens Turn and lens End speed, equip and unequip speed have been slowed down
-Fixed BTLA bug: If carrying more than one can, after emptying the first one, you wouldn't be able to use the second one. (Thanks to The Suggester for the hint)
+Fixed BTLA bug: If carrying more than one pepper spray can, after emptying the first one, you wouldn't be able to use the second one. (Thanks to The Suggester for the hint)
+Added Beretta 92FS to the game, suppressed variant included
+Added M16A2 to the game, suppressed variant included
+Some new singleplayers voicelines have been added to Multiplayer (Thanks Sphee)
+Suspects are much more prone to flee/pick up their guns when unobserved by the player or AI officers
 
-
-### SEF v7.1 Update VOL. II ### 
+### SEF v7.1 Update ### 
 Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally         removed on 1.2)
 Enabled the following npcs so that they can be used in custom missions: Lian Niu, Evil Waiter (shows up as Male, Asian Chef), Allen   Kruse, Simon Gowan, Jewel Thief from the Diamond Robbery        Mission, and the hospital terrorist from the hospital mission. Thanks to Warzaid for this.
 Officers don't open a trapped door when ordered to disable it anymore
 AI issue compliance issue is effective (Thanks BSBola)
 Drop Lightstick bind now works as a quick throw
 Fixed no DOAs in St. Micheal's on QMM - this was removed due to an issue with Arms Deal
-FN FAL now has the correct kind of ammo for it. Thanks to beppe for this (Already in BTLA since 1.0)
-Shotguns have a tighter choke, and are a more appealing option because of it. (Edit made by EFdee) (Already in BTLA since 1.2)
-Fixed SEF bug: Suspects wouldn't pick up weapons, they would just flee. (thanks to EFdee for this) (Already in BTLA since 1.4)
-Fixed TSS bug: Gamma would be wrong in SwatEd. Thanks to Masterscape for this. (Already in BTLA since 1.2)
-END OF SEF v7.1 Update VOL. II
-
-### SEF v7.1 Update VOL. III ### 
+FN FAL now has the correct kind of ammo for it. Thanks to beppe for this
+Shotguns have a tighter choke, and are a more appealing option because of it. (Edit made by EFdee)
+Fixed SEF bug: Suspects wouldn't pick up weapons, they would just flee. (thanks to EFdee for this)
+Fixed TSS bug: Gamma would be wrong in SwatEd. Thanks to Masterscape for this.
 Fixed SEF bug: The optiwand would not transfer correctly in singleplayer (thanks to Severn for this)
 Fixed SEF bug: FPS issues in multiplayer with movement (thanks to beppe for this)
 Fixed SEF bug: Locked doors by AI SWAT could be opened by AI suspects or hostages
-END OF SEF v7.1 Update VOL. III
-
+Fixed SEF bug: "Drop lightstick" was bugged in multiplayer and singleplayer
 
   
     
