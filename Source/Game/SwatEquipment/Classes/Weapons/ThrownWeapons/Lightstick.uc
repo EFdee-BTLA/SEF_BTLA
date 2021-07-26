@@ -236,7 +236,6 @@ simulated function EquipmentSlot GetSlotForReequip()
 
 	if(ThrowingFast)
 	{
-		ThrowingFast = false;
 
 		LPC = SwatGamePlayerController(Level.GetLocalPlayerController());
 
@@ -249,6 +248,13 @@ simulated function EquipmentSlot GetSlotForReequip()
 
 	return super.GetSlotForReequip();
 }
+
+simulated function UnequippedHook()
+{
+	ThrowingFast = false;
+	Super.UnequippedHook();
+}
+
 
 Replication
 {
