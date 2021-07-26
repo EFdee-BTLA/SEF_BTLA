@@ -34,7 +34,7 @@ Description=Failed to report a downed officer
 [Procedure_EvacuateDownedCivilians]
 Description=Failed to report a downed civilian
 
-[Proedure_EvacuateDownedSuspects]
+[Procedure_EvacuateDownedSuspects]
 Description=Failed to report a downed suspect
 
 [Procedure_NoHostageIncapacitated]
