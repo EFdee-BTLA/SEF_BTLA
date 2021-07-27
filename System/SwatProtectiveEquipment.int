@@ -59,7 +59,7 @@ FriendlyName=Pro-Tec Helmet Oakley
 GUIImage=material'gui_hov.V3tacticGlasses'
 
 [ProtecAndGoggles]
-Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of ESS XT ballistic goggles that provide protection against flashbangs effects.
+Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of ESS's ballistic goggles that provide protection against flashbangs effects.
 FriendlyName=Pro-Tec Helmet ESS
 GUIImage=material'gui_hov.V3tacticGoggles'
 
@@ -69,7 +69,7 @@ FriendlyName=PASGT IIIA Helmet Oakley
 GUIImage=material'gui_hov.V2tacticGlasses'
 
 [HelmetAndGoggles]
-Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a pair of ESS XT ballistic goggles that provide protection against flashbangs effects.
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds or armor piercing pistol ammunition. This configuration features a pair of ESS's ballistic goggles that provide protection against flashbangs effects.
 FriendlyName=PASGT IIIA Helmet ESS
 GUIImage=material'gui_hov.V2tacticGoggles'
 
@@ -253,22 +253,22 @@ GUIImage=material'gui_hov.LightArmorShirtNoMask'
 [EnhancedBodyArmor]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmor'
+GUIImage=material'gui_hov.HeavyArmor'
 
 [EnhancedBodyArmorClotheUp]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmorClotheUp'
+GUIImage=material'gui_hov.HeavyArmorClotheUp'
 
 [EnhancedBodyArmorNoMask]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmorNoMask'
+GUIImage=material'gui_hov.HeavyArmorNoMask'
 
 [EnhancedBodyArmorClotheUpNoMask]
 Description=This steel plate armor provides Level III+ protection from ballistic penetrations.  Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs.  Moreover, the steel plates can reliably stop multiple impacts without damaging, giving them an advantage compared to ceramic plate armor. The thickness and bulk of the vest reduce the effects of Sting grenades and the less lethal shotgun by half, but greatly impair an officer's mobility and slowdown his actions.
 FriendlyName=Level IIIA + III Steel Plate
-GUIImage=material'gui_hov.MediumArmorClotheUpNoMask'
+GUIImage=material'gui_hov.HeavyArmorClotheUpNoMask'
 
 [HeavyBodyArmor]
 Description=This armor is laden with ceramic plates rated Level IV protection from ballistic penetrations. Even when hit with AP rounds, it provides exceptional protection from pistols, submachineguns, rifles and armor piercing shotgun slugs. However, the ceramic plates only can reliably stop one impact, after that they start to break, reducing the armor's ballistic protection. The thickness and bulk of the vest reduce the effects of Sting grenades and beanbags by half, but reduce an officer's mobility and slowdown his actions.
