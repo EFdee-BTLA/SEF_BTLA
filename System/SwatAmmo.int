@@ -49,7 +49,7 @@ FriendlyName=Sabot Slug
 GUIImage=Texture'gui_tex.ammo_sabot'
 
 [ShotgunHPSabotAmmo]
-Description=Hollow point slugs are designed to inflict massive damage to unarmored targets. When the projectile impacts fleshy material, it breaks apart into several pieces, exploding inside the target. This causes maximum internal injuries, with minimum penetration.
+Description=Hollow point slugs are quite effective on unarmored targets. When the heavy projectile impacts on fleshy material, it breaks apart into several pieces. This causes maximum internal injuries with minimal penetration.
 FriendlyName=Rifled Slug
 GUIImage=Texture'gui_tex.ammo_hpslug'
 
