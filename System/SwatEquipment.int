@@ -29,7 +29,7 @@ Description=The Browning Hi-Power is one of the most widely used pistols in hist
 FriendlyName=Browning Hi-Power
 ShortName=Browning Hi-Power
 Manufacturer=Browning
-Caliber=9x19mm
+Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
 ProductionStart=1935
 FireModes=Semi-Automatic
@@ -42,7 +42,7 @@ Description=The Browning Hi-Power is one of the most widely used pistols in hist
 FriendlyName=Browning Hi-Power Suppressed
 ShortName=Browning Hi-Power Suppressed
 Manufacturer=Browning
-Caliber=Subsonic 9x19mm
+Caliber=Subsonic 9x19mm Parabellum
 CountryOfOrigin=United States
 ProductionStart=
 FireModes=Semi-Automatic
@@ -55,7 +55,7 @@ Description=The SIG Sauer P226 is the high capacity version of the P220, using d
 FriendlyName=SIG P226
 ShortName=SIG P226
 Manufacturer=SIG Sauer
-Caliber=9x19mm
+Caliber=9x19mm Parabellum
 CountryOfOrigin=Germany
 ProductionStart=1984
 FireModes=Semi-Automatic
@@ -68,7 +68,7 @@ Description=The SIG Sauer P226 is the high capacity version of the P220, using d
 FriendlyName=SIG P226 Suppressed
 ShortName=SIG P226 Suppressed
 Manufacturer=SIG Sauer
-Caliber=Subsonic 9x19mm
+Caliber=Subsonic 9x19mm Parabellum
 CountryOfOrigin=Germany
 ProductionStart=1984
 FireModes=Semi-Automatic
@@ -260,8 +260,8 @@ RateOfFire=150 RPM
 
 [Remington870PoliceSG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant features a synthetic stock, a SureFire forend light and an extended magazine tube that allows the M870 to hold up to 6 shells.
-FriendlyName=Remington M870 Express
-ShortName=Remington M870 Express
+FriendlyName=Remington M870 Police
+ShortName=Remington M870 Police
 
 [Remington870ShortySG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This "Shorty" configuration sports a pistol grip for reduced weight and bulk.
@@ -296,7 +296,7 @@ TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. Even though is an old shotgun, it is a mainstay in law-enforcement.
+Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
 FriendlyName=Benelli M1
 ShortName=Benelli M1
 Manufacturer=Benelli
@@ -309,7 +309,7 @@ TotalAmmoString=80 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. Even though is an old shotgun, it is a mainstay in law-enforcement. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
+Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
 FriendlyName=Benelli M1 Entry
 ShortName=Benelli M1 Entry
 MagazineSizeString=6
@@ -371,30 +371,20 @@ FriendlyName=Kimber Custom TLE II Suppressed
 ShortName=Kimber Custom TLE II Suppressed
 
 [Glock21HG]
-Description=The Glock 21 is the .45 ACP iteration of the well known Glock 17, remarkable for its accuracy and light recoil. The Glock 21 delivers the power of the .45 ACP round with high magazine capacity. It is one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting a 13-round box magazine.
+Description=The Glock 21 is a .45 ACP variant of the Glock, remarkable for its accuracy and light recoil. It is preferred by many SWAT officers due to the larger round and a generous 13 round magazine.
 FriendlyName=Glock 21
 ShortName=Glock 21
-Manufacturer=Glock
 Caliber=.45 ACP
-CountryOfOrigin=Austria
 ProductionStart=1990
-FireModes=Semi-Automatic
 MagazineSizeString=13
-TotalAmmoString=10 magazines
-RateOfFire=400 RPM
 
 [Glock21sdHG]
-Description=The Glock 21 is the .45 ACP iteration of the well known Glock 17, remarkable for its accuracy and light recoil. The Glock 21 delivers the power of the .45 ACP round with high magazine capacity. It is one of the most versatile handguns available to SWAT officers, packing a powerful punch and boasting a 13-round box magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=The Glock 21 is a .45 ACP variant of the Glock, remarkable for its accuracy and light recoil. It is preferred by many SWAT officers due to the larger round and a generous 13 round magazine. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 21 Suppressed
 ShortName=Glock 21 Suppressed
-Manufacturer=Glock
 Caliber=.45 ACP
-CountryOfOrigin=Austria
-FireModes=Semi-Automatic
 ProductionStart=1990
 MagazineSizeString=13
-TotalAmmoString=10 magazines
-RateOfFire=400 RPM
 
 [Glock9mmHG]
 Description=Designed by gun designer Gaston Glock, this Austrian designed handgun is largely made of high tech polymer plastics.  This construction results in a weapon that is incredibly easy to handle and manipulate.  While less powerful than the Colt 1911, it boasts a standard 17 round magazine. Its ease of use, accuracy, and ''safe action'' trigger has made it a popular choice for law-enforcement agencies.
@@ -416,7 +406,7 @@ ShortName=Glock 17 Suppressed
 Caliber=Subsonic 9x19mm
 
 [Glock18HG]
-Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite, tactical units.
+Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite units.
 FriendlyName=Glock 18
 ShortName=Glock 18
 Manufacturer=Glock
@@ -429,7 +419,7 @@ TotalAmmoString=10 magazines
 RateOfFire=1200 RPM
 
 [Glock18sdHG]
-Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite, tactical units. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite units. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 18 Suppressed
 ShortName=Glock 18 Suppressed
 Caliber=Subsonic 9x19
@@ -441,19 +431,11 @@ TotalAmmoString=10 magazines
 RateOfFire=1200 RPM
 
 [Glock19HG]
-Description=A compact iteration of the Glock 17, the Glock 19 shaves 12mm (0.5 in) off of its barrel size, and pares down the 17 standard rounds for a 15 round magazine. While this firearm, deemed compact by the manufacturer, it has worse recoil and accuracy than its forebearer.
+Description=A compact iteration of the Glock, the Glock 19 shaves 12mm (0.5 in) off of its barrel size, and pares down the 17 standard rounds for a 15 round magazine. While this firearm, deemed compact by the manufacturer, it has worse recoil and accuracy than its forebearer.
 FriendlyName=Glock 19
 ShortName=Glock 19
 ProductionStart=1988
 MagazineSizeString=15
-
-[Glock30HG]
-Description=The subcompact version of the Glock 21, the Glock 30 shaves 21mm (0.82 in) off of its barrel size and features reduced grip dimensions. It pares down the Glock 21 standard .45 ACP rounds in a 10-round magazine. This features have made the Glock 30 a quite popular handgun between officers and security personnel around the world.
-FriendlyName=Glock 30
-ShortName=Glock 30
-ProductionStart=1997
-Caliber=.45 ACP
-MagazineSizeString=10
 
 [PythonRevolverHG]
 Description=The Colt Python is among the most famous of Colt revolvers and was introduced in 1955. It is chambered for the powerful .357 Magnum ammunition making it one of the most powerful hand guns on the market. Its power is offset by its slow rate of fire and arduous reload.

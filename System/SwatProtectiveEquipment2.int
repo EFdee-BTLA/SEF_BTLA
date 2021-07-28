@@ -1,6 +1,6 @@
 [ProtecNVGoggles]
-Description=A skateboard helmet made by the Pro-Tec company. This helmet has gained popularity in military and law-enforcement agencies from around the world since the 90's due to its light weight and increased modularity. The Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. However, its reduced weight and bulk compared to the PASGT helmet makes it a solid choice for CQC scenarios. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=Pro-Tec Helmet PVS-7 NVG
+Description=Developed in the 1970's by the skateboard Pro-Tec company, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight and reduced bulk compared to ballistic helmets such as the PASGT. However, the Pro-Tec helmet doesn't offer ballistic protection, resulting in greater vulnerability to injury from enemy fire. This configuration features a pair of AN/PVS-7 Night Vision Goggles that work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+FriendlyName=Pro-Tec Half Cut Helmet PVS-7 NVG
 GUIImage=material'gui_hov.V3tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
 
