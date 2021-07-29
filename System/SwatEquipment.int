@@ -110,7 +110,7 @@ RateOfFire=550 RPM
 
 [G3AimpointMG]
 Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=G3A3 Aimpoint
+FriendlyName=G3A3 with Aimpoint
 ShortName=G3A3 Aim.
 
 [G3sdMG]
@@ -120,7 +120,7 @@ ShortName=G3A3 Supp.
 
 [G3sdAimpointMG]
 Description=The G3 rifle is a select-fire, magazine-fed, roller-delayed blowback rifle developed in the 1950s by Heckler & Koch alongside the CETME (Centro de Estudios Tecnicos de Materiales Especiales). It was the main service rifle of the Bundeswehr between the late 1950s and late 1990s until it was replaced by the G36. The G3 has a slow rate of fire which makes it easier to control when firing on full-auto compared to the FAL. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=G3A3 Suppressed Aimpoint
+FriendlyName=G3A3 Suppressed with Aimpoint
 ShortName=G3A3 Supp. Aim.
 
 [G3KA4MG]
@@ -138,7 +138,7 @@ RateOfFire=550 RPM
 
 [G3KA4AimpointMG]
 Description=The G3KA4 is the carbine version of the G3A4 rifle. The G3KA4 (the K stands for "Kurz", German for "short") features a shortened barrel and a retractable metallic stock with rubber buttplate, similar to the MP5A3. This configuration features an aimpoint sight for ease of use against distant targets.
-FriendlyName=G3KA4 Aimpoint
+FriendlyName=G3KA4 with Aimpoint
 ShortName=G3KA4 Aim.
 
 [G3KA4sdMG]
@@ -148,7 +148,7 @@ ShortName=G3KA4 Supp.
 
 [G3KA4sdAimpointMG]
 Description=The G3KA4 is the carbine version of the G3A4 rifle. The G3KA4 (the K stands for "Kurz", German for "short") features a shortened barrel and a retractable metallic stock with rubber buttplate, similar to the MP5A3. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=G3KA4 Suppressed Aimpoint
+FriendlyName=G3KA4 Suppressed with Aimpoint
 ShortName=H&K G3KA4 Supp. Aim.
 
 [SG552MG]
@@ -166,7 +166,7 @@ RateOfFire=700 RPM
 
 [SG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=SG 552 Aimpoint
+FriendlyName=SG 552 with Aimpoint
 ShortName=SG 552 Aimpoint
 
 [SilencedSG552MG]
@@ -176,7 +176,7 @@ ShortName=SG 552 Supp.
 
 [SilencedSG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor for when stealth is paramount.
-FriendlyName=SG 552 Suppressed Aimpoint
+FriendlyName=SG 552 Suppressed with Aimpoint
 ShortName=SG 552 Supp. Aim.
 
 [M16A1MG]
@@ -284,8 +284,8 @@ RateOfFire=150 RPM
 
 [LessLethalM870SG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted orange.
-FriendlyName=M870 Less Lethal
-ShortName=M870 Less Lethal
+FriendlyName=M870 Less-Lethal
+ShortName=M870 Less-Lethal
 Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
@@ -439,8 +439,8 @@ MagazineSizeString=15
 
 [PythonRevolverHG]
 Description=The Colt Python is among the most famous of Colt revolvers and was introduced in 1955. It is chambered for the powerful .357 Magnum ammunition making it one of the most powerful hand guns on the market. Its power is offset by its slow rate of fire and arduous reload.
-FriendlyName=Python
-ShortName=Python
+FriendlyName=Colt Python
+ShortName=Colt Python
 Manufacturer=Colt
 Caliber=.357 Magnum
 CountryOfOrigin=United States
@@ -465,8 +465,8 @@ RateOfFire=300 RPM
 
 [TEC9HG]
 Description=This infamous machine pistol was developed by Intratec, a Miami offshoot of the Swedish company Interdynamic. While it has relatively poor stopping power compared to full-sized submachine guns, its highly concealable form factor and ease of converting to full-auto makes it the weapon of choice for drive-bys and gang shootings. The TEC-9 received considerable noteriety in American media after the Columbine and Cleveland school shootings. After these events, the weapon was banned in several states by name and Intratec went bankrupt. Despite being a criminal weapon, a flashlight has been added for better tactical use in dark areas.
-FriendlyName=TEC-9
-ShortName=TEC-9
+FriendlyName=TEC-DC9
+ShortName=TEC-DC9
 Manufacturer=Intratec
 Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
@@ -509,19 +509,20 @@ RateOfFire=800 RPM
 
 [MP5AimpointSMG]
 Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position, Navy style, Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=MP5A4 Aimpoint
+FriendlyName=MP5A4 with Aimpoint
 ShortName=MP5A4 Aim.
 
 [SilencedMP5SMG]
-Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds.
+Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe.
 FriendlyName=MP5SD5
 ShortName=MP5SD5
 Caliber=Subsonic 9x19mm Parabellum
 
 [SilencedMP5AimpointSMG]
-Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This weapon is chambered in Subsonic 9x19mm Parabellum rounds. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=MP5SD5 Aimpoint
+Description=Based on the G3 design layout and operating principle, the MP5 submachine gun was designed by H&K, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor and solid stock. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+FriendlyName=MP5SD5 with Aimpoint
 ShortName=MP5SD5 Aim.
+Caliber=Subsonic 9x19 Parabellum
 
 [UMP45SMG]
 Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group.
@@ -538,7 +539,7 @@ RateOfFire=600 RPM
 
 [UMP45AimpointSMG]
 Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=UMP45 Aimpoint
+FriendlyName=UMP45 with Aimpoint
 ShortName=UMP45 Aim.
 
 [UMP45sdSMG]
@@ -548,13 +549,13 @@ ShortName=UMP45 Supp.
 
 [UMP45sdAimpointSMG]
 Description=The UMP is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire.  The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=UMP45 Suppressed Aimpoint
+FriendlyName=UMP45 Suppressed with Aimpoint
 ShortName=UMP45 Supp. Aim.
 
 [ColtSMG]
 Description=The Colt Model 635 (also known as the 9mm SMG) is a shortened version of the M16 assault rifle, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns.
 FriendlyName=Colt Model 635
-ShortName=Colt Model 635
+ShortName=Colt M635
 Manufacturer=Colt
 Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
@@ -567,12 +568,12 @@ RateOfFire=800 RPM
 [SilencedColtSMG]
 Description=The Colt Model 635 (also known as the 9mm SMG) is a shortened version of the M16 assault rifle, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount. 
 FriendlyName=Colt Model 635 Suppressed
-ShortName=Colt Model 635 Supp.
+ShortName=Colt M635 Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [M4A1MG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It is equipped with a fire mode selector allowing semi-automatic as well as fully automatic firing.
-FriendlyName=M4A1 
+FriendlyName=M4A1 Carbine
 ShortName=M4A1
 Manufacturer=Colt
 Caliber=5.56x45mm NATO
@@ -585,7 +586,7 @@ RateOfFire=800 RPM
 
 [M4A1AimpointMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 Aimpoint
+FriendlyName=M4A1 Carbine Aimpoint
 ShortName=M4A1 Aim.
 Manufacturer=Colt
 Caliber=5.56x45mm NATO
@@ -598,36 +599,36 @@ RateOfFire=800 RPM
 
 [M4A1sdMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount.
-FriendlyName=M4A1 Suppressed
+FriendlyName=M4A1 Carbine Suppressed
 ShortName=M4A1 Supp.
 
 [M4A1sdAimpointMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 Suppressed Aimpoint
+FriendlyName=M4A1 Carbine Suppressed Aimpoint
 ShortName=M4A1 Supp. Aim.
 
 [CQBRMG]
 Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity.
-FriendlyName=M4A1 CQBR
-ShortName=M4A1 CQBR
+FriendlyName=M4A1 CQB Carbine
+ShortName=M4A1 CQB
 ProductionStart=1999
 
 [CQBRAimpointMG]
 Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 CQBR Aimpoint
-ShortName=M4A1 CQBR Aim.
+FriendlyName=M4A1 CQB Carbine Aimpoint
+ShortName=M4A1 CQB Aim.
 ProductionStart=1999
 
 [CQBRsdMG]
 Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with a suppressor for when stealth is paramount.
-FriendlyName=M4A1 CQBR Suppressed
-ShortName=M4A1 CQBR Supp.
+FriendlyName=M4A1 CQB Carbine Suppressed
+ShortName=M4A1 CQB Supp.
 ProductionStart=1999
 
 [CQBRsdAimpointMG]
 Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=M4A1 CQBR Suppressed Aimpoint
-ShortName=M4A1 CQBR Supp. Aim.
+FriendlyName=M4A1 CQB Carbine Suppressed Aimpoint
+ShortName=M4A1 CQB Supp. Aim.
 ProductionStart=1999
 
 [G36kMG]
@@ -645,7 +646,7 @@ RateOfFire=750 RPM
 
 [G36kAimpointMG]
 Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights.
-FriendlyName=G36K Aimpoint
+FriendlyName=G36K with Aimpoint
 ShortName=G36K Aim.
 
 [G36ksdMG]
@@ -655,7 +656,7 @@ ShortName=G36K Suppressed
 
 [G36ksdAimpointMG]
 Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights as well as a suppressor for when stealth is paramount.
-FriendlyName=G36K Suppressed Aimpoint
+FriendlyName=G36K Suppressed with Aimpoint
 ShortName=G36K Supp. Aim.
 
 [UziSMG]
@@ -676,7 +677,7 @@ Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machi
 
 [UziAimpointSMG]
 Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice, as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=Uzi Suppressed Aimpoint
+FriendlyName=Uzi Suppressed with Aimpoint
 ShortName=Uzi Supp. Aim.
 
 [UZIunSMG]
@@ -687,13 +688,13 @@ Caliber=9x19mm
 
 [UZIunAimpointSMG]
 Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=Uzi Aimpoint
+FriendlyName=Uzi with Aimpoint
 ShortName=Uzi Aim.
 Caliber=9x19mm
 
 [SAWMG]
 Description=This light machine gun is intended only for military operations; however as with most weapons some are available on the black market. The weapon is designed to be fired accurately from the hip or shoulder, though it is more commonly fired from a deployed bipod. It uses a box magazine holding 200 rounds of disintegrating-link ammunition.
-FriendlyName=M249 
+FriendlyName=M249 SAW
 ShortName=M249
 Manufacturer=FN Herstal
 Caliber=5.56x45mm NATO
@@ -706,8 +707,8 @@ RateOfFire=800 RPM
 
 [FNFALMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. 
-FriendlyName=FAL Para 2 
-ShortName=FAL Para 2
+FriendlyName=FAL
+ShortName=FAL 
 Manufacturer=FN Herstal
 Caliber=7.62x51mm NATO
 CountryOfOrigin=Belgium
@@ -719,18 +720,18 @@ RateOfFire=700 RPM
 
 [FNFALsdMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with a suppressor making it a more stealthy choice.
-FriendlyName=FAL Para 2 Suppressed
-ShortName=FAL Para 2 Supp.
+FriendlyName=FAL Suppressed
+ShortName=FAL Supp.
 
 [FNFALAimpointMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=FAL Para 2 Aimpoint
-ShortName=FAL Para 2 Aim.
+FriendlyName=FAL with Aimpoint
+ShortName=FAL Aim.
 
 [FNFALsdAimpointMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuratio comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=FAL Para 2 Suppressed Aimpoint
-ShortName=FAL Para 2 Supp. Aim.
+FriendlyName=FAL Suppressed with Aimpoint
+ShortName=FAL Supp. Aim.
 
 [AK47MG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
@@ -750,7 +751,7 @@ Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikh
 
 [AK47SynthMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM.
-FriendlyName=AKM Tactical
+FriendlyName=AKM Tac
 ShortName=AKM Tac
 
 [AK47sdMG]
@@ -760,27 +761,27 @@ ShortName=AKM Supp.
 
 [AK47sdSynthMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM. This configuration comes equipped with a suppressor, making it a more stealthy choice.
-FriendlyName=AKM Tactical Supressed
+FriendlyName=AKM Tac Supressed
 ShortName=AKM Tac Supp.
 
 [AK47AimpointMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=AKM Aimpoint
+FriendlyName=AKM with Aimpoint
 ShortName=AKM Aim.
 
 [AK47SynthAimpointMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=AKM Tactical Aimpoint
+FriendlyName=AKM Tac with Aimpoint
 ShortName=AKM Tac Aim.
 
 [AK47sdAimpointMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
-FriendlyName=AKM Suppressed Aimpoint
+FriendlyName=AKM Suppressed with Aimpoint
 ShortName=AKM Supp. Aim.
 
 [AK47sdSynthAimpointMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
-FriendlyName=AKM Tactical Suppressed Aimpoint
+FriendlyName=AKM Tac Suppressed with Aimpoint
 ShortName=AKM Tac Supp. Aim.
 
 [AK74sutMG]
@@ -838,8 +839,8 @@ RateOfFire=6 RPM
 
 [ColtAccurizedRifle]
 Description=The Colt Accurized Rifle occupies the mid ground between an assault rifle and a dedicated sniper rifle. The CAR combines accurate fire at range with the large ammo capacity required for urban field use, plus mounting points for a variety of scopes. Firing a 5.56mm round from a 20 round magazine, the CAR is only capable of firing in semiautomatic mode. Its length can make it a difficult weapon to wield in close quarters.
-FriendlyName=CR6720
-ShortName=CR6720
+FriendlyName=Colt CR6720
+ShortName=Colt CR6720
 Manufacturer=Colt
 Caliber=5.56x45mm Mk.262
 CountryOfOrigin=United States
@@ -855,18 +856,18 @@ FriendlyName=Remington 700 TWS
 
 [C2Charge]
 Description=The door breaching charge is a powerful and devastating method of breaching a door.  The compact and specially designed charge destroys the locking mechanism of the door and forcefully opens the door at the same time.  The noise and shock of the detonation causes people on the opposite side of the door to react in a similar manner to a flashbang detonation, which can provide a tactical advantage for using it instead of the breaching shotgun.  The C2 breaching charge is an explosive and can injure or kill anyone unlucky enough to be directly behind the door.
-FriendlyName=C2 Door Breaching Charge
-GivenName=C2 Door Breaching Charge
+FriendlyName=C2 Charge
+GivenName=C2 Charge
 
 [C2Charge3pack]
 Description=This pack of three door breaching charges contains three times as many charges, but occupies five times as much space and weight.
-FriendlyName=C2 Door B. Charge (x3)
-GivenName=C2 Door Breaching Charge
+FriendlyName=C2 (x3)
+GivenName=C2 Charge
 
 [LessLethalSG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend, aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers. This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
-FriendlyName=Nova Less Lethal
-ShortName=Nova Less Lethal
+FriendlyName=Nova Tactical Less-Lethal
+ShortName=Nova Less-Lethal
 Manufacturer=Benelli
 Caliber=Beanbags
 CountryOfOrigin=Italy
@@ -878,8 +879,8 @@ RateOfFire=100 RPM
 
 [CSBallLauncher]
 Description=The Pepper-ball gun is based on technology originally designed for recreational paintball.  Compressed Carbon Dioxide ejects the ammunition at relatively high velocities.  The Pepper-ball gun allows officers to quickly deploy OC at specific targets, in more easily controlled quantities, and at significantly longer ranges than a grenade or standard pepper spray.  With the large ammunition hopper this weapon never needs to be reloaded under normal operating conditions.
-FriendlyName=Pepper-ball gun
-ShortName=Pepper-ball gun
+FriendlyName=Pepper-ball Gun
+ShortName=Pepper-ball Gun
 Manufacturer=Tippmann
 Caliber=Pepper-ball
 CountryOfOrigin=United States
@@ -896,7 +897,7 @@ GivenName=Door Wedge
 
 [Wedge3pack]
 Description=This pack of three door wedges contains three times as many wedges, but occupies five times as much space and weight.
-FriendlyName=Door Wedge (x3)
+FriendlyName=Wedge (x3)
 GivenName=Door Wedge
 
 [Optiwand]
@@ -905,31 +906,31 @@ FriendlyName=Opti-Wand
 
 [PepperSpray]
 Description=While generally used for riot control, handheld pepper spray canisters can be an effective tool for subduing uncooperative targets.  The active ingredient in pepper spray is Oleoresin Capsicum or OC.  OC is an inflammatory agent that causes the eyes to swell up and close.  It also causes a burning sensation on any exposed skin.  Due to its limited range and area of effect it is best used in addition to other non-lethal devices to cause a suspect or hostage to comply.
-FriendlyName=OC Spray
-ShortName=OC Spray
-GivenName=OC Spray
+FriendlyName=Pepper Spray
+ShortName=Pepper Spray
+GivenName=Pepper Spray
 
 [stingGrenade]
-Description=The CTS Model 9590 Sting-Ball grenade, or stinger, is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
-FriendlyName=Stinger
+Description=The sting grenade, or stinger, is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
+FriendlyName=Model 9590 Stinger 
 ShortName=Stinger
 GivenName=Stinger
 
 [CSGasGrenade]
-Description=The CTS Model 5230B grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
-FriendlyName=CS Gas
+Description=This grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
+FriendlyName=Model 5230B CS Grenade
 ShortName=CS Gas
 GivenName=CS Gas 
 
 [FlashbangGrenade]
-Description=The CTS Model 7290 flashbang grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons.||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
-FriendlyName=Flash-Bang 
+Description=The flash-bang grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons.||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
+FriendlyName=Model 7290 Flash-Bang
 ShortName=Flash-Bang 
 GivenName=Flash-Bang 
 
 [Sting3pack]
-Description=This 3-pack of stingers contains three times as many sting-ball grenades, but occupies five times as much space and weight.
-FriendlyName=Stinger x3)
+Description=This 3-pack of stingers contains three times as many sting grenades, but occupies five times as much space and weight.
+FriendlyName=Stinger (x3)
 ShortName=Stinger (x3)
 GivenName=Stinger
 
@@ -940,7 +941,7 @@ ShortName=CS Gas (x3)
 GivenName=CS Gas
 
 [Flashbang3pack]
-Description=This 3-pack of flashbangs contains three times as many flashbangs, but occupies five times as much space and weight.
+Description=This 3-pack of flashbangs contains three times as many flash-bangs, but occupies five times as much space and weight.
 FriendlyName=Flash-Bang (x3)
 ShortName=Flash-Bang (x3)
 GivenName=Flash-Bang 
@@ -987,9 +988,9 @@ FriendlyName=The Detonator
 
 [Lightstick]
 Description=Lightsticks are used to designate paths through buildings and to mark areas as having been cleared.
-FriendlyName=ChemLight
-ShortName=ChemLight
-GivenName=ChemLight
+FriendlyName=Lightstick
+ShortName=Lightstick
+GivenName=Lightstick 
 
 [IngramHG]
 Description=Ingram Handgun
