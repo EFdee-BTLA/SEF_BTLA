@@ -298,7 +298,7 @@ RateOfFire=150 RPM
 [M1Super90SG]
 Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
 FriendlyName=M1 Super 90 Tactical
-ShortName=M1 Super 90 Tactical
+ShortName=M1 Super 90 
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -353,9 +353,9 @@ ShortName=Nova Tactical Entry
 MagazineSizeString=5
 
 [ColtM1911HG]
-Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a modern variant of the M1911A1 developed by Kimber Manufacturing, Inc. It was especifically designed to be used by the Los Angeles Police Department's Special Weapons And Tactics officers. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
-FriendlyName=M1911A1
-ShortName=M1911A1
+Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized M1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT team. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
+FriendlyName=M1911 
+ShortName=M1911
 Manufacturer=Kimber Manufacturing, Inc
 Caliber=.45 ACP
 CountryOfOrigin=United States
@@ -366,9 +366,9 @@ TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [ColtM1911sdHG]
-Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a modern variant of the M1911A1 developed by Kimber Manufacturing, Inc. It was especifically designed to be used by the Los Angeles Police Department's Special Weapons And Tactics officers. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
-FriendlyName=M1911A1 Suppressed
-ShortName=M1911A1 Supp.
+Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized M1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT team. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+FriendlyName=M1911 Supressed
+ShortName=M1911 Supp.
 
 [Glock21HG]
 Description=The Glock 21 is a .45 ACP variant of the Glock, remarkable for its accuracy and light recoil. It is preferred by many SWAT officers due to the larger round and a generous 13 round magazine.
@@ -439,8 +439,8 @@ MagazineSizeString=15
 
 [PythonRevolverHG]
 Description=The Colt Python is among the most famous of Colt revolvers and was introduced in 1955. It is chambered for the powerful .357 Magnum ammunition making it one of the most powerful hand guns on the market. Its power is offset by its slow rate of fire and arduous reload.
-FriendlyName=Colt Python
-ShortName=Colt Python
+FriendlyName=Python
+ShortName=Python
 Manufacturer=Colt
 Caliber=.357 Magnum
 CountryOfOrigin=United States
