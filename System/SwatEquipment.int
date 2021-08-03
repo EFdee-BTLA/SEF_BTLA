@@ -261,7 +261,6 @@ ShortName=M870 Police
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This shorty configuration sports a pistol grip that reduces the bulk of the shotgun.
 FriendlyName=M870 Shorty
 ShortName=M870 Shorty
-MagazineSizeString=7
 
 [BreachingSG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This configuration is equipped with a special breaching muzzle break, which ensures that every shot will consistently breach a door.
@@ -304,8 +303,8 @@ RateOfFire=200 RPM
 
 [M1Super90EntrySG]
 Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
-FriendlyName=M1 Super 90 CQB
-ShortName=M1 Super 90 CQB
+FriendlyName=M1 Super 90 Entry
+ShortName=M1 Super 90 Entry
 MagazineSizeString=6
 
 [M4Super90SG]
@@ -323,8 +322,8 @@ RateOfFire=200 RPM
 
 [M4Super90EntrySG]
 Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic combat shotguns by Benelli, developed in the late 1990 at the request of the U.S. Marine Corps. It uses the new propietary gas system instead of the inertia driven one, this makes the M4 cycle more reliable in arduous circumstances. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
-FriendlyName=M4 Super 90 CQB
-ShortName=M4 Super 90 CQB
+FriendlyName=M4 Super 90 Entry
+ShortName=M4 Super 90 Entry
 MagazineSizeString=6
 
 [NovaPumpSG]
@@ -342,8 +341,8 @@ RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
 Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. It features a 4 round tube magazine and it is made out of high tech polymers which make the Nova a particularly light shotgun. It can be loaded with different types of shotgun shells, making it a more than appealling choice for law enforcement officers. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
-FriendlyName=Nova Tactical CQB
-ShortName=Nova Tactical CQB
+FriendlyName=Nova Tactical Entry
+ShortName=Nova Tactical Entry
 MagazineSizeString=5
 
 [ColtM1911HG]
@@ -459,8 +458,8 @@ RateOfFire=300 RPM
 
 [TEC9HG]
 Description=This infamous machine pistol was developed by Intratec, a Miami offshoot of the Swedish company Interdynamic. While it has relatively poor stopping power compared to full-sized submachine guns, its highly concealable form factor and ease of converting to full-auto makes it the weapon of choice for drive-bys and gang shootings. The TEC-9 received considerable noteriety in American media after the Columbine and Cleveland school shootings. After these events, the weapon was banned in several states by name and Intratec went bankrupt. Despite being a criminal weapon, a flashlight has been added for better tactical use in dark areas.
-FriendlyName=TEC-DC9
-ShortName=TEC-DC9
+FriendlyName=TEC-9
+ShortName=TEC-9
 Manufacturer=Intratec
 Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
@@ -567,7 +566,7 @@ Caliber=Subsonic 9x19mm Parabellum
 
 [M4A1MG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It is equipped with a fire mode selector allowing semi-automatic as well as fully automatic firing.
-FriendlyName=M4A1 Carbine
+FriendlyName=M4A1 
 ShortName=M4A1
 Manufacturer=Colt
 Caliber=5.56x45mm NATO
@@ -580,7 +579,7 @@ RateOfFire=800 RPM
 
 [M4A1AimpointMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 Carbine Aimpoint
+FriendlyName=M4A1 with Aimpoint
 ShortName=M4A1 Aim.
 Manufacturer=Colt
 Caliber=5.56x45mm NATO
@@ -593,35 +592,36 @@ RateOfFire=800 RPM
 
 [M4A1sdMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount.
-FriendlyName=M4A1 Carbine Suppressed
+FriendlyName=M4A1 Suppressed
 ShortName=M4A1 Supp.
 
 [M4A1sdAimpointMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 Carbine Suppressed Aimpoint
+FriendlyName=M4A1 Suppressed with Aimpoint
 ShortName=M4A1 Supp. Aim.
 
 [CQBRMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando.
-FriendlyName=M4A1 CQB Carbine
-ShortName=M4A1 CQB
+FriendlyName=M4A1 CQBR
+ShortName=M4A1 CQBR
+ProductionStart=1999
 
 [CQBRAimpointMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 CQB Carbine Aimpoint
-ShortName=M4A1 CQB Aim.
+FriendlyName=M4A1 CQBR with Aimpoint
+ShortName=M4A1 CQBR Aim.
 ProductionStart=1999
 
 [CQBRsdMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with a suppressor for when stealth is paramount.
-FriendlyName=M4A1 CQB Carbine Suppressed
-ShortName=M4A1 CQB Supp.
+FriendlyName=M4A1 CQBR Suppressed
+ShortName=M4A1 CQBR Supp.
 ProductionStart=1999
 
 [CQBRsdAimpointMG]
 Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=M4A1 CQB Carbine Suppressed Aimpoint
-ShortName=M4A1 CQB Supp. Aim.
+FriendlyName=M4A1 CQBR Suppressed with Aimpoint
+ShortName=M4A1 CQBR Supp. Aim.
 ProductionStart=1999
 
 [G36kMG]
@@ -713,18 +713,18 @@ RateOfFire=700 RPM
 
 [FNFALsdMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with a suppressor making it a more stealthy choice.
-FriendlyName=FAL Suppressed
+FriendlyName=FAL PARA 2 Suppressed
 ShortName=FAL Supp.
 
 [FNFALAimpointMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
-FriendlyName=FAL with Aimpoint
-ShortName=FAL Aim.
+FriendlyName=FAL PARA 2 with Aimpoint
+ShortName=FAL PARA 2 Aim.
 
 [FNFALsdAimpointMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuratio comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease in aiming down the sights.
-FriendlyName=FAL Suppressed with Aimpoint
-ShortName=FAL Supp. Aim.
+FriendlyName=FAL PARA 2 Suppressed with Aimpoint
+ShortName=FAL PARA 2 Supp. Aim.
 
 [AK47MG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
@@ -744,7 +744,7 @@ Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikh
 
 [AK47SynthMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM.
-FriendlyName=AKM Tac
+FriendlyName=AKM Tactical
 ShortName=AKM Tac
 
 [AK47sdMG]
@@ -754,7 +754,7 @@ ShortName=AKM Supp.
 
 [AK47sdSynthMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM. This configuration comes equipped with a suppressor, making it a more stealthy choice.
-FriendlyName=AKM Tac Supressed
+FriendlyName=AKM Tactical Supressed
 ShortName=AKM Tac Supp.
 
 [AK47AimpointMG]
@@ -764,7 +764,7 @@ ShortName=AKM Aim.
 
 [AK47SynthAimpointMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=AKM Tac with Aimpoint
+FriendlyName=AKM Tactical with Aimpoint
 ShortName=AKM Tac Aim.
 
 [AK47sdAimpointMG]
@@ -774,7 +774,7 @@ ShortName=AKM Supp. Aim.
 
 [AK47sdSynthAimpointMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic stock reduces the overall weight of the AKM. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
-FriendlyName=AKM Tac Suppressed with Aimpoint
+FriendlyName=AKM Tactical Suppressed with Aimpoint
 ShortName=AKM Tac Supp. Aim.
 
 [AK74sutMG]
@@ -894,9 +894,9 @@ FriendlyName=Opti-Wand
 
 [PepperSpray]
 Description=While generally used for riot control, handheld pepper spray canisters can be an effective tool for subduing uncooperative targets.  The active ingredient in pepper spray is Oleoresin Capsicum or OC.  OC is an inflammatory agent that causes the eyes to swell up and close.  It also causes a burning sensation on any exposed skin.  Due to its limited range and area of effect it is best used in addition to other non-lethal devices to cause a suspect or hostage to comply.
-FriendlyName=Pepper Spray
-ShortName=Pepper Spray
-GivenName=Pepper Spray
+FriendlyName=OC Spray
+ShortName=OC Spray
+GivenName=OC Spray
 
 [stingGrenade]
 Description=The sting grenade, or stinger, is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
@@ -968,7 +968,7 @@ RateOfFire=20-100 RPM
 
 [Cuffs]
 Description=Zip cuff restraints have many benefits over traditional metal hand-cuffs.  Tactical teams favor them due to their light weight and flexible design.
-FriendlyName=Safariland 8220-3 Double Flex Cuff
+FriendlyName=Double Flex Cuff
 
 [Detonator]
 Description=Default description for Detonator
@@ -976,9 +976,9 @@ FriendlyName=The Detonator
 
 [Lightstick]
 Description=Lightsticks are used to designate paths through buildings and to mark areas as having been cleared.
-FriendlyName=Lightstick
-ShortName=Lightstick
-GivenName=Lightstick 
+FriendlyName=Cyalume
+ShortName=Cyalume
+GivenName=Cyalume
 
 [IngramHG]
 Description=Ingram Handgun
