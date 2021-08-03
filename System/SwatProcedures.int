@@ -51,7 +51,7 @@ ChatMessage=[c=ff8000]Incapacitated Officer (-25)[\c]
 
 [Procedure_NoOfficerInjured]
 Description=Injured a fellow officer
-ChatMessage=[c=ffff00]Injured Officer (-5)[\c]
+ChatMessage=[c=ffff00]Injured Officer[\c]
 
 [Procedure_NoOfficerTased]
 Description=Tased a fellow officer
