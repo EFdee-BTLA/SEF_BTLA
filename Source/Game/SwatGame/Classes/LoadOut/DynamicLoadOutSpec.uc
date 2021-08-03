@@ -71,7 +71,7 @@ simulated function float GetTotalWeight() {
       case Pocket_HeadArmor:
         NightVisionClass = class(DynamicLoadObject("SwatEquipment.NVGogglesBase",class'class'));
         if(ClassIsChildOf(LoadOutSpec[i], NightVisionClass)) {
-          total += 0.68; // IMPORTANT: Make sure this matches the value in NVGogglesBase.uc !!!
+          total += 1.36; // IMPORTANT: Make sure this matches the value in NVGogglesBase.uc !!!
         } else {
           HeadgearClass = class<Headgear>(LoadOutSpec[i]);
           total += HeadgearClass.default.Weight;
@@ -160,7 +160,7 @@ simulated function float GetTotalBulk() {
       case Pocket_HeadArmor:
         NightVisionClass = class(DynamicLoadObject("SwatEquipment.NVGogglesBase",class'class'));
         if(ClassIsChildOf(LoadOutSpec[i], NightVisionClass)) {
-          total += 0.68; // IMPORTANT: Make sure this matches the value in NVGogglesBase.uc !!!
+          total += 2.76; // IMPORTANT: Make sure this matches the value in NVGogglesBase.uc !!!
         } else {
           HeadgearClass = class<Headgear>(LoadOutSpec[i]);
           total += HeadgearClass.default.Bulk;
