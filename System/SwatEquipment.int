@@ -21,7 +21,7 @@ CountryOfOrigin=Great Britain
 ProductionStart=1977
 FireModes=Semi-Automatic
 MagazineSizeString=5
-TotalAmmoString=10 grenades
+TotalAmmoString=5 grenades
 RateOfFire=Unknown
 
 [BrowningHPHG]
@@ -228,20 +228,14 @@ MagazineSizeString=30
 TotalAmmoString=10 magazines
 RateOfFire=900 RPM
 
-[SilencedMP5KSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. While it has minimal carry weight and a small form factor, it is difficult to use due to the lack of a stock. Despite this, it remains popular by security and special forces around the globe, including the British Special Air Service.||This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
-FriendlyName=MP5KA4 Suppressed
-ShortName=MP5KA4 Supp.
-Caliber=Subsonic 9x19mm Parabellum
-
 [MP5KtSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. This particular model is equipped with a tactical stock for better control over the weapon while firing in full auto.
+Description=Developed in the 1990s, the MP5K-PDW is an original concept of the personal defense weapon that mated critical features like a sturdy folding buttstock and extended barrel capable of mounting a sound suppressor onto the diminutive MP5K.
 FriendlyName=MP5K-PDW
 ShortName=MP5K-PDW
 
 [SilencedMP5KtSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. This particular model is equipped with a tactical stock for better control over the weapon while firing in full auto, as well as a sound and flash suppressor for when stealth is paramount.
-FriendlyName=MP5KA-PDW Suppressed
+Description=Developed in the 1990s, the MP5K-PDW is an original concept of the personal defense weapon that mated critical features like a sturdy folding buttstock and extended barrel capable of mounting a sound suppressor onto the diminutive MP5K. This configuration features a sound and flash suppressor for when stealth is paramount.
+FriendlyName=MP5K-PDW Suppressed
 ShortName=MP5K-PDW Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
@@ -252,22 +246,22 @@ ShortName=M870
 Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
-ProductionStart=1950
+ProductionStart=1951
 FireModes=Pump-Action
 MagazineSizeString=7
 TotalAmmoString=80 shells
 RateOfFire=150 RPM
 
 [Remington870PoliceSG]
-Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant features a synthetic stock, a SureFire forend light and an extended magazine tube that allows the M870 to hold up to 6 shells.
+Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant features a synthetic stock and a SureFire forend light.
 FriendlyName=M870 Police
 ShortName=M870 Police
 
 [Remington870ShortySG]
-Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This "Shorty" configuration sports a pistol grip for reduced weight and bulk.
-FriendlyName=M870 Compact
-ShortName=M870 Compact
-MagazineSizeString=5
+Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This shorty configuration sports a pistol grip that reduces the bulk of the shotgun.
+FriendlyName=M870 Shorty
+ShortName=M870 Shorty
+MagazineSizeString=7
 
 [BreachingSG]
 Description=The Remington Model 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This configuration is equipped with a special breaching muzzle break, which ensures that every shot will consistently breach a door.
@@ -276,7 +270,7 @@ ShortName=M870 Breaching
 Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
-ProductionStart=1987
+ProductionStart=1951
 FireModes=Pump-Action
 MagazineSizeString=5
 TotalAmmoString=80 shells
@@ -289,7 +283,7 @@ ShortName=M870 Less-Lethal
 Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
-ProductionStart=1950
+ProductionStart=1951
 FireModes=Pump-Action
 MagazineSizeString=6
 TotalAmmoString=80 shells
@@ -297,7 +291,7 @@ RateOfFire=150 RPM
 
 [M1Super90SG]
 Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
-FriendlyName=M1 Super 90 Tactical
+FriendlyName=M1 Super 90
 ShortName=M1 Super 90 
 Manufacturer=Benelli
 Caliber=12 Gauge
@@ -309,9 +303,9 @@ TotalAmmoString=80 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
-FriendlyName=M1 Super 90 Entry
-ShortName=M1 Super 90 Entry
+Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
+FriendlyName=M1 Super 90 CQB
+ShortName=M1 Super 90 CQB
 MagazineSizeString=6
 
 [M4Super90SG]
@@ -328,13 +322,13 @@ TotalAmmoString=80 shells
 RateOfFire=200 RPM
 
 [M4Super90EntrySG]
-Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic combat shotguns by Benelli, developed in the late 1990 at the request of the U.S. Marine Corps. It uses the new propietary gas system instead of the inertia driven one, this makes the M4 cycle more reliable in arduous circumstances. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
-FriendlyName=M4 Super 90 Entry
-ShortName=M4 Super 90 Entry
+Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic combat shotguns by Benelli, developed in the late 1990 at the request of the U.S. Marine Corps. It uses the new propietary gas system instead of the inertia driven one, this makes the M4 cycle more reliable in arduous circumstances. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
+FriendlyName=M4 Super 90 CQB
+ShortName=M4 Super 90 CQB
 MagazineSizeString=6
 
 [NovaPumpSG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend, aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers.
+Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers which make the Nova a particularly light shotgun. It can be loaded with different types of shotgun shells, making it a more than appealling choice for law enforcement officers. 
 FriendlyName=Nova Tactical
 ShortName=Nova Tactical
 Manufacturer=Benelli
@@ -347,9 +341,9 @@ TotalAmmoString=80 shells
 RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump-action shotguns. It's made out of lightweight polymers and features high-tech ergonomics such as distinctive grooves on the pistol grip and forend, aswell as a unique shell stop button that allows a chambered shell to be removed without releasing shells from the magazine tube. This features have made the Benelli Nova an appealing choice for modern hunting and law enforcement officers. The Entry configuration boasts a 14" barrel which reduces the shotgun's weight and bulk, making it a more suitable choice for close quarters scenarios. 
-FriendlyName=Nova Tactical Entry
-ShortName=Nova Tactical Entry
+Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. It features a 4 round tube magazine and it is made out of high tech polymers which make the Nova a particularly light shotgun. It can be loaded with different types of shotgun shells, making it a more than appealling choice for law enforcement officers. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
+FriendlyName=Nova Tactical CQB
+ShortName=Nova Tactical CQB
 MagazineSizeString=5
 
 [ColtM1911HG]
@@ -477,7 +471,7 @@ TotalAmmoString=10 magazines
 RateOfFire=950 RPM
 
 [FNP90SMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease of use against distant targets.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease in aiming down the sights.
 FriendlyName=P90
 ShortName=P90
 Manufacturer=FN Herstal
@@ -490,7 +484,7 @@ TotalAmmoString=10 magazines
 RateOfFire=900 RPM
 
 [SilencedFNP90SMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease of use against distant targets. This P90 configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease in aiming down the sights. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=P90 Suppressed
 ShortName=P90 Supp.
 
@@ -608,25 +602,24 @@ FriendlyName=M4A1 Carbine Suppressed Aimpoint
 ShortName=M4A1 Supp. Aim.
 
 [CQBRMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity.
+Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando.
 FriendlyName=M4A1 CQB Carbine
 ShortName=M4A1 CQB
-ProductionStart=1999
 
 [CQBRAimpointMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=M4A1 CQB Carbine Aimpoint
 ShortName=M4A1 CQB Aim.
 ProductionStart=1999
 
 [CQBRsdMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with a suppressor for when stealth is paramount.
+Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with a suppressor for when stealth is paramount.
 FriendlyName=M4A1 CQB Carbine Suppressed
 ShortName=M4A1 CQB Supp.
 ProductionStart=1999
 
 [CQBRsdAimpointMG]
-Description=The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5" barrel similar to the Colt Commando, which reduces the overall weight and bulk of the M4A1. Although it is a better choice for CQB scenarios, the shorter barrel means that the rifle will suffer from a higher recoil and lower muzzle velocity. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
+Description=The Colt M4A1 carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
 FriendlyName=M4A1 CQB Carbine Suppressed Aimpoint
 ShortName=M4A1 CQB Supp. Aim.
 ProductionStart=1999
@@ -645,7 +638,7 @@ TotalAmmoString=10 magazines
 RateOfFire=750 RPM
 
 [G36kAimpointMG]
-Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights.
+Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
 FriendlyName=G36K with Aimpoint
 ShortName=G36K Aim.
 
@@ -655,7 +648,7 @@ FriendlyName=G36K Suppressed
 ShortName=G36K Suppressed
 
 [G36ksdAimpointMG]
-Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight to ease in aiming down the sights as well as a suppressor for when stealth is paramount.
+Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, originally developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights as well as a suppressor for when stealth is paramount.
 FriendlyName=G36K Suppressed with Aimpoint
 ShortName=G36K Supp. Aim.
 
@@ -676,7 +669,7 @@ RateOfFire=600 RPM
 Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 
 [UziAimpointSMG]
-Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice, as well as an aimpoint sight for ease of use against distant targets.
+Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice, as well as an aimpoint sight for ease in aiming down the sights.
 FriendlyName=Uzi Suppressed with Aimpoint
 ShortName=Uzi Supp. Aim.
 
@@ -687,7 +680,7 @@ ShortName=Uzi
 Caliber=9x19mm
 
 [UZIunAimpointSMG]
-Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
 FriendlyName=Uzi with Aimpoint
 ShortName=Uzi Aim.
 Caliber=9x19mm
@@ -724,12 +717,12 @@ FriendlyName=FAL Suppressed
 ShortName=FAL Supp.
 
 [FNFALAimpointMG]
-Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
 FriendlyName=FAL with Aimpoint
 ShortName=FAL Aim.
 
 [FNFALsdAimpointMG]
-Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuratio comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease of use against distant targets.
+Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuratio comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease in aiming down the sights.
 FriendlyName=FAL Suppressed with Aimpoint
 ShortName=FAL Supp. Aim.
 
@@ -834,7 +827,7 @@ CountryOfOrigin=West Germany
 ProductionStart=1960s
 FireModes=Single Fire
 MagazineSizeString=1
-TotalAmmoString=10 grenades
+TotalAmmoString=5 grenades
 RateOfFire=6 RPM
 
 [ColtAccurizedRifle]
@@ -856,12 +849,7 @@ FriendlyName=Remington 700 TWS
 
 [C2Charge]
 Description=The door breaching charge is a powerful and devastating method of breaching a door.  The compact and specially designed charge destroys the locking mechanism of the door and forcefully opens the door at the same time.  The noise and shock of the detonation causes people on the opposite side of the door to react in a similar manner to a flashbang detonation, which can provide a tactical advantage for using it instead of the breaching shotgun.  The C2 breaching charge is an explosive and can injure or kill anyone unlucky enough to be directly behind the door.
-FriendlyName=C2 Charge
-GivenName=C2 Charge
-
-[C2Charge3pack]
-Description=This pack of three door breaching charges contains three times as many charges, but occupies five times as much space and weight.
-FriendlyName=C2 (x3)
+FriendlyName=C2 Charge (x3)
 GivenName=C2 Charge
 
 [LessLethalSG]
