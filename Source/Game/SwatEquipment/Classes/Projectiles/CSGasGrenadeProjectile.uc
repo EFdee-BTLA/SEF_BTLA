@@ -169,13 +169,13 @@ Begin:
     if (Level.DetailMode == DM_Low)
         LifeSpan = 30; // destroy self after 30 seconds, for optimization
     else
-        LifeSpan = 600; // destroy self after 10 minutes
+        LifeSpan = 180; // destroy self after 3 minutes, for optimization
 }
 
 
 defaultproperties
 {
-    StaticMesh=StaticMesh'gear_btla.CSgasGrenadeThrown'
+    StaticMesh=StaticMesh'SwatGear_sm.CSgasGrenadeThrown'
     bBlockNonZeroExtentTraces=true
     ExpansionTime=2
 	GasEmissionDuration=12

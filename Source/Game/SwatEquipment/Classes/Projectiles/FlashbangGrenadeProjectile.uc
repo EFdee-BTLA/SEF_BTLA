@@ -127,7 +127,7 @@ simulated function Detonated()
     if (Level.DetailMode == DM_Low)
         LifeSpan = 30; // destroy self after 30 seconds, for optimization
     else
-        LifeSpan = 600; // destroy self after 10 minutes
+        LifeSpan = 180; // destroy self after 3 minutes, for optimization
 }
 
 simulated latent function DoPostDetonation()
@@ -139,5 +139,5 @@ simulated latent function DoPostDetonation()
 
 defaultproperties
 {
-    StaticMesh=StaticMesh'gear_btla.FlashbangThrown'
+    StaticMesh=StaticMesh'SwatGear_sm.FlashbangThrown'
 }
