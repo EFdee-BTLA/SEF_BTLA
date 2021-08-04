@@ -249,7 +249,7 @@ CountryOfOrigin=United States
 ProductionStart=1951
 FireModes=Pump-Action
 MagazineSizeString=7
-TotalAmmoString=80 shells
+TotalAmmoString=60 shells
 RateOfFire=150 RPM
 
 [Remington870PoliceSG]
@@ -272,7 +272,7 @@ CountryOfOrigin=United States
 ProductionStart=1951
 FireModes=Pump-Action
 MagazineSizeString=5
-TotalAmmoString=80 shells
+TotalAmmoString=60 shells
 RateOfFire=150 RPM
 
 [LessLethalM870SG]
@@ -285,7 +285,7 @@ CountryOfOrigin=United States
 ProductionStart=1951
 FireModes=Pump-Action
 MagazineSizeString=6
-TotalAmmoString=80 shells
+TotalAmmoString=60 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
@@ -298,7 +298,7 @@ CountryOfOrigin=Italy
 ProductionStart=1986
 FireModes=Semi-Automatic
 MagazineSizeString=8
-TotalAmmoString=80 shells
+TotalAmmoString=60 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
@@ -317,7 +317,7 @@ CountryOfOrigin=Italy
 ProductionStart=1999
 FireModes=Semi-Automatic
 MagazineSizeString=8
-TotalAmmoString=80 shells
+TotalAmmoString=60 shells
 RateOfFire=200 RPM
 
 [M4Super90EntrySG]
@@ -336,7 +336,7 @@ CountryOfOrigin=Italy
 ProductionStart=Late 1990s
 FireModes=Pump-Action
 MagazineSizeString=5
-TotalAmmoString=80 shells
+TotalAmmoString=60 shells
 RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
@@ -347,7 +347,7 @@ MagazineSizeString=5
 
 [ColtM1911HG]
 Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized M1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT team. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
-FriendlyName=M1911 
+FriendlyName=M1911
 ShortName=M1911
 Manufacturer=Kimber Manufacturing, Inc
 Caliber=.45 ACP
@@ -854,7 +854,7 @@ CountryOfOrigin=Italy
 ProductionStart=Late 1990s
 FireModes=Pump-Action
 MagazineSizeString=8
-TotalAmmoString=80 shells
+TotalAmmoString=60 shells
 RateOfFire=100 RPM
 
 [CSBallLauncher]
@@ -928,7 +928,7 @@ GivenName=Flash-Bang
 
 [Toolkit]
 Description=The multi-tool serves many functions and can be used to pick locks, disable bombs and traps, and remove tactical wedges.  All officers are equipped with a toolkit.
-FriendlyName=Leatherman 300 EOD tool
+FriendlyName=Leatherman Wave
 
 [BadguyColtM1911HG]
 Description=Colt M1911 Handgun
