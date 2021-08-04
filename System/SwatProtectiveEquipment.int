@@ -21,7 +21,7 @@ GUIImage=material'gui_hov.V2tactic'
 [NoHelmet]
 Description=Choose this option to pack no equipment in this slot. This option is good for when you need to reduce your weight and/or bulk.
 FriendlyName=No Helmet
-GUIImage=material'gui_hov.nohelmet'
+GUIImage=None
 
 [BoonieHat]
 Description=This option is good for when you need to reduce your weight and/or bulk.

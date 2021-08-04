@@ -173,16 +173,18 @@ Restored old TSS Multiplayer Command Menu (Thanks Sphee for this)
 Tweaked some ammo values
 (Adjusted beanbag mass, tweaked Less Lethal shotgun muzzle velocity, Adjusted Slug rounds mass)
 Improved MP5K-PDW model
-Removed MP5K-PDW aimpoint variants
-Fixed Level III Armor texture glitch (apparently)
-Added an slightly different mesh for Level III Armor (IIIA + III Steel Plate) with 3 variants
-Changed the max ammount of grenade launcher rounds to 10
+Fixed Level III Armor texture glitch
+Changed the max ammount of grenade launcher rounds to 5
 Increased Optiwand Weight, slowed down lens Turn and lens End speed, equip and unequip speed have been slowed down
 Fixed BTLA bug: If carrying more than one pepper spray can, after emptying the first one, you wouldn't be able to use the second one. (Thanks to The Suggester for the hint)
 Added Beretta 92FS to the game, suppressed variant included
 Added M16A2 to the game, suppressed variant included
 Some new singleplayers voicelines have been added to Multiplayer (Thanks Sphee)
 Suspects are much more prone to flee/pick up their guns when unobserved by the player or AI officers
+Added new M870 Shorty model (Thanks Beppe)
+Added new helmet models (Thanks Beppe)
+Improved AKM iron sight position
+Added Multiplayer skins
 
 ### SEF v7.1 Update ### 
 Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally         removed on 1.2)
