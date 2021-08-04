@@ -1,5 +1,5 @@
 [ProtecNVGoggles]
 Description=Developed in the 1970's by the Pro-Tec skateboard company, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight. The full cut helmet provides protection from pistol hollow point rounds, smaller variants of buckshot and small caliber full metal jacket rounds, but does little to stop rifle caliber rounds, armor piercing pistol ammunition, larger variants of buckshot out of long barrels or shotgun slugs. This configuration features a pair of Night Vision Goggles. NVGs work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=ProTec with NVGs
+FriendlyName=ProTec W/ NVGs
 GUIImage=material'gui_hov.V3tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
