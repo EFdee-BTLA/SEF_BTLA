@@ -3843,7 +3843,7 @@ exec function PullDoor()
     if (Door == None) return;
     if (Door.bIsMissionExit) return;
     if (!Door.CanInteract()) return; 
-    if (Door.IsClosed() && Door.IsLocked()) { ClientMessage("[c=FFFFFF]The door is locked.", 'SpeechManagerNotification'); return; }
+    if (Door.IsClosed() && Door.IsLocked()) { CheckDoorLock(Door); return; }
     if (VSize2D(Door.Location - Pawn.Location) > 150) return;
 
     switch(Door.GetPosition())
@@ -3854,7 +3854,12 @@ exec function PullDoor()
             break;
 
         case DoorPosition_OpenLeft:
+		    Door.SetPositionForMove(DoorPosition_Closed, MR_Interacted); 
+
+			break;
         case DoorPosition_OpenRight:
+		     Door.SetPositionForMove(DoorPosition_Closed, MR_Interacted); 
+
             break;
 
         default:
