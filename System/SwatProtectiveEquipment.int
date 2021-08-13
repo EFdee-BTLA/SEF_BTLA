@@ -21,7 +21,12 @@ GUIImage=material'gui_hov.V2tactic'
 [NoHelmet]
 Description=Choose this option to pack no equipment in this slot. This option is good for when you need to reduce your weight and/or bulk.
 FriendlyName=No Helmet
-GUIImage=None
+GUIImage=material'gui_hov.V1tactic'
+
+[Goggles]
+Description=Battle tested in the most demanding theaters, the ESS Profile goggles are the only authorized goggles issued by the U.S. Marine Corps and various SWAT teams. The tactical goggles provide protection against flashbangs effects.
+FriendlyName=Goggles
+GUIImage=material'gui_hov.V1tacticGoggles'
 
 [BoonieHat]
 Description=This option is good for when you need to reduce your weight and/or bulk.
@@ -52,6 +57,11 @@ GUIImage=material'gui_hov.V2tacticGoggles'
 Description=The MCU-2/P is the standard gas mask for the United States Air Force and Navy, developed in the 1970s. The gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
 FriendlyName=Gas Mask
 GUIImage=material'gui_hov.V1tacticGasMask'
+
+[S10Mask]
+Description=The AVON S10 gasmask is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, flashbangs, and greatly reduces the duration of the effect of pepper spray. Unfortunately it causes restricted vision and it's extremely bulky.
+FriendlyName=S10 Gas Mask
+GUIImage=material'gui_hov.s10'
 
 [GP5]
 Description=The GP-5 (Civilian Gas Mask) was designed to protect civilians of the Soviet Union from radioactive fallout during the Cold War. It provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. It is heavy and immensely bulky however.
