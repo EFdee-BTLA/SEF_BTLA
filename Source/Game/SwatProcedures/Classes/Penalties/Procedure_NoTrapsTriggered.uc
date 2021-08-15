@@ -1,0 +1,49 @@
+class Procedure_NoTrapsTriggered extends SwatGame.Procedure
+    implements  IInterested_GameEvent_BoobyTrapTriggered;
+
+var config int PenaltyPerTrap;
+
+var int NumTrapsTriggered;
+
+function PostInitHook()
+{
+    Super.PostInitHook();
+
+    //register for notifications that interest me
+    GetGame().GameEvents.BoobyTrapTriggered.Register(self);
+}
+
+function OnBoobyTrapTriggered(SwatGame.BoobyTrap Pawn, Actor Triggerer)
+{
+	//no more penalties for triggering traps
+	//NumTrapsTriggered++;
+	
+	//TriggerPenaltyMessage(Pawn(Triggerer));  
+	//GetGame().CampaignStats_TrackPenaltyIssued();
+
+  if (GetGame().DebugLeadership)
+      log("[LEADERSHIP] "$class.name
+          $" added "$Pawn.name
+          $" to its list of TrapTriggered");
+}
+
+function string Status()
+{
+    return string(NumTrapsTriggered);
+}
+
+//interface IProcedure implementation
+function int GetCurrentValue()
+{
+  if (GetGame().DebugLeadershipStatus)
+    log("[LEADERSHIP] "$class.name
+      $" is returning with NumTrapsTriggered = "$ string(NumTrapsTriggered));
+  //no more penalties for triggering traps
+  //return PenaltyPerTrap * NumTrapsTriggered;
+  return 0;
+}
+
+/*defaultproperties
+{
+  NumTrapsTriggered = 0
+}*/
