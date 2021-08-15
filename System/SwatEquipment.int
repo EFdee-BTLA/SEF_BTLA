@@ -198,7 +198,7 @@ FriendlyName=M16A1 Suppressed
 ShortName=M16A1 Supp.
 
 [M16A2MG]
-Description=The M16A2 is a late Cold War era assault rifle of US origin, developed by Fabrique Nationale at the request of the U.S. Marine Corps and the successor to the M16A1. One of the main improvements was the use of the 5.56x45mm NATO round instead of the older M193 round.
+Description=The M16A2 is a late Cold War era assault rifle of US origin, developed by Fabrique Nationale at the request of the U.S. Marine Corps and the successor to the M16A1. One of the main improvements was the use of the 5.56x45mm NATO round instead of the older M193 round and the introduction of a 3-round burst fire mode.
 FriendlyName=M16A2
 ShortName=M16A2
 Manufacturer=Colt
@@ -211,7 +211,7 @@ TotalAmmoString=10 magazines
 RateOfFire=700 RPM
 
 [M16A2sdMG]
-Description=The M16A2 is a late Cold War era assault rifle of US origin, developed by Fabrique Nationale at the request of the U.S. Marine Corps and the successor to the M16A1. One of the main improvements was the use of the 5.56x45mm NATO round instead of the older M193 round. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=The M16A2 is a late Cold War era assault rifle of US origin, developed by Fabrique Nationale at the request of the U.S. Marine Corps and the successor to the M16A1. One of the main improvements was the use of the 5.56x45mm NATO round instead of the older M193 round and the introduction of a 3-round burst fire mode. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=M16A2 Suppressed
 ShortName=M16A2 Supp.
 
@@ -566,7 +566,7 @@ Caliber=Subsonic 9x19mm Parabellum
 
 [M4A1MG]
 Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It is equipped with a fire mode selector allowing semi-automatic as well as fully automatic firing.
-FriendlyName=M4A1 
+FriendlyName=M4A1
 ShortName=M4A1
 Manufacturer=Colt
 Caliber=5.56x45mm NATO
