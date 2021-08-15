@@ -2286,7 +2286,7 @@ simulated private function InitFlashlight()
 	{
 		FlashlightDynamicLight = Spawn(FlashlightSpotLightClass,WeaponModel,,,);
 		//FlashlightDynamicLight.bActorShadows = true; //doesn't seem to work
-		FlashlightDynamicLight.LightCone = 12; //how wide the flashlight beam is
+		FlashlightDynamicLight.LightCone = 9; //how wide the flashlight beam is
 		FlashlightDynamicLight.LightRadius = FlashlightFirstPersonDistance; //distance the beam travels
 	}
 	else
