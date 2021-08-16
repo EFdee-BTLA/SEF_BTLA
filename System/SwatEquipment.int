@@ -565,8 +565,8 @@ ShortName=Colt M635 Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [M4A1MG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It is equipped with a fire mode selector allowing semi-automatic as well as fully automatic firing.
-FriendlyName=M4A1
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It is equipped with a fire mode selector allowing semi-automatic as well as fully automatic firing.
+FriendlyName=M4A1 Carbine
 ShortName=M4A1
 Manufacturer=Colt
 Caliber=5.56x45mm NATO
@@ -578,43 +578,40 @@ TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [M4A1AimpointMG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 with Aimpoint
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+FriendlyName=M4A1 Carbine with Aimpoint
 ShortName=M4A1 Aim.
 
 [M4A1sdMG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount.
-FriendlyName=M4A1 Suppressed
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount.
+FriendlyName=M4A1 Carbine Suppressed
 ShortName=M4A1 Supp.
 
 [M4A1sdAimpointMG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 Suppressed with Aimpoint
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+FriendlyName=M4A1 Carbine Suppressed with Aimpoint
 ShortName=M4A1 Supp. Aim.
 
 [CQBRMG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando.
-FriendlyName=M4A1 CQBR
-ShortName=M4A1 CQBR
-ProductionStart=1999
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios.
+FriendlyName=M4A1 Carbine CQB
+ShortName=M4A1 CQB
 
 [CQBRAimpointMG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=M4A1 CQBR with Aimpoint
-ShortName=M4A1 CQBR Aim.
-ProductionStart=1999
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel whick make the M4A1 a more appealling choice for CQB tactical scenarios, as well as an aimpoint sight for ease of use against distant targets.
+FriendlyName=M4A1 Carbine CQB with Aimpoint
+ShortName=M4A1 CQB Aim.
+
 
 [CQBRsdMG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with a suppressor for when stealth is paramount.
-FriendlyName=M4A1 CQBR Suppressed
-ShortName=M4A1 CQBR Supp.
-ProductionStart=1999
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, as well as a suppressor for when stealth is paramount.
+FriendlyName=M4A1 Carbine CQB Suppressed
+ShortName=M4A1 CQB Supp.
 
 [CQBRsdAimpointMG]
-Description=The Colt M4A1 is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. The Colt CQBR (Close Quarters Battle Reciever) is a replacement upper reciever for the Colt M4A1. It features a 10.5 inch barrel similar to the Colt Commando. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=M4A1 CQBR Suppressed with Aimpoint
-ShortName=M4A1 CQBR Supp. Aim.
-ProductionStart=1999
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers.  It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
+FriendlyName=M4A1 Carbine CQB Suppressed with Aimpoint
+ShortName=M4A1 CQB Supp. Aim.
 
 [G36kMG]
 Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group.
