@@ -2286,7 +2286,7 @@ simulated private function InitFlashlight()
 	{
 		FlashlightDynamicLight = Spawn(FlashlightSpotLightClass,WeaponModel,,,);
 		//FlashlightDynamicLight.bActorShadows = true; //doesn't seem to work
-		FlashlightDynamicLight.LightCone = 20; //how wide the flashlight beam is
+		FlashlightDynamicLight.LightCone = 15; //how wide the flashlight beam is
 		FlashlightDynamicLight.LightRadius = FlashlightFirstPersonDistance; //distance the beam travels
 	}
 	else
@@ -2573,7 +2573,7 @@ defaultproperties
     MinFlashlightBrightness=100
     MinFlashlightRadius=10
 	FlashlightFirstPersonDistance=200
-	MaxFlashlightDistance=800
+	MaxFlashlightDistance=400
     ThirdPersonFlashlightRadiusPenalty=.5
     RagdollDeathImpactMomentumMultiplier=30
 

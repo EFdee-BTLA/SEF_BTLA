@@ -6046,7 +6046,7 @@ function HandleWalking()
     {
 		ActiveItem = Pawn.GetActiveItem();
         //WantsToWalk = bool(bRun) == Repo.GuiConfig.bAlwaysRun; // MCJ: old version.
-        WantsToWalk = (WantsZoom && ActiveItem.ShouldWalkInIronsights()) || bool(bRun) == bAlwaysRun;
+		WantsToWalk = bool(bRun) == bAlwaysRun;
 		Pawn.SetWalking( WantsToWalk && !Region.Zone.IsA('WarpZoneInfo') );
 
         if (aForward == 0 && aStrafe == 0)
