@@ -2450,11 +2450,11 @@ simulated private function InternalEquipSlot(coerce EquipmentSlot Slot)
     // If the player has none of the requested item then show a message on the HUD.
     // When we send a message that we cannot equip, we return as well to avoid equipping anyways.
     if ( SwatPlayer.GetEquipmentAtSlot(Slot) == None || (!SwatPlayer.GetEquipmentAtSlot(Slot).IsAvailable()) )
-	{
+    {
         ClientMessage(string(int(Slot)), 'EquipNotAvailable');
         return;
     }
-	
+
     if ( SwatPlayer.ValidateEquipSlot( Slot ))
     {
         SetZoom(false, true);
@@ -3827,45 +3827,6 @@ function DoorIsLocked()
 function DoorIsNotLocked()
 {
   ClientMessage("[c=FFFFFF]The door is not locked.", 'SpeechManagerNotification');
-}
-
-exec function PullDoor()
-{
-    local SwatDoor Door;
-    local actor HitActor;
-    local vector HitNormal, HitLocation;
-
-    if (Pawn == None) return;
-
-    HitActor = Trace(HitLocation, HitNormal, ViewTarget.Location + 150 * vector(Rotation),ViewTarget.Location, true);
-    Door = DoorModel(HitActor).Door;
-
-    if (Door == None) return;
-    if (Door.bIsMissionExit) return;
-    if (!Door.CanInteract()) return; 
-    if (Door.IsClosed() && Door.IsLocked()) { CheckDoorLock(Door); return; }
-    if (VSize2D(Door.Location - Pawn.Location) > 150) return;
-
-    switch(Door.GetPosition())
-    {
-        case DoorPosition_Closed:
-            if (Door.ActorIsToMyLeft(Pawn)) { Door.SetPositionForMove(DoorPosition_OpenLeft, MR_Interacted); }
-            else { Door.SetPositionForMove(DoorPosition_OpenRight, MR_Interacted); }
-            break;
-
-        case DoorPosition_OpenLeft:
-		    Door.SetPositionForMove(DoorPosition_Closed, MR_Interacted); 
-
-			break;
-        case DoorPosition_OpenRight:
-		     Door.SetPositionForMove(DoorPosition_Closed, MR_Interacted); 
-
-            break;
-
-        default:
-            break;
-    }
-    Door.Moved();
 }
 
 function DoSetEndRoundTarget( Actor Target, string TargetName, bool TargetIsOnSWAT )
@@ -5870,7 +5831,7 @@ function ServerIssueCompliance( optional string VoiceTag )
         else if(TargetIsSuspect == 1)
 		{
           Pawn.BroadcastEffectEvent('ArrestedSuspect',,,,,,,,name(VoiceTag));
-          if(FRand() < 0.3)
+          if(FRand() < 0.1)
           {
             ISwatAI(Candidate).GetSpeechManagerAction().TriggerRestrainedSpeech();
           }
@@ -5878,7 +5839,7 @@ function ServerIssueCompliance( optional string VoiceTag )
         else if((TargetIsSuspect == 0) && (TargetIsAggressiveHostage == 1))
 		{
           Pawn.BroadcastEffectEvent('ReassuredAggressiveHostage',,,,,,,,name(VoiceTag));
-          if(FRand() < 0.3)
+          if(FRand() < 0.1)
           {
             ISwatAI(Candidate).GetSpeechManagerAction().TriggerRestrainedSpeech();
           }
@@ -5886,7 +5847,7 @@ function ServerIssueCompliance( optional string VoiceTag )
         else
 		{
           Pawn.BroadcastEffectEvent('ReassuredPassiveHostage',,,,,,,,name(VoiceTag));
-          if(FRand() < 0.3)
+          if(FRand() < 0.1)
           {
             ISwatAI(Candidate).GetSpeechManagerAction().TriggerRestrainedSpeech();
           }
