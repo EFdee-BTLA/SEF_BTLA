@@ -1,12 +1,13 @@
-class GUIReticle extends GUI.GUIImage
-    ;
+class GUIReticle extends GUI.GUIImage;
+
+var(GUIReticle) config int UserCrosshair;
 
 //tick marks
-var(GUIReticle) config Material UpImage;
-var(GUIReticle) config Material DownImage;
-var(GUIReticle) config Material LeftImage;
-var(GUIReticle) config Material RightImage;
-var(GUIReticle) config Material CenterDotImage;
+var(GUIReticle) config Material UpImage[5];
+var(GUIReticle) config Material DownImage[5];
+var(GUIReticle) config Material LeftImage[5];
+var(GUIReticle) config Material RightImage[5];
+var(GUIReticle) config Material CenterDotImage[5];
 var(GUIReticle) config int      TickSize;
 var(GUIReticle) config int      CenterDotSize;
 var(GUIReticle) config Color    TickColor;
@@ -88,19 +89,19 @@ private function bool RenderReticle(canvas Canvas)
 
         //up
         Canvas.SetPos(Center.X - TickSize / 2, Center.Y - ReticleRadius - TickSize);
-        Canvas.DrawTile(UpImage, TickSize, TickSize, 0, 0, TickSize, TickSize);
+        Canvas.DrawTile(UpImage[UserCrosshair], TickSize, TickSize, 0, 0, TickSize, TickSize);
         //down
         Canvas.SetPos(Center.X - TickSize / 2, Center.Y + ReticleRadius - 1);
-        Canvas.DrawTile(DownImage, TickSize, TickSize, 0, 0, TickSize, TickSize);
+        Canvas.DrawTile(DownImage[UserCrosshair], TickSize, TickSize, 0, 0, TickSize, TickSize);
         //left
         Canvas.SetPos(Center.X - ReticleRadius - TickSize + 1, Center.Y - TickSize / 2);
-        Canvas.DrawTile(LeftImage, TickSize, TickSize, 0, 0, TickSize, TickSize);
+        Canvas.DrawTile(LeftImage[UserCrosshair], TickSize, TickSize, 0, 0, TickSize, TickSize);
         //right
         Canvas.SetPos(Center.X + ReticleRadius, Center.Y - TickSize / 2);
-        Canvas.DrawTile(RightImage, TickSize, TickSize, 0, 0, TickSize, TickSize);
+        Canvas.DrawTile(RightImage[UserCrosshair], TickSize, TickSize, 0, 0, TickSize, TickSize);
         //center
         Canvas.SetPos(Center.X, Center.Y - 1);
-        Canvas.DrawTile(CenterDotImage, CenterDotSize, CenterDotSize, 0, 0, CenterDotSize, CenterDotSize);
+        Canvas.DrawTile(CenterDotImage[UserCrosshair], CenterDotSize, CenterDotSize, 0, 0, CenterDotSize, CenterDotSize);
     }
     else if (ActiveItem.ShouldDisplayReticle())   // ActiveFiredWeapon == None, use default reticle
     {
@@ -129,11 +130,12 @@ defaultproperties
 {
     OnDraw=RenderReticle
 
-    UpImage=Texture'HUD.TopReticle'
-    DownImage=Texture'HUD.BottomReticle'
-    LeftImage=Texture'HUD.LeftReticle'
-    RightImage=Texture'HUD.RightReticle'
-    CenterDotImage=Texture'HUD.CenterReticle'
+    UpImage[1]=Texture'HUD.TopReticle'
+    DownImage[1]=Texture'HUD.BottomReticle'
+    LeftImage[1]=Texture'HUD.LeftReticle'
+    RightImage[1]=Texture'HUD.RightReticle'
+    CenterDotImage[1]=Texture'HUD.CenterReticle'
+    UserCrosshair=1;
     TickSize=16
     CenterDotSize=4
     CenterNonFiredImage=Material'HUD.ToolReticle'
