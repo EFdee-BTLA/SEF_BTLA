@@ -160,7 +160,7 @@ Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 55
 FriendlyName=SIG SG 552
 ShortName=SG 552
 Manufacturer=Sig Sauer
-Caliber=5.56x45mm Mk.262
+Caliber=5.56x45mm NATO
 CountryOfOrigin=Switzerland
 ProductionStart=1998
 FireModes=Semi-Automatic, Full-Auto
@@ -177,13 +177,13 @@ ShortName=SG 552 CCO
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration features a suppressor for when stealth is paramount.
 FriendlyName=SIG SG 552 Suppressed
 ShortName=SG 552 Supp.
-Caliber=Subsonic 5.56x45mm Mk.262
+Caliber=Subsonic 5.56x45mm NATO
 
 [SilencedSG552AimpointMG]
 Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor for when stealth is paramount.
 FriendlyName=SIG SG 552 Suppressed with CCO
 ShortName=SG 552 Supp. CCO
-Caliber=Subsonic 5.56x45mm Mk.262
+Caliber=Subsonic 5.56x45mm NATO
 
 [M16A1MG]
 Description=Originally designed in 1964 based on the Armalite AR-15 blueprints, the M16 rifle was first deployed in the jungles of Vietnam. The M16A1 was an incremental improvement, redesigning the muzzle to avoid catching on foliage and reducing the high failure rate of its predecessor's receiver.
@@ -605,24 +605,24 @@ Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios.
-FriendlyName=Colt M4A1 CQB
-ShortName=M4A1 CQB
+FriendlyName=Colt M4A1 CQBR
+ShortName=M4A1 CQBR
 
 [CQBRAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel whick make the M4A1 a more appealling choice for CQB tactical scenarios, as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=Colt M4A1 Carbine CQB with CCO
-ShortName=M4A1 CQB CCO
+FriendlyName=Colt M4A1 CQBR with CCO
+ShortName=M4A1 CQBR CCO
 
 [CQBRsdMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, as well as a suppressor for when stealth is paramount.
-FriendlyName=Colt M4A1 CQB Suppressed
-ShortName=M4A1 CQB Supp.
+FriendlyName=Colt M4A1 CQBR Suppressed
+ShortName=M4A1 CQBR Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRsdAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=Colt M4A1 CQB Suppressed with CCO
-ShortName=M4A1 CQB Supp. CCO
+FriendlyName=Colt M4A1 CQBR Suppressed with CCO
+ShortName=M4A1 CQBR Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
 
 [G36kMG]
@@ -895,7 +895,7 @@ RateOfFire=600 RPM
 
 [Wedge]
 Description=This specially designed tactical wedge is slid under the door and then activated.  The spring loaded action flips up wedges preventing the door from opening from either direction.  The rubber coating along the bottom of the wedge increases friction making it extremely difficult to push open with brute force.  It can only be removed with a cutting tool reducing the risk of a suspect dislodging the device.
-FriendlyName=Tactical Door Wedge
+FriendlyName=Door Wedge
 ShortName=Door Wedge
 GivenName=Door Wedge
 
