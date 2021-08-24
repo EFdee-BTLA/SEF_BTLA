@@ -125,6 +125,7 @@ Implemented Glock 30 into the game
 ### v1.4 ### 
 
 Removed MP5K Aimpoint variants
+Removed MP5A5 and MP5SD6
 Removed Colt SMG Aimpoint variants
 Removed Boonie Hat and Cap with Glasses variant
 Removed x5 packs
@@ -136,8 +137,8 @@ Suspects now pick up their weapons if you fail to cuff them in time
 Visual tweaks for headgear to look more vintage
 Adjusted some equipment descriptions
 Changed lockpicking time to 12 seconds 
-Changed bomb defusal time to 15
-Changed wedge removal time to 0.5 seconds
+Changed bomb defusal time to 20
+Changed wedge removal time to 0.3 seconds
 Improved Tactical Aids packs weight and bulk values
 Improved some weight values
 Improved Flashlight to look realistic (thanks to X Ray, meep and victorland for this)
@@ -168,23 +169,29 @@ Added Zoom to ironsights again (No Zoom is optional again)
 Fixed SEF bug: M1 and M4 shotguns wouldn't display the breaching icon when approaching a door (Thanks to The Suggester for the hint)
 Adjusted bulk values on weapon variants
 Fixed BTLA bug: M1 sights weren't properly zeroed 
-Added 4 new voicelines for Multiplayer (Thanks Sphee for this)
-Restored old TSS Multiplayer Command Menu (Thanks Sphee for this)
+Addedb new voicelines for Multiplayer (swat4.tk servers) (Thanks Sphee for this)
 Tweaked some ammo values
 (Adjusted beanbag mass, tweaked Less Lethal shotgun muzzle velocity, Adjusted Slug rounds mass)
 Improved MP5K-PDW model
-Fixed Level III Armor texture glitch
-Changed the max ammount of grenade launcher rounds to 5
-Increased Optiwand Weight, slowed down lens Turn and lens End speed, equip and unequip speed have been slowed down
+Removed MP5K-PDW aimpoint variants
+Fixed Level III Armor texture glitch (apparently)
+Changed the max ammount of grenade launcher rounds to 10
 Fixed BTLA bug: If carrying more than one pepper spray can, after emptying the first one, you wouldn't be able to use the second one. (Thanks to The Suggester for the hint)
 Added Beretta 92FS to the game, suppressed variant included
 Added M16A2 to the game, suppressed variant included
 Some new singleplayers voicelines have been added to Multiplayer (Thanks Sphee)
 Suspects are much more prone to flee/pick up their guns when unobserved by the player or AI officers
-Added new M870 Shorty model (Thanks Beppe)
-Added new helmet models (Thanks Beppe)
-Improved AKM iron sight position
-Added Multiplayer skins
+Reworked Ballistics (Thanks to Ryker for helping me out to test this)
+Reworked damage system (Thanks Ryker)
+Improved Leaning
+Improved various weapons accuracies
+Suppressed weapons now shoot rounds at subsonic speeds
+Increased CS Gas radius
+Tweaked Flashbang radius and damage
+Tweaked Stinger radius and damage
+Improved ragdolls (SSF mod)
+Added voicelines without radio static from Swat 4 demo (Thanks Sphee)
+Aiming while running is now possible (Thanks Beppe for sharing this with me)
 
 ### SEF v7.1 Update ### 
 Fixed SEF bug: Game would crash if exposed to CS gas. Thanks to beppe for this (Already in BTLA since 1.1 but was accidentally         removed on 1.2)
