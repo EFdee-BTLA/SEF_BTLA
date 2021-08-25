@@ -34,21 +34,14 @@ CountryOfOrigin=United States
 ProductionStart=1935
 FireModes=Semi-Automatic
 MagazineSizeString=13
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=390 RPM
 
 [SilencedBrowningHPHG]
 Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount as well as a flashlight for more tactical use in dark environments.
 FriendlyName=Browning Hi-Power Suppressed
 ShortName=Hi-Power Supp.
-Manufacturer=Browning
 Caliber=Subsonic 9x19mm Parabellum
-CountryOfOrigin=United States
-ProductionStart=
-FireModes=Semi-Automatic
-MagazineSizeString=13
-TotalAmmoString=10 magazines
-RateOfFire=390 RPM
 
 [P226HG]
 Description=The SIG Sauer P226 is the high capacity version of the P220, using double stacked, 15-round magazines instead of the latter's single stacked magazines. Chambered in 9x19mm, the P226 is widely used in police departments throughout the United States and Canada. 
@@ -60,21 +53,14 @@ CountryOfOrigin=Germany
 ProductionStart=1984
 FireModes=Semi-Automatic
 MagazineSizeString=15
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=390 RPM
 
 [SilencedP226HG]
 Description=The SIG Sauer P226 is the high capacity version of the P220, using double stacked, 15-round magazines instead of the latter's single stacked magazines. Chambered in 9x19mm, the P226 is widely used in police departments throughout the United States and Canada. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=SIG P226 Suppressed
 ShortName=P226 Supp.
-Manufacturer=SIG Sauer
 Caliber=Subsonic 9x19mm Parabellum
-CountryOfOrigin=Germany
-ProductionStart=1984
-FireModes=Semi-Automatic
-MagazineSizeString=15
-TotalAmmoString=10 magazines
-RateOfFire=390 RPM
 
 [Beretta92HG]
 Description=The Beretta 92 is a series of semi-automatic pistols designed and manufactured by Fabbrica d'Armi Pietro Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present. It has been adopted by the U.S Army (designated as the M9) and by many law-enforcement agencies from around the world due to its high reliability, ease of use and a generous 15-round magazine capacity.
@@ -86,7 +72,7 @@ CountryOfOrigin=Italy
 ProductionStart=1976
 FireModes=Semi-Automatic
 MagazineSizeString=15
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=390 RPM
 
 [Beretta92sdHG]
@@ -105,7 +91,7 @@ CountryOfOrigin=West Germany
 ProductionStart=Late 1950s
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=550 RPM
 
 [G3AimpointMG]
@@ -135,7 +121,7 @@ CountryOfOrigin=West Germany
 ProductionStart=Late 1950s
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=550 RPM
 
 [G3KA4AimpointMG]
@@ -165,7 +151,7 @@ CountryOfOrigin=Switzerland
 ProductionStart=1998
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=700 RPM
 
 [SG552AimpointMG]
@@ -195,7 +181,7 @@ CountryOfOrigin=United States
 ProductionStart=1967
 FireModes=Semi-Automatic, Full Auto
 MagazineSizeString=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=700 RPM
 
 [SilencedM16A1MG]
@@ -214,7 +200,7 @@ CountryOfOrigin=United States
 ProductionStart=1982 
 FireModes=Semi-Automatic, 3-rd. Burst
 MagazineSizeString=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=700 RPM
 
 [M16A2sdMG]
@@ -233,7 +219,7 @@ CountryOfOrigin=Germany
 ProductionStart=1976
 FireModes=Semi-Automatic, 3-rd. Burst, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=900 RPM
 
 [MP5KtSMG]
@@ -363,7 +349,7 @@ CountryOfOrigin=United States
 ProductionStart=1997
 FireModes=Semi-Automatic
 MagazineSizeString=8
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=390 RPM
 
 [ColtM1911sdHG]
@@ -397,7 +383,7 @@ CountryOfOrigin=Austria
 ProductionStart=1982
 FireModes=Semi-Automatic
 MagazineSizeString=17
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=390 RPM
 
 [Glock9mmsdHG]
@@ -416,7 +402,7 @@ CountryOfOrigin=Austria
 ProductionStart=1985
 FireModes=Semi-Automatic, Full Auto
 MagazineSizeString=33
-TotalAmmoString=10 magazines 
+TotalAmmoString=9 magazines
 RateOfFire=1200 RPM
 
 [Glock18sdHG]
@@ -448,7 +434,7 @@ CountryOfOrigin=United States
 ProductionStart=1955
 FireModes=Double-Action
 MagazineSizeString=6
-TotalAmmoString=10 speedloaders
+TotalAmmoString=9 speedloaders
 RateOfFire=80 RPM
 
 [DesertEagleHG]
@@ -461,7 +447,7 @@ CountryOfOrigin=Israel
 ProductionStart=1995
 FireModes=Semi-Automatic
 MagazineSizeString=7
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=300 RPM
 
 [TEC9HG]
@@ -474,7 +460,7 @@ CountryOfOrigin=United States
 ProductionStart=1989
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=32
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=950 RPM
 
 [FNP90SMG]
@@ -487,7 +473,7 @@ CountryOfOrigin=Belgium
 ProductionStart=1990
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=50
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=900 RPM
 
 [SilencedFNP90SMG]
@@ -506,7 +492,7 @@ CountryOfOrigin=Germany
 ProductionStart=1974
 FireModes=Semi-Automatic, 3-rd. Burst, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=800 RPM
 
 [MP5AimpointSMG]
@@ -536,7 +522,7 @@ CountryOfOrigin=Germany
 ProductionStart=1999
 FireModes=Semi-Automatic, 2-rd. Burst, Full-Auto
 MagazineSizeString=25
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [UMP45AimpointSMG]
@@ -564,7 +550,7 @@ CountryOfOrigin=United States
 ProductionStart=1982
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=32
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=800 RPM
 
 [SilencedColtSMG]
@@ -583,7 +569,7 @@ CountryOfOrigin=United States
 ProductionStart=1994
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=800 RPM
 
 [M4A1AimpointMG]
@@ -635,7 +621,7 @@ CountryOfOrigin=Germany
 ProductionStart=1997
 FireModes=Semi-Automatic, 2-rd. Burst, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=750 RPM
 
 [G36kAimpointMG]
@@ -665,7 +651,7 @@ CountryOfOrigin=Israel
 ProductionStart=1950
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=32
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [UziTSMG]
@@ -698,7 +684,7 @@ CountryOfOrigin=Belgium
 ProductionStart=Late 1970s
 FireModes=Full-Auto
 MagazineSizeString=200
-TotalAmmoString=10 belts
+TotalAmmoString=1 belt
 RateOfFire=800 RPM
 
 [FNFALMG]
@@ -711,7 +697,7 @@ CountryOfOrigin=Belgium
 ProductionStart=1954
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=700 RPM
 
 [FNFALsdMG]
@@ -741,7 +727,7 @@ CountryOfOrigin=Soviet Union
 ProductionStart=1959
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [AK47tMG]
@@ -796,7 +782,7 @@ CountryOfOrigin=Soviet Union
 ProductionStart=1974
 FireModes=Semi-Automatic, Full Auto
 MagazineSize=30
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [AK74susdMG]
@@ -850,7 +836,7 @@ CountryOfOrigin=United States
 ProductionStart=Late 1990s
 FireModes=Semi-Automatic
 MagazineSizeString=20
-TotalAmmoString=10 magazines
+TotalAmmoString=9 magazines
 RateOfFire=200 RPM
 
 [SniperRifle]
@@ -877,7 +863,7 @@ CountryOfOrigin=Italy
 ProductionStart=Late 1990s
 FireModes=Pump-Action
 MagazineSizeString=8
-TotalAmmoString=60 shells
+TotalAmmoString=75 shells
 RateOfFire=100 RPM
 
 [CSBallLauncher]
@@ -889,8 +875,8 @@ Caliber=Pepper-ball
 CountryOfOrigin=United States
 ProductionStart=Unknown
 FireModes=Semi-Automatic
-MagazineSizeString=160
-TotalAmmoString=160 pepper-balls
+MagazineSizeString=200
+TotalAmmoString=200 pepper-balls
 RateOfFire=600 RPM
 
 [Wedge]
@@ -984,7 +970,7 @@ RateOfFire=20-100 RPM
 
 [Cuffs]
 Description=Zip cuff restraints have many benefits over traditional metal hand-cuffs.  Tactical teams favor them due to their light weight and flexible design.
-FriendlyName=Double Flex Cuff
+FriendlyName=Safariland Restraints
 
 [Detonator]
 Description=Default description for Detonator

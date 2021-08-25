@@ -86,7 +86,7 @@ DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
 
 [RiotHelmet]
 Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally. The kevlar helmet provides protection from hollow point rounds, most forms of buckshot, rifled shotgun slugs and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or armor piercing shotgun slugs. This configuration features an anti-riot ballistic visor that provides the user with some protection against pepper spray and pepper balls effects as well as increased ballistic protection. It is extremely bulky however.
-FriendlyName=PASGT & Riot Shield 
+FriendlyName=PASGT & Face Shield 
 GUIImage=material'gui_hov.V2tacticRiot'
 
 [NoBodyArmor]
