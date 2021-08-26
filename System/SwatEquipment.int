@@ -12,7 +12,7 @@ Description=Choose this option to pack no equipment in this slot. This option is
 FriendlyName=None
 
 [Arwen37GL]
-Description=The ARWEN 37 (ARWEN being short for "Anti-Riot Weapon ENfield") was designed by request of the British Military for a capable riot control weapon. It certainly meets that criteria - boasting a five-round rotary drum and tactical flashlight, the ARWEN 37 is a solid choice in delivering ordinance. The weapon is heavier than the HK69A1 however, and is only designed to be used by a grenadier's role.
+Description=The ARWEN 37 (ARWEN being short for "Anti-Riot Weapon ENfield") was designed by request of the British Military for a capable riot control weapon. It certainly meets that criteria - boasting a five-round rotary drum and tactical flashlight, the ARWEN 37 is a solid choice in delivering ordinance.
 FriendlyName=Enfield ARWEN 37
 ShortName=ARWEN 37
 Manufacturer=Royal Small Arms Factory
@@ -21,7 +21,7 @@ CountryOfOrigin=Great Britain
 ProductionStart=1977
 FireModes=Semi-Automatic
 MagazineSizeString=5
-TotalAmmoString=15 grenades
+TotalAmmoString=29 grenades
 RateOfFire=Unknown
 
 [BrowningHPHG]
@@ -591,24 +591,24 @@ Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios.
-FriendlyName=Colt M4A1 CQBR
-ShortName=M4A1 CQBR
+FriendlyName=Colt M4A1 Commando
+ShortName=M4A1 Commando
 
 [CQBRAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel whick make the M4A1 a more appealling choice for CQB tactical scenarios, as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=Colt M4A1 CQBR with CCO
-ShortName=M4A1 CQBR CCO
+FriendlyName=Colt M4A1 Commando with CCO
+ShortName=M4A1 Commando CCO
 
 [CQBRsdMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, as well as a suppressor for when stealth is paramount.
-FriendlyName=Colt M4A1 CQBR Suppressed
-ShortName=M4A1 CQBR Supp.
+FriendlyName=Colt M4A1 Commando Suppressed
+ShortName=M4A1 Commando Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRsdAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=Colt M4A1 CQBR Suppressed with CCO
-ShortName=M4A1 CQBR Supp. CCO
+FriendlyName=Colt M4A1 Commando Suppressed with CCO
+ShortName=M4A1 Commando Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
 
 [G36kMG]
@@ -642,7 +642,7 @@ ShortName=G36K Supp. CCO
 Caliber=Subsonic 5.56x45mm DM11
 
 [UziSMG]
-Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice.
+Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 FriendlyName=IMI Uzi Suppressed
 ShortName=Uzi Suppressed
 Manufacturer=Israel Military Industries
@@ -655,21 +655,21 @@ TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [UziTSMG]
-Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice.
+Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 
 [UziAimpointSMG]
-Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with a suppressor, making it a more stealthy choice, as well as an aimpoint sight for ease in aiming down the sights.
+Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice, as well as an aimpoint sight for ease in aiming down the sights.
 FriendlyName=IMI Uzi Suppressed with CCO
 ShortName=Uzi Supp. CCO
 
 [UZIunSMG]
-Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto.
+Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
 FriendlyName=IMI Uzi
 ShortName=Uzi 
 Caliber=9x19mm Parabellum
 
 [UZIunAimpointSMG]
-Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
+Description=The UZI is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
 FriendlyName=IMI Uzi with CCO
 ShortName=Uzi CCO
 Caliber=9x19mm Parabellum
@@ -684,7 +684,7 @@ CountryOfOrigin=Belgium
 ProductionStart=Late 1970s
 FireModes=Full-Auto
 MagazineSizeString=200
-TotalAmmoString=1 belt
+TotalAmmoString=3 belts
 RateOfFire=800 RPM
 
 [FNFALMG]
@@ -734,9 +734,9 @@ RateOfFire=600 RPM
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
 
 [AK47SynthMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic furniture reduces the overall weight of the AKM.
-FriendlyName=Kalashnikov AKM Synthetic
-ShortName=AKM Synth
+Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
+FriendlyName=Kalashnikov AKM 
+ShortName=AKM
 
 [AK47sdMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. This configuration comes equipped with a suppressor, making it a more stealthy choice. 
@@ -745,9 +745,9 @@ ShortName=AKM Supp.
 Caliber=Subsonic 7.62x39mm
 
 [AK47sdSynthMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic furniture reduces the overall weight of the AKM. This configuration comes equipped with a suppressor, making it a more stealthy choice.
-FriendlyName=Kalashnikov AKM Synthethic Supressed
-ShortName=AKM Synth Supp.
+Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
+FriendlyName=Kalashnikov AKM Supressed
+ShortName=AKM Supp.
 Caliber=Subsonic 7.62x39mm
 
 [AK47AimpointMG]
@@ -756,9 +756,9 @@ FriendlyName=Kalashnikov AKM with CCO
 ShortName=AKM CCO
 
 [AK47SynthAimpointMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic furniture reduces the overall weight of the AKM. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=Kalashnikov AKM Synthetic with CCO
-ShortName=AKM Synth CCO
+Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+FriendlyName=Kalashnikov AKM with CCO
+ShortName=AKM CCO
 
 [AK47sdAimpointMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
@@ -767,13 +767,13 @@ ShortName=AKM Supp. CCO
 Caliber=Subsonic 7.62x39mm
 
 [AK47sdSynthAimpointMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. The synthetic furniture reduces the overall weight of the AKM. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
-FriendlyName=Kalashnikov AKM Synthethic Suppressed with CCO
-ShortName=AKM Synth Supp. CCO
+Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
+FriendlyName=Kalashnikov AKM Suppressed with CCO
+ShortName=AKM Supp. CCO
 Caliber=Subsonic 7.62x39mm
 
 [AK74sutMG]
-Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios.
+Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
 FriendlyName=Kalashnikov AKS-74U
 ShortName=AKS-74U
 Manufacturer=Kalashnikov
@@ -786,7 +786,7 @@ TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [AK74susdMG]
-Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios. This configuration comes equipped with a suppressor, making it a more stealthy choice.
+Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 FriendlyName=Kalashnikov AKS-74U Suppressed
 ShortName=AKS-74U Supp.
 Caliber=Subsonic 5.45x39mm
@@ -823,11 +823,11 @@ CountryOfOrigin=West Germany
 ProductionStart=1960s
 FireModes=Single Fire
 MagazineSizeString=1
-TotalAmmoString=6 grenades
+TotalAmmoString=25 grenades
 RateOfFire=6 RPM
 
 [ColtAccurizedRifle]
-Description=The Colt Accurized Rifle occupies the mid ground between an assault rifle and a dedicated sniper rifle. The CAR combines accurate fire at range with the large ammo capacity required for urban field use, plus mounting points for a variety of scopes. Firing a 5.56mm round from a 20 round magazine, the CAR is only capable of firing in semiautomatic mode. Its length can make it a difficult weapon to wield in close quarters.
+Description=The Colt CR6720 occupies the mid ground between an assault rifle and a dedicated sniper rifle. It combines accurate fire at range with the large ammo capacity required for urban field use, plus mounting points for a variety of scopes. Firing a 5.56x45mm Mk.262 round from a 20 round magazine, the CR6720 is only capable of firing in semiautomatic mode. Its length can make it a difficult weapon to wield in close quarters.
 FriendlyName=Colt CR6720
 ShortName=Colt CR6720
 Manufacturer=Colt
