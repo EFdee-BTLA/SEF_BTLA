@@ -257,16 +257,16 @@ FriendlyName=Remington 870 Shorty
 ShortName=M870 Shorty
 
 [BreachingSG]
-Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This configuration is equipped with a special breaching muzzle break, which ensures that every shot will consistently breach a door.
+Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This configuration is equipped with a special breaching muzzle break, which ensures that every shot will consistently breach a door. It is meant to be only loaded with frangible breaching rounds.
 FriendlyName=Remington 870 Breaching
 ShortName=M870 Breaching
 Manufacturer=Remington
-Caliber=12 Gauge
+Caliber=12 Gauge Frangible
 CountryOfOrigin=United States
 ProductionStart=1951
 FireModes=Pump-Action
 MagazineSizeString=5
-TotalAmmoString=75 shells
+TotalAmmoString=25 shells
 RateOfFire=150 RPM
 
 [LessLethalM870SG]
@@ -342,7 +342,7 @@ MagazineSizeString=5
 [ColtM1911HG]
 Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized M1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT team. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
 FriendlyName=Kimber Custom TLE II
-ShortName=Kimber 1911
+ShortName=Kimber M1911
 Manufacturer=Kimber Manufacturing, Inc
 Caliber=.45 ACP
 CountryOfOrigin=United States
@@ -355,7 +355,7 @@ RateOfFire=390 RPM
 [ColtM1911sdHG]
 Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized M1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT team. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Kimber Custom TLE II Suppressed
-ShortName=Kimber 1911 Supp.
+ShortName=Kimber M1911 Supp.
 
 [Glock21HG]
 Description=The Glock 21 is a .45 ACP variant of the Glock, remarkable for its accuracy and light recoil. It is preferred by many SWAT officers due to the larger round and a generous 13 round magazine.
@@ -591,24 +591,24 @@ Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios.
-FriendlyName=Colt M4A1 Commando
-ShortName=M4A1 Commando
+FriendlyName=Colt M4A1 CQBR
+ShortName=M4A1 CQBR
 
 [CQBRAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel whick make the M4A1 a more appealling choice for CQB tactical scenarios, as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=Colt M4A1 Commando with CCO
-ShortName=M4A1 Commando CCO
+FriendlyName=Colt M4A1 CQBR with CCO
+ShortName=M4A1 CQBR CCO
 
 [CQBRsdMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, as well as a suppressor for when stealth is paramount.
-FriendlyName=Colt M4A1 Commando Suppressed
-ShortName=M4A1 Commando Supp.
+FriendlyName=Colt M4A1 CQBR Suppressed
+ShortName=M4A1 CQBR Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRsdAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=Colt M4A1 Commando Suppressed with CCO
-ShortName=M4A1 Commando Supp. CCO
+FriendlyName=Colt M4A1 CQBR Suppressed with CCO
+ShortName=M4A1 CQBR Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
 
 [G36kMG]
