@@ -285,7 +285,7 @@ RateOfFire=150 RPM
 [M1Super90SG]
 Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
 FriendlyName=Benelli M1 Super 90 Tactical
-ShortName=M1 Super 90 
+ShortName=M1 Super 90
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -304,7 +304,7 @@ MagazineSizeString=6
 [M4Super90SG]
 Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic combat shotguns by Benelli, developed in the late 1990 at the request of the U.S. Marine Corps. It uses the new propietary gas system instead of the inertia driven one, this makes the M4 cycle more reliable in arduous circumstances. This shotgun has proven to be appealing to law-enforcement, but its relative bulk may make it difficult to use in close quarters.
 FriendlyName=Benelli M4 Super 90 
-ShortName=M1014
+ShortName=M4 Super 90
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -317,12 +317,12 @@ RateOfFire=200 RPM
 [M4Super90EntrySG]
 Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic combat shotguns by Benelli, developed in the late 1990 at the request of the U.S. Marine Corps. It uses the new propietary gas system instead of the inertia driven one, this makes the M4 cycle more reliable in arduous circumstances. This configuration features a shortened barrell, preferred on CQB due to its reduced proportions.
 FriendlyName=Benelli M4 Super 90 SBS
-ShortName=M1014 SBS
+ShortName=M4 Super 90 SBS
 MagazineSizeString=6
 
 [NovaPumpSG]
 Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of shotgun shells, making it a more than appealling choice for law enforcement officers. 
-FriendlyName=Benelli Nova Tactical 
+FriendlyName=Benelli Nova Tactical
 ShortName=Nova Tactical
 Manufacturer=Benelli
 Caliber=12 Gauge

@@ -21,12 +21,12 @@ GUIImage=material'gui_hov.V2tactic'
 [NoHelmet]
 Description=This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
 FriendlyName=No Helmet
-GUIImage=material'gui_hov.V1tacticBoonie'
+GUIImage=material'gui_hov.V1tactic'
 
 [BoonieHat]
 Description=This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
 FriendlyName=No Helmet
-GUIImage=material'gui_hov.V1tactic'
+GUIImage=material'gui_hov.V1tacticBoonie'
 
 [Goggles]
 Description=The ESS tactical goggles provide protection against flashbangs effects. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
