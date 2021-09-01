@@ -142,7 +142,7 @@ ShortName=H&K G3KA4 Supp. CCO
 Caliber=Subsonic 7.62x51mm NATO
 
 [SG552MG]
-Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO.
+Description=The SIG SG 552 Commando is a closed bolt selective fire 5.56x45mm NATO carbine version of the original SG 550. Because of its compact nature, it is a prominent weapon seen in the hands of various SWAT teams and Special forces around the globe.
 FriendlyName=SIG SG 552
 ShortName=SG 552
 Manufacturer=Sig Sauer
@@ -155,18 +155,18 @@ TotalAmmoString=9 magazines
 RateOfFire=700 RPM
 
 [SG552AimpointMG]
-Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The SIG SG 552 Commando is a closed bolt selective fire 5.56x45mm NATO carbine version of the original SG 550. Because of its compact nature, it is a prominent weapon seen in the hands of various SWAT teams and Special forces around the globe. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=SIG SG 552 with CCO
 ShortName=SG 552 CCO
 
 [SilencedSG552MG]
-Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration features a suppressor for when stealth is paramount.
+Description=The SIG SG 552 Commando is a closed bolt selective fire 5.56x45mm NATO carbine version of the original SG 550. Because of its compact nature, it is a prominent weapon seen in the hands of various SWAT teams and Special forces around the globe. This configuration features a suppressor for when stealth is paramount.
 FriendlyName=SIG SG 552 Suppressed
 ShortName=SG 552 Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [SilencedSG552AimpointMG]
-Description=The SIG SG 552 Commando is the smaller, carbine version of the SG 550. Because of its small size, and light weight, it is a very useful weapon for SWAT teams around the globe. This variant is chambered in 5.56x45mm NATO. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor for when stealth is paramount.
+Description=The SIG SG 552 Commando is a closed bolt selective fire 5.56x45mm NATO carbine version of the original SG 550. Because of its compact nature, it is a prominent weapon seen in the hands of various SWAT teams and Special forces around the globe. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor for when stealth is paramount.
 FriendlyName=SIG SG 552 Suppressed with CCO
 ShortName=SG 552 Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
@@ -252,7 +252,7 @@ FriendlyName=Remington 870 Police Magnum
 ShortName=M870 Police Magnum
 
 [Remington870ShortySG]
-Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This shorty configuration sports a pistol grip that reduces the bulk of the shotgun.
+Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular configuration sports a pistol grip that reduces the weight and bulk of the shotgun but obviously worsen its handling.
 FriendlyName=Remington 870 Shorty
 ShortName=M870 Shorty
 
@@ -284,7 +284,7 @@ RateOfFire=150 RPM
 
 [M1Super90SG]
 Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
-FriendlyName=Benelli M1 Super 90 Tactical
+FriendlyName=Benelli M1 Super 90 
 ShortName=M1 Super 90
 Manufacturer=Benelli
 Caliber=12 Gauge
@@ -321,9 +321,9 @@ ShortName=M4 Super 90 SBS
 MagazineSizeString=6
 
 [NovaPumpSG]
-Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of shotgun shells, making it a more than appealling choice for law enforcement officers. 
-FriendlyName=Benelli Nova Tactical
-ShortName=Nova Tactical
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. 
+FriendlyName=Benelli Nova
+ShortName=Nova
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -334,9 +334,9 @@ TotalAmmoString=75 shells
 RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
-Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. It features a 4 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of shotgun shells, making it a more than appealling choice for law enforcement officers. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
-FriendlyName=Benelli Nova Tactical SBS
-ShortName=Nova Tactical SBS
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It features a 4 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
+FriendlyName=Benelli Nova SBS
+ShortName=Nova SBS
 MagazineSizeString=5
 
 [ColtM1911HG]
@@ -451,7 +451,7 @@ TotalAmmoString=9 magazines
 RateOfFire=300 RPM
 
 [TEC9HG]
-Description=This infamous machine pistol was developed by Intratec, a Miami offshoot of the Swedish company Interdynamic. While it has relatively poor stopping power compared to full-sized submachine guns, its highly concealable form factor and ease of converting to full-auto makes it the weapon of choice for drive-bys and gang shootings. The TEC-9 received considerable noteriety in American media after the Columbine and Cleveland school shootings. After these events, the weapon was banned in several states by name and Intratec went bankrupt. Despite being a criminal weapon, a flashlight has been added for better tactical use in dark areas.
+Description=This infamous machine pistol was developed by Intratec, a Miami offshoot of the Swedish company Interdynamic. While it has relatively poor stopping power compared to full-sized submachine guns, its highly concealable form factor and ease of converting to full-auto makes it the weapon of choice for drive-bys and gang shootings. Despite being a criminal weapon, a flashlight has been added for better tactical use in dark areas.
 FriendlyName=Intratec TEC-9
 ShortName=TEC-9
 Manufacturer=Intratec
@@ -464,7 +464,7 @@ TotalAmmoString=9 magazines
 RateOfFire=950 RPM
 
 [FNP90SMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease in aiming down the sights.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design. It has remained in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease in aiming down the sights.
 FriendlyName=FN P90
 ShortName=P90
 Manufacturer=FN Herstal
@@ -477,7 +477,7 @@ TotalAmmoString=9 magazines
 RateOfFire=900 RPM
 
 [SilencedFNP90SMG]
-Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design, remaining in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease in aiming down the sights. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=The P90 (internally known as the FN Project 1990 PDWS) was developed by the Belgian company FN in conjunction with their Five-Seven pistol in response to NATO's requests for a replacement to 9x19mm firearms. The P90 features a compact, futuristic and ambidextrous design. It has remained in service in over 40 countries worldwide. One of the unique features of the P90 is its top-loaded magazine that, due to the P90's compact design, it can hold up to 50 rounds in it. A unique feature of the P90 is an integral reflex sight for ease in aiming down the sights. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=FN P90 Suppressed
 ShortName=P90 Supp.
 Caliber=Subsonic 5.7x28mm FN
@@ -854,7 +854,7 @@ FriendlyName=C2 Charge (x3)
 GivenName=C2 Charge
 
 [LessLethalSG]
-Description=A relatively new design from Benelli, the Nova Tactical is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of shotgun shells, making it a more than appealling choice for law enforcement officers. This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
 FriendlyName=Benelli Nova Less-Lethal
 ShortName=Nova Less-Lethal
 Manufacturer=Benelli
@@ -868,15 +868,15 @@ RateOfFire=100 RPM
 
 [CSBallLauncher]
 Description=The Pepper-ball gun is based on technology originally designed for recreational paintball.  Compressed Carbon Dioxide ejects the ammunition at relatively high velocities.  The Pepper-ball gun allows officers to quickly deploy OC at specific targets, in more easily controlled quantities, and at significantly longer ranges than a grenade or standard pepper spray.  With the large ammunition hopper this weapon never needs to be reloaded under normal operating conditions.
-FriendlyName=Tippmann Pro-Carbine (CS Ball)
-ShortName=Pro-Carbine (CS Ball)
+FriendlyName=Tippmann Pro-Carbine (OC Ball)
+ShortName=Pro-Carbine (OC Ball)
 Manufacturer=Tippmann
-Caliber=Pepper-ball
+Caliber=OC Ball
 CountryOfOrigin=United States
-ProductionStart=Unknown
+ProductionStart=Mid 1990s
 FireModes=Semi-Automatic
 MagazineSizeString=200
-TotalAmmoString=200 pepper-balls
+TotalAmmoString=200 OC Balls
 RateOfFire=600 RPM
 
 [Wedge]
@@ -919,21 +919,21 @@ ShortName=Flash-Bang
 GivenName=Flash-Bang 
 
 [Sting3pack]
-Description=This 3-pack of stingers contains three times as many sting grenades, but occupies five times as much space and weight.
-FriendlyName=CTS 9590 Stinger (x3)
-ShortName=Stinger (x3)
+Description=This 2-pack of stingers contains two times as many sting grenades, but occupies five times as much space and weight.
+FriendlyName=CTS 9590 Stinger (x2)
+ShortName=Stinger (x2)
 GivenName=CTS 9590 Stinger
 
 [CS3pack]
-Description=This 3-pack of gas grenades contains three times as many CS gas grenades, but occupies five times as much space and weight.
-FriendlyName=CTS 5230B CS Baffled (x3)
-ShortName=CS Gas (x3)
+Description=This 2-pack of gas grenades contains two times as many CS gas grenades, but occupies five times as much space and weight.
+FriendlyName=CTS 5230B CS Baffled (x2)
+ShortName=CS Gas (x2)
 GivenName=CTS 5230B CS Baffled
 
 [Flashbang3pack]
-Description=This 3-pack of flashbangs contains three times as many flash-bangs, but occupies five times as much space and weight.
-FriendlyName=CTS 7290 Flash-Bang (x3)
-ShortName=Flash-Bang (x3)
+Description=This 2-pack of flashbangs contains two times as many flash-bangs, but occupies five times as much space and weight.
+FriendlyName=CTS 7290 Flash-Bang (x2)
+ShortName=Flash-Bang (x2)
 GivenName=CTS 7290 Flash-Bang 
 
 [Toolkit]

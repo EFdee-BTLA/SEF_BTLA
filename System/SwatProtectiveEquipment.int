@@ -25,7 +25,7 @@ GUIImage=material'gui_hov.V1tactic'
 
 [BoonieHat]
 Description=This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
-FriendlyName=No Helmet
+FriendlyName=Boonie Hat
 GUIImage=material'gui_hov.V1tacticBoonie'
 
 [Goggles]
