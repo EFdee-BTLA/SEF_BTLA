@@ -44,12 +44,12 @@ FriendlyName=4 Buckshot
 GUIImage=Texture'gui_tex.ammo_4buckshotgun'
 
 [ShotgunSabotAmmo]
-Description=Shotgun slugs are heavy, high velocity projectiles typically made out of lead or copper. Slugs are designed for hunting large game, self-defense, and law-enforcement due to the accuracy, range, and increased wounding potential at longer ranges. Most shotgun slugs are designed to be fired through a cylinder bore or an improved cylinder choke, rifled choke tubes, or fully rifled bores. This particular slug round is ideally used against armored targets.
+Description=Shotgun slugs are heavy, high velocity projectiles typically made out of lead or copper. Slugs are designed for hunting large game, self-defense, and law-enforcement due to the accuracy, range, and increased wounding potential at longer ranges. This particular slug round is ideally used against armored targets.
 FriendlyName=Rifled Slug (AP)
 GUIImage=Texture'gui_tex.ammo_sabot'
 
 [ShotgunHPSabotAmmo]
-Description=Shotgun slugs are heavy, high velocity projectiles typically made out of lead or copper. Slugs are designed for hunting large game, self-defense, and law-enforcement due to the accuracy, range, and increased wounding potential at longer ranges. Most shotgun slugs are designed to be fired through a cylinder bore or an improved cylinder choke, rifled choke tubes, or fully rifled bores. This particular slug round is ideally used against unarmored targets.
+Description=Shotgun slugs are heavy, high velocity projectiles typically made out of lead or copper. Slugs are designed for hunting large game, self-defense, and law-enforcement due to the accuracy, range, and increased wounding potential at longer ranges. This particular slug round is ideally used against unarmored targets.
 FriendlyName=Rifled Slug (HP)
 GUIImage=Texture'gui_tex.ammo_hpslug'
 
