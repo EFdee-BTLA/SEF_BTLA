@@ -854,7 +854,7 @@ FriendlyName=C2 Charge (x3)
 GivenName=C2 Charge
 
 [LessLethalSG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. The Tactical model features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement.  This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
 FriendlyName=Benelli Nova Less-Lethal
 ShortName=Nova Less-Lethal
 Manufacturer=Benelli
