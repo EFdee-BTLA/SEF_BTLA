@@ -27,7 +27,7 @@ RateOfFire=Unknown
 [BrowningHPHG]
 Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
 FriendlyName=Browning Hi-Power
-ShortName=Hi-Power
+ShortName=Browning Hi-Power
 Manufacturer=Browning
 Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
@@ -40,7 +40,7 @@ RateOfFire=390 RPM
 [SilencedBrowningHPHG]
 Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount as well as a flashlight for more tactical use in dark environments.
 FriendlyName=Browning Hi-Power Suppressed
-ShortName=Hi-Power Supp.
+ShortName=Browning Hi-Power Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [P226HG]
@@ -283,7 +283,7 @@ TotalAmmoString=75 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
+Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
 FriendlyName=Benelli M1 Super 90 
 ShortName=M1 Super 90
 Manufacturer=Benelli
@@ -296,13 +296,13 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the propietary inertia-operated system that is derived from the HK512, known from its reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
+Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
 FriendlyName=Benelli M1 Super 90 SBS
 ShortName=M1 Super 90 SBS
 MagazineSizeString=6
 
 [M4Super90SG]
-Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic combat shotguns by Benelli, developed in the late 1990 at the request of the U.S. Marine Corps. It uses the new propietary gas system instead of the inertia driven one, this makes the M4 cycle more reliable in arduous circumstances. This shotgun has proven to be appealing to law-enforcement, but its relative bulk may make it difficult to use in close quarters.
+Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe.
 FriendlyName=Benelli M4 Super 90 
 ShortName=M4 Super 90
 Manufacturer=Benelli
