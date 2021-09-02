@@ -283,9 +283,9 @@ TotalAmmoString=75 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
-FriendlyName=Benelli M1 Super 90 
-ShortName=M1 Super 90
+Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. It has been the standard shotgun for the LAPD SWAT for more than a decade.
+FriendlyName=Benelli M1 
+ShortName=Benelli M1 
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -296,15 +296,15 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
-FriendlyName=Benelli M1 Super 90 SBS
-ShortName=M1 Super 90 SBS
+Description=The Benelli M1 Super 90 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. It has been the standard shotgun for the LAPD SWAT for more than a decade. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
+FriendlyName=Benelli M1 Entry
+ShortName=Benelli M1 Entry
 MagazineSizeString=6
 
 [M4Super90SG]
-Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe.
-FriendlyName=Benelli M4 Super 90 
-ShortName=M4 Super 90
+Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe.
+FriendlyName=Benelli M4
+ShortName=Benelli M4
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -315,15 +315,15 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M4Super90EntrySG]
-Description=The Benelli M4 Super 90 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic combat shotguns by Benelli, developed in the late 1990 at the request of the U.S. Marine Corps. It uses the new propietary gas system instead of the inertia driven one, this makes the M4 cycle more reliable in arduous circumstances. This configuration features a shortened barrell, preferred on CQB due to its reduced proportions.
-FriendlyName=Benelli M4 Super 90 SBS
-ShortName=M4 Super 90 SBS
+Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe. This configuration features a shortened barrell, preferred on CQB for its reduced proportions.
+FriendlyName=Benelli M4 Entry
+ShortName=Benelli M4 Entry
 MagazineSizeString=6
 
 [NovaPumpSG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. 
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. The Tactical model features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. 
 FriendlyName=Benelli Nova
-ShortName=Nova
+ShortName=Benelli Nova
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -334,9 +334,9 @@ TotalAmmoString=75 shells
 RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It features a 4 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This configuration features a fourteen-inch barrel, preferred on CQB due to its reduced proportions.
-FriendlyName=Benelli Nova SBS
-ShortName=Nova SBS
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
+FriendlyName=Benelli Nova Entry
+ShortName=Benelli Nova Entry
 MagazineSizeString=5
 
 [ColtM1911HG]
