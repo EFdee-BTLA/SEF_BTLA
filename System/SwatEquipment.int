@@ -22,7 +22,7 @@ ProductionStart=1977
 FireModes=Semi-Automatic
 MagazineSizeString=5
 TotalAmmoString=29 grenades
-RateOfFire=Unknown
+RateOfFire=21 RPM
 
 [BrowningHPHG]
 Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
@@ -731,7 +731,7 @@ TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [AK47tMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
+Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
 
 [AK47SynthMG]
 Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
@@ -773,7 +773,7 @@ ShortName=AKM Supp. CCO
 Caliber=Subsonic 7.62x39mm
 
 [AK74sutMG]
-Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
+Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios.
 FriendlyName=Kalashnikov AKS-74U
 ShortName=AKS-74U
 Manufacturer=Kalashnikov
@@ -786,7 +786,7 @@ TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [AK74susdMG]
-Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
+Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 FriendlyName=Kalashnikov AKS-74U Suppressed
 ShortName=AKS-74U Supp.
 Caliber=Subsonic 5.45x39mm
@@ -800,7 +800,7 @@ Caliber=TASER Cartridge
 CountryOfOrigin=United States
 ProductionStart=1999
 FireModes=Single Fire
-TotalAmmoString=15 cartridges
+TotalAmmoString=25 cartridges
 
 [Stingray]
 Description=The X2 model is a dual-purpose less-lethal weapon. It possesses both a ranged means of Electro-Muscular Disruption (EMD) and a touch-stun mode. The electrical discharge causes involuntary contraction of the target's muscle tissue, regardless of an individual's pain tolerance or mental focus.  The effect is painful and demoralizing to even the most aggressive suspects. The X2 can fire darts in groups of four or two separate groups of two. It can also be used in touch-stun mode as a melee weapon. An onboard computer records information on shock intensity and duration, among other factors. The X2 features an integral flashlight.
