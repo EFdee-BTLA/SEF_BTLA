@@ -881,14 +881,14 @@ RateOfFire=600 RPM
 
 [Wedge]
 Description=This specially designed tactical wedge is slid under the door and then activated.  The spring loaded action flips up wedges preventing the door from opening from either direction.  The rubber coating along the bottom of the wedge increases friction making it extremely difficult to push open with brute force.  It can only be removed with a cutting tool reducing the risk of a suspect dislodging the device.
-FriendlyName=Door Wedge
-ShortName=Door Wedge
-GivenName=Door Wedge
+FriendlyName=Tac Wedge
+ShortName=Tac Wedge
+GivenName=Tac Wedge
 
 [Wedge3pack]
 Description=This pack of three door wedges contains three times as many wedges, but occupies five times as much space and weight.
-FriendlyName=Door Wedge (x3)
-GivenName=Door Wedge
+FriendlyName=Tac Wedge (x3)
+GivenName=Tac Wedge
 
 [Optiwand]
 Description=The Opti-Wand is a sophisticated observation device which allows officers to examine situations around corners and under closed doors without exposing themselves to lines of fire.  On top of the device is a small LCD screen which displays the images seen by the camera at the end of the expandable rod.  It is an invaluable tool for gathering intelligence on suspect and civilian locations before performing dangerous clear routines and potentially exposing your team to fire.
@@ -908,9 +908,9 @@ GivenName=Stinger
 
 [CSGasGrenade]
 Description=This grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
-FriendlyName=CTS 5230B CS Baffled
+FriendlyName=CTS 5230B CS Grenade
 ShortName=CS Gas
-GivenName=CTS 5230B CS Baffled
+GivenName=CS Gas
 
 [FlashbangGrenade]
 Description=The flash-bang grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons.||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
@@ -922,19 +922,19 @@ GivenName=Flash-Bang
 Description=This 2-pack of stingers contains two times as many sting grenades, but occupies five times as much space and weight.
 FriendlyName=CTS 9590 Stinger (x2)
 ShortName=Stinger (x2)
-GivenName=CTS 9590 Stinger
+GivenName=Stinger
 
 [CS3pack]
 Description=This 2-pack of gas grenades contains two times as many CS gas grenades, but occupies five times as much space and weight.
-FriendlyName=CTS 5230B CS Baffled (x2)
+FriendlyName=CTS 5230B CS Grenade (x2)
 ShortName=CS Gas (x2)
-GivenName=CTS 5230B CS Baffled
+GivenName=CS Gas
 
 [Flashbang3pack]
 Description=This 2-pack of flashbangs contains two times as many flash-bangs, but occupies five times as much space and weight.
 FriendlyName=CTS 7290 Flash-Bang (x2)
 ShortName=Flash-Bang (x2)
-GivenName=CTS 7290 Flash-Bang 
+GivenName=Flash-Bang 
 
 [Toolkit]
 Description=The multi-tool serves many functions and can be used to pick locks, disable bombs and traps, and remove tactical wedges.  All officers are equipped with a toolkit.
