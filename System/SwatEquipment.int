@@ -210,9 +210,9 @@ ShortName=M16A2 Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [MP5KSMG]
-Description=The MP5KA4 (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. While it has minimal carry weight and a small form factor, it is difficult to use due to the lack of a stock. Despite this, it remains popular by security and special forces around the globe, including the British Special Air Service.
-FriendlyName=H&K MP5KA4
-ShortName=MP5KA4
+Description=The MP5K (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. While it has minimal carry weight and a small form factor, it is difficult to use due to the lack of a stock. Despite this, it remains popular by security and special forces around the globe, including the British Special Air Service.
+FriendlyName=H&K MP5K
+ShortName=MP5K
 Manufacturer=Heckler & Koch
 Caliber=9x19mm Parabellum
 CountryOfOrigin=Germany
@@ -223,14 +223,16 @@ TotalAmmoString=9 magazines
 RateOfFire=900 RPM
 
 [MP5KtSMG]
-Description=Developed in the 1990s, the MP5K-PDW is an original concept of the personal defense weapon that mated critical features like a sturdy folding buttstock and extended barrel capable of mounting a sound suppressor onto the diminutive MP5K.
-FriendlyName=H&K MP5K-PDW
-ShortName=MP5K-PDW
+Description=The MP5K (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. It has remained popular by security and special forces around the globe, including the British Special Air Service. The MP5KA4 is a variant of the MP5K that features a folding stock and extended barrel.
+FriendlyName=H&K MP5KA4
+ShortName=MP5KA4
+ProductionStart=1990s
 
 [SilencedMP5KtSMG]
-Description=Developed in the 1990s, the MP5K-PDW is an original concept of the personal defense weapon that mated critical features like a sturdy folding buttstock and extended barrel capable of mounting a sound suppressor onto the diminutive MP5K. This configuration features a sound and flash suppressor for when stealth is paramount.
-FriendlyName=H&K MP5K-PDW Suppressed
-ShortName=MP5K-PDW Supp.
+Description=The MP5K (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. It has remained popular by security and special forces around the globe, including the British Special Air Service. The MP5KA4 is a variant of the MP5K that features a folding stock and extended barrel. This configuration features a sound and flash suppressor for when stealth is paramount.
+FriendlyName=H&K MP5KA4 Suppressed
+ShortName=MP5KA4 Supp.
+ProductionStart=1990s
 Caliber=Subsonic 9x19mm Parabellum
 
 [Remington870SG]
