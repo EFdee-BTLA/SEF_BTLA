@@ -235,8 +235,8 @@ Caliber=Subsonic 9x19mm Parabellum
 
 [Remington870SG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting.
-FriendlyName=Remington 870
-ShortName=Remington 870
+FriendlyName=Remington 870 Police Magnum
+ShortName=M870 Police Magnum
 Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
@@ -248,18 +248,18 @@ RateOfFire=150 RPM
 
 [Remington870PoliceSG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant features a flashlight for better tactical use in dark areas.
-FriendlyName=Remington 870 
-ShortName=Remington 870
+FriendlyName=Remington 870 Police Magnum
+ShortName=M870 Police Magnum
 
 [Remington870ShortySG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular configuration sports a pistol grip that reduces the proportions of the gun but obviously worsen its handling.
-FriendlyName=Remington 870 Pistol
-ShortName=Remington 870 Pistol
+FriendlyName=Remington 870 Pistol Grip
+ShortName=M870 Pistol Grip
 
 [BreachingSG]
 Description=The breaching shotgun is a specially modified, Remington 870 shotgun designed to breach locked doors. The weapon fires 12 gauge frangible that is designed to quickly break into very small pieces upon impact.  This behavior reduces penetration and increases damage upon impact with hard surfaces.  These factors make it ideal for breaking locks on doors without penetrating the door and harming someone on the other side.  The toothed extender on barrel allows officers to jam the weapon into the door and ensures the correct distance from the lock for the breaching ammo to be most effective.  Its compact design permits officers to carry the weapon on their back, allowing it to be carried in addition to the primary weapon. 
 FriendlyName=Remington 870 Breacher
-ShortName=Remington 870 Breacher
+ShortName=M870 Breacher
 Manufacturer=Remington
 Caliber=12 Gauge Frangible
 CountryOfOrigin=United States
