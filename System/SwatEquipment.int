@@ -150,7 +150,7 @@ Caliber=5.56x45mm NATO
 CountryOfOrigin=Switzerland
 ProductionStart=1998
 FireModes=Semi-Automatic, Full-Auto
-MagazineSizeString=20
+MagazineSizeString=30
 TotalAmmoString=9 magazines
 RateOfFire=700 RPM
 
