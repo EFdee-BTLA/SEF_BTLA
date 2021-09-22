@@ -54,19 +54,19 @@ FriendlyName=Rifled Slug (HP)
 GUIImage=Texture'gui_tex.ammo_hpslug'
 
 [MP5SMG_FMJ]
-FriendlyName=9mm FMJ
+FriendlyName=9x19mm FMJ
 GUIImage=Texture'gui_tex.ammo_9mm_FMJ'
 
 [MP5SMG_JHP]
-FriendlyName=9mm JHP
+FriendlyName=9x19mm JHP
 GUIImage=Texture'gui_tex.ammo_9mm_JHP'
 
 [M4A1MG_FMJ]
-FriendlyName=5.56 FMJ
+FriendlyName=5.56x45mm FMJ
 GUIImage=Texture'gui_tex.ammo_223cal_FMJ'
 
 [M4A1MG_JHP]
-FriendlyName=5.56 JHP
+FriendlyName=5.56x45mm JHP
 GUIImage=Texture'gui_tex.ammo_223cal_JHP'
 
 [CSBallLauncherAmmo]
@@ -81,19 +81,19 @@ GUIImage=Texture'gui_tex.ammo_lesslethal'
 
 [AK47MG_FMJ]
 GUIImage=Texture'gui_tex.ammo_762cal_FMJ'
-FriendlyName=7.62 FMJ
+FriendlyName=7.62x39mm FMJ
 
 [AK47MG_JHP]
 GUIImage=Texture'gui_tex.ammo_762cal_JHP'
-FriendlyName=7.62 JHP
+FriendlyName=7.62x39mm JHP
 
 [AK47MG_AP]
 GUIImage=Texture'gui_tex.ammo_762cal_AP'
-FriendlyName=7.62 AP
+FriendlyName=7.62x39mm AP
 
 [AK47MG_JSP]
 GUIImage=Texture'gui_tex.ammo_762cal_JSP'
-FriendlyName=7.62 JSP
+FriendlyName=7.62x39mm JSP
 
 [UZISMG_FMJ]
 GUIImage=Texture'gui_tex.ammo_9mm_FMJ'
@@ -102,27 +102,27 @@ GUIImage=Texture'gui_tex.ammo_9mm_FMJ'
 GUIImage=Texture'gui_tex.ammo_9mm_JHP'
 
 [UMP45SMG_FMJ]
-FriendlyName=.45 FMJ
+FriendlyName=.45 ACP FMJ
 GUIImage=Texture'gui_tex.ammo_45cal_FMJ'
 
 [UMP45SMG_JHP]
-FriendlyName=.45 JHP
+FriendlyName=.45 ACP JHP
 GUIImage=Texture'gui_tex.ammo_45cal_JHP'
 
 [G36kMG_FMJ]
-FriendlyName=5.56 FMJ
+FriendlyName=5.56x45mm FMJ
 GUIImage=Texture'gui_tex.ammo_223cal_FMJ'
 
 [G36kMG_JHP]
-FriendlyName=5.56 JHP
+FriendlyName=5.56x45mm JHP
 GUIImage=Texture'gui_tex.ammo_223cal_JHP'
 
 [ColtM1911HG_FMJ]
-FriendlyName=.45 FMJ
+FriendlyName=.45 ACP FMJ
 GUIImage=Texture'gui_tex.ammo_45cal_FMJ'
 
 [ColtM1911HG_JHP]
-FriendlyName=.45 JHP
+FriendlyName=.45 ACP JHP
 GUIImage=Texture'gui_tex.ammo_45cal_JHP'
 
 [TaserAmmo]
@@ -131,11 +131,11 @@ FriendlyName=Taser Cartridge
 GUIImage=Texture'gui_tex.ammo_taser'
 
 [Glock9mmHG_FMJ]
-FriendlyName=9mm FMJ
+FriendlyName=9x19mm FMJ
 GUIImage=Texture'gui_tex.ammo_9mm_FMJ'
 
 [Glock9mmHG_JHP]
-FriendlyName=9mm JHP
+FriendlyName=9x19mm JHP
 GUIImage=Texture'gui_tex.ammo_9mm_JHP'
 
 [PythonRevolverHG_FMJ]

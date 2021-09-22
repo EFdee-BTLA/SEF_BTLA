@@ -39,7 +39,7 @@ Description=Failed to report a downed suspect
 
 [Procedure_NoHostageIncapacitated]
 Description=Incapacitated a hostage
-ChatMessage=[c=ff8000]Incapacitated Hostage (-50)[\c]
+ChatMessage=[c=ff0000]Incapacitated Hostage (-50)[\c]
 
 [Procedure_NoHostageKilled]
 Description=Killed a hostage
@@ -47,7 +47,7 @@ ChatMessage=[c=ff0000]Killed Hostage (-100)[\c]
 
 [Procedure_NoOfficerIncapacitated]
 Description=Incapacitated a fellow officer
-ChatMessage=[c=ff8000]Incapacitated Officer (-50)[\c]
+ChatMessage=[c=ff0000]Incapacitated Officer (-50)[\c]
 
 [Procedure_NoOfficerInjured]
 Description=Injured a fellow officer
@@ -59,7 +59,7 @@ ChatMessage=[c=ff8000]Tased Officer (-25)[\c]
 
 [Procedure_NoUnauthorizedUseOfDeadlyForce]
 Description=Unauthorized use of deadly force
-ChatMessage=[c=ff8000]Unauthorized Deadly Force (-50)[\c]
+ChatMessage=[c=ff8000]Unauthorized Deadly Force (-20)[\c]
 
 [Procedure_NoUnauthorizedUseOfForce]
 Description=Unauthorized use of force

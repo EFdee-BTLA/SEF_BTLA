@@ -138,7 +138,7 @@ Caliber=Subsonic 7.62x51mm NATO
 [G3KA4sdAimpointMG]
 Description=The G3KA4 is the carbine version of the G3A4 rifle. The G3KA4 (the K stands for "Kurz", German for "short") features a shortened barrel and a retractable metallic stock with rubber buttplate, similar to the MP5A3. This configuration features a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K G3KA4 Suppressed with CCO
-ShortName=H&K G3KA4 Supp. CCO
+ShortName=G3KA4 Supp. CCO
 Caliber=Subsonic 7.62x51mm NATO
 
 [SG552MG]
@@ -248,8 +248,8 @@ RateOfFire=150 RPM
 
 [Remington870PoliceSG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant features a flashlight for better tactical use in dark areas.
-FriendlyName=Remington 870 Police Magnum
-ShortName=M870 Police Magnum
+FriendlyName=Remington 870 Express
+ShortName=M870 Express
 
 [Remington870ShortySG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular configuration sports a pistol grip that reduces the proportions of the gun but obviously worsen its handling.
@@ -283,7 +283,7 @@ TotalAmmoString=75 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. It has been the standard shotgun for the LAPD SWAT for more than a decade.
+Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
 FriendlyName=Benelli M1
 ShortName=Benelli M1
 Manufacturer=Benelli
@@ -296,7 +296,7 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. It has been the standard shotgun for the LAPD SWAT for more than a decade. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
+Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
 FriendlyName=Benelli M1 Entry
 ShortName=Benelli M1 Entry
 MagazineSizeString=6
@@ -438,9 +438,9 @@ TotalAmmoString=9 moon clips
 RateOfFire=80 RPM
 
 [DesertEagleHG]
-Description=The Desert Eagle is a gas-operated, semi-automatic pistol of US origin. Magnum Research Inc. (MRI) designed and developed the Desert Eagle, the design was further refined by (and was also manufactured by) Israel Military Industries (IMI). It was developed in the early 1980's in the United States for civilian use. It is known for being chambered in the powerful .50 Action Express, originally developed to only be used by this pistol. Law enforcement and military use of this pistol is virtually non-existent due to its heavy weight, excessive bulk and small magazine capacity.
-FriendlyName=IMI Desert Eagle Mk XIX
-ShortName=Desert Eagle Mk XIX
+Description=The Desert Eagle is a gas-operated, semi-automatic pistol of US origin. Magnum Research Inc. (MRI) designed and developed the Desert Eagle, the design was further refined by and manufactured by Israel Military Industries (IMI). It is known for being chambered in the powerful .50 Action Express, originally developed to only be used by this pistol. Law enforcement and military use of this pistol is virtually non-existent due to its heavy weight, excessive bulk and small magazine capacity.
+FriendlyName=IMI Desert Eagle
+ShortName=Desert Eagle
 Manufacturer=Israel Military Industries (IMI)
 Caliber=.50 AE
 CountryOfOrigin=United States
@@ -483,7 +483,7 @@ ShortName=P90 Supp.
 Caliber=Subsonic 5.7x28mm FN
 
 [MP5SMG]
-Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position, Navy style, Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group.
+Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group.
 FriendlyName=H&K MP5A4
 ShortName=MP5A4
 Manufacturer=Heckler & Koch
@@ -496,18 +496,18 @@ TotalAmmoString=9 magazines
 RateOfFire=800 RPM
 
 [MP5AimpointSMG]
-Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position, Navy style, Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5A4 with CCO
 ShortName=MP5A4 CCO
 
 [SilencedMP5SMG]
-Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position, Navy style, Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor. It is very popular among covert-ops forces and is deployed in stealth operations around the globe.
+Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor. It is very popular among covert-ops forces and is deployed in stealth operations around the globe.
 FriendlyName=H&K MP5SD5
 ShortName=MP5SD5
 Caliber=Subsonic 9x19mm Parabellum
 
 [SilencedMP5AimpointSMG]
-Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position, Navy style, Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The MP5 was designed by Heckler and Koch, a world renowned German manufacturer. It is preferred by many para-military groups throughout the world for urban tactical engagements. Firing 9x19mm Parabellum ammunition it has proven to be versatile, but lacks the stopping power of an assault rifle. Its key advantage is its compact design, which allows superior maneuverability in indoor situations. The MP5A4 features a 4-position Safe, Semi-Auto, 3-Round Burst, Full Auto trigger group. The MP5SD5 is a variant of the MP5 equipped with an integrated suppressor. It is very popular among covert-ops forces and is deployed in stealth operations around the globe. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K MP5SD5 with CCO
 ShortName=MP5SD5 CCO
 Caliber=Subsonic 9x19 Parabellum
@@ -592,23 +592,23 @@ Caliber=Subsonic 5.56x45mm NATO
 [CQBRMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios.
 FriendlyName=Colt CQBR
-ShortName=CQBR
+ShortName=M4 CQBR
 
 [CQBRAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel whick make the M4A1 a more appealling choice for CQB tactical scenarios, as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=Colt CQBR with CCO
-ShortName=CQBR CCO
+ShortName=M4 CQBR CCO
 
 [CQBRsdMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, as well as a suppressor for when stealth is paramount.
 FriendlyName=Colt CQBR Suppressed
-ShortName=CQBR Supp.
+ShortName=M4 CQBR Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRsdAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
 FriendlyName=Colt CQBR Suppressed with CCO
-ShortName=CQBR Supp. CCO
+ShortName=M4 CQBR Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
 
 [G36kMG]
@@ -707,10 +707,10 @@ ShortName=FAL Para Supp. CCO
 Caliber=Subsonic 7.62x51mm NATO
 
 [AK47MG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
-FriendlyName=Kalashnikov AKM
+Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
+FriendlyName=Izhmash AKM
 ShortName=AKM
-Manufacturer=Kalashnikov
+Manufacturer=Izhmash 
 Caliber=7.62x39mm
 CountryOfOrigin=Soviet Union
 ProductionStart=1959
@@ -720,52 +720,35 @@ TotalAmmoString=9 magazines
 RateOfFire=600 RPM
 
 [AK47tMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
+Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
 
 [AK47SynthMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
-FriendlyName=Kalashnikov AKM 
-ShortName=AKM
-
-[AK47sdMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. This configuration comes equipped with a suppressor, making it a more stealthy choice. 
-FriendlyName=Kalashnikov AKM Suppressed
-ShortName=AKM Supp.
-Caliber=Subsonic 7.62x39mm
+Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
+FriendlyName=Izhmash AKM Synthetic
+ShortName=AKM Synth
 
 [AK47sdSynthMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
-FriendlyName=Kalashnikov AKM Suppressed
-ShortName=AKM Supp.
+Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
+FriendlyName=Izhmash AKM Suppressed
+ShortName=AKM Supp. Synth
 Caliber=Subsonic 7.62x39mm
-
-[AK47AimpointMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=Kalashnikov AKM with CCO
-ShortName=AKM CCO
 
 [AK47SynthAimpointMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
-FriendlyName=Kalashnikov AKM with CCO
-ShortName=AKM CCO
-
-[AK47sdAimpointMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
-FriendlyName=Kalashnikov AKM Suppressed with CCO
-ShortName=AKM Supp. CCO
-Caliber=Subsonic 7.62x39mm
+Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+FriendlyName=Izhmash AKM with CCO
+ShortName=AKM Synth CCO
 
 [AK47sdSynthAimpointMG]
-Description=The Kalashnikov AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
-FriendlyName=Kalashnikov AKM Suppressed with CCO
-ShortName=AKM Supp. CCO
+Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
+FriendlyName=Izhmash AKM Suppressed with CCO
+ShortName=AKM Supp. Synth CCO
 Caliber=Subsonic 7.62x39mm
 
 [AK74sutMG]
 Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios.
-FriendlyName=Kalashnikov AKS-74U
+FriendlyName=Izhmash AKS-74U
 ShortName=AKS-74U
-Manufacturer=Kalashnikov
+Manufacturer=Izhmash 
 Caliber=5.45x39mm
 CountryOfOrigin=Soviet Union
 ProductionStart=1974
@@ -776,7 +759,7 @@ RateOfFire=600 RPM
 
 [AK74susdMG]
 Description=The AK-74 was developed as a response to design criticisms of the AK-47 and AKM rifles. Particularly, it dropped the 7.62x39mm ammunition down to 5.45x39mm in order to address concerns that the bullets overpenetrated their targets, a chrome-lined barrel bore to reduce maintenance, and a set of brackets for underbarrel attachments. This particular model, a carbine variant often called a ''Krinkov'',  is more suited to close quarters combat scenarios. This configuration comes equipped with a suppressor, making it a more stealthy choice.
-FriendlyName=Kalashnikov AKS-74U Suppressed
+FriendlyName=Izhmash AKS-74U Suppressed
 ShortName=AKS-74U Supp.
 Caliber=Subsonic 5.45x39mm
 
@@ -856,10 +839,10 @@ TotalAmmoString=75 shells
 RateOfFire=100 RPM
 
 [CSBallLauncher]
-Description=The Pepper-ball gun is based on technology originally designed for recreational paintball.  Compressed Carbon Dioxide ejects the ammunition at relatively high velocities.  The Pepper-ball gun allows officers to quickly deploy OC at specific targets, in more easily controlled quantities, and at significantly longer ranges than a grenade or standard pepper spray.  With the large ammunition hopper this weapon never needs to be reloaded under normal operating conditions.
-FriendlyName=Tippmann Pro-Carbine (OC Ball)
-ShortName=Pro-Carbine (OC Ball)
-Manufacturer=Tippmann
+Description=The PepperBall SA200 Launcher is based on technology originally designed for recreational paintball.  Compressed Carbon Dioxide ejects the ammunition at relatively high velocities.  The Pepper-ball gun allows officers to quickly deploy OC at specific targets, in more easily controlled quantities, and at significantly longer ranges than a grenade or standard pepper spray.  With the large ammunition hopper this weapon never needs to be reloaded under normal operating conditions.
+FriendlyName=PepperBall SA200
+ShortName=SA200 
+Manufacturer=PepperBall
 Caliber=OC Ball
 CountryOfOrigin=United States
 ProductionStart=Mid 1990s
