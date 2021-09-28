@@ -59,11 +59,11 @@ ChatMessage=[c=ff8000]Tased Officer (-25)[\c]
 
 [Procedure_NoUnauthorizedUseOfDeadlyForce]
 Description=Unauthorized use of deadly force
-ChatMessage=[c=ff8000]Unauthorized Deadly Force (-20)[\c]
+ChatMessage=[c=ffff00]Unauthorized Deadly Force (-10)[\c]
 
 [Procedure_NoUnauthorizedUseOfForce]
 Description=Unauthorized use of force
-ChatMessage=[c=ffff00]Unauthorized Force (-10)[\c]
+ChatMessage=[c=ffff00]Unauthorized Force (-5)[\c]
 
 [Procedure_PreventSuspectEscape]
 Description=Failed to apprehend fleeing suspect
