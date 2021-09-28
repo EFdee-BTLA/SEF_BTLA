@@ -27,7 +27,7 @@ RateOfFire=21 RPM
 [BrowningHPHG]
 Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
 FriendlyName=Browning Hi-Power
-ShortName=Browning HP
+ShortName=Browning Hi-Power
 Manufacturer=Browning
 Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
@@ -40,7 +40,7 @@ RateOfFire=390 RPM
 [SilencedBrowningHPHG]
 Description=The Browning Hi-Power is one of the most widely used pistols in history, having seen service in World War II, the Korean War, and more than a dozen other conflicts. The Browning Hi-Power started design by John Browning in 1914, but didn't see production until 1935, when it was finished by FN Herstal. The name alludes to its impressive 13-round magazine, which at the time, was double the standard pistol magazine-size. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount as well as a flashlight for more tactical use in dark environments.
 FriendlyName=Browning Hi-Power Suppressed
-ShortName=Browning HP Supp.
+ShortName=Browning Hi-Power Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [P226HG]
@@ -253,8 +253,8 @@ ShortName=M870 Express
 
 [Remington870ShortySG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular configuration sports a pistol grip that reduces the proportions of the gun but obviously worsen its handling.
-FriendlyName=Remington 870 Pistol Grip
-ShortName=M870 Pistol Grip
+FriendlyName=Remington 870 Shorty
+ShortName=M870 Shorty
 
 [BreachingSG]
 Description=The breaching shotgun is a specially modified, Remington 870 shotgun designed to breach locked doors. The weapon fires 12 gauge frangible that is designed to quickly break into very small pieces upon impact.  This behavior reduces penetration and increases damage upon impact with hard surfaces.  These factors make it ideal for breaking locks on doors without penetrating the door and harming someone on the other side.  The toothed extender on barrel allows officers to jam the weapon into the door and ensures the correct distance from the lock for the breaching ammo to be most effective.  Its compact design permits officers to carry the weapon on their back, allowing it to be carried in addition to the primary weapon. 
@@ -284,8 +284,8 @@ RateOfFire=150 RPM
 
 [M1Super90SG]
 Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
-FriendlyName=Benelli M1
-ShortName=Benelli M1
+FriendlyName=Benelli M1 Tactical
+ShortName=M1 Tactical 
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -298,13 +298,13 @@ RateOfFire=200 RPM
 [M1Super90EntrySG]
 Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
 FriendlyName=Benelli M1 Entry
-ShortName=Benelli M1 Entry
+ShortName=M1 Entry
 MagazineSizeString=6
 
 [M4Super90SG]
 Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe.
-FriendlyName=Benelli M4
-ShortName=Benelli M4
+FriendlyName=Benelli M1014
+ShortName=M1014
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -316,14 +316,14 @@ RateOfFire=200 RPM
 
 [M4Super90EntrySG]
 Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe. This configuration features a shortened barrell, preferred on CQB for its reduced proportions.
-FriendlyName=Benelli M4 Entry
-ShortName=Benelli M4 Entry
+FriendlyName=Benelli M1014 Entry
+ShortName=M1014 Entry
 MagazineSizeString=6
 
 [NovaPumpSG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. The Tactical model features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. 
 FriendlyName=Benelli Nova
-ShortName=Benelli Nova
+ShortName=Nova
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -336,7 +336,7 @@ RateOfFire=100 RPM
 [NovaPumpEntrySG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
 FriendlyName=Benelli Nova Entry
-ShortName=Benelli Nova Entry
+ShortName=Nova Entry
 MagazineSizeString=5
 
 [ColtM1911HG]
