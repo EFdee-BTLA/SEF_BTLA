@@ -49,4 +49,28 @@ ChatMessage=[c=ff0000]Killed Hostage (-100)[\c]
 Description=Incapacitated a fellow officer
 ChatMessage=[c=ff0000]Incapacitated Officer (-50)[\c]
 
+[Procedure_NoOfficerInjured]
+Description=Injured a fellow officer
+ChatMessage=[c=ffff00]Injured Officer (-5)[\c]
+
+[Procedure_NoOfficerTased]
+Description=Tased a fellow officer
+ChatMessage=[c=ff8000]Tased Officer (-5)[\c]
+
+[Procedure_NoUnauthorizedUseOfDeadlyForce]
+Description=Unauthorized use of deadly force
+ChatMessage=[c=ff8000]Unauthorized Deadly Force (-10)[\c]
+
+[Procedure_NoUnauthorizedUseOfForce]
+Description=Unauthorized use of force
+ChatMessage=[c=ffff00]Unauthorized Force (-5)[\c]
+
+[Procedure_PreventSuspectEscape]
+Description=Failed to apprehend fleeing suspect
+ChatMessage=[c=ffff00]Suspect Escaped[\c]
+
+[Procedure_NoTrapsTriggered]
+Description=Tripped a trap
+ChatMessage=[c=ffff00]Triggered Trap[\c]
+
 
