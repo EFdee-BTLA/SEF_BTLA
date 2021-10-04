@@ -235,8 +235,8 @@ Caliber=Subsonic 9x19mm Parabellum
 
 [Remington870SG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting.
-FriendlyName=Remington 870 Police Magnum
-ShortName=M870 Police Magnum
+FriendlyName=Remington 870
+ShortName=M870
 Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
@@ -283,7 +283,7 @@ TotalAmmoString=75 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
+Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known for its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
 FriendlyName=Benelli M1 Tactical
 ShortName=M1 Tactical 
 Manufacturer=Benelli
@@ -296,13 +296,13 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known due to its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
+Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known for its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
 FriendlyName=Benelli M1 Entry
 ShortName=M1 Entry
 MagazineSizeString=6
 
 [M4Super90SG]
-Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe.
+Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. Although an expensive shotgun, it has proven to be appealing for law-enforcement, being adopted by various SWAT teams from around the globe.
 FriendlyName=Benelli M1014
 ShortName=M1014
 Manufacturer=Benelli
@@ -315,7 +315,7 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M4Super90EntrySG]
-Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. It uses the new Argo gas system instead of the old inertia driven one, this makes the M4 cycle the lowest velocity ammo types more reliably. Although an expensive shotgun, it has proven to be appealing to law-enforcement, being adopted by various SWAT teams from around the globe. This configuration features a shortened barrell, preferred on CQB for its reduced proportions.
+Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. Although an expensive shotgun, it has proven to be appealing for law-enforcement, being adopted by various SWAT teams from around the globe. This configuration features a shortened barrell, preferred on CQB for its reduced proportions.
 FriendlyName=Benelli M1014 Entry
 ShortName=M1014 Entry
 MagazineSizeString=6
@@ -340,9 +340,9 @@ ShortName=Nova Entry
 MagazineSizeString=5
 
 [ColtM1911HG]
-Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized M1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT team. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
-FriendlyName=Kimber Custom TLE II
-ShortName=Kimber M1911
+Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized 1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
+FriendlyName=Kimber 1911
+ShortName=Kimber 1911
 Manufacturer=Kimber Manufacturing, Inc
 Caliber=.45 ACP
 CountryOfOrigin=United States
@@ -353,9 +353,9 @@ TotalAmmoString=9 magazines
 RateOfFire=390 RPM
 
 [ColtM1911sdHG]
-Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized M1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT team. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
-FriendlyName=Kimber Custom TLE II Suppressed
-ShortName=Kimber M1911 Supp.
+Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized 1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers.  This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+FriendlyName=Kimber 1911 Suppressed
+ShortName=Kimber 1911 Supp.
 
 [Glock21HG]
 Description=The Glock 21 is a .45 ACP variant of the Glock, remarkable for its accuracy and light recoil. It is preferred by many SWAT officers due to the larger round and a generous 13 round magazine.
@@ -538,7 +538,7 @@ ShortName=UMP45 Supp.
 [UMP45sdAimpointSMG]
 Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire.  The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K UMP45 Suppressed with CCO
-ShortName=UMP45 Supp. Aim.
+ShortName=UMP45 Supp. CCO
 
 [ColtSMG]
 Description=The Colt 635 (also known as the Colt 9mm SMG) is a shortened version of the M16, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns.
@@ -591,24 +591,24 @@ Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios.
-FriendlyName=Colt CQBR
-ShortName=M4 CQBR
+FriendlyName=Colt M4 Commando
+ShortName=M4 Commando
 
 [CQBRAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel whick make the M4A1 a more appealling choice for CQB tactical scenarios, as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=Colt CQBR with CCO
-ShortName=M4 CQBR CCO
+FriendlyName=Colt M4 Commando with CCO
+ShortName=M4 Commando CCO
 
 [CQBRsdMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, as well as a suppressor for when stealth is paramount.
-FriendlyName=Colt CQBR Suppressed
-ShortName=M4 CQBR Supp.
+FriendlyName=Colt M4 Commando Suppressed
+ShortName=M4 Commando Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRsdAimpointMG]
 Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=Colt CQBR Suppressed with CCO
-ShortName=M4 CQBR Supp. CCO
+FriendlyName=Colt M4 Commando Suppressed with CCO
+ShortName=M4 Commando Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
 
 [G36kMG]
@@ -627,7 +627,7 @@ RateOfFire=750 RPM
 [G36kAimpointMG]
 Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
 FriendlyName=H&K G36K with CCO
-ShortName=G36K Aim.
+ShortName=G36K CCO
 
 [G36ksdMG]
 Description=The G36K (K stands for "Kurz", German for "short") is the lightweight carbine version of the original G36, developed in the late 1990s by H&K for the German Bundeswehr. It is now world renowned as an incredibly reliable all-around carbine, firing a mid-sized 5.56x45mm rifle round. The G36K features a 4 position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount. 
@@ -678,8 +678,8 @@ RateOfFire=800 RPM
 
 [FNFALMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. 
-FriendlyName=FN FAL Paratrooper
-ShortName=FAL Para 
+FriendlyName=FN FAL Para 2
+ShortName=FAL Para 2
 Manufacturer=FN Herstal
 Caliber=7.62x51mm NATO
 CountryOfOrigin=Belgium
@@ -691,19 +691,19 @@ RateOfFire=700 RPM
 
 [FNFALsdMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with a suppressor making it a more stealthy choice.
-FriendlyName=FN FAL Paratrooper Suppressed
-ShortName=FAL Para Supp.
+FriendlyName=FN FAL Para 2 Suppressed
+ShortName=FAL Para 2 Supp.
 Caliber=Subsonic 7.62x51mm NATO
 
 [FNFALAimpointMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with an aimpoint sight for ease in aiming down the sights.
-FriendlyName=FN FAL Paratrooper with CCO
-ShortName=FAL Para CCO
+FriendlyName=FN FAL Para 2 with CCO
+ShortName=FAL Para 2 CCO
 
 [FNFALsdAimpointMG]
 Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuratio comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease in aiming down the sights.
-FriendlyName=FN FAL Paratrooper Suppressed with CCO
-ShortName=FAL Para Supp. CCO
+FriendlyName=FN FAL Para 2 Suppressed with CCO
+ShortName=FAL Para 2 Supp. CCO
 Caliber=Subsonic 7.62x51mm NATO
 
 [AK47MG]
@@ -817,13 +817,13 @@ FriendlyName=Remington 700 TWS
 
 [C2Charge]
 Description=The C2 breaching charge is a powerful and devastating method of breaching a door.  The compact and specially designed charge destroys the locking mechanism of the door and forcefully opens the door at the same time.  The noise and shock of the detonation causes people on the opposite side of the door to react in a similar manner to a flashbang detonation, which can provide a tactical advantage for using it instead of the breaching shotgun.  The C2 breaching charge is an explosive and can injure or kill anyone unlucky enough to be directly behind the door.
-FriendlyName=C2 Charge
-GivenName=C2 Charge
+FriendlyName=C2 (x3)
+GivenName=C2
 
 [C2Charge3pack]
-Description=This pack of three C2 breaching charges contains three times as many charges, but occupies five times as much space and weight.
-FriendlyName=C2 Charge (x3)
-GivenName=C2 Charge
+Description=This pack of five C2 breaching charges contains five times as many charges, but occupies seven times as much space and weight.
+FriendlyName=C2 (x5)
+GivenName=C2
 
 [LessLethalSG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. The Tactical model features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement.  This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
@@ -853,18 +853,18 @@ RateOfFire=600 RPM
 
 [Wedge]
 Description=This specially designed tactical wedge is slid under the door and then activated.  The spring loaded action flips up wedges preventing the door from opening from either direction.  The rubber coating along the bottom of the wedge increases friction making it extremely difficult to push open with brute force.  It can only be removed with a cutting tool reducing the risk of a suspect dislodging the device.
-FriendlyName=Tac Wedge
+FriendlyName=Tac Wedge (x2)
 ShortName=Tac Wedge
 GivenName=Tac Wedge
 
 [Wedge3pack]
-Description=This pack of three door wedges contains three times as many wedges, but occupies five times as much space and weight.
-FriendlyName=Tac Wedge (x3)
+Description=This pack of four door wedges contains four times as many wedges, but occupies six times as much space and weight.
+FriendlyName=Tac Wedge (x4)
 GivenName=Tac Wedge
 
 [Optiwand]
-Description=The Optiwand is a sophisticated observation device which allows officers to examine situations around corners and under closed doors without exposing themselves to lines of fire.  On top of the device is a small LCD screen which displays the images seen by the camera at the end of the expandable rod.  It is an invaluable tool for gathering intelligence on suspect and civilian locations before performing dangerous clear routines and potentially exposing your team to fire.
-FriendlyName=Optiwand
+Description=The Opti-Wand is a sophisticated observation device which allows officers to examine situations around corners and under closed doors without exposing themselves to lines of fire.  On top of the device is a small LCD screen which displays the images seen by the camera at the end of the expandable rod.  It is an invaluable tool for gathering intelligence on suspect and civilian locations before performing dangerous clear routines and potentially exposing your team to fire.
+FriendlyName=Opti-Wand
 
 [PepperSpray]
 Description=While generally used for riot control, handheld pepper spray canisters can be an effective tool for subduing uncooperative targets.  The active ingredient in pepper spray is Oleoresin Capsicum or OC.  OC is an inflammatory agent that causes the eyes to swell up and close.  It also causes a burning sensation on any exposed skin.  Due to its limited range and area of effect it is best used in addition to other non-lethal devices to cause a suspect or hostage to comply.
@@ -876,37 +876,37 @@ GivenName=Mace OC Spray
 Description=The CTS 9590 sting-ball grenade, or stinger, is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
 FriendlyName=CTS 9590 Stinger 
 ShortName=Stinger
-GivenName=Stinger
+GivenName=CTS 9590 Stinger 
 
 [CSGasGrenade]
 Description=This CTS 5230B CS baffled grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  ||While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
 FriendlyName=CTS 5230B CS Grenade
 ShortName=CS Gas
-GivenName=CS Gas
+GivenName=CTS 5230B CS Grenade
 
 [FlashbangGrenade]
 Description=The CTS 7290 flash-bang grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons. ||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
 FriendlyName=CTS 7290 Flash-Bang
 ShortName=Flash-Bang 
-GivenName=Flash-Bang 
+GivenName=CTS 7290 Flash-Bang
 
 [Sting3pack]
 Description=This 2-pack of stingers contains two times as many sting grenades, but occupies five times as much space and weight.
 FriendlyName=CTS 9590 Stinger (x2)
 ShortName=Stinger (x2)
-GivenName=Stinger
+GivenName=CTS 9590 Stinger 
 
 [CS3pack]
 Description=This 2-pack of gas grenades contains two times as many CS gas grenades, but occupies five times as much space and weight.
 FriendlyName=CTS 5230B CS Grenade (x2)
 ShortName=CS Gas (x2)
-GivenName=CS Gas
+GivenName=CTS 5230B CS Grenade
 
 [Flashbang3pack]
 Description=This 2-pack of flashbangs contains two times as many flash-bangs, but occupies five times as much space and weight.
 FriendlyName=CTS 7290 Flash-Bang (x2)
 ShortName=Flash-Bang (x2)
-GivenName=Flash-Bang 
+GivenName=CTS 7290 Flash-Bang 
 
 [Toolkit]
 Description=The multi-tool serves many functions and can be used to pick locks, disable bombs and traps, and remove tactical wedges.  All officers are equipped with a toolkit.
