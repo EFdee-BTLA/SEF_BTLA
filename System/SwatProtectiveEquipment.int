@@ -26,7 +26,7 @@ GUIImage=material'gui_hov.nohelmet'
 [BoonieHat]
 Description=A classic heavy duty boonie hat used by military forces. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
 FriendlyName=Boonie Hat
-GUIImage=material'gui_hov.V1tacticBoonie'
+GUIImage=material'gui_hov.V4tacticBoonie'
 
 [Glasses]
 Description=A pair of Oakley M Frame tactical glasses. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
