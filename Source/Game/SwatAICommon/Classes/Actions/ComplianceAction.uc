@@ -246,5 +246,5 @@ state Running
 defaultproperties
 {
 	satisfiesGoal=class'ComplianceGoal'
-	ThreatCooldown=2.0
+	ThreatCooldown=5.0
 }

@@ -3,7 +3,7 @@ class SwatGrenadeProjectile extends SwatProjectile
     abstract;
 
 //timers
-var protected config float FuseTime;
+var config float FuseTime;
 var protected config float NotifyAIsTime;
 
 var private Timer NotifyAIsTimer;

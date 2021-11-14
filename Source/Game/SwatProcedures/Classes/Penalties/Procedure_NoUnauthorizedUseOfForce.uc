@@ -76,7 +76,7 @@ function OnPawnIncapacitated(Pawn Pawn, Actor Incapacitator, bool WasAThreat)
             $" to its list of IncapacitatedEnemies because PawnIncapacitated, Incapacitator="$Incapacitator
             $". IncapacitatedEnemies.length="$IncapacitatedEnemies.length);
 }
- 
+
 function string Status()
 {
     return string(IncapacitatedEnemies.length);

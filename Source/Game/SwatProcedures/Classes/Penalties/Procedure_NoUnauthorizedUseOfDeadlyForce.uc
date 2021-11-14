@@ -28,8 +28,7 @@ function OnPawnDied(Pawn Pawn, Actor Killer, bool WasAThreat)
 //        return; //the deadly force was authorized
 //    }
 
-    //if (Pawn.IsA('SwatEnemy') && ISwatEnemy(Pawn).IAmThreat())
-	if (Pawn.IsA('SwatEnemy') && ISwatEnemy(Pawn).IAmThreat() && !ISwatAI(Pawn).IsCompliant() && !ISwatAI(Pawn).IsArrested() )	
+    if (Pawn.IsA('SwatEnemy') && ISwatEnemy(Pawn).IAmThreat())
     {
         if (GetGame().DebugLeadership)
             log("[LEADERSHIP] "$class.name

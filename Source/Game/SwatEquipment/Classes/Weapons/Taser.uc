@@ -1004,6 +1004,16 @@ simulated function DestroyProbe(int probeInd)
 	probes[probeInd].VictimBone = '';
 }
 
+simulated function TriggerMeleeReaction(Actor Victim)
+{
+	// Hit something that can be tased
+	if (Victim.IsA('ICanBeTased'))
+	{
+		SwatGameInfo(Level.Game).GameEvents.PawnTased.Triggered(Pawn(Victim), Owner);
+		ICanBeTased(Victim).ReactToBeingTased(self, PlayerTasedDuration, AITasedDuration);
+	}
+}
+
 //tcohen 5/8/2004: We used to override FiredWeapon::IsFiredWeaponIdleHook()
 //  to return !ShouldTick, ie. the Taser is busy while the
 //  probes are visible.

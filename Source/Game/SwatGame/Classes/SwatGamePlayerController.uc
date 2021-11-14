@@ -3846,6 +3846,36 @@ function DoSetEndRoundTarget( Actor Target, string TargetName, bool TargetIsOnSW
     }
 }
 
+exec function PullDoor()
+{
+    local SwatDoor Door;
+    local actor HitActor;
+    local vector HitNormal, HitLocation;
+	
+    if (Pawn == None) return;
+    
+    HitActor = Trace(HitLocation, HitNormal, ViewTarget.Location + 150 * vector(Rotation),ViewTarget.Location, true);
+    Door = DoorModel(HitActor).Door;
+    
+    if (Door == None) return;
+    if (Door.bIsMissionExit) return;
+    if (!Door.CanInteract()) return; 
+    if (Door.IsClosed() && Door.IsLocked()) { CheckDoorLock(Door); return; }
+    if (VSize2D(Door.Location - Pawn.Location) > 150) return;
+    
+    if(Door.GetPosition() == DoorPosition_Closed)
+    {
+			if (Door.ActorIsToMyLeft(Pawn))
+				Door.SetPositionForMove(DoorPosition_OpenLeft, MR_Interacted); 
+			else 
+				Door.SetPositionForMove(DoorPosition_OpenRight, MR_Interacted); 
+    }
+	else
+		Door.Interact(Pawn);
+	
+    Door.Moved();
+}
+
 // RPC on clients that actually triggers the dynamic music change
 simulated function ClientTriggerDynamicMusic()
 {
@@ -5733,6 +5763,13 @@ exec function ToggleFlashlight()
     SwatPawn(Pawn).ToggleDesiredFlashlightState();
 }
 
+// Toggle the player's NVG
+exec function ToggleNVG()
+{
+    SwatPawn(Pawn).ToggleDesiredNVGState();
+}
+
+
 // modifier to hold the next command was pressed
 exec function HoldCommand(bool bPressed)
 {
@@ -6046,7 +6083,7 @@ function HandleWalking()
     {
 		ActiveItem = Pawn.GetActiveItem();
         //WantsToWalk = bool(bRun) == Repo.GuiConfig.bAlwaysRun; // MCJ: old version.
-		WantsToWalk = bool(bRun) == bAlwaysRun;
+        WantsToWalk = bool(bRun) == bAlwaysRun;
 		Pawn.SetWalking( WantsToWalk && !Region.Zone.IsA('WarpZoneInfo') );
 
         if (aForward == 0 && aStrafe == 0)

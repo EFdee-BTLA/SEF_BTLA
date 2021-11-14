@@ -16,18 +16,11 @@
 #define AUTOGENERATE_FUNCTION(cls,idx,name)
 #endif
 
-AUTOGENERATE_NAME(OnURLFailed)
 
 #ifndef NAMES_ONLY
 
 
 
-
-// "event"	function whose parameters correspond to	"struct USwatPatchingPopup_eventOnURLFailed_Parms"	is declared	in "..\SwatGui\Classes\SwatPatchingPopup.uc"
-struct USwatPatchingPopup_eventOnURLFailed_Parms
-{
-	  FString Error;
-};
 
 // Class	USwatGuiPopup is declared in "..\SwatGui\Classes\SwatGUIPopup.uc"
 class SWATGUI_API	USwatGuiPopup	: public UGUIPage
@@ -83,33 +76,6 @@ public:
 	   NO_DEFAULT_CONSTRUCTOR(USwatGamespyProfilePopup)
 };
 
-// Class	USwatPatchingPopup is declared in "..\SwatGui\Classes\SwatPatchingPopup.uc"
-class SWATGUI_API	USwatPatchingPopup	: public USwatGuiPopup
-{
-public:
-    class UGUIButton* Cancel;
-    class UGUIButton* Yes;
-    class UGUIButton* No;
-    class UGUIButton* Ok;
-    class UGUILabel* Info;
-    FStringNoInit PatchAvailableText;
-    FStringNoInit PatchAvailableText2;
-    FStringNoInit NoPatchAvailableText;
-    FStringNoInit LaunchFailedText;
-    FStringNoInit CheckingText;
-    FStringNoInit LaunchURL;
-    class USwatGameSpyManager* SGSM;
-	   DECLARE_FUNCTION(execOnYes);
-	  void	eventOnURLFailed(const FString& Error)
-	  {
-        USwatPatchingPopup_eventOnURLFailed_Parms Parms;
-		   Parms.Error=Error;
-        ProcessEvent(FindFunctionChecked(SWATGUI_OnURLFailed),&Parms);
-	  }
-	   DECLARE_CLASS(USwatPatchingPopup,USwatGuiPopup,0|CLASS_Config,SwatGui)
-	   NO_DEFAULT_CONSTRUCTOR(USwatPatchingPopup)
-};
-
 // Class	UNativeBootstrap is declared in "..\SwatGui\Classes\NativeBootstrap.uc"
 class SWATGUI_API	UNativeBootstrap	: public UObject
 {
@@ -121,7 +87,6 @@ public:
 #endif
 
 AUTOGENERATE_FUNCTION(USwatGamespyProfilePopup,-1,execValidate);
-AUTOGENERATE_FUNCTION(USwatPatchingPopup,-1,execOnYes);
 
 #ifndef NAMES_ONLY
 #undef AUTOGENERATE_NAME
@@ -136,5 +101,4 @@ AUTOGENERATE_FUNCTION(USwatPatchingPopup,-1,execOnYes);
 VERIFY_CLASS_SIZE_NODIE(UNativeBootstrap)
 VERIFY_CLASS_SIZE_NODIE(USwatGamespyProfilePopup)
 VERIFY_CLASS_SIZE_NODIE(USwatGuiPopup)
-VERIFY_CLASS_SIZE_NODIE(USwatPatchingPopup)
 #endif // VERIFY_CLASS_SIZES

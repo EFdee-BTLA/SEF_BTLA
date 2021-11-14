@@ -2573,7 +2573,7 @@ defaultproperties
     MinFlashlightBrightness=100
     MinFlashlightRadius=10
 	FlashlightFirstPersonDistance=200
-	MaxFlashlightDistance=400
+	MaxFlashlightDistance=200
     ThirdPersonFlashlightRadiusPenalty=.5
     RagdollDeathImpactMomentumMultiplier=30
 
