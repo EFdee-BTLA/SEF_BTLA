@@ -34,7 +34,7 @@ CountryOfOrigin=United States
 ProductionStart=1935
 FireModes=Semi-Automatic
 MagazineSizeString=13
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [SilencedBrowningHPHG]
@@ -46,39 +46,39 @@ Caliber=Subsonic 9x19mm Parabellum
 [P226HG]
 Description=The SIG Sauer P226 is the high capacity version of the P220, using double stacked, 15-round magazines instead of the latter's single stacked magazines. Chambered in 9x19mm, the P226 is widely used in police departments throughout the United States and Canada. 
 FriendlyName=SIG P226
-ShortName=P226
+ShortName=SIG P226
 Manufacturer=SIG Sauer
 Caliber=9x19mm Parabellum
 CountryOfOrigin=Germany
 ProductionStart=1984
 FireModes=Semi-Automatic
 MagazineSizeString=15
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [SilencedP226HG]
 Description=The SIG Sauer P226 is the high capacity version of the P220, using double stacked, 15-round magazines instead of the latter's single stacked magazines. Chambered in 9x19mm, the P226 is widely used in police departments throughout the United States and Canada. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=SIG P226 Suppressed
-ShortName=P226 Supp.
+ShortName=SIG P226 Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [Beretta92HG]
 Description=The Beretta 92 is a series of semi-automatic pistols designed and manufactured by Fabbrica d'Armi Pietro Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present. It has been adopted by the U.S Army (designated as the M9) and by many law-enforcement agencies from around the world due to its high reliability, ease of use and a generous 15-round magazine capacity.
-FriendlyName=Beretta 92FS
-ShortName=Beretta 92FS
+FriendlyName=Beretta M9
+ShortName=Beretta M9
 Manufacturer=Beretta
 Caliber=9x19mm Parabellum
 CountryOfOrigin=Italy
 ProductionStart=1976
 FireModes=Semi-Automatic
 MagazineSizeString=15
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [Beretta92sdHG]
 Description=The Beretta 92 is a series of semi-automatic pistols designed and manufactured by Fabbrica d'Armi Pietro Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present. It has been adopted by the U.S Army (designated as the M9) and by many law-enforcement agencies from around the world due to its high reliability, ease of use and a generous 15-round magazine capacity. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
-FriendlyName=Beretta 92FS Suppressed
-ShortName=Beretta 92FS Supp.
+FriendlyName=Beretta M9 Suppressed
+ShortName=Beretta M9 Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [G3MG]
@@ -91,7 +91,7 @@ CountryOfOrigin=West Germany
 ProductionStart=Late 1950s
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=550 RPM
 
 [G3AimpointMG]
@@ -121,7 +121,7 @@ CountryOfOrigin=West Germany
 ProductionStart=Late 1950s
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=550 RPM
 
 [G3KA4AimpointMG]
@@ -151,7 +151,7 @@ CountryOfOrigin=Switzerland
 ProductionStart=1998
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=700 RPM
 
 [SG552AimpointMG]
@@ -181,7 +181,7 @@ CountryOfOrigin=United States
 ProductionStart=1967
 FireModes=Semi-Automatic, Full Auto
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=700 RPM
 
 [SilencedM16A1MG]
@@ -200,7 +200,7 @@ CountryOfOrigin=United States
 ProductionStart=1982 
 FireModes=Semi-Automatic, 3-rd. Burst
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=700 RPM
 
 [M16A2sdMG]
@@ -208,6 +208,58 @@ Description=The M16A2 is a late Cold War era assault rifle of US origin, develop
 FriendlyName=Colt M16A2 Suppressed
 ShortName=M16A2 Supp.
 Caliber=Subsonic 5.56x45mm NATO
+
+[CommandoMG]
+Description=The Model 733, also known as M16A2 Commando, is a shortened carbine version of the M16A2 rifle. The first versions of this carbine were deployed in the Vietnam War, introduced in 1966 in response to the U.S military's desire for a shorter M16. The Model 733 was introduced in 1985 as a 11.5 inch barreled version of the Model 653, intended for tactical police and security work.
+FriendlyName=Colt M16 Commando
+ShortName=M16 Commando
+Manufacturer=Colt
+Caliber=5.56x45mm NATO
+CountryOfOrigin=United States
+ProductionStart=1985
+FireModes=Semi-Automatic, Full-Auto
+MagazineSizeString=30
+TotalAmmoString=10 magazines
+RateOfFire=700 RPM
+
+[CommandosdMG]
+Description=The Model 733, also known as M16A2 Commando, is a shortened carbine version of the M16A2 rifle. The first versions of this carbine were deployed in the Vietnam War, introduced in 1966 in response to the U.S military's desire for a shorter M16. The Model 733 was introduced in 1985 as a 11.5 inch barreled version of the Model 653, intended for tactical police and security work. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+FriendlyName=Colt M16 Commando Suppressed
+ShortName=M16 Commando Supp.
+Manufacturer=Colt
+Caliber=Subsonic 5.56x45mm NATO
+CountryOfOrigin=United States
+ProductionStart=1985 
+FireModes=Semi-Automatic, Full-Auto
+MagazineSizeString=30
+TotalAmmoString=10 magazines
+RateOfFire=700 RPM
+
+[M723MG]
+Description=The Model 723, also known as the M16A2 Carbine, was introduced in the late 1980s by Colt as a lightweight version of the M16, for use with Police and Security forces, as well as civilian sales worldwide. The Model 723 was prominently used by the US Delta Force in the infamous Operation Gothic Serpent, being one of their signature rifles.
+FriendlyName=Colt M16 Carbine
+ShortName=M16 Carbine
+Manufacturer=Colt
+Caliber=5.56x45mm NATO
+CountryOfOrigin=United States
+ProductionStart=1985
+FireModes=Semi-Automatic, Full-Auto
+MagazineSizeString=30
+TotalAmmoString=10 magazines
+RateOfFire=700 RPM
+
+[M723sdMG]
+Description=The Model 723, also known as the M16A2 Carbine, was introduced in the late 1980s by Colt as a lightweight version of the M16, for use with Police and Security forces, as well as civilian sales worldwide. The Model 723 was prominently used by the US Delta Force in the infamous Operation Gothic Serpent, being one of their signature rifles. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+FriendlyName=Colt M16 Carbine Suppressed
+ShortName=M16 Carbine Supp.
+Manufacturer=Colt
+Caliber=Subsonic 5.56x45mm NATO
+CountryOfOrigin=United States
+ProductionStart=1985
+FireModes=Semi-Automatic, Full-Auto
+MagazineSizeString=30
+TotalAmmoString=10 magazines
+RateOfFire=700 RPM
 
 [MP5KSMG]
 Description=The MP5K (the K being "Kurz", German for "short") was designed as a close quarters combat version of the popular MP5 line of submachine guns. While it has minimal carry weight and a small form factor, it is difficult to use due to the lack of a stock. Despite this, it remains popular by security and special forces around the globe, including the British Special Air Service.
@@ -219,7 +271,7 @@ CountryOfOrigin=Germany
 ProductionStart=1976
 FireModes=Semi-Automatic, 3-rd. Burst, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=900 RPM
 
 [MP5KtSMG]
@@ -235,8 +287,8 @@ Caliber=Subsonic 9x19mm Parabellum
 
 [Remington870SG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting.
-FriendlyName=Remington 870
-ShortName=M870
+FriendlyName=Remington M870 Police Magnum
+ShortName=M870 Police Magnum
 Manufacturer=Remington
 Caliber=12 Gauge
 CountryOfOrigin=United States
@@ -248,17 +300,37 @@ RateOfFire=150 RPM
 
 [Remington870PoliceSG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular variant features a flashlight for better tactical use in dark areas.
-FriendlyName=Remington 870 Express
-ShortName=M870 Express
+FriendlyName=Remington M870 Express Magnum
+ShortName=M870 Express Magnum
 
 [Remington870ShortySG]
-Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This particular configuration sports a pistol grip that reduces the proportions of the gun but obviously worsen its handling.
-FriendlyName=Remington 870 Shorty
+Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This shorty configuration sports a pistol grip for better use in close quarters scenarios. Its compact design permits officers to carry the weapon on their back, allowing it to be carried in addition to the primary weapon. 
+FriendlyName=Remington M870 Shorty
 ShortName=M870 Shorty
+
+[Remington870MasterkeySG]
+Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. This configuration features a 10 inch barrel and no stock. However, it can only hold 3 rounds on its magazine tube.
+FriendlyName=Remington M870 Masterkey
+ShortName=M870 Masterkey
+MagazineSizeString=4
+TotalAmmoString=25 shells
+
+[Remington870SG]
+Description=The Remington 870 is a reliable pump-action shotgun made by the American company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting.
+FriendlyName=Remington M870 Police Magnum
+ShortName=M870 Police Magnum
+Manufacturer=Remington
+Caliber=12 Gauge
+CountryOfOrigin=United States
+ProductionStart=1951
+FireModes=Pump-Action
+MagazineSizeString=7
+TotalAmmoString=75 shells
+RateOfFire=150 RPM
 
 [BreachingSG]
 Description=The breaching shotgun is a specially modified, Remington 870 shotgun designed to breach locked doors. The weapon fires 12 gauge frangible that is designed to quickly break into very small pieces upon impact.  This behavior reduces penetration and increases damage upon impact with hard surfaces.  These factors make it ideal for breaking locks on doors without penetrating the door and harming someone on the other side.  The toothed extender on barrel allows officers to jam the weapon into the door and ensures the correct distance from the lock for the breaching ammo to be most effective.  Its compact design permits officers to carry the weapon on their back, allowing it to be carried in addition to the primary weapon. 
-FriendlyName=Remington 870 Breacher
+FriendlyName=Remington M870 Breacher
 ShortName=M870 Breacher
 Manufacturer=Remington
 Caliber=12 Gauge Frangible
@@ -271,8 +343,8 @@ RateOfFire=150 RPM
 
 [LessLethalM870SG]
 Description=The Remington 870 is a reliable pump-action shotgun made by the american company Remington, capable of dispatching even the toughest of criminals. It sees a variety of use among patrol and SWAT units, but is also used for sport shooting and hunting. The specially designated less lethal shotgun is necessary to eliminate errors that can occur from individually loading lethal or less than lethal munitions into the same weapon.  To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted orange.||The beanbag ammunition provides a powerful blunt force impact on the target.  This causes extreme pain and disorientation. Sufficient distance should be kept between the operator and the intended target for the beanbag to slow down, otherwise it may produce a potentially life threatening injury such as broken bones.
-FriendlyName=Remington 870 Less-Lethal
-ShortName=M870 Less-Lethal
+FriendlyName=Remington M870 Less Lethal
+ShortName=M870 Less Lethal
 Manufacturer=Remington
 Caliber=Beanbags
 CountryOfOrigin=United States
@@ -283,9 +355,9 @@ TotalAmmoString=75 shells
 RateOfFire=150 RPM
 
 [M1Super90SG]
-Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known for its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use.
-FriendlyName=Benelli M1 Tactical
-ShortName=M1 Tactical 
+Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the H&K inertia driven system that was derived from the HK512, known for its high reliability and easy maintenance. It is the most common shotgun seen in the hands of the LAPD SWAT officers.
+FriendlyName=Benelli M1 
+ShortName=Benelli M1
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -296,15 +368,15 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M1Super90EntrySG]
-Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic tactical shotguns. The M1 uses the propietary inertia driven system that was derived from the HK512. It is known for its high reliability and easy maintenance. As its predecessor, the M1 was one of the first semi-automatic shotguns primarily developed for police and military use. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
+Description=The Benelli M1 is a shotgun of Italian origin and the first of the Benelli Super 90 series of semi-automatic shotguns. The M1 uses the H&K inertia driven system that was derived from the HK512, known for its high reliability and easy maintenance. It is the most common shotgun seen in the hands of the LAPD SWAT officers. This configuration features a fourteen-inch barrel, preferred on CQB.
 FriendlyName=Benelli M1 Entry
-ShortName=M1 Entry
+ShortName=Benelli M1 Entry
 MagazineSizeString=6
 
 [M4Super90SG]
 Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. Although an expensive shotgun, it has proven to be appealing for law-enforcement, being adopted by various SWAT teams from around the globe.
 FriendlyName=Benelli M1014
-ShortName=M1014
+ShortName=Benelli M1014
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -315,15 +387,15 @@ TotalAmmoString=75 shells
 RateOfFire=200 RPM
 
 [M4Super90EntrySG]
-Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. Although an expensive shotgun, it has proven to be appealing for law-enforcement, being adopted by various SWAT teams from around the globe. This configuration features a shortened barrell, preferred on CQB for its reduced proportions.
+Description=The Benelli M4 is the latest entry to the widely popular Benelli Super 90 series of semi-automatic tactical shotguns by Benelli. It was developed in the late 1990s at the request of the U.S. Marine Corps, designated as the M1014. Although an expensive shotgun, it has proven to be appealing for law-enforcement, being adopted by various SWAT teams from around the globe. This configuration features a shortened barrell, preferred on CQB.
 FriendlyName=Benelli M1014 Entry
-ShortName=M1014 Entry
+ShortName=Benelli M1014 Entry
 MagazineSizeString=6
 
 [NovaPumpSG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. The Tactical model features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. 
 FriendlyName=Benelli Nova
-ShortName=Nova
+ShortName=Benelli Nova
 Manufacturer=Benelli
 Caliber=12 Gauge
 CountryOfOrigin=Italy
@@ -334,28 +406,41 @@ TotalAmmoString=75 shells
 RateOfFire=100 RPM
 
 [NovaPumpEntrySG]
-Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This configuration features a fourteen-inch barrel, preferred on CQB for its reduced proportions.
+Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement. This configuration features a fourteen-inch barrel, preferred on CQB.
 FriendlyName=Benelli Nova Entry
-ShortName=Nova Entry
+ShortName=Benelli Nova Entry
 MagazineSizeString=5
+
+[M1911HG]
+Description=The Colt 1911 is a single action, short recoil-operated, semi-automatic pistol, chambered in .45 ACP. It was the standard sidearm of the U.S. military from 1911 to 1985, marking one of the longest periods of a standard weapon, of nearly 74 years. 
+FriendlyName=Colt 1911A1
+ShortName=Colt 1911A1
+Manufacturer=Colt
+Caliber=.45 ACP
+CountryOfOrigin=United States
+ProductionStart=1911
+FireModes=Semi-Automatic
+MagazineSizeString=7
+TotalAmmoString=10 magazines
+RateOfFire=390 RPM
 
 [ColtM1911HG]
 Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized 1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers. 
-FriendlyName=Kimber 1911
-ShortName=Kimber 1911
-Manufacturer=Kimber Manufacturing, Inc
+FriendlyName=Kimber 1911 TLE II
+ShortName=Kimber 1911 TLE II
+Manufacturer=Kimber Manufacturing
 Caliber=.45 ACP
 CountryOfOrigin=United States
 ProductionStart=1997
 FireModes=Semi-Automatic
-MagazineSizeString=8
-TotalAmmoString=9 magazines
+MagazineSizeString=7
+TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [ColtM1911sdHG]
 Description=The Kimber Custom TLE II ("TLE" standing out for "Tactical Law Enforcement") is a full sized 1911 style pistol developed by Kimber Manufacturing, especifically designed for use by the LAPD SWAT. This weapon, chambered in .45 ACP, packs a powerful punch and is the most common backup weapon for SWAT officers.  This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
-FriendlyName=Kimber 1911 Suppressed
-ShortName=Kimber 1911 Supp.
+FriendlyName=Kimber 1911 TLE II Suppressed
+ShortName=Kimber 1911 TLE II Supp.
 
 [Glock21HG]
 Description=The Glock 21 is a .45 ACP variant of the Glock, remarkable for its accuracy and light recoil. It is preferred by many SWAT officers due to the larger round and a generous 13 round magazine.
@@ -383,7 +468,7 @@ CountryOfOrigin=Austria
 ProductionStart=1982
 FireModes=Semi-Automatic
 MagazineSizeString=17
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=390 RPM
 
 [Glock9mmsdHG]
@@ -393,7 +478,7 @@ ShortName=Glock 17 Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [Glock18HG]
-Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite units.
+Description=Essentially a fully automatic version of the Glock 17, the Glock 18 was developed at the request of EKO Cobra (the elite tactical unit of Austria's Ministry of the Interior) in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field if the operator can manage its intense recoil.
 FriendlyName=Glock 18
 ShortName=Glock 18
 Manufacturer=Glock
@@ -402,11 +487,11 @@ CountryOfOrigin=Austria
 ProductionStart=1985
 FireModes=Semi-Automatic, Full Auto
 MagazineSizeString=33
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=1200 RPM
 
 [Glock18sdHG]
-Description=One of the first machine pistols, the Glock 18 was developed at the request of EKO Cobra, the elite tactical unit of Austria's Ministry of the Interior, in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field, if the operator can manage its intense recoil. Due to its fully automatic nature, this weapon is not available for civilians to purchase and is only available to elite units. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
+Description=Essentially a fully automatic version of the Glock 17, the Glock 18 was developed at the request of EKO Cobra (the elite tactical unit of Austria's Ministry of the Interior) in order to test the wear of Glock's signature polymer materials. It was later determined that this weapon, with its incredible firerate, has some potential in the field if the operator can manage its intense recoil. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount.
 FriendlyName=Glock 18 Suppressed
 ShortName=Glock 18 Supp.
 Caliber=Subsonic 9x19 Parabellum
@@ -434,20 +519,20 @@ CountryOfOrigin=United States
 ProductionStart=1955
 FireModes=Single-Action
 MagazineSizeString=6
-TotalAmmoString=9 moon clips
+TotalAmmoString=10 moon clips
 RateOfFire=80 RPM
 
 [DesertEagleHG]
 Description=The Desert Eagle is a gas-operated, semi-automatic pistol of US origin. Magnum Research Inc. (MRI) designed and developed the Desert Eagle, the design was further refined by and manufactured by Israel Military Industries (IMI). It is known for being chambered in the powerful .50 Action Express, originally developed to only be used by this pistol. Law enforcement and military use of this pistol is virtually non-existent due to its heavy weight, excessive bulk and small magazine capacity.
-FriendlyName=IMI Desert Eagle
-ShortName=Desert Eagle
+FriendlyName=IMI Desert Eagle Mark XIX
+ShortName=Desert Eagle Mark XIX
 Manufacturer=Israel Military Industries (IMI)
 Caliber=.50 AE
 CountryOfOrigin=United States
 ProductionStart=1995
 FireModes=Semi-Automatic
 MagazineSizeString=7
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=300 RPM
 
 [TEC9HG]
@@ -460,7 +545,7 @@ CountryOfOrigin=United States
 ProductionStart=1984
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=32
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=950 RPM
 
 [FNP90SMG]
@@ -473,7 +558,7 @@ CountryOfOrigin=Belgium
 ProductionStart=1990
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=50
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=900 RPM
 
 [SilencedFNP90SMG]
@@ -492,7 +577,7 @@ CountryOfOrigin=Germany
 ProductionStart=1974
 FireModes=Semi-Automatic, 3-rd. Burst, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [MP5AimpointSMG]
@@ -513,7 +598,7 @@ ShortName=MP5SD5 CCO
 Caliber=Subsonic 9x19 Parabellum
 
 [UMP45SMG]
-Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group.
+Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group.
 FriendlyName=H&K UMP45
 ShortName=UMP45
 Manufacturer=Heckler & Koch
@@ -522,45 +607,45 @@ CountryOfOrigin=Germany
 ProductionStart=1999
 FireModes=Semi-Automatic, 2-rd. Burst, Full-Auto
 MagazineSizeString=25
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=600 RPM
 
 [UMP45AimpointSMG]
-Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K UMP45 with CCO
 ShortName=UMP45 CCO
 
 [UMP45sdSMG]
-Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount.
+Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount.
 FriendlyName=H&K UMP45 Suppressed
 ShortName=UMP45 Supp.
 
 [UMP45sdAimpointSMG]
-Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round.  The heavy bullet provides superior penetration of armored targets with FMJ rounds compared to its 9mm brethren, despite having a lower muzzle velocity and slower cyclical rate of fire.  The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+Description=The UMP45 is the cheaper and lighter successor to the MP5.  Built largely of glass-fiber reinforced polymers, this lightweight submachine gun provides the same reliability as the MP5, but with the added punch of the larger .45 ACP caliber round. The UMP features a 4-position Safe, Semi, 2-Round Burst, Full Auto trigger group. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=H&K UMP45 Suppressed with CCO
 ShortName=UMP45 Supp. CCO
 
 [ColtSMG]
 Description=The Colt 635 (also known as the Colt 9mm SMG) is a shortened version of the M16, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns.
-FriendlyName=Colt 635
-ShortName=Colt 635
+FriendlyName=Colt 9mm SMG
+ShortName=Colt 9mm SMG
 Manufacturer=Colt
 Caliber=9x19mm Parabellum
 CountryOfOrigin=United States
 ProductionStart=1982
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=32
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [SilencedColtSMG]
 Description=The Colt 635 (also known as the Colt 9mm SMG) is a shortened version of the M16, designed for close quarters. Instead of firing 5.56x45mm NATO rounds from a gas-operated receiver however, this model fires 9x19mm Parabellum rounds from a closed bolt. It has become popular amongst law-enforcement agencies for its relative cheap cost compared to German imports and accuracy compared to open-bolt submachine guns. This configuration comes equipped with a sound and flash suppressor for when stealth is paramount. 
-FriendlyName=Colt 635 Suppressed
-ShortName=Colt 635 Supp.
+FriendlyName=Colt 9mm SMG Suppressed
+ShortName=Colt 9mm SMG Supp.
 Caliber=Subsonic 9x19mm Parabellum
 
 [M4A1MG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is one of the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army. The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations. Using various types of 5.56x45mm NATO ammunition, the M4A1 carbine is one of the most powerful weapons available to SWAT officers. It features a fire mode selector allowing semi-automatic as well as fully automatic firing.
 FriendlyName=Colt M4A1
 ShortName=M4A1
 Manufacturer=Colt
@@ -569,46 +654,46 @@ CountryOfOrigin=United States
 ProductionStart=1994
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=800 RPM
 
 [M4A1AimpointMG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army. The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations. Using various types of 5.56x45mm NATO ammunition, the M4A1 carbine is one of the most powerful weapons available to SWAT officers. It features a fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=Colt M4A1 with CCO
 ShortName=M4A1 CCO
 
 [M4A1sdMG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount.
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army. The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations. Using various types of 5.56x45mm NATO ammunition, the M4A1 carbine is one of the most powerful weapons available to SWAT officers. It features a fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount.
 FriendlyName=Colt M4A1 Suppressed
 ShortName=M4A1 Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [M4A1sdAimpointMG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
+Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army. The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations. Using various types of 5.56x45mm NATO ammunition, the M4A1 carbine is one of the most powerful weapons available to SWAT officers. It features a fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets.
 FriendlyName=Colt M4A1 Suppressed with CCO
 ShortName=M4A1 Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRMG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios.
-FriendlyName=Colt M4 Commando
-ShortName=M4 Commando
+Description=The Close Quarters Battle Receiver (CQBR) is a replacement upper receiver for the M4A1 Carbine, developed by the U.S Navy in 1999. The CQBR features a 10.3 inch length barrel (similar to the Commando short-barreled M16 variants from the past) which makes the weapon significantly more compact, thus making it easier to use in close quarters battle. The purpose of the CQBR remains to provide operators with a weapon of submachine gun size, but firing an intermediate cartridge.
+FriendlyName=Colt M4 CQBR
+ShortName=M4 CQBR
 
 [CQBRAimpointMG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel whick make the M4A1 a more appealling choice for CQB tactical scenarios, as well as an aimpoint sight for ease of use against distant targets.
-FriendlyName=Colt M4 Commando with CCO
-ShortName=M4 Commando CCO
+Description=The Close Quarters Battle Receiver (CQBR) is a replacement upper receiver for the M4A1 Carbine, developed by the U.S Navy in 1999. The CQBR features a 10.3 inch length barrel (similar to the Commando short-barreled M16 variants from the past) which makes the weapon significantly more compact, thus making it easier to use in close quarters battle. The purpose of the CQBR remains to provide operators with a weapon of submachine gun size, but firing an intermediate cartridge. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
+FriendlyName=Colt M4 CQBR with CCO
+ShortName=M4 CQBR CCO
 
 [CQBRsdMG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, as well as a suppressor for when stealth is paramount.
-FriendlyName=Colt M4 Commando Suppressed
-ShortName=M4 Commando Supp.
+Description=The Close Quarters Battle Receiver (CQBR) is a replacement upper receiver for the M4A1 Carbine, developed by the U.S Navy in 1999. The CQBR features a 10.3 inch length barrel (similar to the Commando short-barreled M16 variants from the past) which makes the weapon significantly more compact, thus making it easier to use in close quarters battle. The purpose of the CQBR remains to provide operators with a weapon of submachine gun size, but firing an intermediate cartridge. This configuration comes equipped with a suppressor for when stealth is paramount.
+FriendlyName=Colt M4 CQBR Suppressed
+ShortName=M4 CQBR Supp.
 Caliber=Subsonic 5.56x45mm NATO
 
 [CQBRsdAimpointMG]
-Description=The Colt M4A1 Carbine is based on the tried and true design of the M16 assault rifle used by the United States Army.  The shorter carbine design makes it a more viable weapon than the M16 in close quarters situations.  Using 5.56x45mm rifle ammunition in both full metal jacket and jacketed hollow point configurations, the M4A1 carbine is the most powerful weapon available to SWAT officers. It features fire mode selector allowing semi-automatic as well as fully automatic firing. This configuration features a shortened barrel which make the M4A1 a more appealling choice for CQB tactical scenarios, a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
-FriendlyName=Colt M4 Commando Suppressed with CCO
-ShortName=M4 Commando Supp. CCO
+Description=he Close Quarters Battle Receiver (CQBR) is a replacement upper receiver for the M4A1 Carbine, developed by the U.S Navy in 1999. The CQBR features a 10.3 inch length barrel (similar to the Commando short-barreled M16 variants from the past) which makes the weapon significantly more compact, thus making it easier to use in close quarters battle. The purpose of the CQBR remains to provide operators with a weapon of submachine gun size, but firing an intermediate cartridge. This configuration comes equipped with a suppressor for when stealth is paramount as well as an aimpoint sight for ease of use against distant targets. 
+FriendlyName=Colt M4 CQBR Suppressed with CCO
+ShortName=M4 CQBR Supp. CCO
 Caliber=Subsonic 5.56x45mm NATO
 
 [G36kMG]
@@ -621,7 +706,7 @@ CountryOfOrigin=Germany
 ProductionStart=1997
 FireModes=Semi-Automatic, 2-rd. Burst, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=750 RPM
 
 [G36kAimpointMG]
@@ -644,14 +729,14 @@ Caliber=Subsonic 5.56x45mm DM11
 [UziSMG]
 Description=The Uzi is an Israeli open bolt, blowback-operated compact sub-machine gun, developed in the early fifties by the Israel Military Industries (IMI). The Uzi has found use as a personal defense weapon by rear-echelon troops, officers, artillery troops and tankers, as well as a frontline weapon by elite light infantry assault forces. It has a slow rate of fire and is very easy to control even when fired on full auto. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
 FriendlyName=IMI Uzi Suppressed
-ShortName=Uzi Suppressed
+ShortName=Uzi Supp.
 Manufacturer=Israel Military Industries
 Caliber=Subsonic 9x19mm Parabellum
 CountryOfOrigin=Israel
 ProductionStart=1950
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=32
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=600 RPM
 
 [UziTSMG]
@@ -686,7 +771,7 @@ CountryOfOrigin=Belgium
 ProductionStart=1954
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=20
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=700 RPM
 
 [FNFALsdMG]
@@ -701,47 +786,60 @@ FriendlyName=FN FAL Para 2 with CCO
 ShortName=FAL Para 2 CCO
 
 [FNFALsdAimpointMG]
-Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuratio comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease in aiming down the sights.
+Description=Nicknamed 'The right arm of the free world', the FAL was manufactured by FN Herstal during the Cold War and saw use in a large number of countries during that period. It remains in wide use to this day. While its long stature makes it a bit unwieldy for close quarters and its recoil makes it difficult to sustain fully automatic fire, it makes up for this with sheer strength of firepower. This configuration comes equipped with a suppressor making it a more stealthy choice as well as an aimpoint sight for ease in aiming down the sights.
 FriendlyName=FN FAL Para 2 Suppressed with CCO
 ShortName=FAL Para 2 Supp. CCO
 Caliber=Subsonic 7.62x51mm NATO
 
+[M14MG]
+Description=Officially known as the "U.S. rifle, 7.62mm, M14", the M14 is an american battle rifle developed in the 1950's as a replacement to the M1 Garand as the standard US service rifle. Used by most U.S. forces early in the Vietnam Conflict, the M14 was largely replaced by the M16 assault rifle by the late 1960s. The M14 fires the powerful 7.62x51mm NATO round from 20 round magazines. Its bulky silhouette and heavy weight makes it a less than ideal gun for close quarters.
+FriendlyName=Springfield M14 
+ShortName=M14
+Manufacturer=Springfield Armory
+Caliber=7.62x51mm NATO
+CountryOfOrigin=United States
+ProductionStart=1959
+FireModes=Semi-Automatic, Full-Auto
+MagazineSizeString=20
+TotalAmmoString=10 magazines
+RateOfFire=750 RPM
+
 [AK47MG]
-Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
-FriendlyName=Izhmash AKM
-ShortName=AKM
+Description=The AK-47 was developed in the Soviet Union in 1947 and became standard issue in the Soviet army in 1951.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.  Since the weapon is not normally used by SWAT it is not equipped with a tactical flashlight.
+FriendlyName=Izhmash AK-47
+ShortName=AK-47
 Manufacturer=Izhmash 
 Caliber=7.62x39mm
 CountryOfOrigin=Soviet Union
-ProductionStart=1959
+ProductionStart=1947
 FireModes=Semi-Automatic, Full-Auto
 MagazineSizeString=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=600 RPM
 
 [AK47tMG]
-Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.
+Description=The AK-47 was developed in the Soviet Union in 1947 and became standard issue in the Soviet army in 1951.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges.  Since the weapon is not normally used by SWAT it is not equipped with a tactical flashlight.
 
 [AK47SynthMG]
 Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments.
-FriendlyName=Izhmash AKM Synthetic
-ShortName=AKM Synth
+FriendlyName=Izhmash AKM
+ShortName=AKM
 
 [AK47sdSynthMG]
 Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with a suppressor, making it a more stealthy choice.
-FriendlyName=Izhmash AKM Suppressed
-ShortName=AKM Supp. Synth
+FriendlyName=Izhmash AKM Suppressed 
+ShortName=AKM Supp. 
 Caliber=Subsonic 7.62x39mm
 
 [AK47SynthAimpointMG]
 Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets.
 FriendlyName=Izhmash AKM with CCO
-ShortName=AKM Synth CCO
+ShortName=AKM CCO
 
 [AK47sdSynthAimpointMG]
 Description=The AKM was designed in the Soviet Union in 1957 by Mikhail Kalashnikov. It was officially accepted by the Soviet army in 1959, but has since been replaced by the AK-74.  It has remained in service in many third world armies as well as terrorist organizations around the world due to its dependability and the ease at which it can be maintained.  It has a slower rate of fire and lower muzzle velocity than the Colt M4A1, but uses a higher caliber bullet which makes it comparable to its American counterpart at short ranges. Despite not being a weapon used by SWAT, this weapon has been given a flashlight for more tactical use in dark environments. This configuration comes equipped with an aimpoint sight for ease of use against distant targets as well as a suppressor, making it a more stealthy choice.
 FriendlyName=Izhmash AKM Suppressed with CCO
-ShortName=AKM Supp. Synth CCO
+ShortName=AKM Supp. CCO
 Caliber=Subsonic 7.62x39mm
 
 [AK74sutMG]
@@ -754,7 +852,7 @@ CountryOfOrigin=Soviet Union
 ProductionStart=1974
 FireModes=Semi-Automatic, Full Auto
 MagazineSize=30
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=600 RPM
 
 [AK74susdMG]
@@ -764,15 +862,16 @@ ShortName=AKS-74U Supp.
 Caliber=Subsonic 5.45x39mm
 
 [Taser]
-Description=Tasers work on the principle of Electro-Muscular Disruption (EMD).  This projectile model fires small electrodes into the target and then sends a powerful electric charge down the thin wires.  The EMD effect causes involuntary contraction of the target's muscle tissue regardless of an individual's pain tolerance or mental focus.  The effect is painful and demoralizing to even the most aggressive suspects.||EMD devices have three key drawbacks.  The first is that they have a relatively short range.  The second is that new electrodes must be loaded after each shot. Lastly, EMD poses numerous risks, including possible cardiac arrest in drug users, the elderly, or those with specific medical conditions.
+Description=Tasers work on the principle of Electro-Muscular Disruption (EMD).  This projectile model fires small electrodes into the target and then sends a powerful electric charge down the thin wires.  The EMD effect causes involuntary contraction of the target's muscle tissue regardless of an individual's pain tolerance or mental focus.  The effect is painful and demoralizing to even the most aggressive suspects. It can also be used in drive-stun mode as a melee weapon.||EMD devices have three key drawbacks.  The first is that they have a relatively short range.  The second is that new electrodes must be loaded after each shot. Lastly, EMD poses numerous risks, including possible cardiac arrest in drug users, the elderly, or those with specific medical conditions.
 FriendlyName=TASER M26C
 ShortName=TASER M26C
 Manufacturer=TASER International
 Caliber=TASER Cartridge
 CountryOfOrigin=United States
 ProductionStart=1999
-FireModes=Single Fire
+FireModes=Single Fire, Drive-Stun
 TotalAmmoString=25 cartridges
+RateOfFire=Unknown
 
 [Stingray]
 Description=The X2 model is a dual-purpose less-lethal weapon. It possesses both a ranged means of Electro-Muscular Disruption (EMD) and a touch-stun mode. The electrical discharge causes involuntary contraction of the target's muscle tissue, regardless of an individual's pain tolerance or mental focus.  The effect is painful and demoralizing to even the most aggressive suspects. The X2 can fire darts in groups of four or two separate groups of two. It can also be used in touch-stun mode as a melee weapon. An onboard computer records information on shock intensity and duration, among other factors. The X2 features an integral flashlight.
@@ -808,7 +907,7 @@ CountryOfOrigin=United States
 ProductionStart=Late 1990s
 FireModes=Semi-Automatic
 MagazineSizeString=20
-TotalAmmoString=9 magazines
+TotalAmmoString=10 magazines
 RateOfFire=200 RPM
 
 [SniperRifle]
@@ -816,14 +915,14 @@ Description=If you are reading this, file a bug that the sniper rifle descriptio
 FriendlyName=Remington 700 TWS
 
 [C2Charge]
-Description=The C2 breaching charge is a powerful and devastating method of breaching a door.  The compact and specially designed charge destroys the locking mechanism of the door and forcefully opens the door at the same time.  The noise and shock of the detonation causes people on the opposite side of the door to react in a similar manner to a flashbang detonation, which can provide a tactical advantage for using it instead of the breaching shotgun.  The C2 breaching charge is an explosive and can injure or kill anyone unlucky enough to be directly behind the door.
-FriendlyName=C2 (x3)
-GivenName=C2
+Description=The C-2 charge is a powerful and devastating method of breaching a door.  The compact and specially designed charge destroys the locking mechanism of the door and forcefully opens the door at the same time.  The noise and shock of the detonation causes people on the opposite side of the door to react in a similar manner to a flashbang detonation, which can provide a tactical advantage for using it instead of the breaching shotgun. The C-2 can injure or kill anyone unlucky enough to be directly behind the door.
+FriendlyName=C-2 (x3)
+GivenName=C-2
 
 [C2Charge3pack]
-Description=This pack of five C2 breaching charges contains five times as many charges, but occupies seven times as much space and weight.
-FriendlyName=C2 (x5)
-GivenName=C2
+Description=This pack of five C2 charges contains five times as many charges, but occupies seven times as much space and weight.
+FriendlyName=C-2 (x5)
+GivenName=C-2
 
 [LessLethalSG]
 Description=A relatively new design from Benelli, the Nova is the top of the line in pump action shotguns. The Tactical model features a eighteen and a half-inch barrel, 7 round tube magazine and it is made out of high tech polymers, which make it a particularly light shotgun. It can be loaded with different types of buckshot, slugs or beanbag rounds, making it a more than appealling choice for law-enforcement.  This particular variant fires beanbags, which can be used on uncooperative suspects or civilians. To remind the operators that this particular weapon is only to be loaded with less than lethal ammunition, it has been painted green.
@@ -864,7 +963,7 @@ GivenName=Tac Wedge
 
 [Optiwand]
 Description=The Opti-Wand is a sophisticated observation device which allows officers to examine situations around corners and under closed doors without exposing themselves to lines of fire.  On top of the device is a small LCD screen which displays the images seen by the camera at the end of the expandable rod.  It is an invaluable tool for gathering intelligence on suspect and civilian locations before performing dangerous clear routines and potentially exposing your team to fire.
-FriendlyName=Opti-Wand
+FriendlyName=Under Door Camera
 
 [PepperSpray]
 Description=While generally used for riot control, handheld pepper spray canisters can be an effective tool for subduing uncooperative targets.  The active ingredient in pepper spray is Oleoresin Capsicum or OC.  OC is an inflammatory agent that causes the eyes to swell up and close.  It also causes a burning sensation on any exposed skin.  Due to its limited range and area of effect it is best used in addition to other non-lethal devices to cause a suspect or hostage to comply.
@@ -875,37 +974,37 @@ GivenName=Mace OC Spray
 [stingGrenade]
 Description=The CTS 9590 sting-ball grenade, or stinger, is filled with many small rubber balls.  Upon detonation these balls are ejected from the grenade, bombarding targets with blunt force projectiles.  The rubber balls will not penetrate the skin but can cause dizzyness, disorientation, and severe pain from the impact of the projectiles. ||While considered less lethal, the sting grenade can cause severe injury if it detonates in very close proximity to someone.
 FriendlyName=CTS 9590 Stinger 
-ShortName=Stinger
+ShortName=9590 Stinger
 GivenName=CTS 9590 Stinger 
 
 [CSGasGrenade]
 Description=This CTS 5230B CS baffled grenade emits Chlorobenzylidene malonitrile, or CS.  CS is a chemical agent which causes tearing in the eyes and irritation of the mucus membranes.  Commonly known as Tear gas, this agent causes people to lose visual acuity and have difficulty breathing.  ||While under the influence of tear gas, suspects are at a significant disadvantage when encountering officers.
 FriendlyName=CTS 5230B CS Grenade
-ShortName=CS Gas
+ShortName=5230B CS Gas
 GivenName=CTS 5230B CS Grenade
 
 [FlashbangGrenade]
 Description=The CTS 7290 flash-bang grenade is a diversionary device that stuns and disorients people with an explosive report and a brillant flash.  People that are affected by the device can be temporarily blinded and deafened by the blast.  During this time SWAT has a significant tactical advantage over the affected persons. ||Flashbangs are designed so that they will not fragment on detonation, but can still cause serious injury if detonation occurs in close proximity to a person.  Caution is advised.
 FriendlyName=CTS 7290 Flash-Bang
-ShortName=Flash-Bang 
+ShortName=7290 Flash
 GivenName=CTS 7290 Flash-Bang
 
 [Sting3pack]
-Description=This 2-pack of stingers contains two times as many sting grenades, but occupies five times as much space and weight.
+Description=This 2-pack of stingers contains two times as many stingers, but occupies five times as much space and weight.
 FriendlyName=CTS 9590 Stinger (x2)
-ShortName=Stinger (x2)
+ShortName=9590 Stinger (x2)
 GivenName=CTS 9590 Stinger 
 
 [CS3pack]
-Description=This 2-pack of gas grenades contains two times as many CS gas grenades, but occupies five times as much space and weight.
+Description=This 2-pack of CS gas grenades contains two times as many CS gas grenades, but occupies five times as much space and weight.
 FriendlyName=CTS 5230B CS Grenade (x2)
-ShortName=CS Gas (x2)
+ShortName=5230B CS Gas (x2)
 GivenName=CTS 5230B CS Grenade
 
 [Flashbang3pack]
-Description=This 2-pack of flashbangs contains two times as many flash-bangs, but occupies five times as much space and weight.
+Description=This 2-pack of flash-bangs contains two times as many flash-bangs, but occupies five times as much space and weight.
 FriendlyName=CTS 7290 Flash-Bang (x2)
-ShortName=Flash-Bang (x2)
+ShortName=7290 Flash (x2)
 GivenName=CTS 7290 Flash-Bang 
 
 [Toolkit]
