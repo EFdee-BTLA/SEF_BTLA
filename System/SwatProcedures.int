@@ -65,12 +65,4 @@ ChatMessage=[c=ff8000]Unauthorized Deadly Force (-10)[\c]
 Description=Unauthorized use of force
 ChatMessage=[c=ffff00]Unauthorized Force (-5)[\c]
 
-[Procedure_PreventSuspectEscape]
-Description=Failed to apprehend fleeing suspect
-ChatMessage=[c=ffff00]Suspect Escaped[\c]
-
-[Procedure_NoTrapsTriggered]
-Description=Tripped a trap
-ChatMessage=[c=ffff00]Triggered Trap[\c]
-
 
