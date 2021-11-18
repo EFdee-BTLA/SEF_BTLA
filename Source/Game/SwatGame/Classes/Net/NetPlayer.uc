@@ -63,11 +63,13 @@ var eVoiceType VoiceType;
 
 var int SwatPlayerID;
 
-var private config Material  ViewportOverlayMaterial;
+//var private config Material  ViewportOverlayMaterial;
 
 #if 0 // Ryan: test code
 var float DeltaAcc;
 #endif
+
+var protected float InitialWeight;
 
 replication
 {
@@ -165,6 +167,7 @@ simulated event PostNetBeginPlay()
 
     //mplog(self$" calling SwatPlayer.RefreshCameraEffects("$self$")");
     RefreshCameraEffects(self);
+	
 }
 
 simulated event PostBeginPlay()
@@ -176,16 +179,8 @@ simulated event PostBeginPlay()
         VoiceType = SwatGamePlayerController(Controller).VoiceType;
     }
 		
-    SetNearClip();
 }
 
-function SetNearClip() 
-{
-    local PlayerController PC;
-
-    PC = PlayerController(Owner);
-    PC.ConsoleMessage("nearclip 3");
-}
 simulated event PostReplication()
 {
     local OfficerLoadOut newLoadOut;
@@ -279,6 +274,7 @@ event PostNetReceive()
 
 simulated function EAnimationSet GetStandingWalkAnimSet()
 {
+	/*
     local LoadOut theLoadOut;
 
     theLoadOut = GetLoadOut();
@@ -293,11 +289,25 @@ simulated function EAnimationSet GetStandingWalkAnimSet()
 	else
 	{
 		return kAnimationSetStealthStanding;
-	}
+	}*/
+
+	local float weight;
+
+	weight = InitialWeight + MPweight();
+
+	log("Weight : " $ weight $ " ");
+
+	if (weight > 0.0 && weight < 16.0 )
+		return kAnimationSetStealthStandingNoArmor;
+	else if (weight >= 16.0 && weight < 25.0 )
+		return kAnimationSetStealthStanding;
+	else if (weight >= 25.0 )
+		return kAnimationSetStealthStandingHeavyArmor;
 }
 
 simulated function EAnimationSet GetStandingRunAnimSet()
 {
+	/*
     local LoadOut theLoadOut;
 
     theLoadOut = GetLoadOut();
@@ -312,12 +322,30 @@ simulated function EAnimationSet GetStandingRunAnimSet()
 	else
 	{
 		return kAnimationSetDynamicStanding;
-	}
+	}*/
+
+	//new system
+
+	local float weight;
+
+	weight = InitialWeight + MPweight();
+
+	log("Weight : " $ weight $ " ");
+
+	if (weight > 0.0 && weight < 16.0 )
+		return kAnimationSetDynamicStandingNoArmor;
+	else if (weight >= 16.0 && weight < 25.0 )
+		return kAnimationSetDynamicStanding;
+	else if (weight >= 25.0 )
+		return kAnimationSetDynamicStandingHeavyArmor;
+		
+		
 }
 
 simulated function EAnimationSet GetCrouchingAnimSet()
 {
-    local LoadOut theLoadOut;
+    //vanilla code 
+    /*local LoadOut theLoadOut;
 
     theLoadOut = GetLoadOut();
 	if (theLoadOut != None && theLoadOut.HasHeavyArmor())
@@ -331,7 +359,90 @@ simulated function EAnimationSet GetCrouchingAnimSet()
 	else
 	{
 		return kAnimationSetCrouching;
+	}*/
+
+	//new system
+
+	local float weight;
+
+	weight = InitialWeight + MPweight();
+
+	log("Weight : " $ weight $ " ");
+
+	if (weight > 0.0 && weight < 16.0 )
+		return kAnimationSetCrouchingNoArmor;
+	else if (weight >= 16.0 && weight < 25.0 )
+		return kAnimationSetCrouching;
+	else if (weight >= 25.0 )
+		return kAnimationSetCrouchingHeavyArmor;
+}
+
+simulated function float InitWeight()
+{
+	// 1 total weight unit = 1 kg
+
+	local LoadOut theLoadOut;
+	local float totalWeight;
+
+    theLoadOut = GetLoadOut();
+	assert ( theLoadOut != None );
+
+	//ARMOR
+	totalweight = Bodyarmor(theLoadOut.GetItemAtPocketNumber(10)).GetWeight();
+	log("Armor :" $ Bodyarmor(theLoadOut.GetItemAtPocketNumber(10)).GetWeight() $ " ");
+
+	//HELMET
+	totalweight = totalweight + Headgear(theLoadOut.GetItemAtPocketNumber(11)).GetWeight();
+	log("Helmet :" $  Headgear(theLoadOut.GetItemAtPocketNumber(11)).GetWeight() $ " ");
+
+	//WEAPONS
+	totalweight = totalweight + HandheldEquipment(theLoadOut.GetItemAtPocketNumber(0)).GetWeight();
+	log("Primary :" $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(0)).GetWeight() $ " ");
+
+	totalweight = totalweight + HandheldEquipment(theLoadOut.GetItemAtPocketNumber(2)).GetWeight();
+	log("Secondary :" $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(2)).GetWeight() $ " ");
+
+	//OPTIWAND
+	if (theLoadOut.GetItemAtSlot(Slot_Optiwand).IsA('Optiwand'))
+	{	
+		totalWeight = totalWeight + 3.0 ;
+		log("Optiwand : 3 ");
 	}
+
+	log("InitialWeight : " $ totalWeight $ " ");
+
+	return totalWeight;
+
+}
+
+simulated function float MPweight()
+{
+	//simplified version of GetWeightModifier for MP purpouse.
+
+	// 1 total weight unit = 1 kg
+
+	local LoadOut theLoadOut;
+	local float totalWeight;
+
+    theLoadOut = GetLoadOut();
+	assert ( theLoadOut != None );	
+
+	//TAC-AIDS
+		totalweight = totalweight + ( HandheldEquipment(theLoadOut.GetItemAtPocketNumber(4)).GetAvailableCount()) * 0.4 ; //bangs
+		//log("Pocket 1 : " $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(4)).GetAvailableCount() $ "  " $ totalWeight $ " ");
+	    totalweight = totalweight + ( HandheldEquipment(theLoadOut.GetItemAtPocketNumber(5)).GetAvailableCount()) * 0.4; //cs
+		//log("Pocket 2 : " $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(5)).GetAvailableCount() $ "  " $ totalWeight $ " ");
+	    totalweight = totalweight + ( HandheldEquipment(theLoadOut.GetItemAtPocketNumber(6)).GetAvailableCount()) * 0.3; //stinger
+		//log("Pocket 3 : " $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(6)).GetAvailableCount() $ "  " $ totalWeight $ " ");
+		totalweight = totalweight + ( HandheldEquipment(theLoadOut.GetItemAtPocketNumber(7)).Getweight()) ; //pocket 4
+		//log("Pocket 4 : " $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(7)).GetAvailableCount() $ "  " $ totalWeight $ " ");
+		totalweight = totalweight + ( HandheldEquipment(theLoadOut.GetItemAtPocketNumber(8)).Getweight()) ; //pocket 5
+		//log("Pocket 5 : " $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(8)).GetAvailableCount() $ "  " $ totalWeight $ " ");
+		totalweight = totalweight + ( HandheldEquipment(theLoadOut.GetItemAtPocketNumber(9)).Getweight()) ; //pocket 6
+		//log("Pocket 6 : " $ HandheldEquipment(theLoadOut.GetItemAtPocketNumber(9)).GetAvailableCount() $ "  " $ totalWeight $ " ");
+
+		log("MPWeight : " $ totalWeight $ " ");
+	return totalWeight;
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -893,6 +1004,13 @@ simulated function OnEquippingFinished()
 	    mplog( self$"---NetPlayer::OnEquippingFinished()." );
 
     Super.OnEquippingFinished();
+	
+	if ( Level.TimeSeconds > 2.0  && InitialWeight == 0.0) //delay for start of the game... trash code for trash mod!
+	{
+		//set initail weight on player on equipment he cant change during the game.
+		InitialWeight = InitWeight(); 	
+	}
+
 
     UpdateAmmoInfo();
 }
@@ -990,7 +1108,8 @@ simulated event OnAmmoInfoChanged()
 
 simulated function Material GetViewportOverlay()
 {
-    return ViewportOverlayMaterial;
+    //return ViewportOverlayMaterial;
+	return Material'HUD.officerviewport';
 }
 
 // IControllableThroughViewport interface
@@ -1039,5 +1158,5 @@ defaultproperties
 	ReplicatedCustomSkinClassName=""
 
     VIPMesh=SkeletalMesh'SWATMaleAnimation2.MaleSuit2'
-    ViewportOverlayMaterial=Material'HUD.officerviewport'
+    //ViewportOverlayMaterial=Material'HUD.officerviewport'
 }

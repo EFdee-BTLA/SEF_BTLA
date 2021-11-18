@@ -20,9 +20,15 @@ simulated function float GetQualifyDuration() { assert(false); return 0; }   //T
 simulated function float GetQualifyModifier() {
   local IAmAffectedByWeight SP;
 
+if (Level.NetMode == NM_Standalone )
+{
   SP = IAmAffectedByWeight(Owner);
 
   return SP.GetBulkQualifyModifier();
+}
+else
+	return 1.0;
+
 }
 
 // PreUse() gets called before GotoState('BeingUsed') in HandheldEquipment. We

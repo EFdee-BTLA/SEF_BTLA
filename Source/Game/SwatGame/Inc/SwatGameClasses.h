@@ -2521,7 +2521,7 @@ public:
     INT CurrentClip;
     BYTE VoiceType;
     INT SwatPlayerID;
-    class UMaterial* ViewportOverlayMaterial;
+    FLOAT InitialWeight;
 	   DECLARE_FUNCTION(execAllVarsHaveReplicated);
 	  void	eventOnAmmoInfoChanged()
 	  {

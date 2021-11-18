@@ -551,7 +551,7 @@ simulated function HandHeldEquipment GetFirstAvailableItemAtSlot(EquipmentSlot S
         {
             mplog( self$"---LoadOut::GetItemAtSlot(). Slot="$Slot );
             mplog( "...Returning None because no item was found for that slot." );
-            PrintLoadOutToMPLog();
+            //PrintLoadOutToMPLog();
         }
     }
 
@@ -657,6 +657,11 @@ simulated function Actor GetItemAtPocket( Pocket ThePocket )
     assert(ThePocket != Pocket_Invalid);
 
     return PocketEquipment[ThePocket];
+}
+
+simulated function Actor GetItemAtPocketNumber( int PocketNumber )
+{
+    return PocketEquipment[PocketNumber];
 }
 
 simulated function FiredWeapon GetPrimaryWeapon()
@@ -821,6 +826,18 @@ simulated function bool HasProArmorHelmet()
 simulated function int AdditionalAvailableCountForItem(EquipmentSlot Slot)
 {
     return 0;
+}
+
+simulated function bool HasBallisticHelmet()
+{
+	if ( PocketEquipment[Pocket.Pocket_HeadArmor] != None )
+	{	
+		if( PocketEquipment[Pocket.Pocket_HeadArmor].IsA('EnemyProtecHelmet') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('RiotHelmet') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('HelmetAndGoggles') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('GasMask') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('NVGoggles') )
+		{	
+			return true;
+		}
+	}
+		return false; // The VIP has no head armor
 }
 
 // For an EquipmentSlot, determine how many items we have
