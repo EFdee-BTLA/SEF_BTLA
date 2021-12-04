@@ -31,7 +31,7 @@ simulated function PostBeginPlay()
 	Light = Spawn(class'DynamicLightEffect');
 	Light.RemoteRole = ROLE_None;
 	Light.bImportantDynamicLight = true;
-	Light.LightBrightness = 64;
+	Light.LightBrightness = 0; //64
 	Light.LightHue = 0;
 	Light.LightSaturation = 255;
 }
@@ -144,7 +144,7 @@ simulated event UpdateLight()
 	P = SwatPawn(Owner);
 
 	if (Active && P.IsControlledByLocalHuman())
-		Light.LightRadius = 32;
+		Light.LightRadius = 255;
 	else
 		Light.LightRadius = 0;
 }
