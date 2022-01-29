@@ -1,0 +1,1260 @@
+class LoadOut extends LoadOutValidationBase
+    native
+    abstract
+    perObjectConfig
+    dependsOn(SwatEquipmentSpec)
+    Config(StaticLoadout);
+
+import enum EquipmentSlot from Engine.HandheldEquipment;
+import enum Pocket from Engine.HandheldEquipment;
+import enum eEquipmentType from SwatGame.SwatEquipmentSpec;
+import enum eNetworkValidity from SwatGame.SwatGUIConfig;
+import enum eTeamValidity from SwatGame.SwatGUIConfig;
+
+// The Actual Equipment
+var(DEBUG) protected Actor PocketEquipment[Pocket.EnumCount];
+
+// Cached reference to the GuiConfig
+var(DEBUG) SwatGUIConfig GC;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Completely initialize a loadout.  The procedure is as follows:
+//
+// - Replace any static spec data with valid Dynamic spec data
+// - Validate entire loadout.  Replace any invalid equipment with the pocket's defaults
+// - Spawn the equipment from the LoadoutSpec
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated function Initialize(DynamicLoadOutSpec DynamicSpec, bool IsSuspect)
+{
+    GC = SwatRepo(level.GetRepo()).GuiConfig;
+    Assert( GC != None );
+
+ 	if (Level.GetEngine().EnableDevTools)
+	    log(self.Name$" >>> Initialize( "$DynamicSpec$" )");
+
+	mplog(self.Name$" >>> Initialize("$DynamicSpec$")");
+
+//     if( DynamicSpec != None )
+//     {
+//         log(self.Name$" ... Dynamic Loadout spec:");
+//         DynamicSpec.PrintLoadOutSpecToMPLog();
+//     }
+
+//     log(self.Name$" ... Static Loadout spec:");
+//     PrintLoadOutSpecToMPLog();
+
+    if( DynamicSpec != None )
+    {
+        MutateLoadOutSpec( DynamicSpec, IsSuspect );
+		mplog(self.name$"...MutateLoadOutSpec");
+        //log(self.Name$" ... After mutation:");
+        //PrintLoadOutSpecToMPLog();
+    }
+
+    ValidateLoadOutSpec(IsSuspect, DynamicSpec);
+	mplog(self.name$"...ValidateLoadOutSpec");
+
+    //log(self.Name$" ... After validation:");
+    //PrintLoadOutSpecToMPLog();
+
+    SpawnEquipmentFromLoadOutSpec(DynamicSpec);
+	mplog(self.name$"...SpawnEquipmentFromLoadOutSpec");
+
+    //log(self.Name$" ... Spawned equipment:");
+    //PrintLoadOutToMPLog();
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Mutate the static loadout with the given dynamic loadout.
+//      Ignore any invalid equipment in the dynamic loadout
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated protected function MutateLoadOutSpec(DynamicLoadOutSpec DynamicSpec, bool IsSuspect)
+{
+    local int i;
+
+    // The VIP may have no dynamic part, and, in cases like that, no mutation
+    // is necessary.
+    if ( DynamicSpec == None )
+        return;
+
+    for( i = 0; i <= Pocket.Pocket_Toolkit; i++ )
+    {
+        if( ValidateEquipmentForPocket( Pocket(i), DynamicSpec.LoadOutSpec[i] ) &&
+            DynamicSpec.ValidForLoadoutSpec( DynamicSpec.LoadOutSpec[i], Pocket(i) ) )
+		{
+			LoadOutSpec[i] = DynamicSpec.LoadOutSpec[i];
+		}
+        else
+        {
+            warn("Dynamic LoadOut is invalid: Failed to validate equipment class "$DynamicSpec.LoadOutSpec[i]$" specified for pocket "$GetEnum( Pocket, i )$" in DyanicSpec "$DynamicSpec.name );
+            AssertWithDescription( false, self.Name$":  Failed to validate equipment class "$DynamicSpec.LoadOutSpec[i]$" specified for pocket "$GetEnum( Pocket, i )$" in DyanicSpec "$DynamicSpec.name);
+        }
+    }
+
+    for( i = 0; i < MaterialPocket.EnumCount; i++ )
+    {
+        if( DynamicSpec.MaterialSpec[i] != None )
+            MaterialSpec[i] = DynamicSpec.MaterialSpec[i];
+    }
+
+	CustomSkinSpec = DynamicSpec.CustomSkinSpec;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Validate the final loadout spec.
+//      Replace any invalid equipment in the loadout spec with the defaults for that pocket.
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated function bool ValidateLoadOutSpec(bool IsSuspect, DynamicLoadoutSpec DynamicSpec)
+{
+    local int i;
+    local class<SwatAmmo> PrimaryAmmo;
+    local class<SwatAmmo> SecondaryAmmo;
+
+    // Check to make sure that we're bringing along the minimum ammo for primary and secondary weapons
+    PrimaryAmmo = class<SwatAmmo>(LoadOutSpec[1]);
+    SecondaryAmmo = class<SwatAmmo>(LoadOutSpec[3]);
+
+	mplog(self.name$"...ValidateLoadOutSpec...");
+    if(DynamicSpec.GetPrimaryAmmoCount() < PrimaryAmmo.default.MinReloadsToCarry) {
+      DynamicSpec.SetPrimaryAmmoCount(PrimaryAmmo.default.MinReloadsToCarry);
+    }
+    if(DynamicSpec.GetSecondaryAmmoCount() < SecondaryAmmo.default.MinReloadsToCarry) {
+      DynamicSpec.SetSecondaryAmmoCount(SecondaryAmmo.default.MinReloadsToCarry);
+    }
+
+	mplog(self.name$"...ValidateLoadOutSpec::SetPrimary/SecondaryAmmo counts");
+    if(GetTotalWeight() > GetMaximumWeight() || GetTotalBulk() > GetMaximumBulk()) {
+      // We are overweight. We need to completely respawn our gear from scratch.
+      AssertWithDescription(false, "Loadout "$self$" exceeds maximum weight. It's getting reset to the default equipment.");
+      for(i = 0; i < Pocket.EnumCount; i++) {
+        LoadOutSpec[i] = DLOClassForPocket(Pocket(i), 0);
+
+        //also replace with default for dependent pocket if valid
+  			if( GC.AvailableEquipmentPockets[i].DependentPocket != Pocket_Invalid )
+  				LoadOutSpec[GC.AvailableEquipmentPockets[i].DependentPocket] = DLOClassForPocket(GC.AvailableEquipmentPockets[i].DependentPocket, 0 );
+      }
+      return true;
+    }
+	mplog(self.name$"...ValidateLoadOutSpec: checked max weight");
+
+    for( i = 0; i < Pocket.EnumCount; i++ )
+    {
+		    if( i == Pocket.Pocket_CustomSkin )
+		    {
+			     ValidatePocketCustomSkin(IsSuspect);
+			     continue;
+		    }
+
+        if( !ValidateEquipmentForPocket( Pocket(i), LoadOutSpec[i] ) ||
+            !ValidForLoadoutSpec( LoadOutSpec[i], Pocket(i) ) )
+        {
+            warn("Failed to validate equipment class "$LoadOutSpec[i]$" specified in DynamicLoadout.ini for pocket "$GetEnum( Pocket, i ) );
+            AssertWithDescription( false, self.Name$":  Failed to validate equipment class "$LoadOutSpec[i]$" specified in DynamicLoadout.ini for pocket "$GetEnum( Pocket, i ));
+
+            //replace with default for pocket
+            LoadOutSpec[i] = DLOClassForPocket( Pocket(i), 0 );
+        }
+    }
+
+    return true;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Validate the custom skin pocket. Custom skins are a special case because the skin class may not be
+// available on the client. The default skin will be used in that case.
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated protected function ValidatePocketCustomSkin(bool IsSuspect)
+{
+	AssertWithDescription(LoadOutSpec[Pocket.Pocket_CustomSkin] == None, "The custom skin entry in LoadOutSpec must be None, but is currently "$LoadOutSpec[Pocket.Pocket_CustomSkin]$". Setting to None");
+
+	LoadOutSpec[Pocket.Pocket_CustomSkin] = None;
+	if(CustomSkinSpec == "")
+	{
+		CustomSkinSpec = "SwatGame.DefaultCustomSkin";
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Validate a single piece of quipment in a given pocket.
+//      Returns true iff the equipment class is valid in the current game mode
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated protected function bool ValidateEquipmentForPocket( Pocket pock, class<Actor> CheckClass )
+{
+    local int i;
+    local class<Actor> EquipClass;
+    local int NumEquipment;
+    local bool Valid;
+	local ServerSettings Settings;
+
+    NumEquipment = GC.AvailableEquipmentPockets[pock].EquipmentClassName.Length;
+
+    if( CheckClass == None && NumEquipment == 0)
+        return true;
+
+	Settings = ServerSettings(Level.CurrentServerSettings);
+	if(Level.NetMode != NM_Standalone && Settings.IsEquipmentDisabled(CheckClass))
+	{
+		return false;
+	}
+
+    for( i = 0; i < NumEquipment; i++ )
+    {
+        EquipClass = DLOClassForPocket( pock, i );
+
+        //did we find it?
+        if( CheckClass == EquipClass )
+        {
+            Valid = CheckValidity( GC.AvailableEquipmentPockets[pock].Validity[i] );
+            assertWithDescription(Valid, "This thing called "$CheckClass$" isn't valid");
+            break;
+        }
+    }
+
+    return Valid;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Utility: DLO's a class for the pocket spec of the given pocket at the given index
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated private function class<actor> DLOClassForPocket( Pocket pock, int index )
+{
+    local string ClassName;
+    local class<actor> DLOClass;
+
+    ClassName = GC.AvailableEquipmentPockets[pock].EquipmentClassName[index];
+
+    if( ClassName == "None" || ClassName == "" )
+        return None;
+
+    DLOClass = class<Actor>(DynamicLoadObject(ClassName,class'class'));
+    AssertWithDescription( DLOClass != None, self.Name$":  Could not DLO invalid equipment class "$ClassName$" specified in the pocket specifications section of SwatEquipment.ini." );
+
+    return DLOClass;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Utility: Check the validity given the current game mode
+//      Returns true iff the current game mode matches the input validity
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated protected function bool CheckValidity( eNetworkValidity type )  //may be further subclassed
+{
+
+    if(type == NETVALID_All)
+        return true;
+    if(type == NETVALID_None)
+        return false;
+    if(type == NETVALID_MPOnly)
+        return true;
+
+    return ( ( type == NETVALID_MPOnly ) ==
+             ( GC.SwatGameRole == GAMEROLE_MP_Host ||
+               GC.SwatGameRole == GAMEROLE_MP_Client ) );
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Spawn the actual equipment from the final loadout spec.
+//      Do not spawn any equipment that has already been created or that cannot be spawned
+//          (such as POCKET_Invalid, the ammunition pockets).
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated protected function SpawnEquipmentFromLoadOutSpec(DynamicLoadOutSpec DynamicSpec)
+{
+    local int i;
+    local SwatPlayer Player;
+    local HandheldEquipment Eq;
+
+    for( i = 0; i < Pocket.EnumCount; i++ )
+    {
+        if( !GC.AvailableEquipmentPockets[i].bSpawnable )
+            continue;
+
+        SpawnEquipmentForPocket( Pocket(i), LoadOutSpec[i], DynamicSpec );
+    }
+
+    // Spawn blanks
+    if(Level.NetMode != NM_Standalone)
+    {
+        Player = SwatPlayer(Owner);
+
+        // Flashbangs
+        Eq = Owner.Spawn(class'SwatPlayerConfig'.static.GetGivenFlashbangClass(), Owner);
+        log("Spawned "$Eq$" for GivenFlashbangs on " $ Player);
+
+        Player.GivenFlashbangs = Eq;
+        Eq.bAlwaysRelevant = true;
+        Eq.SetAvailable(false);
+        Eq.OnGivenToOwner();
+        Eq.SetPocket(Pocket.Pocket_Invalid);
+
+        // Gas
+        Eq = Owner.Spawn(class'SwatPlayerConfig'.static.GetGivenGasClass(), Owner);
+
+        Player.GivenGas = Eq;
+        Eq.bAlwaysRelevant = true;
+        Eq.SetAvailable(false);
+        Eq.OnGivenToOwner();
+        Eq.SetPocket(Pocket.Pocket_Invalid);
+
+        // Stinger
+        Eq = Owner.Spawn(class'SwatPlayerConfig'.static.GetGivenStingerClass(), Owner);
+
+        Player.GivenStinger = Eq;
+        Eq.bAlwaysRelevant = true;
+        Eq.SetAvailable(false);
+        Eq.OnGivenToOwner();
+        Eq.SetPocket(Pocket.Pocket_Invalid);
+
+        // C2
+        Eq = Owner.Spawn(class'SwatPlayerConfig'.static.GetGivenC2Class(), Owner);
+
+        Player.GivenC2 = Eq;
+        Eq.bAlwaysRelevant = true;
+        Eq.SetAvailable(false);
+        Eq.OnGivenToOwner();
+        Eq.SetPocket(Pocket.Pocket_Invalid);
+
+        // Pepper Spray
+        Eq = Owner.Spawn(class'SwatPlayerConfig'.static.GetGivenPepperSprayClass(), Owner);
+
+        Player.GivenPepperSpray = Eq;
+        Eq.bAlwaysRelevant = true;
+        Eq.SetAvailable(false);
+        Eq.OnGivenToOwner();
+        Eq.SetPocket(Pocket.Pocket_Invalid);
+
+        // Wedge
+        Eq = Owner.Spawn(class'SwatPlayerConfig'.static.GetGivenWedgeClass(), Owner);
+
+        Player.GivenWedge = Eq;
+        Eq.bAlwaysRelevant = true;
+        Eq.SetAvailable(false);
+        Eq.OnGivenToOwner();
+        Eq.SetPocket(Pocket.Pocket_Invalid);
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Spawn a piece of equipment in the given pocket from the final loadout spec.
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated protected function SpawnEquipmentForPocket( Pocket i, class<actor> EquipmentClass, DynamicLoadOutSpec DynamicSpec )
+{
+    //mplog( self$"---LoadOut::SpawnEquipmentForPocket(). Pocket="$i$", class="$EquipmentClass );
+
+    if( PocketEquipment[i] != None )
+        PocketEquipment[i].Destroy();
+
+    if( EquipmentClass == None )
+        return;
+
+    PocketEquipment[i] = Owner.Spawn(EquipmentClass, Owner);
+
+	mplog(" ...SpawnEquipmentForPocket("$i$", "$EquipmentClass$") --> "$PocketEquipment[i]);
+
+    assertWithDescription(PocketEquipment[i] != None,
+        "LoadOut "$name$" failed to spawn PocketEquipment item in pocket "$GetEnum(Pocket,i)$" of class "$EquipmentClass$".");
+
+    //mplog( "...Spawned equipment="$PocketEquipment[i] );
+
+    if( GC.AvailableEquipmentPockets[i].TypeOfEquipment == EQUIP_Weaponry )
+    {
+        Assert( GC.AvailableEquipmentPockets[i].DependentPocket != Pocket_Invalid );
+
+        switch( i )
+        {
+            case Pocket_PrimaryWeapon:
+                FiredWeapon( PocketEquipment[i] ).SetSlot( EquipmentSlot.Slot_PrimaryWeapon );
+
+				        // INCREDIBLE HACK... but probably necessary?
+                FiredWeapon(PocketEquipment[i]).DeathFired = DynamicSpec.GetPrimaryAmmoCount();
+
+                break;
+            case Pocket_SecondaryWeapon:
+                FiredWeapon( PocketEquipment[i] ).SetSlot( EquipmentSlot.Slot_SecondaryWeapon );
+
+                // INCREDIBLE HACK...but probably necessary?
+                FiredWeapon(PocketEquipment[i]).DeathFired = DynamicSpec.GetSecondaryAmmoCount();
+
+                break;
+            default:
+                Assert( false );
+        }
+
+        FiredWeapon( PocketEquipment[i] ).AmmoClass = class<Ammunition>(LoadOutSpec[GC.AvailableEquipmentPockets[i].DependentPocket]);
+    }
+
+    // Set the pocket on the newly spawned item
+    if( HandheldEquipment( PocketEquipment[i] ) != None )
+    {
+        HandheldEquipment( PocketEquipment[i] ).SetAvailable(true);
+        HandheldEquipment( PocketEquipment[i] ).SetPocket( i );
+    }
+
+    // Trigger notification that this equipment has been spawned for this loadout
+    if( Equipment( PocketEquipment[i] ) != None )
+        Equipment( PocketEquipment[i] ).OnGivenToOwner();
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Add an existing item to the LoadOut - intended for Pickups
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated protected function AddExistingItemToPocket( Pocket i, Actor Item )
+{
+    if( PocketEquipment[i] != None )
+        PocketEquipment[i].Destroy();
+
+    assert(Item != None);
+
+    PocketEquipment[i] = Item;
+
+    if( GC.AvailableEquipmentPockets[i].TypeOfEquipment == EQUIP_Weaponry )
+    {
+        Assert( GC.AvailableEquipmentPockets[i].DependentPocket != Pocket_Invalid );
+
+        switch( i )
+        {
+            case Pocket_PrimaryWeapon:
+                FiredWeapon( PocketEquipment[i] ).SetSlot( EquipmentSlot.Slot_PrimaryWeapon );
+                break;
+            case Pocket_SecondaryWeapon:
+                FiredWeapon( PocketEquipment[i] ).SetSlot( EquipmentSlot.Slot_SecondaryWeapon );
+                break;
+            default:
+                Assert( false );
+        }
+    }
+
+    // Set the pocket on the newly spawned item
+    if( HandheldEquipment( PocketEquipment[i] ) != None )
+        HandheldEquipment( PocketEquipment[i] ).SetPocket( i );
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Log Loadout Utility
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated function PrintLoadOutToMPLog()
+{
+    local int i;
+
+    mplog( "LoadOut "$self$" contains:" );
+    log( "LoadOut "$self$" contains:" );
+
+    for ( i = 0; i < Pocket.EnumCount; i++ )
+    {
+        mplog( "...PocketEquipment["$GetEnum(Pocket,i)$"]="$PocketEquipment[i] );
+        log( "...PocketEquipment["$GetEnum(Pocket,i)$"]="$PocketEquipment[i] );
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Accessors
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+simulated function HandHeldEquipment FindGivenItemForSlot(EquipmentSlot Slot)
+{
+    return None;
+}
+
+// Returns the first (non-busy) handheld equipment corresponding to the given slot
+simulated function HandHeldEquipment GetFirstAvailableItemAtSlot(EquipmentSlot Slot)
+{
+    local int i;
+    local HandheldEquipment Item;
+    local HandheldEquipment Candidate;
+    local SwatPlayer Player;
+
+    // FIXME BIGTIME
+    assert(Owner.IsA('ICanUseC2Charge'));
+    if( Slot == SLOT_Breaching && ICanUseC2Charge(Owner).GetDeployedC2Charge() != None )
+        return GetItemAtSlot( Slot_Detonator );
+
+    for( i = 0; i < Pocket.EnumCount; i++ )
+    {
+        Item = HandheldEquipment(PocketEquipment[i]);
+        if  (
+                Item != None
+            &&  Item.GetSlot() == Slot
+            &&  Item.IsAvailable()
+            &&  Item.IsIdle()
+            )
+        {
+            Candidate = Item;
+
+            //tcohen, fix 5480: Can never equip second PepperSpray
+            //  this is the only case of LoadOut containing more than one instance
+            //of any FiredWeapon class.  if one has empty ammo and another does not,
+            //then we want to select the one that is not empty, regardless of order.
+            if (!Candidate.IsA('FiredWeapon') || !FiredWeapon(Candidate).Ammo.IsEmpty())
+                return Item;
+            //else, Candidate IsA 'FiredWeapon' && Candidate's Ammo IsEmpty()
+                //continue looking for an instance that isn't empty
+        }
+    }
+
+    if(Candidate == None)
+    {
+        Candidate = FindGivenItemForSlot(Slot);
+        if(Candidate != None)
+        {
+            return Candidate;
+        }
+    }
+
+    Player = SwatPlayer(Owner);
+    if(Player != None && Candidate == None && Level.NetMode != NM_Standalone)
+    {
+        if(Slot == SLOT_Flashbang)
+        {
+            Item = Player.GivenFlashbangs;
+        }
+        else if(Slot == Slot_CSGasGrenade)
+        {
+            Item = Player.GivenGas;
+        }
+        else if(Slot == Slot_StingGrenade)
+        {
+            Item = Player.GivenStinger;
+        }
+        else if(Slot == Slot_PepperSpray)
+        {
+            Item = Player.GivenPepperSpray;
+        }
+        else if(Slot == Slot_Breaching)
+        {
+            Item = Player.GivenC2;
+        }
+
+        log("Checking given equipment;");
+        log("Item = "$Item);
+        if(Item != None)
+        {
+            log("Item.Slot = "$Item.GetSlot()$", IsAvailable="$Item.IsAvailable()$", IsIdle="$Item.IsIdle());
+        }
+
+        if(Item != None && Item.GetSlot() == Slot && Item.IsAvailable() && Item.IsIdle())
+        {
+            Candidate = Item;
+        }
+    }
+    
+
+    if (Level.NetMode != NM_Standalone ) // ckline: this was bogging down SP performance
+    {
+        if (Level.GetEngine().EnableDevTools)
+        {
+            mplog( self$"---LoadOut::GetItemAtSlot(). Slot="$Slot );
+            mplog( "...Returning None because no item was found for that slot." );
+            //PrintLoadOutToMPLog();
+        }
+    }
+
+    //if we never found a match, or if we only found an empty FiredWeapon, the return that
+    return Candidate;
+}
+
+simulated function RemoveGivenEquipment(HandHeldEquipment Equipment) {}
+
+// Returns the first handheld equipment corresponding to the given slot
+simulated function HandheldEquipment GetItemAtSlot(EquipmentSlot Slot)
+{
+    local int i;
+    local HandheldEquipment Item;
+    local HandheldEquipment Candidate;
+    local SwatPlayer Player;
+
+    // FIXME BIGTIME
+    assert(Owner.IsA('ICanUseC2Charge'));
+    if( Slot == SLOT_Breaching && ICanUseC2Charge(Owner).GetDeployedC2Charge() != None )
+        return GetItemAtSlot( Slot_Detonator );
+
+    for( i = 0; i < Pocket.EnumCount; i++ )
+    {
+        Item = HandheldEquipment(PocketEquipment[i]);
+        if  (
+                Item != None
+            &&  Item.GetSlot() == Slot
+            &&  Item.IsAvailable()
+            )
+        {
+            Candidate = Item;
+
+            //tcohen, fix 5480: Can never equip second PepperSpray
+            //  this is the only case of LoadOut containing more than one instance
+            //of any FiredWeapon class.  if one has empty ammo and another does not,
+            //then we want to select the one that is not empty, regardless of order.
+            if (!Candidate.IsA('FiredWeapon') || !FiredWeapon(Candidate).Ammo.IsEmpty())
+                return Item;
+            //else, Candidate IsA 'FiredWeapon' && Candidate's Ammo IsEmpty()
+                //continue looking for an instance that isn't empty
+        }
+    }
+
+    if(Candidate == None)
+    {
+        Candidate = FindGivenItemForSlot(Slot);
+        if(Candidate != None)
+        {
+            return Candidate;
+        }
+    }
+
+    Player = SwatPlayer(Owner);
+    if(Player != None && Candidate == None && Level.NetMode != NM_Standalone)
+    {
+        if(Slot == SLOT_Flashbang)
+        {
+            Item = Player.GivenFlashbangs;
+        }
+        else if(Slot == Slot_CSGasGrenade)
+        {
+            Item = Player.GivenGas;
+        }
+        else if(Slot == Slot_StingGrenade)
+        {
+            Item = Player.GivenStinger;
+        }
+        else if(Slot == Slot_PepperSpray)
+        {
+            Item = Player.GivenPepperSpray;
+        }
+        else if(Slot == Slot_Breaching)
+        {
+            Item = Player.GivenC2;
+        }
+
+        if(Item != None && Item.GetSlot() == Slot && Item.IsAvailable())
+        {
+            Candidate = Item;
+        }
+    }
+    
+
+    if (Level.NetMode != NM_Standalone ) // ckline: this was bogging down SP performance
+    {
+	 	if (Level.GetEngine().EnableDevTools)
+		{
+			mplog( self$"---LoadOut::GetItemAtSlot(). Slot="$Slot );
+			mplog( "...Returning None because no item was found for that slot." );
+			PrintLoadOutToMPLog();
+        }
+    }
+
+    //if we never found a match, or if we only found an empty FiredWeapon, the return that
+    return Candidate;
+}
+
+// Returns the contents of the given pocket.
+// Only should be used for very specific circumstances (ie, IAmCuffed)
+simulated function Actor GetItemAtPocket( Pocket ThePocket )
+{
+    assert(ThePocket != Pocket_Invalid);
+
+    return PocketEquipment[ThePocket];
+}
+
+simulated function Actor GetItemAtPocketNumber( int PocketNumber )
+{
+    return PocketEquipment[PocketNumber];
+}
+
+simulated function FiredWeapon GetPrimaryWeapon()
+{
+    return FiredWeapon(PocketEquipment[Pocket.Pocket_PrimaryWeapon]);
+}
+
+simulated function FiredWeapon GetBackupWeapon()
+{
+    return FiredWeapon(PocketEquipment[Pocket.Pocket_SecondaryWeapon]);
+}
+
+simulated function Material GetDefaultPantsMaterial()
+{
+    if ( HasHeavyArmor() )
+        return MaterialSpec[MaterialPocket.MATERIAL_HeavyPants];
+    else
+        return MaterialSpec[MaterialPocket.MATERIAL_Pants];
+}
+
+simulated function Material GetDefaultFaceMaterial()
+{
+	return MaterialSpec[MaterialPocket.MATERIAL_Face];
+}
+
+simulated function Material GetDefaultNameMaterial()
+{
+	return MaterialSpec[MaterialPocket.MATERIAL_Name];
+}
+
+simulated function Material GetDefaultVestMaterial()
+{
+	if ( HasHeavyArmor() )
+        return MaterialSpec[MaterialPocket.MATERIAL_HeavyVest];
+    else if ( HasNoArmor() )
+		return MaterialSpec[MaterialPocket.MATERIAL_NoArmourVest];
+	else
+        return MaterialSpec[MaterialPocket.MATERIAL_Vest];
+}
+
+simulated function Material GetMaterial( MaterialPocket pock )
+{
+	local Material Mat;
+
+	Mat = GetCustomMaterial(pock);
+
+	if (Mat != None)
+		return Mat;
+	else
+		return MaterialSpec[pock];
+}
+
+
+simulated function Material GetNameMaterial()
+{
+    return MaterialSpec[MaterialPocket.MATERIAL_Name];
+}
+
+simulated function Material GetFaceMaterial()
+{
+    return GetMaterial(MaterialPocket.MATERIAL_Face);
+}
+
+simulated function Material GetVestMaterial()
+{
+    if ( HasHeavyArmor() )
+        return GetMaterial(MaterialPocket.MATERIAL_HeavyVest);
+    else if ( HasNoArmor() )
+		return GetMaterial(MaterialPocket.MATERIAL_NoArmourVest);
+	else
+        return GetMaterial(MaterialPocket.MATERIAL_Vest);
+}
+
+simulated function Material GetPantsMaterial()
+{
+    if ( HasHeavyArmor() )
+        return GetMaterial(MaterialPocket.MATERIAL_HeavyPants);
+    else
+        return GetMaterial(MaterialPocket.MATERIAL_Pants);
+}
+
+simulated function Material GetHandsMaterial()
+{
+    local class<SwatCustomSkin> SkinClass;
+
+    SkinClass = class<SwatCustomSkin>(DynamicLoadObject(CustomSkinSpec, class'Class', true));
+
+    if(SkinClass != None)
+    {
+        return SkinClass.default.FirstPersonHandsMaterial;
+    }
+}
+
+simulated function Material GetCustomMaterial( MaterialPocket pock )
+{
+	local class<SwatCustomSkin> SkinClass;
+
+	//if( !GC.bShowCustomSkins || CustomSkinSpec == "" || CustomSkinSpec == "SwatGame.DefaultCustomSkin" )
+	//	return None;
+
+	SkinClass = class<SwatCustomSkin>(DynamicLoadObject(CustomSkinSpec, class'Class', true));
+
+	if (SkinClass != None)
+	{
+		switch (pock)
+		{
+		case MaterialPocket.MATERIAL_Face:
+			return SkinClass.default.FaceMaterial;
+
+		case MaterialPocket.MATERIAL_Vest:
+			return SkinClass.default.VestMaterial;
+
+		case MaterialPocket.MATERIAL_HeavyVest:
+			return SkinClass.default.HeavyVestMaterial;
+
+		case MaterialPocket.MATERIAL_NoArmourVest:
+			return SkinClass.default.NoArmorVestMaterial;
+
+		case MaterialPocket.MATERIAL_Pants:
+			return SkinClass.default.PantsMaterial;
+
+		case MaterialPocket.MATERIAL_HeavyPants:
+			return SkinClass.default.HeavyPantsMaterial;
+		}
+	}
+
+	return None;
+}
+
+simulated function bool HasHeavyArmor()
+{
+    if ( PocketEquipment[Pocket.Pocket_BodyArmor] != None )
+        return PocketEquipment[Pocket.Pocket_BodyArmor].IsA('HeavyBodyArmor');
+    else
+        return false; // The VIP has no armor in Pocket_BodyArmor.
+}
+
+simulated function bool HasNoArmor()
+{
+    if ( PocketEquipment[Pocket.Pocket_BodyArmor] != None )
+        return PocketEquipment[Pocket.Pocket_BodyArmor].IsA('NoBodyArmor');
+    else
+        return false; // The VIP has no armor in Pocket_BodyArmor.
+}
+
+simulated function bool HasRiotHelmet()
+{
+	if ( PocketEquipment[Pocket.Pocket_HeadArmor] != None )
+		return PocketEquipment[Pocket.Pocket_HeadArmor].IsA('RiotHelmet');
+	else
+		return false; // The VIP has no head armor
+}
+
+simulated function bool HasProArmorHelmet()
+{
+	if ( PocketEquipment[Pocket.Pocket_HeadArmor] != None )
+		return PocketEquipment[Pocket.Pocket_HeadArmor].IsA('EnemyProtecHelmet');
+	else
+		return false; // The VIP has no head armor
+}
+
+simulated function int AdditionalAvailableCountForItem(EquipmentSlot Slot)
+{
+    return 0;
+}
+
+simulated function bool HasBallisticHelmet()
+{
+	if ( PocketEquipment[Pocket.Pocket_HeadArmor] != None )
+	{	
+		if( PocketEquipment[Pocket.Pocket_HeadArmor].IsA('EnemyProtecHelmet') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('RiotHelmet') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('HelmetAndGoggles') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('GasMask') || PocketEquipment[Pocket.Pocket_HeadArmor].IsA('NVGoggles') )
+		{	
+			return true;
+		}
+	}
+		return false; // The VIP has no head armor
+}
+
+// For an EquipmentSlot, determine how many items we have
+simulated function int GetTacticalAidAvailableCount(EquipmentSlot Slot)
+{
+  local int Count, i;
+  local HandheldEquipment Equipment;
+  local FiredWeapon Weapon;
+
+  for(i = Pocket.Pocket_EquipOne; i <= Pocket.Pocket_EquipSix; i++)
+  {
+    Equipment = HandheldEquipment(PocketEquipment[i]);
+    if(Slot == SLOT_Detonator)
+    {
+      // Special case for detonator, it adds the counts from C2
+      if(Equipment != None && Equipment.IsA('C2Charge'))
+      {
+        Count += Equipment.GetAvailableCount();
+      }
+    }
+    else if(Equipment != None && Equipment.GetSlot() == Slot && Equipment.IsAvailable())
+    {
+      if(Equipment.IsA('PepperSpray'))
+      {
+        // Special case: pepper spray isn't ever made "not available", it's just emptied
+        Weapon = FiredWeapon(Equipment);
+        if(Weapon.Ammo.IsEmpty())
+        {
+          continue;
+        }
+      }
+      Count += Equipment.GetAvailableCount();
+    }
+  }
+
+  Count += AdditionalAvailableCountForItem(Slot);
+
+  return Count;
+}
+
+simulated function AddToGivenEquipmentStore(HandHeldEquipment Equipment) {}
+
+// We were given some kind of equipment from the player. Add it.
+simulated function GivenEquipmentFromPawn(HandheldEquipment Equipment)
+{
+	local int i, j;
+	local array<Name> EquipmentNames;
+
+	EquipmentNames[0] = 'CSGasGrenade';
+	EquipmentNames[1] = 'FlashbangGrenade';
+	EquipmentNames[2] = 'Lightstick';
+	EquipmentNames[3] = 'StingGrenade';
+	EquipmentNames[4] = 'C2Charge';
+	EquipmentNames[5] = 'Wedge';
+
+	// With pepperspray and optiwands, we just shove it into a GivenEquipment slot
+	if(Equipment.IsA('Optiwand') || Equipment.IsA('FiredWeapon'))
+	{
+		// Just store it in our given equipment I guess
+		AddToGivenEquipmentStore(Equipment);
+		return;
+	}
+
+	// With grenades, wedges, and C2, we need to squash it into any existing slots
+	for(i = 0; i < EquipmentNames.Length; i++)
+	{
+		if(Equipment.IsA(EquipmentNames[i]))
+		{
+			for(j = 0; j < Pocket.EnumCount; j++)
+			{
+				if(PocketEquipment[j].IsA(EquipmentNames[i]))
+				{
+					log("...Added 1 piece of equipment to "$PocketEquipment[j]);
+					HandheldEquipment(PocketEquipment[j]).AddAvailableCount(1);
+					return;
+				}
+			}
+		}
+	}
+
+	// Have we failed? Let's try storing it in given equipment
+	AddToGivenEquipmentStore(Equipment);
+}
+
+//returns the item, if any, that was replaced
+function HandheldEquipment FindItemToReplace(HandheldEquipment PickedUp)
+{
+    local int i;
+
+    for( i = 0; i < Pocket.EnumCount; i++ )
+        if( ValidateEquipmentForPocket( Pocket(i), PickedUp.class ) )
+            return HandheldEquipment(PocketEquipment[i]);
+
+    AssertWithDescription(false,
+        "[tcohen] LoadOut::FindItemToReplace() The PickedUp class "$PickedUp.class.name
+        $" failed to validate for any Pocket.");
+}
+
+simulated function OnPickedUp(HandheldEquipment Item)
+{
+  local SwatWeapon Weapon;
+
+    AddExistingItemToPocket(FindItemToReplace(Item).GetPocket(), Item);
+
+    if(Item.IsA('RoundBasedWeapon')) {
+      Weapon = SwatWeapon(Item);
+      Weapon.Ammo.InitializeAmmo(25);
+    }
+    else if(Item.IsA('ClipBasedWeapon')) {
+      // We need to make sure the item has 5 magazines to start out with.
+      Weapon = SwatWeapon(Item);
+      Weapon.Ammo.InitializeAmmo(5);
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Destroyed, Clean up all spawned equipment
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+simulated event Destroyed()
+{
+    local int i;
+
+    Super.Destroyed();
+
+    for( i = 0; i < Pocket.EnumCount; i++ )
+        if( PocketEquipment[i] != None )
+            PocketEquipment[i].Destroy();
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// IHaveWeight implementation
+
+// Used for the functions below
+function float GetEquipmentWeight(Engine.IHaveWeight PocketItem, int i)
+{
+	local float total;
+	local Engine.HandheldEquipment HHEItem;
+	local Engine.FiredWeapon FiredItem;
+	local Engine.SwatAmmo FiredItemAmmo;
+
+	total = 0;
+
+	HHEItem = Engine.HandHeldEquipment(PocketEquipment[i]);
+	if(HHEItem == None)
+	{
+		total += PocketItem.GetWeight();
+	}
+	else if(HHEItem.IsAvailable())
+	{
+		total += PocketItem.GetWeight();
+	}
+
+	if(PocketItem.IsA('FiredWeapon'))
+	{
+		// A weapon
+		FiredItem = FiredWeapon(PocketItem);
+		FiredItemAmmo = SwatAmmo(FiredItem.Ammo);
+		total += FiredItemAmmo.GetCurrentAmmoWeight();
+	}
+
+	return total;
+}
+
+simulated function float GetGivenItemWeight() { return 0.0; }
+
+function float GetTotalWeight() {
+	local int i;
+	local float total;
+	local float minimum;
+    local SwatPlayer SwatOwner;
+
+	total = 0.0;
+	minimum = GetMinimumWeight();
+
+	for(i = 0; i < Pocket.EnumCount; i++) {
+	   	if(PocketEquipment[i] == None)
+	    {
+	    	continue;
+	    }
+
+	    total += GetEquipmentWeight(Engine.IHaveWeight(PocketEquipment[i]), i);
+	}
+
+    total += GetGivenItemWeight();
+
+    SwatOwner = SwatPlayer(Owner);
+    if(Level.NetMode != NM_Standalone && SwatOwner != None)
+    {
+        if(SwatOwner.GivenFlashbangs != None)
+        {
+            total += SwatOwner.GivenFlashbangs.GetWeight();
+        }
+        if(SwatOwner.GivenStinger != None)
+        {
+            total += SwatOwner.GivenStinger.GetWeight();
+        }
+        if(SwatOwner.GivenGas != None)
+        {
+            total += SwatOwner.GivenGas.GetWeight();
+        }
+        if(SwatOwner.GivenC2 != None)
+        {
+            total += SwatOwner.GivenC2.GetWeight();
+        }
+        if(SwatOwner.GivenPepperSpray != None)
+        {
+            total += SwatOwner.GivenPepperSpray.GetWeight();
+        }
+        if(SwatOwner.GivenWedge != None)
+        {
+            total += SwatOwner.GivenWedge.GetWeight();
+        }
+    }
+
+	if(total < minimum)
+	{
+		total = minimum; // TODO: investigate why this happens
+	}
+
+	return total;
+}
+
+function float GetEquipmentBulk(Engine.IHaveWeight PocketItem, int i)
+{
+	local float total;
+	local Engine.FiredWeapon FiredItem;
+	local Engine.SwatAmmo FiredItemAmmo;
+
+	total = PocketItem.GetBulk();
+
+	if(PocketItem.IsA('FiredWeapon'))
+	{
+		// Weapon
+		FiredItem = FiredWeapon(PocketItem);
+		FiredItemAmmo = SwatAmmo(FiredItem.Ammo);
+		total += FiredItemAmmo.GetCurrentAmmoBulk();
+	}
+
+	return total;
+}
+
+simulated function float GetGivenItemBulk() { return 0.0; }
+
+function float GetTotalBulk() {
+	local int i;
+	local float total;
+	local float minimum;
+    local SwatPlayer SwatOwner;
+
+	minimum = GetMinimumBulk();
+	total = 0.0;
+
+	for(i = 0; i < Pocket.EnumCount; i++)
+	{
+	   	if(PocketEquipment[i] == None)
+	    {
+	    	continue;
+	    }
+
+		total += GetEquipmentBulk(Engine.IHaveWeight(PocketEquipment[i]), i);
+	}
+
+    total += GetGivenItemBulk();
+
+    SwatOwner = SwatPlayer(Owner);
+    if(Level.NetMode != NM_Standalone && SwatOwner != None)
+    {
+        if(SwatOwner.GivenFlashbangs != None)
+        {
+            total += SwatOwner.GivenFlashbangs.GetBulk();
+        }
+        if(SwatOwner.GivenStinger != None)
+        {
+            total += SwatOwner.GivenStinger.GetBulk();
+        }
+        if(SwatOwner.GivenGas != None)
+        {
+            total += SwatOwner.GivenGas.GetBulk();
+        }
+        if(SwatOwner.GivenC2 != None)
+        {
+            total += SwatOwner.GivenC2.GetBulk();
+        }
+        if(SwatOwner.GivenPepperSpray != None)
+        {
+            total += SwatOwner.GivenPepperSpray.GetBulk();
+        }
+        if(SwatOwner.GivenWedge != None)
+        {
+            total += SwatOwner.GivenWedge.GetBulk();
+        }
+    }
+
+	if(total < minimum)
+	{
+		total = minimum; // TODO: investigate why this happens
+	}
+
+	return total;
+}
+
+simulated function float GetWeightMovementModifier() {
+	local float totalWeight;
+    local float maxWeight, minWeight;
+    local float minMoveModifier, maxMoveModifier;
+
+    totalWeight = GetTotalWeight();
+    maxWeight = GetMaximumWeight();
+    minWeight = GetMinimumWeight();
+    minMoveModifier = GetMinimumMovementModifier();
+    maxMoveModifier = GetMaximumMovementModifier();
+
+    if(totalWeight < minWeight) {
+      // There are legitimate reasons that we don't meet the minimum weight - Training mission comes to mind
+      totalWeight = minWeight;
+    }
+
+    assertWithDescription(totalWeight <= maxWeight,
+      "Loadout "$self$" exceeds maximum weight ("$totalWeight$" > "$maxWeight$"). Adjust the value in code.");
+
+    totalWeight -= minWeight;
+    maxWeight -= minWeight;
+
+    return ((totalWeight / maxWeight) * (minMoveModifier - maxMoveModifier)) + maxMoveModifier;
+}
+
+simulated function float GetBulkQualifyModifier() {
+	local float totalBulk;
+    local float maxBulk, minBulk;
+    local float minQualifyModifier, maxQualifyModifier;
+
+    totalBulk = GetTotalBulk();
+    minBulk = GetMinimumBulk();
+    maxBulk = GetMaximumBulk();
+    minQualifyModifier = GetMinimumQualifyModifer();
+    maxQualifyModifier = GetMaximumQualifyModifer();
+
+    if(totalBulk < minBulk) {
+  	  // There are legitimate reasons that we don't meet the minimum bulk - Training mission comes to mind
+  	  totalBulk = minBulk;
+    }
+
+    assertWithDescription(totalBulk <= maxBulk,
+  	  "Loadout "$self$" exceeds maximum bulk ("$totalBulk$" > "$maxBulk$"). Adjust the value in code.");
+
+    totalBulk -= minBulk;
+    maxBulk -= minBulk;
+
+    return ((totalBulk / maxBulk) * (maxQualifyModifier - minQualifyModifier)) + minQualifyModifier;
+}
+
+simulated function float GetBulkSpeedModifier() {
+	local float totalBulk;
+	local float maxBulk, minBulk;
+	local float minSpeedModifier, maxSpeedModifier;
+
+	totalBulk = GetTotalBulk();
+	minBulk = GetMinimumBulk();
+	maxBulk = GetMaximumBulk();
+	minSpeedModifier = GetMinimumSpeedModifier();
+	maxSpeedModifier = GetMaximumSpeedModifier();
+
+	if(totalBulk < minBulk) {
+		totalBulk = minBulk;
+	}
+
+	totalBulk -= minBulk;
+	maxBulk -= minBulk;
+
+	return ((1.0 - (totalBulk / maxBulk)) * (maxSpeedModifier - minSpeedModifier)) + minSpeedModifier;
+}
+
+function AddLightstick(optional int Quantity)
+{
+	if(Quantity <= 0)
+	{
+		Quantity = 1;
+	}
+	HandheldEquipment(PocketEquipment[Pocket.Pocket_Lightstick]).AddAvailableCount(Quantity);
+}
+
+simulated function bool GivenEquipmentIncludes(Name EquipmentName) { return false; }
+
+simulated function bool HasA(Name EquipmentName)
+{
+	local int i;
+
+	for(i = 0; i < Pocket.EnumCount; i++)
+	{
+		if(PocketEquipment[i] != None && PocketEquipment[i].IsA(EquipmentName))
+		{
+			return true;
+		}
+	}
+
+    return GivenEquipmentIncludes(EquipmentName);
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// cpptext
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+cpptext
+{
+    UBOOL HasA(FName HandheldEquipmentName);
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// DefProps
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+defaultproperties
+{
+    Physics=PHYS_None
+    bStasis=true
+    bHidden=true
+	bDisableTick=true
+    RemoteRole=ROLE_None
+}

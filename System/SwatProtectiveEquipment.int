@@ -30,97 +30,77 @@ GUIImage=material'gui_hov.V4tacticBoonie'
 
 [BoonieAndGlasses]
 Description=A classic heavy duty boonie hat used by military forces in hot tropical climates. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire. This configuration features a pair of ballistic glasses.
-FriendlyName=Boonie + Glasses
+FriendlyName=Boonie + Oakley
 GUIImage=material'gui_hov.V4tacticBoonie'
 
 [Glasses]
-Description=A pair of Oakley M Frame ballistic glasses, ballistics glasses protect from small projectiles and fragments. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
-FriendlyName=Ballistic Glasses
+Description=A pair of Oakley M Frame ballistic glasses. Ballistics glasses protect from small projectiles and fragments. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
+FriendlyName=Oakley M Frame 
 GUIImage=material'gui_hov.v1tactic'
 
 [Goggles]
-Description=The ESS ballistic goggles provide protection against flashbangs effects. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
-FriendlyName=Tactical Goggles
+Description=The Bolle X800 ballistic goggles provide protection against flashbangs effects as well as small projectiles and fragments. This option is good for when you need to reduce your weight and/or bulk, but obviously results in greater vulnerability to injury from enemy fire.
+FriendlyName=Bolle X800 
 GUIImage=material'gui_hov.V1tacticGoggles'
 
 [ProtecHelmet]
 Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire.
-FriendlyName=Pro-Tec Helmet
-GUIImage=material'gui_hov.V3tactic'
-
-[HalfcutHelmet]
-Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire.
-FriendlyName=Pro-Tec Helmet
+FriendlyName=Pro-Tec
 GUIImage=material'gui_hov.V3tactic'
 
 [ProtecAndGlasses]
 Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of ballistic glasses.
-FriendlyName=Pro-Tec + Glasses
-GUIImage=material'gui_hov.V3tactic'
-
-[HalfcutAndGlasses]
-Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of ballistic glasses.
-FriendlyName=Pro-Tec + Glasses
+FriendlyName=Pro-Tec + Oakley
 GUIImage=material'gui_hov.V3tactic'
 
 [ProtecGogglesTop]
 Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire.
-FriendlyName=Pro-Tec + Goggles (Up)
-GUIImage=material'gui_hov.V3tacticGogglesUp'
-
-[HalfcutGogglesTop]
-Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire.
-FriendlyName=Pro-Tec + Goggles (Up)
+FriendlyName=Pro-Tec + Bolle (Up)
 GUIImage=material'gui_hov.V3tacticGogglesUp'
 
 [KevlarHelmet]
-Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs.
-FriendlyName=PASGT Helmet
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs.
+FriendlyName=PASGT 
 GUIImage=material'gui_hov.V2tactic'
 
 [HelmetAndGlasses]
-Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration features a pair of ballistic glasses.
-FriendlyName=PASGT + Glasses
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration features a pair of ballistic glasses.
+FriendlyName=PASGT + Oakley
 GUIImage=material'gui_hov.V2tactic'
 
 [KevlarGogglesTop]
-Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs.
-FriendlyName=PASGT + Goggles (Up)
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs.
+FriendlyName=PASGT + Bolle (Up)
 GUIImage=material'gui_hov.V2tacticGogglesUp'
 
 [ProtecAndGoggles]
-Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of tactical goggles that provide protection against flashbangs effects.
-FriendlyName=Pro-Tec + Goggles
-GUIImage=material'gui_hov.V3tacticGoggles'
-
-[HalfcutAndGoggles]
-Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of tactical goggles that provide protection against flashbangs effects.
-FriendlyName=Pro-Tec + Goggles
+Description=Developed in the 1970's by the skateboard gear brand Pro-Tec, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of ballistic goggles that provide protection against flashbangs effects.
+FriendlyName=Pro-Tec + Bolle
 GUIImage=material'gui_hov.V3tacticGoggles'
 
 [HelmetAndGoggles]
-Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration features a pair of tactical goggles that provide protection against flashbangs effects.
-FriendlyName=PASGT + Goggles
+Description=The PASGT (Personnel Armor System for Ground Troops) helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration features a pair of ballistic goggles that provide protection against flashbangs effects.
+FriendlyName=PASGT + Bolle
 GUIImage=material'gui_hov.V2tacticGoggles'
 
 [gasMask]
-Description=The Fernez Panoramasque is a panoramic full face mask developed in the 1990s in France. The gas mask provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
-FriendlyName=Fernez Gas Mask
+Description=The Advantage 1000 is a law-enforcement, riot control gas mask. It provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
+FriendlyName=Advantage 1000
 GUIImage=material'gui_hov.V1tacticGasMask'
 
 [gp5]
 Description=The GP-5 is a gas mask of soviet origin, meant for civilian usage. It provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray. However, it is immensely bulky and restricts the operator's field of view.
-FriendlyName=GP-5 Gas Mask
+FriendlyName=GP-5
 GUIImage=material'gui_hov.V1tacticGP5'
 
 [S10Mask]
 Description=The AVON S10 is a military gas mask that was formerly used within all branches of the British Armed Forces, it has been in service since 1986. It provides the wearer with immunity to CS gas, flashbangs, and greatly reduces the duration of the effect of pepper spray. 
-FriendlyName=S10 Gas Mask
+FriendlyName=S10
 GUIImage=material'gui_hov.v1tactics10'
 
 [KevlarGasMask]
-Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration features a gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray.
-FriendlyName=PASGT + Fernez
+Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration comes equipped with a gas mask that provides the wearer with immunity to CS gas, and greatly reduces the duration of the effect of pepper spray.
+FriendlyName=PASGT + Advantage
 GUIImage=material'gui_hov.V2tacticGasMask'
 
 [KevlarS10Mask]
@@ -129,19 +109,13 @@ FriendlyName=PASGT + S10
 GUIImage=material'gui_hov.v2tactics10'
 
 [ProtecNVGoggles]
-Description=Developed in the 1970's by the Pro-Tec skateboard company, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of AN/PVS-7 Night Vision Goggles. NVGs work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=Pro-Tec + NVGs
+Description=Developed in the 1970's by the Pro-Tec skateboard company, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of PVS-7 Night Vision Goggles. NVGs work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
+FriendlyName=Pro-Tec + PVS-7
 GUIImage=material'gui_hov.V3tacticNightVision'
 DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V3tacticNightVisionUP'
 
-[HalfcutNVGoggles]
-Description=Developed in the 1970's by the Pro-Tec skateboard company, this helmet has been widely adopted by military and law-enforcement agencies from around the world as a bump helmet. It is commonly used in CQC due to its light weight.||The reduced ballistic protection compared to the PASGT helmet means that the operator is much more vulnerable to injury from enemy fire. This configuration features a pair of AN/PVS-7 Night Vision Goggles. NVGs work by amplifying available light and allow the wearer to see in dark areas. Due to their lack of color and limited field of vision, the goggles can make it more difficult to distinguish friend from foe.
-FriendlyName=Pro-Tec + NVGs
-GUIImage=material'gui_hov.V3tacticNightVision'
-DeactivatedMesh=StaticMesh'HOVhelmetsMOD.V5tacticNightVisionUP'
-
 [RiotHelmet]
-Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration features an anti-riot ballistic visor that provides the user with increased ballistic protection for the face region. It is extremely bulky however.
+Description=The PASGT (Personnel Armor System for Ground Troops) kevlar helmet was developed in the mid 1970s as a replacement to the old U.S Military M1 helmet. First employed in the early 1980s by the U.S. military, it has found out its way to many other military and law-enforcement agencies internationally.||The kevlar helmet provides protection from hollow point rounds, most forms of buckshot and small caliber full metal jacket rounds. However, it can't stop rifle caliber rounds, armor piercing pistol ammunition or shotgun slugs. This configuration features an anti-riot face shield that provides the user with increased ballistic protection for the face region. It is extremely bulky however.
 FriendlyName=PASGT + Face Shield 
 GUIImage=material'gui_hov.V2tacticRiot'
 

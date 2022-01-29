@@ -1,0 +1,1 @@
+class UMP45AimpointSMG extends UMP45SMG config(SwatEquipment);
